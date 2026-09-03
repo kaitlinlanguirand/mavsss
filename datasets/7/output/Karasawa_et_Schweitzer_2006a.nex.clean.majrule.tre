@@ -1,0 +1,56 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=45;
+	Taxlabels
+		Bathynectes
+		Benthochascon
+		Cancer
+		Carcinoplax
+		Carcinus
+		Carinocarcinoides
+		Carpilius
+		Chaceon
+		Chasmocarcinus
+		Dacryopilumnus
+		Domecia
+		Epixanthus
+		Eriphia
+		Etisus
+		Eucrate
+		Eucratopsis
+		Euphrosynoplax
+		Halimede
+		Harpactoxanthopsis
+		Heteroplax
+		Hexapinus
+		Homalaspis
+		Hypothalassia
+		Leptodius
+		Liocarcinus
+		Mathildella
+		Menippe
+		Myomenippe
+		Necora
+		Nectocarcinus
+		Ozius
+		Palaeoxanthopsidae
+		Panopeus
+		Pilumnoides
+		Pilumnus
+		Platyxanthus
+		Progeryon
+		Pseudozius
+		Psopheticus
+		Raymanninus
+		Romaleon
+		Tetralia
+		Trapezia
+		Trogloplax
+		Tumidocarcinidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Bathynectes[&index=45]:0.012250[&brlen_95%_HPD={6e-06,0.061838}],(Necora[&index=44]:0.012888[&brlen_95%_HPD={5e-06,0.057984}],(Carcinus[&index=43]:0.072084[&brlen_95%_HPD={0.017944,0.151532}],Liocarcinus[&index=42]:0.012994[&brlen_95%_HPD={0,0.05414}])[&index=46,posterior=0.872501]:0.058247[&brlen_95%_HPD={0.000303,0.133803}])[&index=47,posterior=0.684585]:0.045307[&brlen_95%_HPD={0.003348,0.112039}],((Raymanninus[&index=41]:0.013216[&brlen_95%_HPD={2.8e-05,0.062865}],(((Carinocarcinoides[&index=40]:0.023687[&brlen_95%_HPD={4e-06,0.093994}],(Trogloplax[&index=39]:0.012995[&brlen_95%_HPD={1.7e-05,0.05846}],(Hexapinus[&index=38]:0.140514[&brlen_95%_HPD={0.043828,0.265534}],Chasmocarcinus[&index=37]:0.016778[&brlen_95%_HPD={6e-06,0.060303}])[&index=48,posterior=0.729454]:0.031057[&brlen_95%_HPD={0.000403,0.080351}])[&index=49,posterior=0.995558]:0.120539[&brlen_95%_HPD={0.031123,0.249084}])[&index=50,posterior=0.637939]:0.061882[&brlen_95%_HPD={4.6e-05,0.161426}],((Heteroplax[&index=36]:0.012926[&brlen_95%_HPD={1e-05,0.052788}],Eucrate[&index=35]:0.019424[&brlen_95%_HPD={3e-06,0.065867}])[&index=51,posterior=0.992004]:0.210490[&brlen_95%_HPD={0.06201,0.4099}],(Carcinoplax[&index=34]:0.016454[&brlen_95%_HPD={0,0.057196}],Psopheticus[&index=33]:0.010868[&brlen_95%_HPD={4e-06,0.046095}])[&index=52,posterior=0.580631]:0.034575[&brlen_95%_HPD={6e-06,0.135003}])[&index=53,posterior=0.461128]:0.074666[&brlen_95%_HPD={0.000151,0.177349}])[&index=54,posterior=0.812972]:0.217478[&brlen_95%_HPD={0.003406,0.409633}],(Chaceon[&index=32]:0.027216[&brlen_95%_HPD={1e-06,0.113565}],(Mathildella[&index=31]:0.066128[&brlen_95%_HPD={5e-06,0.238451}],(Progeryon[&index=30]:0.043580[&brlen_95%_HPD={0.000165,0.159371}],((Eriphia[&index=29]:0.044885[&brlen_95%_HPD={0.001789,0.12195}],(((Epixanthus[&index=28]:0.011626[&brlen_95%_HPD={3e-06,0.051}],Ozius[&index=27]:0.011907[&brlen_95%_HPD={1.4e-05,0.054102}])[&index=55,posterior=0.678809]:0.026307[&brlen_95%_HPD={3.8e-05,0.086868}],((Myomenippe[&index=26]:0.010378[&brlen_95%_HPD={4e-06,0.046971}],Menippe[&index=25]:0.010417[&brlen_95%_HPD={2e-06,0.047006}])[&index=56,posterior=0.609507]:0.025600[&brlen_95%_HPD={4.8e-05,0.094697}],(Dacryopilumnus[&index=24]:0.110358[&brlen_95%_HPD={0.008012,0.236828}],(Carpilius[&index=23]:0.209923[&brlen_95%_HPD={1e-06,0.480369}],(Pilumnoides[&index=22]:0.079136[&brlen_95%_HPD={0.000188,0.284909}],(Cancer[&index=21]:0.015615[&brlen_95%_HPD={2.8e-05,0.063057}],Romaleon[&index=20]:0.020251[&brlen_95%_HPD={2.9e-05,0.070326}])[&index=57,posterior=0.995113]:0.245986[&brlen_95%_HPD={0.047889,0.498742}])[&index=58,posterior=0.939582]:0.243323[&brlen_95%_HPD={0.024856,0.539907}])[&index=59,posterior=0.687694]:0.177768[&brlen_95%_HPD={0.014844,0.431142}])[&index=60,posterior=0.364283]:0.051774[&brlen_95%_HPD={0.00048,0.164564}])[&index=61,posterior=0.551755]:0.057697[&brlen_95%_HPD={0.007925,0.154353}])[&index=62,posterior=0.305198]:0.033171[&brlen_95%_HPD={0.000371,0.096879}],((Palaeoxanthopsidae[&index=19]:0.034944[&brlen_95%_HPD={0.000101,0.146643}],(Harpactoxanthopsis[&index=18]:0.097169[&brlen_95%_HPD={0.000244,0.242664}],Tumidocarcinidae[&index=17]:0.056240[&brlen_95%_HPD={2.4e-05,0.185815}])[&index=63,posterior=0.304309]:0.051088[&brlen_95%_HPD={8.8e-05,0.208375}])[&index=64,posterior=0.867614]:0.289008[&brlen_95%_HPD={0.067292,0.619222}],(Pseudozius[&index=16]:0.018440[&brlen_95%_HPD={5e-06,0.088734}],(((Pilumnus[&index=15]:0.033247[&brlen_95%_HPD={7e-05,0.109536}],Halimede[&index=14]:0.038045[&brlen_95%_HPD={2.2e-05,0.117504}])[&index=65,posterior=0.979565]:0.267010[&brlen_95%_HPD={0.051225,0.531139}],((Eucratopsis[&index=13]:0.014154[&brlen_95%_HPD={1e-06,0.061319}],Panopeus[&index=12]:0.019207[&brlen_95%_HPD={1.5e-05,0.071386}])[&index=66,posterior=0.537539]:0.033202[&brlen_95%_HPD={0.000182,0.107297}],(Euphrosynoplax[&index=11]:0.032683[&brlen_95%_HPD={3e-05,0.104346}],(Etisus[&index=10]:0.036561[&brlen_95%_HPD={5.2e-05,0.09626}],Leptodius[&index=9]:0.012766[&brlen_95%_HPD={5e-06,0.061011}])[&index=67,posterior=0.898712]:0.059963[&brlen_95%_HPD={0.000197,0.152516}])[&index=68,posterior=0.462017]:0.035258[&brlen_95%_HPD={0.000316,0.110698}])[&index=69,posterior=0.400711]:0.077487[&brlen_95%_HPD={3.3e-05,0.282864}])[&index=70,posterior=0.703243]:0.152313[&brlen_95%_HPD={0.016085,0.357369}],(Domecia[&index=8]:0.040660[&brlen_95%_HPD={1.4e-05,0.140867}],(Trapezia[&index=7]:0.028209[&brlen_95%_HPD={1.7e-05,0.106942}],Tetralia[&index=6]:0.079638[&brlen_95%_HPD={0.012686,0.192209}])[&index=71,posterior=0.738339]:0.077628[&brlen_95%_HPD={0.000432,0.204431}])[&index=72,posterior=0.440693]:0.079750[&brlen_95%_HPD={0.000371,0.250251}])[&index=73,posterior=0.595735]:0.142891[&brlen_95%_HPD={0.009445,0.334442}])[&index=74,posterior=0.446468]:0.066098[&brlen_95%_HPD={0.003792,0.160703}])[&index=75,posterior=0.290538]:0.062953[&brlen_95%_HPD={0.002523,0.153749}])[&index=76,posterior=0.172812]:0.018610[&brlen_95%_HPD={7.3e-05,0.07611}])[&index=77,posterior=0.581964]:0.051931[&brlen_95%_HPD={0.000334,0.137313}],(Hypothalassia[&index=5]:0.019462[&brlen_95%_HPD={2e-06,0.08358}],(Platyxanthus[&index=4]:0.013919[&brlen_95%_HPD={3e-06,0.065787}],Homalaspis[&index=3]:0.052307[&brlen_95%_HPD={0.00028,0.13706}])[&index=78,posterior=0.703243]:0.041235[&brlen_95%_HPD={4.2e-05,0.122025}])[&index=79,posterior=0.333185]:0.036880[&brlen_95%_HPD={0.000113,0.117987}])[&index=80,posterior=0.973789]:0.153525[&brlen_95%_HPD={0.02955,0.336372}])[&index=81,posterior=0.946246]:0.174782[&brlen_95%_HPD={0.026748,0.387481}])[&index=82,posterior=0.694802]:0.138784[&brlen_95%_HPD={0.025985,0.326112}])[&index=83,posterior=0.440693]:0.063976[&brlen_95%_HPD={0.000731,0.159033}])[&index=84,posterior=0.661484]:0.045172[&brlen_95%_HPD={0.000243,0.138478}])[&index=85,posterior=0.955131]:0.082831[&brlen_95%_HPD={0.009132,0.1908}],(Nectocarcinus[&index=2]:0.079808[&brlen_95%_HPD={0.014722,0.169453}],Benthochascon[&index=1]:0.022078[&brlen_95%_HPD={2.7e-05,0.080093}])[&index=86,posterior=0.853398]:0.059249[&brlen_95%_HPD={0.000832,0.143557}])[&index=87,posterior=0.658374]:0.046282[&brlen_95%_HPD={4.5e-05,0.125451}])[&index=88,posterior=1.000000]:0.000000;
+End;

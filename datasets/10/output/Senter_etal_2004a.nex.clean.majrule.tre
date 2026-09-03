@@ -1,0 +1,48 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=37;
+	Taxlabels
+		Achillobator_giganticus
+		Adasaurus_mongoliensis
+		Allosaurus_fragilis
+		Archaeopteryx_lithographica
+		Bambiraptor_jeinbergi
+		Byronosaurus_jaffrei
+		Caudipteryx_zoui
+		Cryptovolans_pauli
+		Deinonychus_antirrhopus
+		Dromaeosaurus_albertensis
+		Hulsanpes_perlei
+		Jeholornis_prima
+		Khaan_mckennai
+		Microraptor_gui
+		Microraptor_zhaoianus
+		NGMC_91
+		Ornitholestes_hermanni
+		Pelecanimimus_hoyasi
+		Protarchaeopteryx
+		Pyroraptor_olympius
+		Rahonavis_ostromi
+		Saurornithoides_junior
+		Saurornithoides_mongoliensis
+		Saurornitholestes_langstoni
+		Sinornis_santensis
+		Sinornithoides_youngi
+		Sinornithosaurus_millenii
+		Sinosauropteryx_prima
+		Sinovenator_changii
+		Struthiomimus_altus
+		Troodon_formosus
+		Tyrannosaurus_rex
+		Unenlagia_comahuensis
+		Utahraptor_ostrommaysi
+		Variraptor_mechinorum
+		Velociraptor_mongoliensis
+		Yanornis_martini
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Achillobator_giganticus[&index=37]:0.044204[&brlen_95%_HPD={9.7e-05,0.160714}],(Deinonychus_antirrhopus[&index=36]:0.012710[&brlen_95%_HPD={9e-06,0.048392}],(Saurornitholestes_langstoni[&index=35]:0.018730[&brlen_95%_HPD={5e-06,0.083268}],(Adasaurus_mongoliensis[&index=34]:0.041779[&brlen_95%_HPD={0.000173,0.123923}],(Velociraptor_mongoliensis[&index=33]:0.011920[&brlen_95%_HPD={2e-06,0.048123}],(Variraptor_mechinorum[&index=32]:0.060506[&brlen_95%_HPD={0.000309,0.266793}],(Pyroraptor_olympius[&index=31]:0.043851[&brlen_95%_HPD={3.5e-05,0.191537}],(Unenlagia_comahuensis[&index=30]:0.076991[&brlen_95%_HPD={0.000322,0.219005}],(Bambiraptor_jeinbergi[&index=29]:0.012369[&brlen_95%_HPD={5e-06,0.051364}],((Sinovenator_changii[&index=28]:0.036992[&brlen_95%_HPD={3.5e-05,0.143944}],((Protarchaeopteryx[&index=27]:0.024202[&brlen_95%_HPD={4e-05,0.086816}],(((Struthiomimus_altus[&index=26]:0.025724[&brlen_95%_HPD={3e-06,0.086473}],(Pelecanimimus_hoyasi[&index=25]:0.049837[&brlen_95%_HPD={0.000473,0.141635}],(Byronosaurus_jaffrei[&index=24]:0.090618[&brlen_95%_HPD={0.000471,0.247901}],(Sinornithoides_youngi[&index=23]:0.039536[&brlen_95%_HPD={5.6e-05,0.121709}],(Troodon_formosus[&index=22]:0.036721[&brlen_95%_HPD={4.9e-05,0.1206}],(Saurornithoides_junior[&index=21]:0.043845[&brlen_95%_HPD={8.8e-05,0.144801}],Saurornithoides_mongoliensis[&index=20]:0.027613[&brlen_95%_HPD={3e-06,0.097633}])[&index=38,posterior=0.577521]:0.044274[&brlen_95%_HPD={6.3e-05,0.131555}])[&index=39,posterior=0.877388]:0.063288[&brlen_95%_HPD={0.002329,0.158184}])[&index=40,posterior=0.575744]:0.071795[&brlen_95%_HPD={0.000136,0.181835}])[&index=41,posterior=0.789871]:0.114047[&brlen_95%_HPD={0.006067,0.243851}])[&index=42,posterior=0.523767]:0.048558[&brlen_95%_HPD={9e-06,0.139009}])[&index=43,posterior=0.865837]:0.155807[&brlen_95%_HPD={0.037708,0.326218}],(Sinosauropteryx_prima[&index=19]:0.053912[&brlen_95%_HPD={6.6e-05,0.152031}],(Ornitholestes_hermanni[&index=18]:0.054364[&brlen_95%_HPD={0.000108,0.176624}],(Allosaurus_fragilis[&index=17]:0.055535[&brlen_95%_HPD={0.000749,0.130521}],Tyrannosaurus_rex[&index=16]:0.054595[&brlen_95%_HPD={0.001373,0.12812}])[&index=44,posterior=0.977343]:0.189755[&brlen_95%_HPD={0.044479,0.37448}])[&index=45,posterior=0.890271]:0.139638[&brlen_95%_HPD={0.020963,0.271014}])[&index=46,posterior=0.850289]:0.127779[&brlen_95%_HPD={0.001184,0.278521}])[&index=47,posterior=0.795202]:0.159946[&brlen_95%_HPD={0.037558,0.311721}],(Khaan_mckennai[&index=15]:0.038375[&brlen_95%_HPD={0.005417,0.093841}],Caudipteryx_zoui[&index=14]:0.024867[&brlen_95%_HPD={1e-05,0.076033}])[&index=48,posterior=0.449578]:0.039746[&brlen_95%_HPD={0.00124,0.096609}])[&index=49,posterior=0.430475]:0.040431[&brlen_95%_HPD={3e-05,0.107548}])[&index=50,posterior=0.893381]:0.338077[&brlen_95%_HPD={0.15932,0.611233}],(Archaeopteryx_lithographica[&index=13]:0.028343[&brlen_95%_HPD={3.5e-05,0.103226}],(Rahonavis_ostromi[&index=12]:0.080231[&brlen_95%_HPD={0.000157,0.200481}],(Jeholornis_prima[&index=11]:0.033851[&brlen_95%_HPD={4.9e-05,0.0916}],(Sinornis_santensis[&index=10]:0.027020[&brlen_95%_HPD={2e-05,0.078117}],Yanornis_martini[&index=9]:0.055413[&brlen_95%_HPD={0.011367,0.1282}])[&index=51,posterior=0.819191]:0.042884[&brlen_95%_HPD={0.000493,0.100238}])[&index=52,posterior=0.608174]:0.056859[&brlen_95%_HPD={6.6e-05,0.164337}])[&index=53,posterior=0.626388]:0.115580[&brlen_95%_HPD={0.020304,0.221893}])[&index=54,posterior=0.564194]:0.106463[&brlen_95%_HPD={0.001411,0.227581}])[&index=55,posterior=0.509996]:0.088669[&brlen_95%_HPD={0.000265,0.229288}])[&index=56,posterior=0.765882]:0.245724[&brlen_95%_HPD={0.077047,0.471863}],(Hulsanpes_perlei[&index=8]:0.048613[&brlen_95%_HPD={3.6e-05,0.208204}],(Sinornithosaurus_millenii[&index=7]:0.018578[&brlen_95%_HPD={2e-05,0.062162}],(NGMC_91[&index=6]:0.010184[&brlen_95%_HPD={1e-05,0.048121}],(Microraptor_gui[&index=5]:0.035941[&brlen_95%_HPD={2.7e-05,0.094406}],(Microraptor_zhaoianus[&index=4]:0.011965[&brlen_95%_HPD={1.4e-05,0.050165}],Cryptovolans_pauli[&index=3]:0.027418[&brlen_95%_HPD={3.4e-05,0.081734}])[&index=57,posterior=0.412705]:0.018948[&brlen_95%_HPD={4e-05,0.065604}])[&index=58,posterior=0.665926]:0.069508[&brlen_95%_HPD={0.000719,0.145386}])[&index=59,posterior=0.414038]:0.026613[&brlen_95%_HPD={0.000412,0.072524}])[&index=60,posterior=0.428254]:0.085406[&brlen_95%_HPD={0.000595,0.178775}])[&index=61,posterior=0.238561]:0.080997[&brlen_95%_HPD={0.001625,0.188413}])[&index=62,posterior=0.365171]:0.094656[&brlen_95%_HPD={0.001717,0.199284}])[&index=63,posterior=0.223456]:0.051907[&brlen_95%_HPD={0.000151,0.196538}])[&index=64,posterior=0.402488]:0.128072[&brlen_95%_HPD={0.000148,0.282815}])[&index=65,posterior=0.319414]:0.127883[&brlen_95%_HPD={7.8e-05,0.273342}])[&index=66,posterior=0.352732]:0.118291[&brlen_95%_HPD={0.00011,0.268604}])[&index=67,posterior=0.240782]:0.024347[&brlen_95%_HPD={7.9e-05,0.059947}])[&index=68,posterior=0.227454]:0.019969[&brlen_95%_HPD={0.000136,0.062517}])[&index=69,posterior=0.322079]:0.021981[&brlen_95%_HPD={0.000203,0.06537}])[&index=70,posterior=0.919147]:0.140289[&brlen_95%_HPD={0.020585,0.292344}],(Utahraptor_ostrommaysi[&index=2]:0.025717[&brlen_95%_HPD={9e-06,0.122885}],Dromaeosaurus_albertensis[&index=1]:0.030473[&brlen_95%_HPD={4e-06,0.129291}])[&index=71,posterior=0.642825]:0.046323[&brlen_95%_HPD={0.000132,0.141415}])[&index=72,posterior=1.000000]:0.000000;
+End;

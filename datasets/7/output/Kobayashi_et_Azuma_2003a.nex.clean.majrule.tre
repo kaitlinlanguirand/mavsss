@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Altirhinus
+		Bactrosaurus
+		Camptosaurus
+		Dryosaurus
+		Eolambia
+		Fukuisaurus
+		Hadrosaurinae
+		Iguanodon
+		Lambeosaurinae
+		Ouranosaurus
+		Probactrosaurus
+		Protohadros
+		Telmatosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Altirhinus[&index=13]:0.053632[&brlen_95%_HPD={7.6e-05,0.175763}],(Probactrosaurus[&index=12]:0.057328[&brlen_95%_HPD={3.8e-05,0.227102}],(Eolambia[&index=11]:0.038639[&brlen_95%_HPD={7e-06,0.175764}],(Protohadros[&index=10]:0.074181[&brlen_95%_HPD={9.1e-05,0.257545}],((Lambeosaurinae[&index=9]:0.015686[&brlen_95%_HPD={3.7e-05,0.077869}],Hadrosaurinae[&index=8]:0.015901[&brlen_95%_HPD={1.7e-05,0.078475}])[&index=14,posterior=0.998667]:0.223658[&brlen_95%_HPD={0.046354,0.507219}],(Telmatosaurus[&index=7]:0.053962[&brlen_95%_HPD={0.000234,0.179602}],Bactrosaurus[&index=6]:0.035452[&brlen_95%_HPD={4.6e-05,0.142004}])[&index=15,posterior=0.432252]:0.049745[&brlen_95%_HPD={0.000121,0.206421}])[&index=16,posterior=0.923590]:0.160324[&brlen_95%_HPD={0.01894,0.380241}])[&index=17,posterior=0.667703]:0.108154[&brlen_95%_HPD={0.000418,0.318968}])[&index=18,posterior=0.693025]:0.101089[&brlen_95%_HPD={0.000817,0.297457}])[&index=19,posterior=0.553088]:0.073115[&brlen_95%_HPD={0.001824,0.24103}],(Fukuisaurus[&index=5]:0.034614[&brlen_95%_HPD={1.7e-05,0.148276}],((Dryosaurus[&index=4]:0.029228[&brlen_95%_HPD={2e-06,0.138223}],Camptosaurus[&index=3]:0.048402[&brlen_95%_HPD={1.2e-05,0.173295}])[&index=20,posterior=0.994669]:0.187395[&brlen_95%_HPD={0.025614,0.466344}],(Iguanodon[&index=2]:0.057975[&brlen_95%_HPD={7.6e-05,0.198745}],Ouranosaurus[&index=1]:0.100637[&brlen_95%_HPD={5e-06,0.272141}])[&index=21,posterior=0.621502]:0.087638[&brlen_95%_HPD={0.000302,0.267199}])[&index=22,posterior=0.340737]:0.074835[&brlen_95%_HPD={0.001128,0.246029}])[&index=23,posterior=0.313194]:0.064029[&brlen_95%_HPD={0.000347,0.205688}])[&index=24,posterior=1.000000]:0.000000;
+End;

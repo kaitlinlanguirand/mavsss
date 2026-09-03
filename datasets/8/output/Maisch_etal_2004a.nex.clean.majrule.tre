@@ -1,0 +1,20 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=9;
+	Taxlabels
+		Daitingopterus_rhamphastinus
+		Domeykodactylus_ceciliae
+		Dsungaripterus_weii
+		Eudimorphodon_ranzii
+		Germanodactylus_cristatus
+		Lonchognathosaurus_acutirostris
+		Normannognathus_wellnhoferi
+		Phobetor_parvus
+		Pterodactylus_kochi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Daitingopterus_rhamphastinus[&index=9]:0.054008[&brlen_95%_HPD={1.8e-05,0.235127}],Germanodactylus_cristatus[&index=8]:0.059351[&brlen_95%_HPD={4.8e-05,0.249325}],((Eudimorphodon_ranzii[&index=7]:0.019390[&brlen_95%_HPD={9e-06,0.105708}],Pterodactylus_kochi[&index=6]:0.019496[&brlen_95%_HPD={1.9e-05,0.10452}])[&index=10,posterior=0.912483]:0.171819[&brlen_95%_HPD={0.000835,0.446676}],(Normannognathus_wellnhoferi[&index=5]:0.125914[&brlen_95%_HPD={0.000171,0.374534}],((Lonchognathosaurus_acutirostris[&index=4]:0.069736[&brlen_95%_HPD={6e-06,0.268816}],Dsungaripterus_weii[&index=3]:0.071932[&brlen_95%_HPD={2.8e-05,0.276218}])[&index=11,posterior=0.281208]:0.087054[&brlen_95%_HPD={0.000216,0.306003}],(Phobetor_parvus[&index=2]:0.060924[&brlen_95%_HPD={2.4e-05,0.257155}],Domeykodactylus_ceciliae[&index=1]:0.053751[&brlen_95%_HPD={6e-06,0.253189}])[&index=12,posterior=0.209685]:0.074219[&brlen_95%_HPD={0.000347,0.309576}])[&index=13,posterior=0.334962]:0.139687[&brlen_95%_HPD={0.00193,0.392667}])[&index=14,posterior=0.348290]:0.160303[&brlen_95%_HPD={0.00084,0.462569}])[&index=15,posterior=0.487339]:0.127750[&brlen_95%_HPD={0.000561,0.37463}])[&index=16,posterior=1.000000]:0.000000;
+End;

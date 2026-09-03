@@ -1,0 +1,31 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=20;
+	Taxlabels
+		A._libratus
+		A._sarcophagus
+		Acrocanthosaurus
+		Allosaurus
+		Appalachiosaurus
+		Coelophysis
+		Daspletosaurus
+		Deinonychus
+		Dryptosaurus
+		Eoraptor
+		Erlikosaurus
+		Herrerasaurus
+		Ornithomimidae
+		Saurornithoides
+		Shanshanosaurus
+		Sinraptor
+		T._bataar
+		T._rex
+		Velociraptor
+		Yangchuanosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](A._sarcophagus[&index=20]:0.032101[&brlen_95%_HPD={7.3e-05,0.14934}],A._libratus[&index=19]:0.105721[&brlen_95%_HPD={1e-06,0.276186}],((Appalachiosaurus[&index=18]:0.122609[&brlen_95%_HPD={9.1e-05,0.376923}],((Ornithomimidae[&index=17]:0.057740[&brlen_95%_HPD={4e-06,0.194431}],(Velociraptor[&index=16]:0.037683[&brlen_95%_HPD={1e-06,0.130004}],Deinonychus[&index=15]:0.022762[&brlen_95%_HPD={8e-06,0.101292}])[&index=21,posterior=0.535318]:0.078341[&brlen_95%_HPD={0.000793,0.239286}])[&index=22,posterior=0.415371]:0.117791[&brlen_95%_HPD={0.000863,0.32307}],(Saurornithoides[&index=14]:0.126348[&brlen_95%_HPD={0.000736,0.336208}],((Allosaurus[&index=13]:0.162946[&brlen_95%_HPD={0.000699,0.369136}],(Coelophysis[&index=12]:0.025441[&brlen_95%_HPD={3e-06,0.102596}],(Eoraptor[&index=11]:0.022739[&brlen_95%_HPD={1e-06,0.099575}],(Erlikosaurus[&index=10]:0.025108[&brlen_95%_HPD={1e-06,0.113721}],Herrerasaurus[&index=9]:0.039971[&brlen_95%_HPD={1e-06,0.129112}])[&index=23,posterior=0.823634]:0.063556[&brlen_95%_HPD={0.000654,0.167823}])[&index=24,posterior=0.399822]:0.035919[&brlen_95%_HPD={9.3e-05,0.119039}])[&index=25,posterior=0.590849]:0.117303[&brlen_95%_HPD={4.9e-05,0.305017}])[&index=26,posterior=0.985340]:0.318546[&brlen_95%_HPD={0.093441,0.648824}],(Acrocanthosaurus[&index=8]:0.062673[&brlen_95%_HPD={2.9e-05,0.186307}],(Yangchuanosaurus[&index=7]:0.038270[&brlen_95%_HPD={4.4e-05,0.160199}],Sinraptor[&index=6]:0.126195[&brlen_95%_HPD={5.3e-05,0.297848}])[&index=27,posterior=0.181697]:0.046268[&brlen_95%_HPD={9.9e-05,0.178167}])[&index=28,posterior=0.136384]:0.072540[&brlen_95%_HPD={0.00048,0.236796}])[&index=29,posterior=0.187472]:0.088835[&brlen_95%_HPD={0.000358,0.253989}])[&index=30,posterior=0.213239]:0.113654[&brlen_95%_HPD={0.000967,0.275936}])[&index=31,posterior=0.900489]:0.325242[&brlen_95%_HPD={0.067995,0.696966}])[&index=32,posterior=0.529542]:0.203292[&brlen_95%_HPD={0.002483,0.543823}],(Dryptosaurus[&index=5]:0.109266[&brlen_95%_HPD={0.000102,0.385154}],(Daspletosaurus[&index=4]:0.063091[&brlen_95%_HPD={6e-06,0.259359}],(Shanshanosaurus[&index=3]:0.106029[&brlen_95%_HPD={6.1e-05,0.333299}],(T._bataar[&index=2]:0.039914[&brlen_95%_HPD={3e-06,0.151237}],T._rex[&index=1]:0.053041[&brlen_95%_HPD={0.000219,0.169906}])[&index=33,posterior=0.772101]:0.126153[&brlen_95%_HPD={2.3e-05,0.356707}])[&index=34,posterior=0.842737]:0.222307[&brlen_95%_HPD={0.013467,0.481832}])[&index=35,posterior=0.778321]:0.297920[&brlen_95%_HPD={0.003741,0.626262}])[&index=36,posterior=0.393159]:0.276094[&brlen_95%_HPD={0.001859,0.597186}])[&index=37,posterior=0.374056]:0.096916[&brlen_95%_HPD={0.000291,0.328403}])[&index=38,posterior=1.000000]:0.000000;
+End;

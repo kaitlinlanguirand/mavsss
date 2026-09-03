@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Camptosaurus
+		Hadrosauroidea
+		Hypsilophodon
+		Iguanodon
+		Nanyangosaurus
+		Ouranosaurus
+		Probactrosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Hypsilophodon[&index=7]:0.124944[&brlen_95%_HPD={0.042591,0.256066}],Camptosaurus[&index=6]:0.012857[&brlen_95%_HPD={5e-06,0.061385}],(Iguanodon[&index=5]:0.018251[&brlen_95%_HPD={1.9e-05,0.083247}],(Ouranosaurus[&index=4]:0.028429[&brlen_95%_HPD={0.000131,0.090903}],(Probactrosaurus[&index=3]:0.024097[&brlen_95%_HPD={1.4e-05,0.104807}],(Nanyangosaurus[&index=2]:0.083382[&brlen_95%_HPD={0.000576,0.206187}],Hadrosauroidea[&index=1]:0.057214[&brlen_95%_HPD={0.000643,0.160632}])[&index=8,posterior=0.943136]:0.105619[&brlen_95%_HPD={0.002948,0.261061}])[&index=9,posterior=0.873834]:0.068487[&brlen_95%_HPD={9.5e-05,0.182779}])[&index=10,posterior=0.802754]:0.042436[&brlen_95%_HPD={0.00117,0.106019}])[&index=11,posterior=1.000000]:0.221353[&brlen_95%_HPD={0.073786,0.449706}])[&index=12,posterior=1.000000]:0.000000;
+End;

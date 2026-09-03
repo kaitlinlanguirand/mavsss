@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Bauria
+		Charassognathus
+		Cynognathus
+		Cynosaurus
+		Cyonosaurus
+		Dvinia
+		Galesaurus
+		Ictidosuchops
+		Lumkuia
+		Lycosuchus
+		Moschorhinus
+		Nanictosaurus
+		Olivierosuchus
+		Procynosuchus
+		Progalesaurus
+		Regisaurus
+		Theriognathus
+		Thrinaxodon
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Bauria[&index=18]:0.187973[&brlen_95%_HPD={0.064181,0.34831}],Regisaurus[&index=17]:0.035062[&brlen_95%_HPD={7e-06,0.121068}],(Ictidosuchops[&index=16]:0.016904[&brlen_95%_HPD={3.1e-05,0.072858}],(Olivierosuchus[&index=15]:0.059407[&brlen_95%_HPD={0.002671,0.137059}],(Moschorhinus[&index=14]:0.011107[&brlen_95%_HPD={1.5e-05,0.050831}],((Cyonosaurus[&index=13]:0.160831[&brlen_95%_HPD={0.057194,0.315545}],Lycosuchus[&index=12]:0.028476[&brlen_95%_HPD={8e-06,0.107418}])[&index=19,posterior=0.972012]:0.116718[&brlen_95%_HPD={0.026955,0.249093}],(Theriognathus[&index=11]:0.045263[&brlen_95%_HPD={1.4e-05,0.148318}],((Dvinia[&index=10]:0.101641[&brlen_95%_HPD={0.001368,0.232356}],Procynosuchus[&index=9]:0.049727[&brlen_95%_HPD={1.8e-05,0.144552}])[&index=20,posterior=0.514882]:0.087179[&brlen_95%_HPD={0.000322,0.231699}],(Charassognathus[&index=8]:0.091140[&brlen_95%_HPD={9.9e-05,0.271158}],(Cynosaurus[&index=7]:0.021995[&brlen_95%_HPD={3.3e-05,0.080891}],((Thrinaxodon[&index=6]:0.024657[&brlen_95%_HPD={1.3e-05,0.075233}],(Nanictosaurus[&index=5]:0.018472[&brlen_95%_HPD={5e-06,0.069508}],(Lumkuia[&index=4]:0.046053[&brlen_95%_HPD={5e-06,0.134451}],Cynognathus[&index=3]:0.194134[&brlen_95%_HPD={0.076481,0.34587}])[&index=21,posterior=0.999556]:0.148203[&brlen_95%_HPD={0.048673,0.2852}])[&index=22,posterior=0.372723]:0.019799[&brlen_95%_HPD={6e-06,0.068157}])[&index=23,posterior=0.991559]:0.084200[&brlen_95%_HPD={0.019683,0.189185}],(Galesaurus[&index=2]:0.009728[&brlen_95%_HPD={7e-06,0.043627}],Progalesaurus[&index=1]:0.008966[&brlen_95%_HPD={2e-06,0.040862}])[&index=24,posterior=0.951133]:0.045319[&brlen_95%_HPD={0.000136,0.111587}])[&index=25,posterior=0.677921]:0.034935[&brlen_95%_HPD={9.3e-05,0.104611}])[&index=26,posterior=0.962683]:0.131428[&brlen_95%_HPD={0.008315,0.313556}])[&index=27,posterior=0.507330]:0.117919[&brlen_95%_HPD={0.000808,0.277369}])[&index=28,posterior=1.000000]:0.509073[&brlen_95%_HPD={0.203357,0.908754}])[&index=29,posterior=0.632608]:0.068832[&brlen_95%_HPD={0.001777,0.159686}])[&index=30,posterior=0.434029]:0.035811[&brlen_95%_HPD={2.8e-05,0.11485}])[&index=31,posterior=0.411373]:0.024864[&brlen_95%_HPD={3e-06,0.086676}])[&index=32,posterior=0.573079]:0.044675[&brlen_95%_HPD={0.001093,0.11774}])[&index=33,posterior=0.502888]:0.050571[&brlen_95%_HPD={0.001031,0.129447}])[&index=34,posterior=1.000000]:0.000000;
+End;

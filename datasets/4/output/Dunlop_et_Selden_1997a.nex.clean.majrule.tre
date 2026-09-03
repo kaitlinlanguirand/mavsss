@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Aglaspidida
+		Bunodes
+		Chasmataspis
+		Cheloniellon
+		Diploaspis
+		Duslia
+		Eurypterida
+		Kasibelinurus
+		Lemoneites
+		Neostrabops
+		Other_arachnids
+		Paleomerus
+		Pseudarthron
+		Scorpiones
+		Strabops
+		Triopus
+		Weinbergina
+		Xiphosurida
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aglaspidida[&index=18]:0.089449[&brlen_95%_HPD={0.000147,0.270823}],(Neostrabops[&index=17]:0.058416[&brlen_95%_HPD={4.5e-05,0.229401}],(Duslia[&index=16]:0.090956[&brlen_95%_HPD={0.000531,0.273934}],(Triopus[&index=15]:0.045247[&brlen_95%_HPD={1.7e-05,0.198987}],(Cheloniellon[&index=14]:0.029318[&brlen_95%_HPD={3e-05,0.138816}],Pseudarthron[&index=13]:0.040860[&brlen_95%_HPD={3e-06,0.186974}])[&index=19,posterior=0.393603]:0.053674[&brlen_95%_HPD={3.4e-05,0.20063}])[&index=20,posterior=0.288316]:0.060224[&brlen_95%_HPD={0.000107,0.199993}])[&index=21,posterior=0.579742]:0.111916[&brlen_95%_HPD={0.000115,0.348248}])[&index=22,posterior=0.870724]:0.208400[&brlen_95%_HPD={0.013786,0.505355}],((Lemoneites[&index=12]:0.058524[&brlen_95%_HPD={0.000316,0.225256}],(((Kasibelinurus[&index=11]:0.038662[&brlen_95%_HPD={3e-06,0.167626}],Xiphosurida[&index=10]:0.078803[&brlen_95%_HPD={2.2e-05,0.216788}])[&index=23,posterior=0.655264]:0.082073[&brlen_95%_HPD={2.7e-05,0.235124}],(Bunodes[&index=9]:0.098290[&brlen_95%_HPD={0.000332,0.273726}],Weinbergina[&index=8]:0.038175[&brlen_95%_HPD={9e-06,0.174001}])[&index=24,posterior=0.357619]:0.057527[&brlen_95%_HPD={0.000585,0.227005}])[&index=25,posterior=0.940915]:0.262964[&brlen_95%_HPD={0.022164,0.597582}],((Diploaspis[&index=7]:0.066283[&brlen_95%_HPD={1.4e-05,0.228492}],Chasmataspis[&index=6]:0.059933[&brlen_95%_HPD={3.1e-05,0.220469}])[&index=26,posterior=0.795646]:0.131792[&brlen_95%_HPD={0.000159,0.346084}],(Eurypterida[&index=5]:0.097517[&brlen_95%_HPD={0.000199,0.275264}],(Scorpiones[&index=4]:0.070946[&brlen_95%_HPD={2.9e-05,0.217914}],Other_arachnids[&index=3]:0.061964[&brlen_95%_HPD={7.9e-05,0.20272}])[&index=27,posterior=0.275433]:0.074153[&brlen_95%_HPD={0.000247,0.250657}])[&index=28,posterior=0.290982]:0.105249[&brlen_95%_HPD={0.000149,0.369512}])[&index=29,posterior=0.693025]:0.215299[&brlen_95%_HPD={0.001358,0.545817}])[&index=30,posterior=0.425589]:0.162970[&brlen_95%_HPD={9e-06,0.462877}])[&index=31,posterior=0.487783]:0.141020[&brlen_95%_HPD={2.8e-05,0.442864}],(Paleomerus[&index=2]:0.030592[&brlen_95%_HPD={9e-06,0.140611}],Strabops[&index=1]:0.031028[&brlen_95%_HPD={1e-05,0.134869}])[&index=32,posterior=0.279876]:0.044618[&brlen_95%_HPD={0.000171,0.213754}])[&index=33,posterior=0.264327]:0.069545[&brlen_95%_HPD={4.1e-05,0.269465}])[&index=34,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,34 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=23;
+	Taxlabels
+		Acanthostega
+		Acherontiscus
+		Adelospondyli
+		Albanerpetontidae
+		Amphibamidae
+		Anthracosauroidea
+		Anura
+		Aïstopoda
+		Baphetidae
+		Basal_temnospondyls
+		Branchiosauridae
+		Caecilia
+		Caerorhachis
+		Colosteidae
+		Crassigyrinus
+		Early_amniotes
+		Lysorophia
+		Microsauria
+		Nectridea
+		Rhynchonkos
+		Triadobatrachidae
+		Urodela
+		Whatcheeridae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((((((((((Anura[&index=8]:0.194837[&brlen_95%_HPD={0.093747,0.308962}],Triadobatrachidae[&index=13]:0.046161[&brlen_95%_HPD={0.000407,0.114082}])[&index=24,posterior=0.998667]:0.275523[&brlen_95%_HPD={0.138123,0.433527}],Urodela[&index=16]:0.107404[&brlen_95%_HPD={0.003299,0.205956}])[&index=25,posterior=0.960462]:0.131621[&brlen_95%_HPD={0.012628,0.255042}],Albanerpetontidae[&index=9]:0.135751[&brlen_95%_HPD={0.039304,0.247205}])[&index=26,posterior=0.828965]:0.107404[&brlen_95%_HPD={0.000156,0.233145}],Lysorophia[&index=17]:0.297333[&brlen_95%_HPD={0.118508,0.528713}])[&index=27,posterior=0.840515]:0.139351[&brlen_95%_HPD={0.030034,0.268238}],Caecilia[&index=12]:0.284611[&brlen_95%_HPD={0.116158,0.479251}])[&index=28,posterior=0.517548]:0.094128[&brlen_95%_HPD={0.000265,0.20296}],Rhynchonkos[&index=2]:0.034256[&brlen_95%_HPD={1.5e-05,0.09368}])[&index=29,posterior=0.764105]:0.150563[&brlen_95%_HPD={0.00374,0.270815}],Microsauria[&index=14]:0.060646[&brlen_95%_HPD={0.002013,0.125107}])[&index=30,posterior=0.451799]:0.079005[&brlen_95%_HPD={0.00043,0.173318}],((((Acherontiscus[&index=23]:0.083231[&brlen_95%_HPD={0.016907,0.159262}],Adelospondyli[&index=6]:0.040248[&brlen_95%_HPD={0.000148,0.097589}])[&index=31,posterior=0.558863]:0.051663[&brlen_95%_HPD={2e-05,0.125368}],Aïstopoda[&index=10]:0.070487[&brlen_95%_HPD={4.1e-05,0.146123}])[&index=32,posterior=1.000000]:1.079475[&brlen_95%_HPD={0.684008,1.56583}],Nectridea[&index=20]:0.099977[&brlen_95%_HPD={9e-06,0.206744}])[&index=33,posterior=0.366060]:0.094379[&brlen_95%_HPD={0.00356,0.197589}],Early_amniotes[&index=19]:0.181285[&brlen_95%_HPD={0.054287,0.304514}])[&index=34,posterior=0.494447]:0.096948[&brlen_95%_HPD={0.000537,0.194399}])[&index=35,posterior=0.948912]:0.208119[&brlen_95%_HPD={0.088629,0.347699}],((Amphibamidae[&index=15]:0.069683[&brlen_95%_HPD={0.005958,0.138721}],Branchiosauridae[&index=18]:0.143130[&brlen_95%_HPD={0.057512,0.236925}])[&index=36,posterior=0.844958]:0.094387[&brlen_95%_HPD={0.003594,0.170923}],Basal_temnospondyls[&index=4]:0.018922[&brlen_95%_HPD={7e-06,0.053436}])[&index=37,posterior=0.299867]:0.042295[&brlen_95%_HPD={0.000189,0.107925}])[&index=38,posterior=0.970235]:0.207719[&brlen_95%_HPD={0.064752,0.343275}],Caerorhachis[&index=7]:0.073904[&brlen_95%_HPD={0.000195,0.168971}])[&index=39,posterior=0.449578]:0.092996[&brlen_95%_HPD={0.003708,0.193761}],Anthracosauroidea[&index=3]:0.153812[&brlen_95%_HPD={0.0525,0.274417}])[&index=40,posterior=0.646379]:0.081035[&brlen_95%_HPD={0.001647,0.167016}],Crassigyrinus[&index=5]:0.210572[&brlen_95%_HPD={0.07823,0.358141}])[&index=41,posterior=0.254554]:0.046886[&brlen_95%_HPD={0.000158,0.111225}],Colosteidae[&index=11]:0.173653[&brlen_95%_HPD={0.073361,0.290274}])[&index=42,posterior=0.287428]:0.050994[&brlen_95%_HPD={0.000357,0.115291}],Baphetidae[&index=22]:0.056302[&brlen_95%_HPD={4e-05,0.119666}])[&index=43,posterior=0.782319]:0.088062[&brlen_95%_HPD={0.009883,0.175842}],Acanthostega[&index=1]:0.317331[&brlen_95%_HPD={0.178584,0.487762}],Whatcheeridae[&index=21]:0.053172[&brlen_95%_HPD={6.9e-05,0.130367}])[&index=44,posterior=1.000000]:0.000000;
+End;

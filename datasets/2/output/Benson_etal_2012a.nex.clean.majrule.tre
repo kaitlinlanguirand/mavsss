@@ -1,0 +1,44 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=33;
+	Taxlabels
+		Archaeonectrus
+		Attenborosaurus
+		Augustasaurus
+		Avalonnectes
+		Bobosaurus
+		Cryptoclidus
+		Eoplesiosaurus
+		Eretmosaurus
+		Eurycleidus
+		H_longirostris
+		H_tomistomimus
+		H_zanoni
+		M_brachypterygius
+		M_homalospondylus
+		M_tournemirensis
+		Macroplata
+		Maresaurus
+		Meyerasaurus
+		NHMUK_49202
+		Peloneustes
+		Pistosaurus_postcranium
+		Pistosaurus_skull
+		Plesiosaurus
+		Plesiospterys
+		R_cramptoni
+		R_megacephalus
+		R_thorntoni
+		R_zetlandicus
+		Seelyosaurus
+		Stratesaurus
+		Thalassiodracon
+		Westphaliasaurus
+		Yunguisaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Archaeonectrus[&index=33]:0.105633[&brlen_95%_HPD={0.018187,0.22192}],(R_thorntoni[&index=32]:0.064603[&brlen_95%_HPD={0.010251,0.133553}],(R_zetlandicus[&index=31]:0.008967[&brlen_95%_HPD={3e-06,0.037478}],R_cramptoni[&index=30]:0.020305[&brlen_95%_HPD={2.5e-05,0.052438}])[&index=34,posterior=0.733896]:0.031704[&brlen_95%_HPD={2.1e-05,0.085367}])[&index=35,posterior=0.776100]:0.046261[&brlen_95%_HPD={0.000489,0.100622}],(R_megacephalus[&index=29]:0.114010[&brlen_95%_HPD={0.038617,0.210366}],(Maresaurus[&index=28]:0.067317[&brlen_95%_HPD={0.006711,0.156085}],(Eurycleidus[&index=27]:0.029223[&brlen_95%_HPD={3e-05,0.092946}],(Meyerasaurus[&index=26]:0.102753[&brlen_95%_HPD={0.00095,0.202297}],(Avalonnectes[&index=25]:0.027011[&brlen_95%_HPD={2e-06,0.095816}],(Macroplata[&index=24]:0.083465[&brlen_95%_HPD={0.000402,0.184167}],((NHMUK_49202[&index=23]:0.265465[&brlen_95%_HPD={0.04979,0.489727}],(Bobosaurus[&index=22]:0.098513[&brlen_95%_HPD={4.1e-05,0.292287}],(Augustasaurus[&index=21]:0.030721[&brlen_95%_HPD={3e-06,0.089858}],(Pistosaurus_skull[&index=20]:0.034325[&brlen_95%_HPD={5.4e-05,0.106511}],(Yunguisaurus[&index=19]:0.067647[&brlen_95%_HPD={0.000192,0.161353}],Pistosaurus_postcranium[&index=18]:0.169705[&brlen_95%_HPD={0.046702,0.328682}])[&index=36,posterior=0.716570]:0.072687[&brlen_95%_HPD={9.7e-05,0.157788}])[&index=37,posterior=0.396268]:0.038490[&brlen_95%_HPD={3.9e-05,0.103181}])[&index=38,posterior=0.968014]:0.202963[&brlen_95%_HPD={0.023451,0.411358}])[&index=39,posterior=0.997335]:0.343694[&brlen_95%_HPD={0.109056,0.61082}])[&index=40,posterior=0.476233]:0.154594[&brlen_95%_HPD={0.000823,0.344926}],(Stratesaurus[&index=17]:0.105869[&brlen_95%_HPD={0.01248,0.204204}],((Thalassiodracon[&index=16]:0.014726[&brlen_95%_HPD={0,0.056814}],(Peloneustes[&index=15]:0.675548[&brlen_95%_HPD={0.42085,0.960296}],(H_tomistomimus[&index=14]:0.019503[&brlen_95%_HPD={2.6e-05,0.065674}],(H_longirostris[&index=13]:0.065855[&brlen_95%_HPD={0.000436,0.155819}],H_zanoni[&index=12]:0.014620[&brlen_95%_HPD={3e-06,0.052089}])[&index=41,posterior=0.255886]:0.024992[&brlen_95%_HPD={1e-05,0.075621}])[&index=42,posterior=0.431364]:0.091913[&brlen_95%_HPD={0.000233,0.263757}])[&index=43,posterior=0.951133]:0.251272[&brlen_95%_HPD={0.073762,0.406051}])[&index=44,posterior=0.702799]:0.051703[&brlen_95%_HPD={0.006914,0.113852}],(Attenborosaurus[&index=11]:0.150458[&brlen_95%_HPD={0.018528,0.288358}],(Eoplesiosaurus[&index=10]:0.059989[&brlen_95%_HPD={0.001601,0.158264}],(Plesiosaurus[&index=9]:0.047829[&brlen_95%_HPD={0.000319,0.111954}],(Westphaliasaurus[&index=8]:0.089790[&brlen_95%_HPD={0.000186,0.207702}],((Plesiospterys[&index=7]:0.016737[&brlen_95%_HPD={2e-05,0.067849}],Cryptoclidus[&index=6]:0.413316[&brlen_95%_HPD={0.252243,0.616419}])[&index=45,posterior=0.984451]:0.137472[&brlen_95%_HPD={0.031403,0.268748}],(Eretmosaurus[&index=5]:0.050968[&brlen_95%_HPD={4.1e-05,0.149922}],(Seelyosaurus[&index=4]:0.035534[&brlen_95%_HPD={3.7e-05,0.103782}],(M_tournemirensis[&index=3]:0.069520[&brlen_95%_HPD={0.013352,0.129953}],(M_brachypterygius[&index=2]:0.053543[&brlen_95%_HPD={0.020623,0.105562}],M_homalospondylus[&index=1]:0.016933[&brlen_95%_HPD={0.000125,0.048101}])[&index=46,posterior=0.893381]:0.044798[&brlen_95%_HPD={0.000805,0.094673}])[&index=47,posterior=0.999556]:0.119305[&brlen_95%_HPD={0.04295,0.217972}])[&index=48,posterior=0.999112]:0.172529[&brlen_95%_HPD={0.052876,0.310981}])[&index=49,posterior=0.398934]:0.064536[&brlen_95%_HPD={0.000213,0.181733}])[&index=50,posterior=0.432697]:0.060511[&brlen_95%_HPD={0.003814,0.152103}])[&index=51,posterior=0.968014]:0.113662[&brlen_95%_HPD={0.0164,0.221128}])[&index=52,posterior=0.731231]:0.054388[&brlen_95%_HPD={0.000314,0.136727}])[&index=53,posterior=0.921368]:0.096997[&brlen_95%_HPD={0.013967,0.206112}])[&index=54,posterior=0.534429]:0.055380[&brlen_95%_HPD={0.000415,0.135217}])[&index=55,posterior=0.858729]:0.075649[&brlen_95%_HPD={0.010223,0.158599}])[&index=56,posterior=0.386495]:0.050737[&brlen_95%_HPD={0.000166,0.144794}])[&index=57,posterior=0.535318]:0.083082[&brlen_95%_HPD={0.000162,0.192818}])[&index=58,posterior=0.928032]:0.105117[&brlen_95%_HPD={0.01444,0.221466}])[&index=59,posterior=0.688583]:0.080010[&brlen_95%_HPD={0.000296,0.172595}])[&index=60,posterior=0.308307]:0.063872[&brlen_95%_HPD={0.000524,0.131624}])[&index=61,posterior=0.276322]:0.046919[&brlen_95%_HPD={2e-06,0.119772}])[&index=62,posterior=0.316304]:0.034499[&brlen_95%_HPD={0.000243,0.087465}])[&index=63,posterior=0.651266]:0.056337[&brlen_95%_HPD={0.005969,0.11349}])[&index=64,posterior=1.000000]:0.000000;
+End;

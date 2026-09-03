@@ -1,0 +1,34 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=23;
+	Taxlabels
+		Acanthostega
+		Acherontiscus
+		Adelospondyli
+		Albanerpetontidae
+		Amphibamidae
+		Anthracosauroidea
+		Anura
+		Aïstopoda
+		Baphetidae
+		Basal_temnospondyls
+		Branchiosauridae
+		Caecilia
+		Caerorhachis
+		Colosteidae
+		Crassigyrinus
+		Early_amniotes
+		Lysorophia
+		Microsauria
+		Nectridea
+		Rhynchonkos
+		Triadobatrachidae
+		Urodela
+		Whatcheeridae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acanthostega[&index=23]:0.308393[&brlen_95%_HPD={0.178584,0.487762}],Whatcheeridae[&index=22]:0.044120[&brlen_95%_HPD={6.9e-05,0.130367}],(Crassigyrinus[&index=21]:0.203584[&brlen_95%_HPD={0.07823,0.358141}],((Anthracosauroidea[&index=20]:0.147851[&brlen_95%_HPD={0.0525,0.274417}],(Caerorhachis[&index=19]:0.065096[&brlen_95%_HPD={0.000195,0.168971}],(Basal_temnospondyls[&index=18]:0.013433[&brlen_95%_HPD={7e-06,0.053436}],((((Aïstopoda[&index=17]:0.066765[&brlen_95%_HPD={4.1e-05,0.146123}],(Adelospondyli[&index=16]:0.034504[&brlen_95%_HPD={0.000148,0.097589}],Acherontiscus[&index=15]:0.078771[&brlen_95%_HPD={0.016907,0.159262}])[&index=24,posterior=0.558863]:0.045141[&brlen_95%_HPD={2e-05,0.125368}])[&index=25,posterior=1.000000]:1.056656[&brlen_95%_HPD={0.684008,1.56583}],(Early_amniotes[&index=14]:0.177558[&brlen_95%_HPD={0.054287,0.304514}],Nectridea[&index=13]:0.095284[&brlen_95%_HPD={9e-06,0.206744}])[&index=26,posterior=0.444247]:0.084314[&brlen_95%_HPD={0.002581,0.194321}])[&index=27,posterior=0.494447]:0.089883[&brlen_95%_HPD={0.000537,0.194399}],(Microsauria[&index=12]:0.055464[&brlen_95%_HPD={0.002013,0.125107}],(Rhynchonkos[&index=11]:0.027214[&brlen_95%_HPD={1.5e-05,0.09368}],(Caecilia[&index=10]:0.278332[&brlen_95%_HPD={0.116158,0.479251}],(Lysorophia[&index=9]:0.292738[&brlen_95%_HPD={0.118508,0.528713}],(Albanerpetontidae[&index=8]:0.130746[&brlen_95%_HPD={0.039304,0.247205}],(Urodela[&index=7]:0.100375[&brlen_95%_HPD={0.003299,0.205956}],(Anura[&index=6]:0.190293[&brlen_95%_HPD={0.093747,0.308962}],Triadobatrachidae[&index=5]:0.038643[&brlen_95%_HPD={0.000407,0.114082}])[&index=28,posterior=0.998667]:0.269617[&brlen_95%_HPD={0.138123,0.433527}])[&index=29,posterior=0.960462]:0.125109[&brlen_95%_HPD={0.012628,0.255042}])[&index=30,posterior=0.828965]:0.098032[&brlen_95%_HPD={0.000156,0.233145}])[&index=31,posterior=0.840515]:0.133028[&brlen_95%_HPD={0.030034,0.268238}])[&index=32,posterior=0.517548]:0.083300[&brlen_95%_HPD={0.000265,0.20296}])[&index=33,posterior=0.764105]:0.148999[&brlen_95%_HPD={0.00374,0.270815}])[&index=34,posterior=0.451799]:0.072217[&brlen_95%_HPD={0.00043,0.173318}])[&index=35,posterior=0.948912]:0.200622[&brlen_95%_HPD={0.088629,0.347699}],(Amphibamidae[&index=4]:0.064279[&brlen_95%_HPD={0.005958,0.138721}],Branchiosauridae[&index=3]:0.139233[&brlen_95%_HPD={0.057512,0.236925}])[&index=36,posterior=0.844958]:0.090476[&brlen_95%_HPD={0.003594,0.170923}])[&index=37,posterior=0.566859]:0.061494[&brlen_95%_HPD={1.3e-05,0.159782}])[&index=38,posterior=0.970235]:0.201464[&brlen_95%_HPD={0.064752,0.343275}])[&index=39,posterior=0.449578]:0.086343[&brlen_95%_HPD={0.003708,0.193761}])[&index=40,posterior=0.646379]:0.074025[&brlen_95%_HPD={0.001647,0.167016}],(Colosteidae[&index=2]:0.165324[&brlen_95%_HPD={0.073361,0.290274}],Baphetidae[&index=1]:0.051762[&brlen_95%_HPD={4e-05,0.119666}])[&index=41,posterior=0.294536]:0.040539[&brlen_95%_HPD={0.000174,0.103427}])[&index=42,posterior=0.258552]:0.046589[&brlen_95%_HPD={0.000748,0.127798}])[&index=43,posterior=0.782319]:0.082959[&brlen_95%_HPD={0.009883,0.175842}])[&index=44,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Albertosaurus
+		Allosaurus
+		Deinonychus
+		Gallimimus
+		Garudimimus
+		Pelecanimimus
+		Troodontidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Allosaurus[&index=7]:0.041587[&brlen_95%_HPD={8.2e-05,0.141619}],Albertosaurus[&index=6]:0.047414[&brlen_95%_HPD={9.2e-05,0.14901}],(Deinonychus[&index=5]:0.024632[&brlen_95%_HPD={5e-06,0.102567}],(Troodontidae[&index=4]:0.047009[&brlen_95%_HPD={1.2e-05,0.209248}],(Pelecanimimus[&index=3]:0.051622[&brlen_95%_HPD={2e-06,0.188552}],(Garudimimus[&index=2]:0.081208[&brlen_95%_HPD={0.000159,0.288775}],Gallimimus[&index=1]:0.049078[&brlen_95%_HPD={5.3e-05,0.197963}])[&index=8,posterior=0.509996]:0.065840[&brlen_95%_HPD={0.000632,0.214122}])[&index=9,posterior=0.874722]:0.190833[&brlen_95%_HPD={0.013825,0.458341}])[&index=10,posterior=0.974234]:0.226321[&brlen_95%_HPD={0.032221,0.531213}])[&index=11,posterior=0.507330]:0.037516[&brlen_95%_HPD={7e-06,0.139548}])[&index=12,posterior=1.000000]:0.000000;
+End;

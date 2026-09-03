@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Brevilamnulella_thebesensis
+		Deloprosopus_jiangshanensis
+		Eoconchidium_indigiricum
+		Paraconchidium_shiqianensis
+		Pentamerus_palaformis
+		Proconchidium_munsteri
+		Pseudoconchidium_kozhimicum
+		Tcherskidium_unicum
+		Virgiana_barrandei
+		Virgiana_decussata
+		Virgiana_mayvillensis
+		Viridita_lenticualris
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Brevilamnulella_thebesensis[&index=12]:0.036709[&brlen_95%_HPD={1.7e-05,0.137646}],Viridita_lenticualris[&index=11]:0.077650[&brlen_95%_HPD={0.00047,0.195085}],(Eoconchidium_indigiricum[&index=10]:0.050685[&brlen_95%_HPD={4.3e-05,0.195903}],((Virgiana_mayvillensis[&index=9]:0.025647[&brlen_95%_HPD={4.3e-05,0.094988}],(Virgiana_barrandei[&index=8]:0.017649[&brlen_95%_HPD={2e-06,0.073533}],Virgiana_decussata[&index=7]:0.057766[&brlen_95%_HPD={0.000764,0.149999}])[&index=13,posterior=0.567303]:0.038466[&brlen_95%_HPD={8.3e-05,0.108553}])[&index=14,posterior=0.769436]:0.132954[&brlen_95%_HPD={1e-06,0.311118}],(Paraconchidium_shiqianensis[&index=6]:0.136224[&brlen_95%_HPD={0.004256,0.339767}],(Pentamerus_palaformis[&index=5]:0.373144[&brlen_95%_HPD={0.148221,0.732003}],(Deloprosopus_jiangshanensis[&index=4]:0.117125[&brlen_95%_HPD={0.002245,0.277831}],(Proconchidium_munsteri[&index=3]:0.054210[&brlen_95%_HPD={0.000232,0.154031}],(Tcherskidium_unicum[&index=2]:0.023744[&brlen_95%_HPD={2.6e-05,0.094912}],Pseudoconchidium_kozhimicum[&index=1]:0.131477[&brlen_95%_HPD={0.013649,0.317832}])[&index=15,posterior=0.264327]:0.039930[&brlen_95%_HPD={3.8e-05,0.142702}])[&index=16,posterior=0.173256]:0.052557[&brlen_95%_HPD={0.000105,0.198522}])[&index=17,posterior=0.198578]:0.088971[&brlen_95%_HPD={0.00185,0.253854}])[&index=18,posterior=0.275877]:0.098786[&brlen_95%_HPD={0.000117,0.311971}])[&index=19,posterior=0.399378]:0.115942[&brlen_95%_HPD={0.001552,0.321911}])[&index=20,posterior=0.491781]:0.095011[&brlen_95%_HPD={0.00128,0.271617}])[&index=21,posterior=0.851622]:0.140632[&brlen_95%_HPD={0.000153,0.340384}])[&index=22,posterior=1.000000]:0.000000;
+End;

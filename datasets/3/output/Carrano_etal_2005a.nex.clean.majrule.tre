@@ -1,0 +1,28 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Allosaurus
+		Carnotaurus
+		Ceratosaurus
+		Coelophysis
+		Dilophosaurus
+		Elaphrosaurus
+		Eoraptor
+		Gojirasaurus
+		Herrerasaurus
+		Liliensternus
+		Majungatholus
+		Ornitholestes
+		Procompsognathus
+		Sarcosaurus
+		Segisaurus
+		Syntarsus
+		Zupaysaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Allosaurus[&index=17]:0.013087[&brlen_95%_HPD={5e-06,0.056638}],Ornitholestes[&index=16]:0.039722[&brlen_95%_HPD={0.000172,0.081911}],((Dilophosaurus[&index=15]:0.016758[&brlen_95%_HPD={4.1e-05,0.05764}],((Sarcosaurus[&index=14]:0.021166[&brlen_95%_HPD={1e-05,0.091895}],Segisaurus[&index=13]:0.021076[&brlen_95%_HPD={1e-06,0.097574}])[&index=18,posterior=0.278987]:0.027650[&brlen_95%_HPD={2.3e-05,0.115409}],((Eoraptor[&index=12]:0.016289[&brlen_95%_HPD={3e-06,0.056628}],Herrerasaurus[&index=11]:0.048849[&brlen_95%_HPD={0.004206,0.097906}])[&index=19,posterior=1.000000]:0.435174[&brlen_95%_HPD={0.19118,0.717371}],(Zupaysaurus[&index=10]:0.032908[&brlen_95%_HPD={3.5e-05,0.115359}],(Gojirasaurus[&index=9]:0.030143[&brlen_95%_HPD={3e-06,0.127745}],(Liliensternus[&index=8]:0.011447[&brlen_95%_HPD={1e-05,0.045307}],(Coelophysis[&index=7]:0.014673[&brlen_95%_HPD={2e-06,0.050974}],(Procompsognathus[&index=6]:0.018553[&brlen_95%_HPD={9e-06,0.078699}],Syntarsus[&index=5]:0.081345[&brlen_95%_HPD={2e-06,0.216447}])[&index=20,posterior=0.609063]:0.051896[&brlen_95%_HPD={1.6e-05,0.152232}])[&index=21,posterior=0.593958]:0.028362[&brlen_95%_HPD={0.001607,0.067322}])[&index=22,posterior=0.657930]:0.038984[&brlen_95%_HPD={7.1e-05,0.092787}])[&index=23,posterior=0.405598]:0.035545[&brlen_95%_HPD={0.000302,0.094721}])[&index=24,posterior=0.259884]:0.032257[&brlen_95%_HPD={0.000288,0.084513}])[&index=25,posterior=0.221679]:0.032177[&brlen_95%_HPD={8.7e-05,0.086345}])[&index=26,posterior=0.328743]:0.030162[&brlen_95%_HPD={9.6e-05,0.073484}])[&index=27,posterior=0.995558]:0.396603[&brlen_95%_HPD={0.147124,0.706484}],(Ceratosaurus[&index=4]:0.010170[&brlen_95%_HPD={1e-06,0.048591}],(Elaphrosaurus[&index=3]:0.151388[&brlen_95%_HPD={0.005634,0.268103}],(Carnotaurus[&index=2]:0.003965[&brlen_95%_HPD={2e-06,0.017248}],Majungatholus[&index=1]:0.003792[&brlen_95%_HPD={4e-06,0.016279}])[&index=28,posterior=0.944913]:0.049620[&brlen_95%_HPD={9.4e-05,0.126088}])[&index=29,posterior=0.842737]:0.077996[&brlen_95%_HPD={0.014823,0.152951}])[&index=30,posterior=0.952910]:0.253400[&brlen_95%_HPD={0.037901,0.52347}])[&index=31,posterior=0.977788]:0.273040[&brlen_95%_HPD={0.041012,0.522603}])[&index=32,posterior=1.000000]:0.000000;
+End;

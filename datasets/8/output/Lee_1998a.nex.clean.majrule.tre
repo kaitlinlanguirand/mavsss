@@ -1,0 +1,37 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=26;
+	Taxlabels
+		Agamidae
+		Amphisbaenia
+		Ancestor
+		Anguidae
+		Chamaeleonidae
+		Cordylidae
+		Dibamidae
+		Gekkonidae
+		Gymnophthalmidae
+		Heloderma
+		Iguanidae
+		Kuehneosauridae
+		Lacertidae
+		Lanthanotus
+		Marmoretta
+		Mosasauroidea
+		Pachyrhachis
+		Pygopodidae
+		Rhynchocephalia
+		Scincidae
+		Serpentes
+		Sineoamphisbaena
+		Teiidae
+		Varanus
+		Xantusiidae
+		Xenosauridae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Chamaeleonidae[&index=26]:0.168200[&brlen_95%_HPD={0.100464,0.244698}],Agamidae[&index=25]:0.007834[&brlen_95%_HPD={1e-06,0.027493}],(Iguanidae[&index=24]:0.005160[&brlen_95%_HPD={0,0.021922}],(((Lacertidae[&index=23]:0.043817[&brlen_95%_HPD={0.011444,0.086005}],(Gymnophthalmidae[&index=22]:0.020469[&brlen_95%_HPD={0.001373,0.043764}],Teiidae[&index=21]:0.019494[&brlen_95%_HPD={0.002518,0.045174}])[&index=27,posterior=0.955575]:0.047817[&brlen_95%_HPD={0.008441,0.094586}])[&index=28,posterior=0.860062]:0.041427[&brlen_95%_HPD={0.007301,0.081262}],((Cordylidae[&index=20]:0.009502[&brlen_95%_HPD={5e-06,0.032226}],(Scincidae[&index=19]:0.013671[&brlen_95%_HPD={0.00034,0.033412}],(Anguidae[&index=18]:0.011507[&brlen_95%_HPD={1.6e-05,0.030968}],(Xenosauridae[&index=17]:0.014366[&brlen_95%_HPD={3e-06,0.043901}],(Heloderma[&index=16]:0.033268[&brlen_95%_HPD={2.3e-05,0.078282}],((Mosasauroidea[&index=15]:0.030366[&brlen_95%_HPD={9e-06,0.115836}],(Serpentes[&index=14]:0.772197[&brlen_95%_HPD={0.457961,1.14511}],Pachyrhachis[&index=13]:0.185994[&brlen_95%_HPD={0.006072,0.411776}])[&index=29,posterior=0.729009]:0.205322[&brlen_95%_HPD={0.029846,0.387739}])[&index=30,posterior=0.970235]:0.460879[&brlen_95%_HPD={0.148449,0.678073}],(Lanthanotus[&index=12]:0.016693[&brlen_95%_HPD={5.4e-05,0.046223}],Varanus[&index=11]:0.089947[&brlen_95%_HPD={0.033847,0.154598}])[&index=31,posterior=0.580631]:0.034665[&brlen_95%_HPD={1.8e-05,0.095098}])[&index=32,posterior=0.968903]:0.101174[&brlen_95%_HPD={0.034205,0.180662}])[&index=33,posterior=0.983119]:0.180155[&brlen_95%_HPD={0.099277,0.260682}])[&index=34,posterior=0.916926]:0.035390[&brlen_95%_HPD={0.005917,0.06947}])[&index=35,posterior=0.926699]:0.047772[&brlen_95%_HPD={0.013283,0.08968}])[&index=36,posterior=0.689916]:0.024020[&brlen_95%_HPD={0.000322,0.056358}])[&index=37,posterior=0.912483]:0.076950[&brlen_95%_HPD={0.028619,0.135763}],(Xantusiidae[&index=10]:0.036195[&brlen_95%_HPD={0.000154,0.083111}],(Gekkonidae[&index=9]:0.014738[&brlen_95%_HPD={1e-06,0.04399}],(Pygopodidae[&index=8]:0.048054[&brlen_95%_HPD={2.1e-05,0.115009}],(Sineoamphisbaena[&index=7]:0.197667[&brlen_95%_HPD={0.000124,0.458287}],(Dibamidae[&index=6]:0.092056[&brlen_95%_HPD={0.01502,0.166487}],Amphisbaenia[&index=5]:0.033314[&brlen_95%_HPD={4e-06,0.102201}])[&index=38,posterior=0.922257]:0.269392[&brlen_95%_HPD={0.035075,0.510812}])[&index=39,posterior=0.988450]:0.445666[&brlen_95%_HPD={0.233823,0.707368}])[&index=40,posterior=0.525100]:0.066799[&brlen_95%_HPD={0.006392,0.116073}])[&index=41,posterior=0.807641]:0.141550[&brlen_95%_HPD={0.01278,0.232875}])[&index=42,posterior=0.843181]:0.063050[&brlen_95%_HPD={0.017561,0.123074}])[&index=43,posterior=0.465571]:0.025516[&brlen_95%_HPD={1.5e-05,0.077439}])[&index=44,posterior=1.000000]:0.240282[&brlen_95%_HPD={0.13864,0.34664}],(Kuehneosauridae[&index=4]:0.078889[&brlen_95%_HPD={0.02739,0.15552}],(Marmoretta[&index=3]:0.073074[&brlen_95%_HPD={0.011233,0.150167}],(Ancestor[&index=2]:0.003641[&brlen_95%_HPD={3e-06,0.015485}],Rhynchocephalia[&index=1]:0.007275[&brlen_95%_HPD={1.5e-05,0.02951}])[&index=45,posterior=0.697912]:0.021161[&brlen_95%_HPD={8.6e-05,0.068024}])[&index=46,posterior=0.436695]:0.030601[&brlen_95%_HPD={5.2e-05,0.080654}])[&index=47,posterior=1.000000]:0.167084[&brlen_95%_HPD={0.081754,0.261507}])[&index=48,posterior=0.484673]:0.017828[&brlen_95%_HPD={0.000109,0.060563}])[&index=49,posterior=0.979120]:0.035201[&brlen_95%_HPD={0.004612,0.07523}])[&index=50,posterior=1.000000]:0.000000;
+End;

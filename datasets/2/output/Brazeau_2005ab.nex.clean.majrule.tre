@@ -1,0 +1,39 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=28;
+	Taxlabels
+		Anatidae
+		Anhimidae
+		Anhingidae
+		Anseranatidae
+		Argillornis_emuinus
+		Ciconiidae
+		Diomedeidae
+		Fregatidae
+		Galliformes
+		Gaviidae
+		Hydrobatidae
+		Odontopteryx_n_sp_1
+		Odontopteryx_n_sp_2
+		Odontopteryx_toliapica
+		Opisthocomidae
+		Pelagornis
+		Pelecanidae
+		Pelecanoididae
+		Phaethontidae
+		Phalacrocoracidae
+		Phoenicopteridae
+		Podicipedidae
+		Procellariidae
+		Rheidae
+		Scopidae
+		Spheniscidae
+		Sulidae
+		Tinamidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Anatidae[&index=28]:0.016788[&brlen_95%_HPD={8e-06,0.044122}],Anseranatidae[&index=27]:0.012894[&brlen_95%_HPD={2.8e-05,0.037554}],((Pelagornis[&index=26]:0.040432[&brlen_95%_HPD={0.000226,0.09916}],(Odontopteryx_toliapica[&index=25]:0.009984[&brlen_95%_HPD={4e-06,0.043237}],(Argillornis_emuinus[&index=24]:0.019593[&brlen_95%_HPD={1e-06,0.095534}],(Odontopteryx_n_sp_2[&index=23]:0.008108[&brlen_95%_HPD={8e-06,0.038344}],Odontopteryx_n_sp_1[&index=22]:0.004971[&brlen_95%_HPD={0,0.021858}])[&index=29,posterior=0.237228]:0.006916[&brlen_95%_HPD={1.2e-05,0.030246}])[&index=30,posterior=0.207019]:0.011864[&brlen_95%_HPD={1.8e-05,0.044942}])[&index=31,posterior=0.550422]:0.033329[&brlen_95%_HPD={1.1e-05,0.083748}])[&index=32,posterior=1.000000]:0.313405[&brlen_95%_HPD={0.159006,0.51209}],(Anhimidae[&index=21]:0.012360[&brlen_95%_HPD={9e-06,0.053125}],((Galliformes[&index=20]:0.017325[&brlen_95%_HPD={3e-06,0.063399}],(Rheidae[&index=19]:0.017288[&brlen_95%_HPD={4e-05,0.050627}],Tinamidae[&index=18]:0.010907[&brlen_95%_HPD={1.3e-05,0.039706}])[&index=33,posterior=1.000000]:0.144527[&brlen_95%_HPD={0.060647,0.268378}])[&index=34,posterior=0.984896]:0.105234[&brlen_95%_HPD={0.024715,0.227511}],(Opisthocomidae[&index=17]:0.016384[&brlen_95%_HPD={1.2e-05,0.057454}],((Phoenicopteridae[&index=16]:0.029823[&brlen_95%_HPD={0.000405,0.071341}],Ciconiidae[&index=15]:0.016482[&brlen_95%_HPD={4.6e-05,0.054909}])[&index=35,posterior=0.988450]:0.052708[&brlen_95%_HPD={0.012041,0.10913}],((Scopidae[&index=14]:0.009715[&brlen_95%_HPD={1.1e-05,0.042294}],(Fregatidae[&index=13]:0.054794[&brlen_95%_HPD={0.008415,0.120575}],(Pelecanidae[&index=12]:0.039265[&brlen_95%_HPD={0.002776,0.097149}],(Sulidae[&index=11]:0.022122[&brlen_95%_HPD={8e-06,0.063417}],(Anhingidae[&index=10]:0.017614[&brlen_95%_HPD={0.001437,0.04577}],Phalacrocoracidae[&index=9]:0.008884[&brlen_95%_HPD={4e-06,0.032028}])[&index=36,posterior=0.999556]:0.065836[&brlen_95%_HPD={0.021157,0.126002}])[&index=37,posterior=0.998223]:0.072201[&brlen_95%_HPD={0.01814,0.145691}])[&index=38,posterior=0.980453]:0.065494[&brlen_95%_HPD={0.00694,0.147927}])[&index=39,posterior=0.979120]:0.052517[&brlen_95%_HPD={0.010496,0.1177}])[&index=40,posterior=0.872945]:0.027574[&brlen_95%_HPD={0.001072,0.072521}],((Phaethontidae[&index=8]:0.014616[&brlen_95%_HPD={1.4e-05,0.049278}],(Diomedeidae[&index=7]:0.006897[&brlen_95%_HPD={1.8e-05,0.028227}],(Hydrobatidae[&index=6]:0.004194[&brlen_95%_HPD={7e-06,0.018055}],(Procellariidae[&index=5]:0.004070[&brlen_95%_HPD={1e-06,0.01925}],Pelecanoididae[&index=4]:0.022176[&brlen_95%_HPD={0.003885,0.051625}])[&index=41,posterior=0.378498]:0.004934[&brlen_95%_HPD={7e-06,0.020677}])[&index=42,posterior=0.999556]:0.055498[&brlen_95%_HPD={0.015622,0.101822}])[&index=43,posterior=1.000000]:0.092631[&brlen_95%_HPD={0.035211,0.16617}])[&index=44,posterior=1.000000]:0.091575[&brlen_95%_HPD={0.030923,0.180629}],(Spheniscidae[&index=3]:0.036677[&brlen_95%_HPD={2.8e-05,0.091754}],(Gaviidae[&index=2]:0.017216[&brlen_95%_HPD={0.000398,0.043628}],Podicipedidae[&index=1]:0.013203[&brlen_95%_HPD={0,0.039153}])[&index=45,posterior=0.999112]:0.080359[&brlen_95%_HPD={0.025372,0.158383}])[&index=46,posterior=0.997335]:0.069140[&brlen_95%_HPD={0.019443,0.148038}])[&index=47,posterior=0.215904]:0.012990[&brlen_95%_HPD={4.5e-05,0.054451}])[&index=48,posterior=0.238561]:0.012785[&brlen_95%_HPD={7.3e-05,0.053038}])[&index=49,posterior=0.993336]:0.090559[&brlen_95%_HPD={0.029663,0.18058}])[&index=50,posterior=0.886717]:0.058579[&brlen_95%_HPD={1.1e-05,0.148911}])[&index=51,posterior=1.000000]:0.224400[&brlen_95%_HPD={0.089791,0.430085}])[&index=52,posterior=0.672590]:0.048616[&brlen_95%_HPD={0.000202,0.108834}])[&index=53,posterior=0.844958]:0.054287[&brlen_95%_HPD={0.000383,0.114615}])[&index=54,posterior=1.000000]:0.000000;
+End;

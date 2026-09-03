@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Erythrosuchus
+		Fugusuchus
+		Garjainia
+		Other_archosauriformes
+		Proterosuchus
+		Shansisuchus
+		Vjushkovia_sinensis
+		Vjushkovia_triplicostata
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Erythrosuchus[&index=8]:0.032023[&brlen_95%_HPD={1.6e-05,0.135288}],(Shansisuchus[&index=7]:0.030653[&brlen_95%_HPD={3.7e-05,0.142999}],(Vjushkovia_sinensis[&index=6]:0.026116[&brlen_95%_HPD={3.8e-05,0.133309}],Vjushkovia_triplicostata[&index=5]:0.023514[&brlen_95%_HPD={4e-06,0.124284}])[&index=9,posterior=0.809418]:0.064420[&brlen_95%_HPD={0.00114,0.238559}])[&index=10,posterior=0.877388]:0.106843[&brlen_95%_HPD={0.001866,0.323264}],(Garjainia[&index=4]:0.050908[&brlen_95%_HPD={0.00013,0.190674}],(Fugusuchus[&index=3]:0.044360[&brlen_95%_HPD={5.2e-05,0.17841}],(Proterosuchus[&index=2]:0.054122[&brlen_95%_HPD={1.5e-05,0.194831}],Other_archosauriformes[&index=1]:0.046363[&brlen_95%_HPD={0.000127,0.178708}])[&index=11,posterior=0.998667]:0.297958[&brlen_95%_HPD={0.061756,0.660843}])[&index=12,posterior=0.528654]:0.072559[&brlen_95%_HPD={6.7e-05,0.262665}])[&index=13,posterior=0.509107]:0.054642[&brlen_95%_HPD={4.7e-05,0.198542}])[&index=14,posterior=1.000000]:0.000000;
+End;

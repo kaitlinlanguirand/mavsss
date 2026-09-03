@@ -1,0 +1,30 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=19;
+	Taxlabels
+		Azhdarcho_lancicollis
+		Chaoyangopterus_zhangi
+		Dsungaripterus_weii
+		Huaxiapterus_benxiensis
+		Huaxiapterus_corollatus
+		Jidapterus_edentus
+		Noripterus_complicidens
+		Phobetor_parvus
+		Quetzalcoatlus_sp
+		Shenzhoupterus_chaoyangensis
+		Sinopterus_dongi
+		Sinopterus_jii
+		Tapejara_wellnhoferi
+		Thalassodromeus_sethi
+		Tupandactylus_imperator
+		Tupandactylus_navigans
+		Tupuxuara_deliradamus
+		Tupuxuara_leonardii
+		Zhejiangopterus_linhaiensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Azhdarcho_lancicollis[&index=19]:0.036314[&brlen_95%_HPD={7e-06,0.184139}],Quetzalcoatlus_sp[&index=18]:0.038529[&brlen_95%_HPD={4e-05,0.151936}],(Zhejiangopterus_linhaiensis[&index=17]:0.036703[&brlen_95%_HPD={3e-05,0.158478}],((Phobetor_parvus[&index=16]:0.049071[&brlen_95%_HPD={2e-06,0.196194}],(Dsungaripterus_weii[&index=15]:0.037152[&brlen_95%_HPD={4e-06,0.155503}],Noripterus_complicidens[&index=14]:0.034535[&brlen_95%_HPD={1e-06,0.169338}])[&index=20,posterior=0.426477]:0.053900[&brlen_95%_HPD={4.8e-05,0.224246}])[&index=21,posterior=0.927143]:0.242122[&brlen_95%_HPD={0.011239,0.550613}],((((Sinopterus_dongi[&index=13]:0.030868[&brlen_95%_HPD={3e-05,0.14395}],Sinopterus_jii[&index=12]:0.032283[&brlen_95%_HPD={3.7e-05,0.154129}])[&index=22,posterior=0.706797]:0.099080[&brlen_95%_HPD={0.000237,0.315593}],((Tapejara_wellnhoferi[&index=11]:0.051644[&brlen_95%_HPD={3.3e-05,0.187808}],(Tupandactylus_navigans[&index=10]:0.036625[&brlen_95%_HPD={2.6e-05,0.169526}],Tupandactylus_imperator[&index=9]:0.034634[&brlen_95%_HPD={4e-06,0.153838}])[&index=23,posterior=0.599733]:0.065759[&brlen_95%_HPD={2.4e-05,0.20774}])[&index=24,posterior=0.781875]:0.157703[&brlen_95%_HPD={0.002711,0.410139}],(Huaxiapterus_benxiensis[&index=8]:0.038039[&brlen_95%_HPD={3e-06,0.171607}],Huaxiapterus_corollatus[&index=7]:0.071650[&brlen_95%_HPD={9.4e-05,0.239088}])[&index=25,posterior=0.683696]:0.104635[&brlen_95%_HPD={0.000684,0.294395}])[&index=26,posterior=0.427810]:0.099688[&brlen_95%_HPD={0.000299,0.318477}])[&index=27,posterior=0.839627]:0.236207[&brlen_95%_HPD={0.016967,0.554994}],(Jidapterus_edentus[&index=6]:0.080599[&brlen_95%_HPD={4e-05,0.288874}],(Chaoyangopterus_zhangi[&index=5]:0.036595[&brlen_95%_HPD={3e-05,0.174942}],Shenzhoupterus_chaoyangensis[&index=4]:0.042696[&brlen_95%_HPD={7.8e-05,0.190756}])[&index=28,posterior=0.402932]:0.077566[&brlen_95%_HPD={0.000121,0.292781}])[&index=29,posterior=0.496668]:0.160602[&brlen_95%_HPD={0,0.443871}])[&index=30,posterior=0.680142]:0.231234[&brlen_95%_HPD={0.005364,0.544217}],(Thalassodromeus_sethi[&index=3]:0.040945[&brlen_95%_HPD={2.3e-05,0.155414}],(Tupuxuara_leonardii[&index=2]:0.028528[&brlen_95%_HPD={2e-06,0.132689}],Tupuxuara_deliradamus[&index=1]:0.024713[&brlen_95%_HPD={2.3e-05,0.1209}])[&index=31,posterior=0.520657]:0.056744[&brlen_95%_HPD={0.000157,0.190215}])[&index=32,posterior=0.568192]:0.141553[&brlen_95%_HPD={0.000954,0.451018}])[&index=33,posterior=0.747223]:0.262881[&brlen_95%_HPD={0.000323,0.583669}])[&index=34,posterior=0.605509]:0.163001[&brlen_95%_HPD={0.001052,0.483478}])[&index=35,posterior=0.317637]:0.044001[&brlen_95%_HPD={2.3e-05,0.183344}])[&index=36,posterior=1.000000]:0.000000;
+End;

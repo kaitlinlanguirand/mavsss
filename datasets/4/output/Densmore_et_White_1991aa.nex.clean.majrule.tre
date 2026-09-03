@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Alligator
+		C_acutus
+		C_cataphractus
+		C_intermedius
+		C_johnsoni
+		C_mindorensis
+		C_moreletti
+		C_niloticus
+		C_novaeguinae
+		C_p_kimbula
+		C_p_palustris
+		C_porosus
+		C_rhombifer
+		C_siamensis
+		Caiman
+		Gavialis
+		Osteolamus
+		Tomistoma
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alligator[&index=18]:0.074145[&brlen_95%_HPD={0.000123,0.181598}],Caiman[&index=17]:0.036579[&brlen_95%_HPD={7e-06,0.136231}],((Osteolamus[&index=16]:0.150028[&brlen_95%_HPD={0.000513,0.318369}],(((C_siamensis[&index=15]:0.029278[&brlen_95%_HPD={3e-05,0.096695}],(C_porosus[&index=14]:0.039096[&brlen_95%_HPD={7.2e-05,0.107934}],(C_p_palustris[&index=13]:0.017228[&brlen_95%_HPD={2e-06,0.065419}],C_p_kimbula[&index=12]:0.023674[&brlen_95%_HPD={1.9e-05,0.073623}])[&index=19,posterior=0.681475]:0.044328[&brlen_95%_HPD={0.000257,0.114138}])[&index=20,posterior=0.288316]:0.031646[&brlen_95%_HPD={0.000354,0.099085}])[&index=21,posterior=0.559751]:0.059021[&brlen_95%_HPD={3e-06,0.159721}],((C_acutus[&index=11]:0.011533[&brlen_95%_HPD={1.7e-05,0.045409}],C_intermedius[&index=10]:0.022511[&brlen_95%_HPD={0.000158,0.063701}])[&index=22,posterior=0.888494]:0.064444[&brlen_95%_HPD={0.000229,0.152714}],(C_moreletti[&index=9]:0.017312[&brlen_95%_HPD={9e-06,0.072543}],C_rhombifer[&index=8]:0.056871[&brlen_95%_HPD={0.000303,0.145482}])[&index=23,posterior=0.462905]:0.040161[&brlen_95%_HPD={4e-06,0.131162}])[&index=24,posterior=0.434474]:0.057026[&brlen_95%_HPD={0.000568,0.157641}])[&index=25,posterior=0.460240]:0.066079[&brlen_95%_HPD={0.00034,0.170911}],((C_niloticus[&index=7]:0.032212[&brlen_95%_HPD={0.000122,0.09974}],(C_mindorensis[&index=6]:0.015731[&brlen_95%_HPD={2e-06,0.05019}],C_novaeguinae[&index=5]:0.009549[&brlen_95%_HPD={5e-06,0.041109}])[&index=26,posterior=0.955131]:0.076925[&brlen_95%_HPD={0.000239,0.177921}])[&index=27,posterior=0.407375]:0.037896[&brlen_95%_HPD={0.000165,0.119822}],(C_johnsoni[&index=4]:0.031375[&brlen_95%_HPD={5e-05,0.095061}],C_cataphractus[&index=3]:0.046799[&brlen_95%_HPD={4.1e-05,0.123829}])[&index=28,posterior=0.281653]:0.031623[&brlen_95%_HPD={0.000164,0.102555}])[&index=29,posterior=0.263438]:0.053185[&brlen_95%_HPD={0.000876,0.154715}])[&index=30,posterior=0.312750]:0.115413[&brlen_95%_HPD={0.001511,0.288189}])[&index=31,posterior=0.837850]:0.379252[&brlen_95%_HPD={0.050394,0.772609}],(Gavialis[&index=2]:0.102884[&brlen_95%_HPD={1e-06,0.235477}],Tomistoma[&index=1]:0.026663[&brlen_95%_HPD={1.6e-05,0.118248}])[&index=32,posterior=0.804531]:0.269303[&brlen_95%_HPD={0.001981,0.661388}])[&index=33,posterior=1.000000]:0.706442[&brlen_95%_HPD={0.289978,1.21206}])[&index=34,posterior=1.000000]:0.000000;
+End;

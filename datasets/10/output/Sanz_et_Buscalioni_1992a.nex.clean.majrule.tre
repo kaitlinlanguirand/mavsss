@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Ambiortus
+		Archaeopteryx
+		Carinatae
+		Concornis
+		Enantiornithes
+		Hesperornithiformes
+		Iberomesornis
+		Non_avian_theropods
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ambiortus[&index=8]:0.082812[&brlen_95%_HPD={6.1e-05,0.308603}],(Non_avian_theropods[&index=7]:0.055075[&brlen_95%_HPD={7.3e-05,0.211746}],Archaeopteryx[&index=6]:0.032922[&brlen_95%_HPD={6e-05,0.150161}])[&index=9,posterior=0.918259]:0.219953[&brlen_95%_HPD={0.001421,0.543897}],((Iberomesornis[&index=5]:0.069617[&brlen_95%_HPD={0.000444,0.256626}],Concornis[&index=4]:0.075201[&brlen_95%_HPD={0.000143,0.269146}])[&index=10,posterior=0.235451]:0.078608[&brlen_95%_HPD={0.000291,0.290987}],(Enantiornithes[&index=3]:0.030523[&brlen_95%_HPD={2e-06,0.149464}],(Carinatae[&index=2]:0.041575[&brlen_95%_HPD={3.8e-05,0.181075}],Hesperornithiformes[&index=1]:0.144053[&brlen_95%_HPD={8.6e-05,0.381836}])[&index=11,posterior=0.237672]:0.072733[&brlen_95%_HPD={0.001125,0.258407}])[&index=12,posterior=0.135051]:0.064985[&brlen_95%_HPD={0.000327,0.237248}])[&index=13,posterior=0.343847]:0.148423[&brlen_95%_HPD={0.000202,0.448848}])[&index=14,posterior=1.000000]:0.000000;
+End;

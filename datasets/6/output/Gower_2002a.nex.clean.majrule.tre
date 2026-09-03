@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Aetosaurians
+		Batrachotomus_kupferzellensis
+		Crocodylus_sp
+		Dibothrosuchus_elaphos
+		Euparkeria_capensis
+		Garjainia_prima
+		Phytosaurs
+		Postosuchus_kirkpatricki
+		Proterosuchus_fergusi
+		Saurosuchus_galilei
+		Sphenosuchus_acutus
+		Tikisuchus_romeri
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aetosaurians[&index=12]:0.037066[&brlen_95%_HPD={2.1e-05,0.182757}],(Crocodylus_sp[&index=11]:0.049453[&brlen_95%_HPD={0.000306,0.133468}],(Sphenosuchus_acutus[&index=10]:0.015268[&brlen_95%_HPD={3.7e-05,0.072521}],Dibothrosuchus_elaphos[&index=9]:0.036252[&brlen_95%_HPD={5.2e-05,0.12043}])[&index=13,posterior=0.432252]:0.027562[&brlen_95%_HPD={4e-05,0.106889}])[&index=14,posterior=0.996890]:0.225289[&brlen_95%_HPD={0.04718,0.487502}],((Postosuchus_kirkpatricki[&index=8]:0.033678[&brlen_95%_HPD={1.3e-05,0.153001}],Tikisuchus_romeri[&index=7]:0.036190[&brlen_95%_HPD={2e-06,0.15518}])[&index=15,posterior=0.484229]:0.062947[&brlen_95%_HPD={0.000244,0.204285}],(Batrachotomus_kupferzellensis[&index=6]:0.063703[&brlen_95%_HPD={0.00018,0.205665}],(Saurosuchus_galilei[&index=5]:0.042871[&brlen_95%_HPD={1.8e-05,0.172657}],(Phytosaurs[&index=4]:0.035147[&brlen_95%_HPD={8e-06,0.131503}],(Euparkeria_capensis[&index=3]:0.020314[&brlen_95%_HPD={3.1e-05,0.085945}],(Proterosuchus_fergusi[&index=2]:0.018503[&brlen_95%_HPD={5e-06,0.089696}],Garjainia_prima[&index=1]:0.036017[&brlen_95%_HPD={0.000281,0.112256}])[&index=16,posterior=0.985340]:0.109274[&brlen_95%_HPD={0.013346,0.259628}])[&index=17,posterior=0.714349]:0.049961[&brlen_95%_HPD={0.000637,0.146121}])[&index=18,posterior=0.978232]:0.151263[&brlen_95%_HPD={0.006325,0.377529}])[&index=19,posterior=0.652155]:0.095057[&brlen_95%_HPD={7e-06,0.280301}])[&index=20,posterior=0.359396]:0.075130[&brlen_95%_HPD={0.000393,0.231653}])[&index=21,posterior=0.989338]:0.222826[&brlen_95%_HPD={0.025328,0.482321}])[&index=22,posterior=1.000000]:0.000000;
+End;

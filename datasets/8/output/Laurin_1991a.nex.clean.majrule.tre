@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Acerosodontosaurus
+		Apsisaurus
+		Araeoscelis
+		Captorhinidae
+		Coelurosauravus
+		Hyperodapedon
+		Paleothyris
+		Petrolacosaurus
+		Planocephalosaurus
+		Prolacerta
+		Squamata
+		Trilophosaurus
+		Youngina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acerosodontosaurus[&index=13]:0.009191[&brlen_95%_HPD={1.2e-05,0.043559}],Youngina[&index=12]:0.008417[&brlen_95%_HPD={1.9e-05,0.037399}],(((Prolacerta[&index=11]:0.034675[&brlen_95%_HPD={3e-06,0.094638}],(Trilophosaurus[&index=10]:0.011079[&brlen_95%_HPD={2.3e-05,0.040594}],Hyperodapedon[&index=9]:0.040263[&brlen_95%_HPD={0.003651,0.091549}])[&index=14,posterior=0.863616]:0.046737[&brlen_95%_HPD={0.002354,0.11039}])[&index=15,posterior=0.864060]:0.122641[&brlen_95%_HPD={0.005438,0.251052}],(Squamata[&index=8]:0.008400[&brlen_95%_HPD={3e-06,0.03736}],Planocephalosaurus[&index=7]:0.039106[&brlen_95%_HPD={6e-06,0.094395}])[&index=16,posterior=0.631719]:0.092791[&brlen_95%_HPD={0.000288,0.221153}])[&index=17,posterior=0.998223]:0.307394[&brlen_95%_HPD={0.112832,0.569518}],(Apsisaurus[&index=6]:0.060418[&brlen_95%_HPD={3e-06,0.20864}],(Coelurosauravus[&index=5]:0.051778[&brlen_95%_HPD={1e-05,0.18645}],((Captorhinidae[&index=4]:0.066322[&brlen_95%_HPD={0.000448,0.168337}],Paleothyris[&index=3]:0.035735[&brlen_95%_HPD={8e-06,0.127262}])[&index=18,posterior=0.984451]:0.203844[&brlen_95%_HPD={0.024371,0.459165}],(Araeoscelis[&index=2]:0.021174[&brlen_95%_HPD={2.6e-05,0.06688}],Petrolacosaurus[&index=1]:0.017620[&brlen_95%_HPD={0,0.060829}])[&index=19,posterior=0.782319]:0.118604[&brlen_95%_HPD={7.6e-05,0.312565}])[&index=20,posterior=0.960906]:0.205791[&brlen_95%_HPD={0.034944,0.462836}])[&index=21,posterior=0.607730]:0.085870[&brlen_95%_HPD={0.000101,0.213329}])[&index=22,posterior=0.561528]:0.065135[&brlen_95%_HPD={0.000136,0.175513}])[&index=23,posterior=0.783207]:0.050701[&brlen_95%_HPD={2.7e-05,0.155873}])[&index=24,posterior=1.000000]:0.000000;
+End;

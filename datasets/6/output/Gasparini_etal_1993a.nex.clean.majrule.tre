@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Araripesuchus
+		Baurusuchuspachecoi
+		Bretesuchus_bonapartei
+		Notosuchus
+		Protosuchidae
+		Sebecus_huilensis
+		Sebecus_icaeorhinus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Araripesuchus[&index=7]:0.038112[&brlen_95%_HPD={3e-06,0.139211}],(Baurusuchuspachecoi[&index=6]:0.054012[&brlen_95%_HPD={4.8e-05,0.209951}],(Bretesuchus_bonapartei[&index=5]:0.206709[&brlen_95%_HPD={0.0108,0.478791}],(Sebecus_icaeorhinus[&index=4]:0.044881[&brlen_95%_HPD={4.1e-05,0.160494}],Sebecus_huilensis[&index=3]:0.042416[&brlen_95%_HPD={2.1e-05,0.170508}])[&index=8,posterior=0.770324]:0.135640[&brlen_95%_HPD={0.000334,0.373908}])[&index=9,posterior=0.945802]:0.241926[&brlen_95%_HPD={0.02198,0.538711}])[&index=10,posterior=0.929365]:0.154363[&brlen_95%_HPD={0.012975,0.38855}],(Protosuchidae[&index=2]:0.045070[&brlen_95%_HPD={1.9e-05,0.137825}],Notosuchus[&index=1]:0.024507[&brlen_95%_HPD={5.2e-05,0.098137}])[&index=11,posterior=0.794314]:0.065703[&brlen_95%_HPD={3.1e-05,0.186634}])[&index=12,posterior=1.000000]:0.000000;
+End;

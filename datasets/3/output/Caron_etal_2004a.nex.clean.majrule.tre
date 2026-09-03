@@ -1,0 +1,22 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=11;
+	Taxlabels
+		Agnostus
+		Buenaspis
+		Liwia
+		Misszhouia
+		N_bertiensis
+		N_compacta
+		N_spinifer
+		N_spinosa
+		Olenoides
+		Soomaspis
+		Tarricoia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Agnostus[&index=11]:0.077168[&brlen_95%_HPD={7.3e-05,0.28056}],Olenoides[&index=10]:0.092145[&brlen_95%_HPD={1e-05,0.299141}],((Liwia[&index=9]:0.070009[&brlen_95%_HPD={1.2e-05,0.264116}],(Buenaspis[&index=8]:0.041932[&brlen_95%_HPD={3.8e-05,0.171736}],(Soomaspis[&index=7]:0.027673[&brlen_95%_HPD={5e-06,0.136536}],Tarricoia[&index=6]:0.028564[&brlen_95%_HPD={3e-06,0.145815}])[&index=12,posterior=0.490449]:0.053713[&brlen_95%_HPD={1e-06,0.188938}])[&index=13,posterior=0.529987]:0.097434[&brlen_95%_HPD={0.000221,0.355545}])[&index=14,posterior=0.629498]:0.169786[&brlen_95%_HPD={0.000693,0.470328}],((N_bertiensis[&index=5]:0.069583[&brlen_95%_HPD={0.000102,0.250095}],N_compacta[&index=4]:0.045720[&brlen_95%_HPD={2e-05,0.192173}])[&index=15,posterior=0.442026]:0.082454[&brlen_95%_HPD={0.00016,0.272634}],(Misszhouia[&index=3]:0.048632[&brlen_95%_HPD={1.4e-05,0.204592}],(N_spinifer[&index=2]:0.032642[&brlen_95%_HPD={5e-06,0.169047}],N_spinosa[&index=1]:0.031492[&brlen_95%_HPD={1.8e-05,0.154494}])[&index=16,posterior=0.410928]:0.059727[&brlen_95%_HPD={3.7e-05,0.233991}])[&index=17,posterior=0.184363]:0.070817[&brlen_95%_HPD={1e-05,0.260743}])[&index=18,posterior=0.518880]:0.170747[&brlen_95%_HPD={0.0021,0.463792}])[&index=19,posterior=0.973345]:0.300401[&brlen_95%_HPD={0.044643,0.662683}])[&index=20,posterior=1.000000]:0.000000;
+End;

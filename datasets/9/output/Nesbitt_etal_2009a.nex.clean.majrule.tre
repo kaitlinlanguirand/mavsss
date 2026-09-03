@@ -1,0 +1,52 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=41;
+	Taxlabels
+		Aetosaurus_ferratus
+		Allosaurus_fragilis
+		Arizonasaurus_babbitti
+		Batrachotomus_kuperferzellensis
+		Ceratosaurus_nasicornis
+		Chindesaurus_bryansmalli
+		Coelophysis_bauri
+		Cryolophosaurus_ellioti
+		Dilophosaurus_wetherelli
+		Dimorphodon_macronyx
+		Dromicosuchus_grallator
+		Dromomeron_gregorii
+		Dromomeron_romeri
+		Effigia_okeeffeae
+		Efraasia_minor
+		Eocursor_parvus
+		Eoraptor_lunensis
+		Erythrosuchus_africanus
+		Eucoelophysis_baldwini
+		Eudimorphodon_ranzii
+		Euparkeria_capensis
+		Herrerasaurus_ischigualastensis
+		Heterodontosaurus_tucki
+		Lagerpeton_chanarensis
+		Lesothosaurus_dianosticus
+		Liliensternus_liliensterni
+		Marasuchus_lilloensis
+		Piatnitzkysaurus_floresi
+		Pisanosaurus_mertii
+		Plateosaurus_engelhardti
+		Postosuchus_kirkpatricki
+		Revueltosaurus_callenderi
+		Sacisaurus_agudoensis
+		Saturnalia_tupiniquim
+		Scutellosaurus_lawleri
+		Silesaurus_opolensis
+		Staurikosaurus_pricei
+		Syntarsus_kayentakatae
+		Tawa_hallae
+		Velociraptor_mongoliensis
+		Zupaysaurus_rougieri
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Revueltosaurus_callenderi[&index=41]:0.028948[&brlen_95%_HPD={1.1e-05,0.085439}],Aetosaurus_ferratus[&index=40]:0.075286[&brlen_95%_HPD={0.002853,0.146659}],(((Arizonasaurus_babbitti[&index=39]:0.042652[&brlen_95%_HPD={4e-05,0.130742}],Effigia_okeeffeae[&index=38]:0.461700[&brlen_95%_HPD={0.29778,0.690086}])[&index=42,posterior=0.940471]:0.120079[&brlen_95%_HPD={0.014511,0.25287}],(Batrachotomus_kuperferzellensis[&index=37]:0.011657[&brlen_95%_HPD={2e-06,0.046162}],(Postosuchus_kirkpatricki[&index=36]:0.014894[&brlen_95%_HPD={7.9e-05,0.045809}],Dromicosuchus_grallator[&index=35]:0.114597[&brlen_95%_HPD={0.064716,0.180517}])[&index=43,posterior=0.999556]:0.130880[&brlen_95%_HPD={0.0703,0.206991}])[&index=44,posterior=0.925367]:0.103797[&brlen_95%_HPD={0.004938,0.193973}])[&index=45,posterior=1.000000]:0.254890[&brlen_95%_HPD={0.11837,0.426812}],(((Dimorphodon_macronyx[&index=34]:0.025226[&brlen_95%_HPD={1.4e-05,0.076321}],Eudimorphodon_ranzii[&index=33]:0.044169[&brlen_95%_HPD={0.0002,0.096333}])[&index=46,posterior=0.981342]:0.204471[&brlen_95%_HPD={0.034349,0.420276}],((Marasuchus_lilloensis[&index=32]:0.046410[&brlen_95%_HPD={0.000115,0.141157}],((((Saturnalia_tupiniquim[&index=31]:0.027693[&brlen_95%_HPD={0.00266,0.065684}],(Efraasia_minor[&index=30]:0.008968[&brlen_95%_HPD={3.1e-05,0.02641}],Plateosaurus_engelhardti[&index=29]:0.035412[&brlen_95%_HPD={0.012174,0.063446}])[&index=47,posterior=0.886717]:0.025642[&brlen_95%_HPD={0.000309,0.061144}])[&index=48,posterior=0.949356]:0.090339[&brlen_95%_HPD={0.004118,0.188685}],(Chindesaurus_bryansmalli[&index=28]:0.131971[&brlen_95%_HPD={0.015861,0.27516}],(Herrerasaurus_ischigualastensis[&index=27]:0.034791[&brlen_95%_HPD={9.7e-05,0.074669}],(Staurikosaurus_pricei[&index=26]:0.016576[&brlen_95%_HPD={1e-06,0.059871}],(Eoraptor_lunensis[&index=25]:0.040033[&brlen_95%_HPD={0.004158,0.08725}],(Tawa_hallae[&index=24]:0.023345[&brlen_95%_HPD={4.1e-05,0.05559}],((Coelophysis_bauri[&index=23]:0.014198[&brlen_95%_HPD={4.4e-05,0.031251}],Syntarsus_kayentakatae[&index=22]:0.016827[&brlen_95%_HPD={0.003892,0.034966}])[&index=49,posterior=0.880942]:0.032244[&brlen_95%_HPD={0.003369,0.066727}],(Liliensternus_liliensterni[&index=21]:0.023206[&brlen_95%_HPD={0.001067,0.054773}],(Zupaysaurus_rougieri[&index=20]:0.046406[&brlen_95%_HPD={0.004629,0.113271}],(Cryolophosaurus_ellioti[&index=19]:0.026004[&brlen_95%_HPD={0.000484,0.064334}],(Dilophosaurus_wetherelli[&index=18]:0.010640[&brlen_95%_HPD={8e-06,0.028165}],(Ceratosaurus_nasicornis[&index=17]:0.099994[&brlen_95%_HPD={0.052165,0.151975}],(Piatnitzkysaurus_floresi[&index=16]:0.017691[&brlen_95%_HPD={3e-05,0.048057}],(Velociraptor_mongoliensis[&index=15]:0.096662[&brlen_95%_HPD={0.052107,0.144356}],Allosaurus_fragilis[&index=14]:0.032905[&brlen_95%_HPD={0.008507,0.061369}])[&index=50,posterior=0.640604]:0.019511[&brlen_95%_HPD={0.000401,0.046574}])[&index=51,posterior=0.833852]:0.027731[&brlen_95%_HPD={0.005864,0.05895}])[&index=52,posterior=1.000000]:0.064552[&brlen_95%_HPD={0.028159,0.104873}])[&index=53,posterior=0.912039]:0.018184[&brlen_95%_HPD={0.001194,0.039016}])[&index=54,posterior=0.704131]:0.020267[&brlen_95%_HPD={0.000429,0.046469}])[&index=55,posterior=0.939138]:0.031017[&brlen_95%_HPD={0.003938,0.061209}])[&index=56,posterior=0.748112]:0.027108[&brlen_95%_HPD={0.00157,0.063347}])[&index=57,posterior=1.000000]:0.139400[&brlen_95%_HPD={0.08001,0.213302}])[&index=58,posterior=1.000000]:0.097979[&brlen_95%_HPD={0.04405,0.161624}])[&index=59,posterior=0.937805]:0.036644[&brlen_95%_HPD={0.003438,0.079363}])[&index=60,posterior=0.737894]:0.034074[&brlen_95%_HPD={0.000149,0.07697}])[&index=61,posterior=0.585073]:0.068782[&brlen_95%_HPD={1.3e-05,0.144862}])[&index=62,posterior=0.360729]:0.070617[&brlen_95%_HPD={0.000474,0.165487}])[&index=63,posterior=0.985340]:0.196257[&brlen_95%_HPD={0.042188,0.364493}],(Pisanosaurus_mertii[&index=13]:0.024984[&brlen_95%_HPD={3.8e-05,0.079587}],(Heterodontosaurus_tucki[&index=12]:0.063102[&brlen_95%_HPD={0.012256,0.118685}],(Lesothosaurus_dianosticus[&index=11]:0.010561[&brlen_95%_HPD={3.6e-05,0.030751}],(Scutellosaurus_lawleri[&index=10]:0.087800[&brlen_95%_HPD={0.037686,0.159221}],Eocursor_parvus[&index=9]:0.031842[&brlen_95%_HPD={0.000694,0.073611}])[&index=64,posterior=0.317192]:0.011110[&brlen_95%_HPD={1.3e-05,0.040108}])[&index=65,posterior=0.733896]:0.039263[&brlen_95%_HPD={3.7e-05,0.087507}])[&index=66,posterior=0.440693]:0.036658[&brlen_95%_HPD={8.9e-05,0.094935}])[&index=67,posterior=0.863616]:0.106821[&brlen_95%_HPD={0.012034,0.230775}])[&index=68,posterior=0.997335]:0.217055[&brlen_95%_HPD={0.064586,0.42546}],(Eucoelophysis_baldwini[&index=8]:0.069642[&brlen_95%_HPD={2.8e-05,0.202655}],(Silesaurus_opolensis[&index=7]:0.017285[&brlen_95%_HPD={1.4e-05,0.056568}],Sacisaurus_agudoensis[&index=6]:0.028184[&brlen_95%_HPD={3.3e-05,0.085244}])[&index=69,posterior=0.488672]:0.041045[&brlen_95%_HPD={0.000341,0.111607}])[&index=70,posterior=0.840071]:0.120319[&brlen_95%_HPD={0.000264,0.258356}])[&index=71,posterior=1.000000]:0.308778[&brlen_95%_HPD={0.127544,0.538522}])[&index=72,posterior=0.999556]:0.190918[&brlen_95%_HPD={0.05878,0.356908}],(Lagerpeton_chanarensis[&index=5]:0.017235[&brlen_95%_HPD={2.5e-05,0.066604}],(Dromomeron_gregorii[&index=4]:0.047183[&brlen_95%_HPD={0.001433,0.131643}],Dromomeron_romeri[&index=3]:0.017030[&brlen_95%_HPD={6e-06,0.067768}])[&index=73,posterior=0.935140]:0.073470[&brlen_95%_HPD={0.007166,0.17608}])[&index=74,posterior=0.784984]:0.081670[&brlen_95%_HPD={0.000217,0.199965}])[&index=75,posterior=0.748112]:0.108697[&brlen_95%_HPD={0.001535,0.270511}])[&index=76,posterior=1.000000]:0.288611[&brlen_95%_HPD={0.071601,0.528193}],(Erythrosuchus_africanus[&index=2]:0.127945[&brlen_95%_HPD={0.0565,0.21052}],Euparkeria_capensis[&index=1]:0.029144[&brlen_95%_HPD={6e-06,0.086297}])[&index=77,posterior=1.000000]:0.245795[&brlen_95%_HPD={0.100345,0.451864}])[&index=78,posterior=0.870280]:0.118447[&brlen_95%_HPD={0.001553,0.257299}])[&index=79,posterior=0.504220]:0.050064[&brlen_95%_HPD={0.000394,0.126235}])[&index=80,posterior=1.000000]:0.000000;
+End;

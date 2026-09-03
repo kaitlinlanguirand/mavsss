@@ -1,0 +1,79 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=68;
+	Taxlabels
+		Adocus_beatus
+		Anosteira_ornata
+		Apalone_spinifera
+		Australochelys_africanus
+		Baena_arenosa
+		Baptemys_wyomingensis
+		Basilemys_variolosa
+		Boremys_pulchra
+		Caretta_caretta
+		Carettochelys_insculpta
+		Caribemys_oxfordiensis
+		Chelodina_oblonga
+		Chelonia_mydas
+		Chelydra_serpentina
+		Chisternon_undatum
+		Chrysemys_picta
+		Dermatemys_mawii
+		Dermochelys_coriacea
+		Dinochelys_whitei
+		Dorsetochelys_delairi
+		Dracochelys_bicuspis
+		Elseya_dentata
+		Emarginachelys_cretacea
+		Erymnochelys_madagascariensis
+		Geoclemys_hamiltonii
+		Glyptops_plicatulus
+		Gopherus_polyphemus
+		Hangaiemys_hoburensis
+		Hoplochelys_crassa
+		Hypothetical_ancestor
+		Judithemys_sukhanovi
+		Kallokibotion_bajazidi
+		Kayentachelys_aprix
+		Kinosternon_flavescens
+		Lissemys_punctata
+		Macroclemys_temminckii
+		Meiolania_platyceps
+		Mesodermochelys_undulatus
+		Mongolemys_elegans
+		Mongolochelys_efremovi
+		Neurankylus_eximius
+		Notoemys_laticentralis
+		Ordosemys_leios
+		Palaeochersis_talampayensis
+		Pelomedusa_subrufa
+		Peltochelys_durlstonensis
+		Phrynops_geoffroanus
+		Platychelys_oberndorferi
+		Platysternon_megacephalum
+		Plesiobaena_antiqua
+		Plesiochelys_solodurensis
+		Pleurosternon_bullockii
+		Podocnemis_expansa
+		Portlandemys_mcdowelli
+		Proganochelys_quenstedti
+		Proterochersis_robusta
+		Protochelydra_zangerli
+		Sandownia_harrisi
+		Santanachelys_gaffneyi
+		Sinemys_lens
+		Solnhofia_parsonsi
+		Staurotypus_triporcatus
+		Sternotherus_odoratus
+		Thalassemys_moseri
+		Toxochelys_latiremis
+		Trinitichelys_hiatti
+		Xinjiangchelys_latimarginalis
+		Zangerlia_neimongolensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Adocus_beatus[&index=68]:0.029945[&brlen_95%_HPD={9e-06,0.089045}],(Zangerlia_neimongolensis[&index=67]:0.038454[&brlen_95%_HPD={9e-05,0.108029}],Basilemys_variolosa[&index=66]:0.012437[&brlen_95%_HPD={2.2e-05,0.052475}])[&index=69,posterior=0.735673]:0.041785[&brlen_95%_HPD={0.000427,0.114801}],((((Platysternon_megacephalum[&index=65]:0.049225[&brlen_95%_HPD={0.000143,0.143511}],(((Toxochelys_latiremis[&index=64]:0.021831[&brlen_95%_HPD={6e-06,0.081571}],(Mesodermochelys_undulatus[&index=63]:0.059581[&brlen_95%_HPD={0.000367,0.165785}],(Dermochelys_coriacea[&index=62]:0.111219[&brlen_95%_HPD={0.014522,0.225253}],(Caretta_caretta[&index=61]:0.022365[&brlen_95%_HPD={0.001511,0.060529}],Chelonia_mydas[&index=60]:0.011672[&brlen_95%_HPD={2e-05,0.044091}])[&index=70,posterior=0.888494]:0.039321[&brlen_95%_HPD={0.000209,0.107675}])[&index=71,posterior=0.497112]:0.061779[&brlen_95%_HPD={0.000267,0.159345}])[&index=72,posterior=0.849845]:0.086141[&brlen_95%_HPD={0.001557,0.18745}])[&index=73,posterior=0.916926]:0.098526[&brlen_95%_HPD={0.010234,0.205047}],((Judithemys_sukhanovi[&index=59]:0.010990[&brlen_95%_HPD={0,0.048943}],Hangaiemys_hoburensis[&index=58]:0.029145[&brlen_95%_HPD={0.0001,0.082289}])[&index=74,posterior=0.313194]:0.017426[&brlen_95%_HPD={1.5e-05,0.069885}],((Xinjiangchelys_latimarginalis[&index=57]:0.041631[&brlen_95%_HPD={1e-05,0.155912}],(Portlandemys_mcdowelli[&index=56]:0.030424[&brlen_95%_HPD={2.7e-05,0.122885}],((Plesiochelys_solodurensis[&index=55]:0.026402[&brlen_95%_HPD={1.5e-05,0.10237}],(Thalassemys_moseri[&index=54]:0.065954[&brlen_95%_HPD={0.000183,0.211734}],((Dorsetochelys_delairi[&index=53]:0.034289[&brlen_95%_HPD={0,0.136562}],(Kallokibotion_bajazidi[&index=52]:0.074363[&brlen_95%_HPD={0.00488,0.19028}],((Kayentachelys_aprix[&index=51]:0.017647[&brlen_95%_HPD={3e-06,0.081717}],(Proterochersis_robusta[&index=50]:0.098897[&brlen_95%_HPD={0.000219,0.298073}],(Australochelys_africanus[&index=49]:0.026093[&brlen_95%_HPD={3.5e-05,0.126234}],(Palaeochersis_talampayensis[&index=48]:0.018239[&brlen_95%_HPD={2.3e-05,0.074632}],(Hypothetical_ancestor[&index=47]:0.008204[&brlen_95%_HPD={2e-06,0.034928}],Proganochelys_quenstedti[&index=46]:0.008212[&brlen_95%_HPD={2e-06,0.038209}])[&index=75,posterior=0.997779]:0.168328[&brlen_95%_HPD={0.040481,0.339926}])[&index=76,posterior=0.362061]:0.036555[&brlen_95%_HPD={7e-05,0.153116}])[&index=77,posterior=0.803199]:0.222615[&brlen_95%_HPD={0.000368,0.490088}])[&index=78,posterior=0.999112]:0.353589[&brlen_95%_HPD={0.086032,0.700017}])[&index=79,posterior=0.999112]:0.140268[&brlen_95%_HPD={0.031784,0.291513}],(Meiolania_platyceps[&index=45]:0.129249[&brlen_95%_HPD={0.030345,0.271938}],Mongolochelys_efremovi[&index=44]:0.051580[&brlen_95%_HPD={1.8e-05,0.15154}])[&index=80,posterior=0.982674]:0.167857[&brlen_95%_HPD={0.047345,0.340732}])[&index=81,posterior=0.830742]:0.093488[&brlen_95%_HPD={0.00012,0.246495}])[&index=82,posterior=0.935140]:0.118159[&brlen_95%_HPD={0.002692,0.263384}])[&index=83,posterior=0.430920]:0.062847[&brlen_95%_HPD={0.000144,0.194972}],((Dinochelys_whitei[&index=43]:0.013291[&brlen_95%_HPD={1e-06,0.065683}],(Glyptops_plicatulus[&index=42]:0.017256[&brlen_95%_HPD={1.2e-05,0.062327}],Pleurosternon_bullockii[&index=41]:0.033624[&brlen_95%_HPD={3.6e-05,0.093916}])[&index=84,posterior=0.298978]:0.021966[&brlen_95%_HPD={0.000117,0.079104}])[&index=85,posterior=0.424256]:0.035071[&brlen_95%_HPD={2.6e-05,0.103184}],(((Notoemys_laticentralis[&index=40]:0.027534[&brlen_95%_HPD={1.9e-05,0.124211}],(Platychelys_oberndorferi[&index=39]:0.093804[&brlen_95%_HPD={0.001412,0.2311}],Caribemys_oxfordiensis[&index=38]:0.031343[&brlen_95%_HPD={1e-05,0.139483}])[&index=86,posterior=0.421146]:0.047033[&brlen_95%_HPD={8.8e-05,0.161107}])[&index=87,posterior=0.504665]:0.102241[&brlen_95%_HPD={9.3e-05,0.249751}],((Elseya_dentata[&index=37]:0.011766[&brlen_95%_HPD={0,0.053106}],(Chelodina_oblonga[&index=36]:0.035182[&brlen_95%_HPD={0.003988,0.081978}],Phrynops_geoffroanus[&index=35]:0.017093[&brlen_95%_HPD={7e-06,0.056926}])[&index=88,posterior=0.930697]:0.043379[&brlen_95%_HPD={0.003521,0.101582}])[&index=89,posterior=0.876055]:0.109954[&brlen_95%_HPD={0.001377,0.252943}],(Podocnemis_expansa[&index=34]:0.017636[&brlen_95%_HPD={1e-05,0.055282}],(Pelomedusa_subrufa[&index=33]:0.018799[&brlen_95%_HPD={2.4e-05,0.058342}],Erymnochelys_madagascariensis[&index=32]:0.006573[&brlen_95%_HPD={2e-06,0.02906}])[&index=90,posterior=0.455353]:0.018152[&brlen_95%_HPD={0.000466,0.056555}])[&index=91,posterior=0.824078]:0.127573[&brlen_95%_HPD={0.002982,0.286349}])[&index=92,posterior=0.434029]:0.102014[&brlen_95%_HPD={0.000109,0.272151}])[&index=93,posterior=0.988450]:0.415338[&brlen_95%_HPD={0.193658,0.715309}],(Neurankylus_eximius[&index=31]:0.017627[&brlen_95%_HPD={9e-06,0.076584}],(Trinitichelys_hiatti[&index=30]:0.013953[&brlen_95%_HPD={3e-06,0.062148}],(Plesiobaena_antiqua[&index=29]:0.017097[&brlen_95%_HPD={7e-06,0.06089}],(Boremys_pulchra[&index=28]:0.013303[&brlen_95%_HPD={2e-06,0.05506}],(Baena_arenosa[&index=27]:0.043248[&brlen_95%_HPD={0.003414,0.104012}],Chisternon_undatum[&index=26]:0.011595[&brlen_95%_HPD={5e-06,0.049504}])[&index=94,posterior=0.807641]:0.030377[&brlen_95%_HPD={0.001382,0.075472}])[&index=95,posterior=0.752110]:0.039424[&brlen_95%_HPD={0.002173,0.089722}])[&index=96,posterior=0.653932]:0.032150[&brlen_95%_HPD={0.000141,0.090558}])[&index=97,posterior=0.645491]:0.037914[&brlen_95%_HPD={0.000423,0.100551}])[&index=98,posterior=0.615726]:0.058332[&brlen_95%_HPD={0.000305,0.138889}])[&index=99,posterior=0.389160]:0.061532[&brlen_95%_HPD={0.001443,0.145041}])[&index=100,posterior=0.236784]:0.043224[&brlen_95%_HPD={0.000904,0.122582}])[&index=101,posterior=0.587739]:0.093748[&brlen_95%_HPD={0.013503,0.201084}])[&index=102,posterior=0.406486]:0.064108[&brlen_95%_HPD={0.002108,0.152053}])[&index=103,posterior=0.358952]:0.057777[&brlen_95%_HPD={0.000321,0.14413}],(Solnhofia_parsonsi[&index=25]:0.018767[&brlen_95%_HPD={2.1e-05,0.072195}],Santanachelys_gaffneyi[&index=24]:0.078749[&brlen_95%_HPD={0.006839,0.188473}])[&index=104,posterior=0.232785]:0.027589[&brlen_95%_HPD={6.9e-05,0.092572}])[&index=105,posterior=0.189693]:0.050651[&brlen_95%_HPD={0.000328,0.170993}])[&index=106,posterior=0.537095]:0.102071[&brlen_95%_HPD={0.018524,0.220458}])[&index=107,posterior=0.396268]:0.086451[&brlen_95%_HPD={0.001469,0.193985}],(Dracochelys_bicuspis[&index=23]:0.025181[&brlen_95%_HPD={2.6e-05,0.111034}],(Sinemys_lens[&index=22]:0.114909[&brlen_95%_HPD={0.024126,0.250553}],Ordosemys_leios[&index=21]:0.016454[&brlen_95%_HPD={1.8e-05,0.073194}])[&index=108,posterior=0.612617]:0.039360[&brlen_95%_HPD={0.000222,0.114968}])[&index=109,posterior=0.336739]:0.035803[&brlen_95%_HPD={0.000691,0.115852}])[&index=110,posterior=0.262994]:0.051248[&brlen_95%_HPD={0.000267,0.139428}])[&index=111,posterior=0.257663]:0.045963[&brlen_95%_HPD={4.6e-05,0.134561}])[&index=112,posterior=0.593958]:0.118836[&brlen_95%_HPD={0.026333,0.247201}],(Protochelydra_zangerli[&index=20]:0.023349[&brlen_95%_HPD={2.4e-05,0.082403}],(Macroclemys_temminckii[&index=19]:0.015568[&brlen_95%_HPD={0.00023,0.047589}],Chelydra_serpentina[&index=18]:0.006811[&brlen_95%_HPD={1e-06,0.031751}])[&index=113,posterior=0.707241]:0.022311[&brlen_95%_HPD={0.000135,0.065739}])[&index=114,posterior=0.566415]:0.035375[&brlen_95%_HPD={1.2e-05,0.111964}])[&index=115,posterior=0.316304]:0.056475[&brlen_95%_HPD={0.000163,0.138862}])[&index=116,posterior=0.469125]:0.092346[&brlen_95%_HPD={0.016591,0.204696}],(Mongolemys_elegans[&index=17]:0.035245[&brlen_95%_HPD={2.4e-05,0.107084}],(Geoclemys_hamiltonii[&index=16]:0.035513[&brlen_95%_HPD={1.4e-05,0.084836}],(Chrysemys_picta[&index=15]:0.018882[&brlen_95%_HPD={4e-06,0.059791}],Gopherus_polyphemus[&index=14]:0.031239[&brlen_95%_HPD={0.000342,0.080169}])[&index=117,posterior=0.295869]:0.011784[&brlen_95%_HPD={0,0.04838}])[&index=118,posterior=0.544647]:0.027602[&brlen_95%_HPD={2e-06,0.092224}])[&index=119,posterior=0.419369]:0.080155[&brlen_95%_HPD={0.00284,0.177863}])[&index=120,posterior=0.454465]:0.061986[&brlen_95%_HPD={0.00062,0.157987}],(Emarginachelys_cretacea[&index=13]:0.026371[&brlen_95%_HPD={1.6e-05,0.093543}],((Hoplochelys_crassa[&index=12]:0.043373[&brlen_95%_HPD={6e-05,0.15892}],(Staurotypus_triporcatus[&index=11]:0.018591[&brlen_95%_HPD={4e-06,0.069206}],(Kinosternon_flavescens[&index=10]:0.005769[&brlen_95%_HPD={7e-06,0.025068}],Sternotherus_odoratus[&index=9]:0.005906[&brlen_95%_HPD={1.1e-05,0.025935}])[&index=121,posterior=0.995558]:0.057331[&brlen_95%_HPD={0.007679,0.127519}])[&index=122,posterior=0.999556]:0.113310[&brlen_95%_HPD={0.036895,0.231487}])[&index=123,posterior=0.398490]:0.036383[&brlen_95%_HPD={1.8e-05,0.118004}],(Baptemys_wyomingensis[&index=8]:0.040526[&brlen_95%_HPD={2.7e-05,0.113581}],Dermatemys_mawii[&index=7]:0.057456[&brlen_95%_HPD={0.00071,0.136625}])[&index=124,posterior=0.345180]:0.034724[&brlen_95%_HPD={0.000146,0.101794}])[&index=125,posterior=0.308307]:0.046486[&brlen_95%_HPD={0.000642,0.119749}])[&index=126,posterior=0.415815]:0.052985[&brlen_95%_HPD={1.2e-05,0.138145}])[&index=127,posterior=0.678365]:0.126934[&brlen_95%_HPD={0.020432,0.266762}],(Sandownia_harrisi[&index=6]:0.168096[&brlen_95%_HPD={0.000794,0.368505}],(Peltochelys_durlstonensis[&index=5]:0.074943[&brlen_95%_HPD={8e-06,0.282373}],((Apalone_spinifera[&index=4]:0.007000[&brlen_95%_HPD={6e-06,0.031418}],Lissemys_punctata[&index=3]:0.007073[&brlen_95%_HPD={1e-06,0.031503}])[&index=128,posterior=1.000000]:0.116475[&brlen_95%_HPD={0.037392,0.219379}],(Carettochelys_insculpta[&index=2]:0.014618[&brlen_95%_HPD={1e-06,0.052488}],Anosteira_ornata[&index=1]:0.012095[&brlen_95%_HPD={6e-06,0.055004}])[&index=129,posterior=0.377610]:0.015919[&brlen_95%_HPD={0.0001,0.064014}])[&index=130,posterior=0.907152]:0.105742[&brlen_95%_HPD={0.001268,0.235602}])[&index=131,posterior=0.584185]:0.103773[&brlen_95%_HPD={1.3e-05,0.248512}])[&index=132,posterior=0.394491]:0.092674[&brlen_95%_HPD={0.001576,0.231569}])[&index=133,posterior=0.470013]:0.039246[&brlen_95%_HPD={0.001179,0.119016}])[&index=134,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,30 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=19;
+	Taxlabels
+		Anatotitan
+		Bactrosaurus
+		Brachylophosaurus
+		Corythosaurus
+		Edmontosaurus
+		Eolambia
+		Gilmoreosaurus
+		Gryposaurus
+		Hypacrosaurus
+		Iguanodon
+		Lambeosaurus
+		Maiasaura
+		OUTGROUP
+		Ouranosaurus
+		Parasaurolophus
+		Probactrosaurus
+		Prosaurolophus
+		Saurolophus
+		Telmatosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Anatotitan[&index=19]:0.011432[&brlen_95%_HPD={3.4e-05,0.049148}],Edmontosaurus[&index=18]:0.010688[&brlen_95%_HPD={1.3e-05,0.049665}],((Gryposaurus[&index=17]:0.014442[&brlen_95%_HPD={1.7e-05,0.059821}],(Maiasaura[&index=16]:0.025018[&brlen_95%_HPD={6.1e-05,0.078657}],Brachylophosaurus[&index=15]:0.012085[&brlen_95%_HPD={9e-06,0.053362}])[&index=20,posterior=0.986228]:0.061682[&brlen_95%_HPD={0.006959,0.1464}])[&index=21,posterior=0.684140]:0.028878[&brlen_95%_HPD={3e-06,0.090767}],(((Eolambia[&index=14]:0.077486[&brlen_95%_HPD={1.7e-05,0.227715}],(Bactrosaurus[&index=13]:0.062276[&brlen_95%_HPD={4.7e-05,0.192719}],(Parasaurolophus[&index=12]:0.016798[&brlen_95%_HPD={2.1e-05,0.064355}],(Lambeosaurus[&index=11]:0.012065[&brlen_95%_HPD={4e-06,0.052773}],(Hypacrosaurus[&index=10]:0.011228[&brlen_95%_HPD={2e-06,0.049942}],Corythosaurus[&index=9]:0.011285[&brlen_95%_HPD={2e-06,0.048208}])[&index=22,posterior=0.836073]:0.026040[&brlen_95%_HPD={0.000475,0.081212}])[&index=23,posterior=0.651266]:0.024825[&brlen_95%_HPD={0.000231,0.078553}])[&index=24,posterior=0.828965]:0.090672[&brlen_95%_HPD={0.00016,0.218642}])[&index=25,posterior=0.581519]:0.088398[&brlen_95%_HPD={0.001435,0.229236}])[&index=26,posterior=0.843181]:0.195233[&brlen_95%_HPD={0.044262,0.460745}],(Gilmoreosaurus[&index=8]:0.030627[&brlen_95%_HPD={1.4e-05,0.145398}],(Telmatosaurus[&index=7]:0.066875[&brlen_95%_HPD={0.000117,0.182459}],(Probactrosaurus[&index=6]:0.016622[&brlen_95%_HPD={8e-06,0.073684}],(OUTGROUP[&index=5]:0.015056[&brlen_95%_HPD={2.1e-05,0.067147}],(Ouranosaurus[&index=4]:0.110634[&brlen_95%_HPD={0.024216,0.238057}],Iguanodon[&index=3]:0.031373[&brlen_95%_HPD={1.6e-05,0.100575}])[&index=27,posterior=0.658374]:0.028993[&brlen_95%_HPD={1.7e-05,0.089406}])[&index=28,posterior=0.932474]:0.057984[&brlen_95%_HPD={0.001256,0.153042}])[&index=29,posterior=0.768547]:0.066325[&brlen_95%_HPD={0.0004,0.197182}])[&index=30,posterior=0.999112]:0.290913[&brlen_95%_HPD={0.06489,0.623189}])[&index=31,posterior=0.684585]:0.125107[&brlen_95%_HPD={1.1e-05,0.373863}])[&index=32,posterior=0.965349]:0.259742[&brlen_95%_HPD={0.050337,0.546109}],(Saurolophus[&index=2]:0.010827[&brlen_95%_HPD={7e-06,0.051281}],Prosaurolophus[&index=1]:0.011527[&brlen_95%_HPD={2e-06,0.046792}])[&index=33,posterior=0.791204]:0.027476[&brlen_95%_HPD={0.000949,0.083042}])[&index=34,posterior=0.293647]:0.019179[&brlen_95%_HPD={3.5e-05,0.074038}])[&index=35,posterior=0.785429]:0.026890[&brlen_95%_HPD={4.8e-05,0.083425}])[&index=36,posterior=1.000000]:0.000000;
+End;

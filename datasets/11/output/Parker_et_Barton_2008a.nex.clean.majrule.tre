@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Chanaresuchus_bonapartei
+		Desmatosuchus_haplocerus
+		Doswellia_kaltenbachi
+		Erythrosuchus_africana
+		Euparkeria_capensis
+		Leptosuchus_adamanensis
+		Megalancosaurus_preonensis
+		Mesosuchus_browni
+		Postosuchus_kirkpatricki
+		Prolacerta_broomi
+		Proterosuchus_fergusi
+		Turfanosuchus_dabanensis
+		Vancleavea_campi
+		Youngina_capensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Chanaresuchus_bonapartei[&index=14]:0.078483[&brlen_95%_HPD={0.000377,0.214572}],(Euparkeria_capensis[&index=13]:0.055092[&brlen_95%_HPD={0.000103,0.170369}],(Erythrosuchus_africana[&index=12]:0.064126[&brlen_95%_HPD={3.8e-05,0.242957}],(Proterosuchus_fergusi[&index=11]:0.150477[&brlen_95%_HPD={0.000225,0.381513}],(Mesosuchus_browni[&index=10]:0.031501[&brlen_95%_HPD={1.1e-05,0.113204}],(Youngina_capensis[&index=9]:0.055956[&brlen_95%_HPD={0.000112,0.163133}],(Megalancosaurus_preonensis[&index=8]:0.108141[&brlen_95%_HPD={0.014888,0.241261}],Prolacerta_broomi[&index=7]:0.022643[&brlen_95%_HPD={2e-06,0.103752}])[&index=15,posterior=0.859618]:0.062884[&brlen_95%_HPD={0.001021,0.175943}])[&index=16,posterior=0.409596]:0.033698[&brlen_95%_HPD={5e-06,0.122219}])[&index=17,posterior=0.937805]:0.209757[&brlen_95%_HPD={0.019093,0.481941}])[&index=18,posterior=0.831630]:0.165624[&brlen_95%_HPD={0.001619,0.435634}])[&index=19,posterior=0.975122]:0.229551[&brlen_95%_HPD={0.041089,0.510125}])[&index=20,posterior=0.333629]:0.066620[&brlen_95%_HPD={0.000281,0.196826}],((Leptosuchus_adamanensis[&index=6]:0.029474[&brlen_95%_HPD={2e-06,0.117451}],(Postosuchus_kirkpatricki[&index=5]:0.071990[&brlen_95%_HPD={0.000215,0.186472}],Desmatosuchus_haplocerus[&index=4]:0.066126[&brlen_95%_HPD={8e-05,0.180904}])[&index=21,posterior=0.880942]:0.087760[&brlen_95%_HPD={0.005709,0.218174}])[&index=22,posterior=0.793869]:0.092524[&brlen_95%_HPD={0.001396,0.235458}],(Turfanosuchus_dabanensis[&index=3]:0.030707[&brlen_95%_HPD={4e-06,0.140693}],(Vancleavea_campi[&index=2]:0.151059[&brlen_95%_HPD={0.013344,0.373232}],Doswellia_kaltenbachi[&index=1]:0.124805[&brlen_95%_HPD={0.000697,0.316499}])[&index=23,posterior=0.372279]:0.072412[&brlen_95%_HPD={9e-06,0.247533}])[&index=24,posterior=0.575744]:0.096173[&brlen_95%_HPD={7.9e-05,0.256506}])[&index=25,posterior=0.233230]:0.055256[&brlen_95%_HPD={0.00297,0.191641}])[&index=26,posterior=1.000000]:0.000000;
+End;

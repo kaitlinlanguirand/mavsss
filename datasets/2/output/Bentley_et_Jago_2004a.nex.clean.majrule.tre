@@ -1,0 +1,49 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=38;
+	Taxlabels
+		Agaso
+		Agraulos
+		Arminoepikus
+		Batenoides
+		Chittidilla
+		Ellipsocephalus
+		Eotatizuia
+		Houmaia
+		Inouyella
+		Jiangjunshania
+		Latilorenzella
+		Lenagraulos
+		Litavkaspis
+		Lophodesella
+		Megagraulos
+		Metagraulos
+		Parachittidilla
+		Paralevisia
+		Paraplesiagraulos
+		Paraporilorenzella
+		Plesiagraulos
+		Poriagraulos
+		Proampyx
+		Ptyctolorenzella
+		Qiannanagraulos
+		Ruichengaspis
+		Shahaspis
+		Skreiaspis
+		Taitzuia
+		Taitzuina
+		Tasmacephalus
+		Tianjingshania
+		Tylotaitzuia
+		Veragraulos
+		Wanshania
+		Wuanoides
+		Wuhushania
+		Yunmengshania
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Jiangjunshania[&index=38]:0.093532[&brlen_95%_HPD={0.000127,0.320149}],Agaso[&index=37]:0.078918[&brlen_95%_HPD={5.4e-05,0.29815}],((Agraulos[&index=36]:0.074223[&brlen_95%_HPD={1e-05,0.28749}],Batenoides[&index=35]:0.082867[&brlen_95%_HPD={4.2e-05,0.305339}])[&index=39,posterior=0.034207]:0.054495[&brlen_95%_HPD={0.001028,0.249373}],((((Ruichengaspis[&index=34]:0.093574[&brlen_95%_HPD={2e-06,0.323677}],(Qiannanagraulos[&index=33]:0.100161[&brlen_95%_HPD={0.000144,0.329156}],Paralevisia[&index=32]:0.101766[&brlen_95%_HPD={3.6e-05,0.33537}])[&index=40,posterior=0.088405]:0.106901[&brlen_95%_HPD={0.002009,0.301259}])[&index=41,posterior=0.037761]:0.157309[&brlen_95%_HPD={0.001851,0.366243}],((Tianjingshania[&index=31]:0.088677[&brlen_95%_HPD={5.7e-05,0.327289}],Taitzuina[&index=30]:0.072615[&brlen_95%_HPD={2.5e-05,0.301003}])[&index=42,posterior=0.064416]:0.082775[&brlen_95%_HPD={0.001643,0.301937}],((Tylotaitzuia[&index=29]:0.081564[&brlen_95%_HPD={3.7e-05,0.294778}],(Taitzuia[&index=28]:0.042110[&brlen_95%_HPD={3.5e-05,0.205457}],Wanshania[&index=27]:0.049278[&brlen_95%_HPD={1.5e-05,0.227643}])[&index=43,posterior=0.306975]:0.074124[&brlen_95%_HPD={0.000158,0.261707}])[&index=44,posterior=0.047534]:0.086277[&brlen_95%_HPD={0.00031,0.261406}],((Arminoepikus[&index=26]:0.070293[&brlen_95%_HPD={0.000425,0.265597}],(Proampyx[&index=25]:0.042642[&brlen_95%_HPD={2.3e-05,0.208626}],Tasmacephalus[&index=24]:0.076588[&brlen_95%_HPD={6.1e-05,0.303265}])[&index=45,posterior=0.142159]:0.057294[&brlen_95%_HPD={0.000123,0.267767}])[&index=46,posterior=0.102621]:0.088777[&brlen_95%_HPD={0.000873,0.272523}],((Wuanoides[&index=23]:0.084786[&brlen_95%_HPD={5e-06,0.319401}],Inouyella[&index=22]:0.081379[&brlen_95%_HPD={3.4e-05,0.304359}])[&index=47,posterior=0.100400]:0.087664[&brlen_95%_HPD={0.002489,0.267133}],(Skreiaspis[&index=21]:0.115080[&brlen_95%_HPD={0.000586,0.359155}],Latilorenzella[&index=20]:0.119931[&brlen_95%_HPD={4.1e-05,0.380018}])[&index=48,posterior=0.096846]:0.107489[&brlen_95%_HPD={0.002105,0.343432}])[&index=49,posterior=0.021324]:0.092457[&brlen_95%_HPD={0.004777,0.35103}])[&index=50,posterior=0.005331]:0.126306[&brlen_95%_HPD={0.014907,0.363823}])[&index=51,posterior=0.004442]:0.124961[&brlen_95%_HPD={0.062023,0.256946}])[&index=52,posterior=0.013327]:0.140627[&brlen_95%_HPD={0.00889,0.284552}])[&index=53,posterior=0.031986]:0.157993[&brlen_95%_HPD={0.009418,0.445436}],((Eotatizuia[&index=19]:0.077570[&brlen_95%_HPD={0.000117,0.304692}],(Houmaia[&index=18]:0.059840[&brlen_95%_HPD={6.2e-05,0.263285}],Chittidilla[&index=17]:0.068023[&brlen_95%_HPD={7e-05,0.283477}])[&index=54,posterior=0.181697]:0.085699[&brlen_95%_HPD={0.000197,0.317715}])[&index=55,posterior=0.034651]:0.085012[&brlen_95%_HPD={0.000929,0.278025}],((Paraplesiagraulos[&index=16]:0.108049[&brlen_95%_HPD={2.3e-05,0.346241}],Yunmengshania[&index=15]:0.084220[&brlen_95%_HPD={3.3e-05,0.317426}])[&index=56,posterior=0.111062]:0.109935[&brlen_95%_HPD={0.005544,0.368281}],(Ptyctolorenzella[&index=14]:0.068653[&brlen_95%_HPD={0.000105,0.275514}],Lophodesella[&index=13]:0.105297[&brlen_95%_HPD={8.9e-05,0.338406}])[&index=57,posterior=0.025322]:0.084700[&brlen_95%_HPD={0.000714,0.302626}])[&index=58,posterior=0.004442]:0.142906[&brlen_95%_HPD={0.004882,0.261223}])[&index=59,posterior=0.003554]:0.099897[&brlen_95%_HPD={0.042803,0.211507}])[&index=60,posterior=0.002665]:0.161720[&brlen_95%_HPD={0.10528,0.296788}],(((Ellipsocephalus[&index=12]:0.118994[&brlen_95%_HPD={5e-05,0.381652}],Megagraulos[&index=11]:0.174759[&brlen_95%_HPD={4.7e-05,0.491812}])[&index=61,posterior=0.088849]:0.122105[&brlen_95%_HPD={0.001191,0.367306}],((Paraporilorenzella[&index=10]:0.048068[&brlen_95%_HPD={0.000116,0.242697}],Plesiagraulos[&index=9]:0.034487[&brlen_95%_HPD={2.5e-05,0.176291}])[&index=62,posterior=0.239449]:0.060195[&brlen_95%_HPD={0.000562,0.255645}],((Parachittidilla[&index=8]:0.027834[&brlen_95%_HPD={1.4e-05,0.12887}],Poriagraulos[&index=7]:0.020178[&brlen_95%_HPD={5e-06,0.103024}])[&index=63,posterior=0.434474]:0.053465[&brlen_95%_HPD={2.9e-05,0.255401}],(Metagraulos[&index=6]:0.040308[&brlen_95%_HPD={3.5e-05,0.193209}],Shahaspis[&index=5]:0.070953[&brlen_95%_HPD={0.000124,0.298591}])[&index=64,posterior=0.233674]:0.069502[&brlen_95%_HPD={0.000201,0.261766}])[&index=65,posterior=0.091515]:0.085308[&brlen_95%_HPD={2.6e-05,0.32721}])[&index=66,posterior=0.030653]:0.078654[&brlen_95%_HPD={0.002671,0.333695}])[&index=67,posterior=0.024878]:0.149464[&brlen_95%_HPD={0.021938,0.359588}],((Lenagraulos[&index=4]:0.055602[&brlen_95%_HPD={3.1e-05,0.243053}],Wuhushania[&index=3]:0.052835[&brlen_95%_HPD={4.1e-05,0.251484}])[&index=68,posterior=0.215460]:0.087397[&brlen_95%_HPD={0.000118,0.293173}],(Litavkaspis[&index=2]:0.062064[&brlen_95%_HPD={0.000161,0.247278}],Veragraulos[&index=1]:0.084439[&brlen_95%_HPD={6e-06,0.3029}])[&index=69,posterior=0.059529]:0.067391[&brlen_95%_HPD={0.001493,0.247317}])[&index=70,posterior=0.004887]:0.047009[&brlen_95%_HPD={0.009654,0.093969}])[&index=71,posterior=0.000888]:0.071845[&brlen_95%_HPD={0.11011,0.11011}])[&index=72,posterior=0.003998]:0.054898[&brlen_95%_HPD={0.037898,0.256612}])[&index=73,posterior=0.134163]:0.091366[&brlen_95%_HPD={0.000146,0.313633}])[&index=74,posterior=1.000000]:0.000000;
+End;

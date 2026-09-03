@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		Anatidae
+		Anhima
+		Anseranas
+		Charadriiformes
+		Chauna
+		Ciconiiformes
+		Galliformes
+		Phoenicopteriformes
+		Presbyornis
+		Tinamiformes
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Presbyornis[&index=10]:0.013268[&brlen_95%_HPD={4.9e-05,0.043337}],Anatidae[&index=9]:0.044474[&brlen_95%_HPD={0.013489,0.094944}],(Anseranas[&index=8]:0.029979[&brlen_95%_HPD={3.5e-05,0.098516}],((Galliformes[&index=7]:0.027357[&brlen_95%_HPD={3e-06,0.097208}],(Ciconiiformes[&index=6]:0.011816[&brlen_95%_HPD={6e-06,0.043632}],(Phoenicopteriformes[&index=5]:0.077803[&brlen_95%_HPD={0.025148,0.15092}],(Tinamiformes[&index=4]:0.145975[&brlen_95%_HPD={0.060046,0.264843}],Charadriiformes[&index=3]:0.007963[&brlen_95%_HPD={5e-06,0.031423}])[&index=11,posterior=0.590404]:0.017579[&brlen_95%_HPD={9.9e-05,0.052339}])[&index=12,posterior=0.813416]:0.033382[&brlen_95%_HPD={0.001221,0.076803}])[&index=13,posterior=1.000000]:0.177871[&brlen_95%_HPD={0.070816,0.312822}])[&index=14,posterior=1.000000]:0.268031[&brlen_95%_HPD={0.097031,0.506626}],(Anhima[&index=2]:0.014182[&brlen_95%_HPD={4.5e-05,0.042752}],Chauna[&index=1]:0.022774[&brlen_95%_HPD={9.2e-05,0.052309}])[&index=15,posterior=0.975122]:0.133975[&brlen_95%_HPD={0.004237,0.295816}])[&index=16,posterior=1.000000]:0.278679[&brlen_95%_HPD={0.095995,0.490451}])[&index=17,posterior=0.988450]:0.095810[&brlen_95%_HPD={0.021949,0.179837}])[&index=18,posterior=1.000000]:0.000000;
+End;

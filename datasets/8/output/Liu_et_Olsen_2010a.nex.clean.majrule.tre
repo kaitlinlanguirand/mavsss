@@ -1,0 +1,42 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=31;
+	Taxlabels
+		Adelobasileus_cromptoni
+		Bienotherium_yunnanense
+		Brasilodon_quardangularis
+		Chiniquodon_theotonicus
+		Cynognathus_crateronotus
+		Diademodon_tetragonus
+		Ectenion_lunensis
+		Exaeretodon_argentinus
+		Galesaurus_planiceps
+		Kayentatherium_wellesi
+		Langbergia_modisei
+		Luangwa_drysdalli
+		Lumkuia_fuzzi
+		Massetognathus_pascuali
+		Morganucodon_oehleri
+		Oligokyphus_major
+		Pachygenelus_monus
+		Pascualgnathus_polanskii
+		Platycraniellus_elegans
+		Probainognathus_jenseni
+		Procynosuchus_delaharpeae
+		Prozostrodon_brasiliensis
+		Riograndia_guaibaensis
+		Scalenodon_angustifrons
+		Sinoconodon_rigneyi
+		Sinognathus_gracilis
+		Therioherpeton_cargnini
+		Thrinaxodon_liorhinus
+		Trirachodon_berryi
+		Tritylodon_longaevus
+		quot_Scalenodon_quot_hirschoni
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Adelobasileus_cromptoni[&index=31]:0.075873[&brlen_95%_HPD={0.003095,0.22261}],(Brasilodon_quardangularis[&index=30]:0.011759[&brlen_95%_HPD={1e-06,0.04878}],(Pachygenelus_monus[&index=29]:0.027530[&brlen_95%_HPD={3e-06,0.070935}],(Riograndia_guaibaensis[&index=28]:0.028094[&brlen_95%_HPD={3.9e-05,0.083023}],(Therioherpeton_cargnini[&index=27]:0.027005[&brlen_95%_HPD={3.3e-05,0.104829}],(Prozostrodon_brasiliensis[&index=26]:0.028979[&brlen_95%_HPD={2e-06,0.109871}],(Probainognathus_jenseni[&index=25]:0.022786[&brlen_95%_HPD={1.6e-05,0.088776}],(Chiniquodon_theotonicus[&index=24]:0.068739[&brlen_95%_HPD={0.004169,0.138935}],(Ectenion_lunensis[&index=23]:0.064729[&brlen_95%_HPD={9e-06,0.155235}],((Cynognathus_crateronotus[&index=22]:0.036596[&brlen_95%_HPD={3.7e-05,0.089411}],(Diademodon_tetragonus[&index=21]:0.026652[&brlen_95%_HPD={0.000151,0.069514}],(Langbergia_modisei[&index=20]:0.016372[&brlen_95%_HPD={7e-05,0.055364}],(Trirachodon_berryi[&index=19]:0.019636[&brlen_95%_HPD={0.000335,0.05317}],(Sinognathus_gracilis[&index=18]:0.075660[&brlen_95%_HPD={0.016862,0.153174}],((Pascualgnathus_polanskii[&index=17]:0.073739[&brlen_95%_HPD={0.017841,0.149492}],(quot_Scalenodon_quot_hirschoni[&index=16]:0.053755[&brlen_95%_HPD={0.000719,0.131957}],(Massetognathus_pascuali[&index=15]:0.056545[&brlen_95%_HPD={0.008566,0.114754}],Exaeretodon_argentinus[&index=14]:0.098704[&brlen_95%_HPD={0.04242,0.182125}])[&index=32,posterior=0.859174]:0.051077[&brlen_95%_HPD={0.009426,0.106496}])[&index=33,posterior=0.763216]:0.044218[&brlen_95%_HPD={0.000435,0.108996}])[&index=34,posterior=0.621057]:0.038535[&brlen_95%_HPD={0.000828,0.088522}],(Luangwa_drysdalli[&index=13]:0.042508[&brlen_95%_HPD={0.006982,0.09228}],Scalenodon_angustifrons[&index=12]:0.020792[&brlen_95%_HPD={0,0.065504}])[&index=35,posterior=0.329187]:0.019579[&brlen_95%_HPD={3.8e-05,0.062324}])[&index=36,posterior=0.782763]:0.061167[&brlen_95%_HPD={0.015899,0.134925}])[&index=37,posterior=0.898712]:0.056817[&brlen_95%_HPD={0.006255,0.125647}])[&index=38,posterior=0.946690]:0.038579[&brlen_95%_HPD={0.003403,0.084465}])[&index=39,posterior=0.998667]:0.148712[&brlen_95%_HPD={0.074049,0.24585}])[&index=40,posterior=0.998667]:0.093759[&brlen_95%_HPD={0.035337,0.174339}])[&index=41,posterior=0.996446]:0.125837[&brlen_95%_HPD={0.029089,0.235697}],(Lumkuia_fuzzi[&index=11]:0.078828[&brlen_95%_HPD={0.000421,0.16398}],(Platycraniellus_elegans[&index=10]:0.045521[&brlen_95%_HPD={9.2e-05,0.108222}],(Thrinaxodon_liorhinus[&index=9]:0.020898[&brlen_95%_HPD={6.2e-05,0.063504}],(Procynosuchus_delaharpeae[&index=8]:0.115926[&brlen_95%_HPD={0.055395,0.198051}],Galesaurus_planiceps[&index=7]:0.024777[&brlen_95%_HPD={7.4e-05,0.069107}])[&index=42,posterior=0.998667]:0.061143[&brlen_95%_HPD={0.019884,0.120419}])[&index=43,posterior=0.694802]:0.045659[&brlen_95%_HPD={0.001374,0.109494}])[&index=44,posterior=1.000000]:0.156354[&brlen_95%_HPD={0.059738,0.274553}])[&index=45,posterior=0.493558]:0.052952[&brlen_95%_HPD={0.001745,0.133984}])[&index=46,posterior=0.999112]:0.133920[&brlen_95%_HPD={0.049371,0.251192}])[&index=47,posterior=0.848956]:0.084426[&brlen_95%_HPD={0.015443,0.177881}])[&index=48,posterior=0.948023]:0.094391[&brlen_95%_HPD={0.020396,0.183374}])[&index=49,posterior=1.000000]:0.316103[&brlen_95%_HPD={0.140666,0.547751}])[&index=50,posterior=0.999556]:0.238464[&brlen_95%_HPD={0.084227,0.472777}])[&index=51,posterior=0.991115]:0.143444[&brlen_95%_HPD={0.015377,0.297715}])[&index=52,posterior=0.694358]:0.042968[&brlen_95%_HPD={0.000202,0.096201}])[&index=53,posterior=0.929365]:0.149773[&brlen_95%_HPD={0.021898,0.25048}])[&index=54,posterior=0.705908]:0.099267[&brlen_95%_HPD={0.006615,0.19306}],(((Tritylodon_longaevus[&index=6]:0.021967[&brlen_95%_HPD={0.000176,0.053363}],Oligokyphus_major[&index=5]:0.032840[&brlen_95%_HPD={0.000155,0.070988}])[&index=55,posterior=0.342070]:0.010562[&brlen_95%_HPD={1.5e-05,0.03069}],(Kayentatherium_wellesi[&index=4]:0.013261[&brlen_95%_HPD={5.6e-05,0.038369}],Bienotherium_yunnanense[&index=3]:0.012914[&brlen_95%_HPD={1.6e-05,0.037675}])[&index=56,posterior=0.294092]:0.008748[&brlen_95%_HPD={7e-06,0.032245}])[&index=57,posterior=1.000000]:0.683628[&brlen_95%_HPD={0.443229,1.02561}],(Sinoconodon_rigneyi[&index=2]:0.043215[&brlen_95%_HPD={7e-06,0.117177}],Morganucodon_oehleri[&index=1]:0.079727[&brlen_95%_HPD={0.015002,0.153657}])[&index=58,posterior=0.613949]:0.083290[&brlen_95%_HPD={0.002323,0.171641}])[&index=59,posterior=0.559751]:0.088873[&brlen_95%_HPD={0.00202,0.179268}])[&index=60,posterior=1.000000]:0.000000;
+End;

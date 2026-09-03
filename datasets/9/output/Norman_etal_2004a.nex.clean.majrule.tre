@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		A._louderbacki
+		A._multidens
+		G._cincosaltensis
+		H._foxii
+		H._tucki
+		Marginocephalia
+		O._makelai
+		O._rex
+		Outgroup
+		P._warreni
+		T._neglectus
+		Z._schaffi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](A._louderbacki[&index=12]:0.057629[&brlen_95%_HPD={0.000107,0.247782}],(H._tucki[&index=11]:0.168473[&brlen_95%_HPD={0.000506,0.425413}],(Outgroup[&index=10]:0.085300[&brlen_95%_HPD={4e-05,0.278801}],Marginocephalia[&index=9]:0.114309[&brlen_95%_HPD={3.9e-05,0.322047}])[&index=13,posterior=0.701022]:0.171179[&brlen_95%_HPD={3.5e-05,0.43534}])[&index=14,posterior=0.981342]:0.409124[&brlen_95%_HPD={0.095733,0.800407}],(A._multidens[&index=8]:0.076364[&brlen_95%_HPD={1.6e-05,0.226328}],(((P._warreni[&index=7]:0.041986[&brlen_95%_HPD={0.000112,0.143138}],T._neglectus[&index=6]:0.071326[&brlen_95%_HPD={0.000332,0.206234}])[&index=15,posterior=0.943581]:0.136368[&brlen_95%_HPD={0.014605,0.321879}],(H._foxii[&index=5]:0.058409[&brlen_95%_HPD={1.8e-05,0.178734}],G._cincosaltensis[&index=4]:0.045230[&brlen_95%_HPD={1.2e-05,0.162425}])[&index=16,posterior=0.414482]:0.085064[&brlen_95%_HPD={0.000402,0.219773}])[&index=17,posterior=0.391382]:0.094179[&brlen_95%_HPD={0.001029,0.246243}],(Z._schaffi[&index=3]:0.051322[&brlen_95%_HPD={4.5e-05,0.182289}],(O._makelai[&index=2]:0.023383[&brlen_95%_HPD={3e-05,0.090254}],O._rex[&index=1]:0.019944[&brlen_95%_HPD={3e-06,0.086361}])[&index=18,posterior=0.203909]:0.022502[&brlen_95%_HPD={1.9e-05,0.093714}])[&index=19,posterior=0.253221]:0.050764[&brlen_95%_HPD={5.7e-05,0.154193}])[&index=20,posterior=0.487783]:0.120630[&brlen_95%_HPD={9.3e-05,0.313638}])[&index=21,posterior=0.640160]:0.131970[&brlen_95%_HPD={0.001305,0.341003}])[&index=22,posterior=1.000000]:0.000000;
+End;

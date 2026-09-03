@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Chiloguembelina_crinita
+		Chiloguembelina_midwayenensis
+		Chiloguembelina_morsei
+		Chiloguembelina_taurica
+		Chiloguembelina_waipanensis
+		Chiloguembelina_waiparensis
+		Guembelitria_cretacea
+		Guembelitria_danica
+		Guembelitria_irregularis
+		Guembelitria_trifolia
+		Heterohelix_globulosa
+		Woodringina_cf_kelleri
+		Woodringina_claytonensis
+		Woodringina_hornerstownensis
+		Woodringina_kelleri
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Chiloguembelina_crinita[&index=15]:0.171586[&brlen_95%_HPD={0.043238,0.330364}],(Chiloguembelina_midwayenensis[&index=14]:0.022754[&brlen_95%_HPD={3e-06,0.083015}],Chiloguembelina_waiparensis[&index=13]:0.098150[&brlen_95%_HPD={0.028227,0.200628}])[&index=16,posterior=0.833852]:0.060977[&brlen_95%_HPD={0.000974,0.160319}],((Heterohelix_globulosa[&index=12]:0.125269[&brlen_95%_HPD={8.2e-05,0.357287}],Chiloguembelina_waipanensis[&index=11]:0.672111[&brlen_95%_HPD={0.315961,1.1353}])[&index=17,posterior=0.635273]:0.194601[&brlen_95%_HPD={0.02687,0.398717}],(Chiloguembelina_taurica[&index=10]:0.016353[&brlen_95%_HPD={4.9e-05,0.066181}],(Chiloguembelina_morsei[&index=9]:0.018776[&brlen_95%_HPD={1.2e-05,0.077759}],(Woodringina_hornerstownensis[&index=8]:0.173270[&brlen_95%_HPD={0.004024,0.376568}],((Guembelitria_danica[&index=7]:0.040014[&brlen_95%_HPD={3e-06,0.12959}],(Guembelitria_irregularis[&index=6]:0.130128[&brlen_95%_HPD={0.024091,0.274002}],(Guembelitria_cretacea[&index=5]:0.037307[&brlen_95%_HPD={1.1e-05,0.11395}],Guembelitria_trifolia[&index=4]:0.061974[&brlen_95%_HPD={0.002026,0.144072}])[&index=18,posterior=0.398490]:0.051237[&brlen_95%_HPD={0.000166,0.14383}])[&index=19,posterior=0.397601]:0.049501[&brlen_95%_HPD={4.6e-05,0.133666}])[&index=20,posterior=0.971124]:0.400512[&brlen_95%_HPD={0.127669,0.717753}],(Woodringina_kelleri[&index=3]:0.023071[&brlen_95%_HPD={3.9e-05,0.075805}],(Woodringina_cf_kelleri[&index=2]:0.022863[&brlen_95%_HPD={1.2e-05,0.072181}],Woodringina_claytonensis[&index=1]:0.063927[&brlen_95%_HPD={0.00036,0.144764}])[&index=21,posterior=0.390049]:0.029986[&brlen_95%_HPD={0.00031,0.080151}])[&index=22,posterior=0.436695]:0.070993[&brlen_95%_HPD={0.000872,0.201124}])[&index=23,posterior=0.550866]:0.104631[&brlen_95%_HPD={0.000224,0.252269}])[&index=24,posterior=0.719680]:0.105989[&brlen_95%_HPD={0.011603,0.2478}])[&index=25,posterior=0.650822]:0.060139[&brlen_95%_HPD={0.005051,0.134916}])[&index=26,posterior=0.595735]:0.054339[&brlen_95%_HPD={0.000753,0.140939}])[&index=27,posterior=0.291870]:0.036493[&brlen_95%_HPD={0.000157,0.12759}])[&index=28,posterior=1.000000]:0.000000;
+End;

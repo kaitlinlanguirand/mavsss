@@ -1,0 +1,30 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=19;
+	Taxlabels
+		Brightonia_macfadyeni
+		Cardiaster_granulosus
+		Coraster_vilanovae
+		Cyclaster_pfenderae
+		Echinocorys_scutata
+		Galeaster_bertrandi
+		Guettaria_rocardi
+		Hemiaster_bufo
+		Iraniaster_douvillei
+		Iraniaster_morgani
+		Iraniaster_omanensis
+		Labrotaxis_faxensis
+		Leviechinus_gregoryi
+		Linthia_sudanensis
+		Mauritanaster_gentili
+		Mecaster_fourneli
+		Micraster_schroederi
+		Opissaster_elongatus
+		Pygomalus_analis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Brightonia_macfadyeni[&index=19]:0.078686[&brlen_95%_HPD={0.001926,0.197229}],Leviechinus_gregoryi[&index=18]:0.024369[&brlen_95%_HPD={5.4e-05,0.107081}],(Iraniaster_omanensis[&index=17]:0.023176[&brlen_95%_HPD={2.6e-05,0.102058}],((Iraniaster_douvillei[&index=16]:0.022008[&brlen_95%_HPD={3e-06,0.096584}],Iraniaster_morgani[&index=15]:0.021231[&brlen_95%_HPD={7e-06,0.100536}])[&index=20,posterior=0.950244]:0.159573[&brlen_95%_HPD={0.015095,0.357384}],(Mauritanaster_gentili[&index=14]:0.028694[&brlen_95%_HPD={2e-05,0.120099}],(Mecaster_fourneli[&index=13]:0.029237[&brlen_95%_HPD={1e-05,0.128006}],(Linthia_sudanensis[&index=12]:0.045442[&brlen_95%_HPD={3.9e-05,0.145325}],(Opissaster_elongatus[&index=11]:0.052558[&brlen_95%_HPD={0.000559,0.171672}],((Coraster_vilanovae[&index=10]:0.049769[&brlen_95%_HPD={3.6e-05,0.233355}],(Pygomalus_analis[&index=9]:0.059596[&brlen_95%_HPD={1e-06,0.223155}],(Echinocorys_scutata[&index=8]:0.025058[&brlen_95%_HPD={3.7e-05,0.119761}],(Galeaster_bertrandi[&index=7]:0.069989[&brlen_95%_HPD={3.7e-05,0.204982}],(Labrotaxis_faxensis[&index=6]:0.059541[&brlen_95%_HPD={4e-06,0.18562}],(Cardiaster_granulosus[&index=5]:0.025058[&brlen_95%_HPD={4e-06,0.109399}],Guettaria_rocardi[&index=4]:0.071382[&brlen_95%_HPD={3.7e-05,0.198852}])[&index=21,posterior=0.637494]:0.054011[&brlen_95%_HPD={0.000254,0.182449}])[&index=22,posterior=0.964016]:0.145671[&brlen_95%_HPD={0.011289,0.348819}])[&index=23,posterior=0.322968]:0.036583[&brlen_95%_HPD={3.9e-05,0.152843}])[&index=24,posterior=0.821413]:0.126771[&brlen_95%_HPD={0.002134,0.319354}])[&index=25,posterior=0.843181]:0.164230[&brlen_95%_HPD={0.009071,0.403939}])[&index=26,posterior=0.998667]:0.358457[&brlen_95%_HPD={0.101432,0.744389}],(Hemiaster_bufo[&index=3]:0.030572[&brlen_95%_HPD={5.3e-05,0.132373}],(Micraster_schroederi[&index=2]:0.050290[&brlen_95%_HPD={2.6e-05,0.161212}],Cyclaster_pfenderae[&index=1]:0.051983[&brlen_95%_HPD={1.4e-05,0.167022}])[&index=27,posterior=0.816082]:0.083733[&brlen_95%_HPD={0.000607,0.236355}])[&index=28,posterior=0.479787]:0.072015[&brlen_95%_HPD={0.000192,0.223373}])[&index=29,posterior=0.490004]:0.080153[&brlen_95%_HPD={0.000651,0.222075}])[&index=30,posterior=0.510440]:0.064472[&brlen_95%_HPD={2.6e-05,0.204615}])[&index=31,posterior=0.561084]:0.061718[&brlen_95%_HPD={0.000585,0.196382}])[&index=32,posterior=0.514882]:0.050437[&brlen_95%_HPD={0.000876,0.168357}])[&index=33,posterior=0.724567]:0.098123[&brlen_95%_HPD={7.3e-05,0.254244}])[&index=34,posterior=0.555753]:0.065795[&brlen_95%_HPD={0.000125,0.208155}])[&index=35,posterior=0.657041]:0.046805[&brlen_95%_HPD={0.000326,0.152365}])[&index=36,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,31 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=20;
+	Taxlabels
+		Almasaurus
+		Angusaurus
+		Aphaneramma
+		Archegosauridae
+		Benthosuchus
+		Cosgriffius
+		Luzocephalus
+		Lydekkerinidae
+		Lyrocephaliscus
+		Metoposauridae
+		Microposaurus
+		Parotosuchus
+		Platystega
+		Rhinesuchidae
+		Rhytidosteidae
+		Tertrema
+		Thoosuchus
+		Trematosaurus
+		Watsonisuchus
+		Wetlugasaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Almasaurus[&index=20]:0.052493[&brlen_95%_HPD={1.7e-05,0.18017}],Metoposauridae[&index=19]:0.131351[&brlen_95%_HPD={0.002717,0.283369}],((Angusaurus[&index=18]:0.016001[&brlen_95%_HPD={2e-06,0.074585}],(Thoosuchus[&index=17]:0.014864[&brlen_95%_HPD={5e-06,0.074704}],(Benthosuchus[&index=16]:0.020334[&brlen_95%_HPD={2.3e-05,0.118536}],((Archegosauridae[&index=15]:0.069420[&brlen_95%_HPD={0.000112,0.186287}],Rhinesuchidae[&index=14]:0.054828[&brlen_95%_HPD={3.7e-05,0.162345}])[&index=21,posterior=0.951577]:0.176702[&brlen_95%_HPD={0.014514,0.38195}],((Wetlugasaurus[&index=13]:0.032945[&brlen_95%_HPD={5e-06,0.126711}],(Parotosuchus[&index=12]:0.010668[&brlen_95%_HPD={4e-06,0.051091}],Watsonisuchus[&index=11]:0.010938[&brlen_95%_HPD={1.2e-05,0.05049}])[&index=22,posterior=0.982230]:0.102634[&brlen_95%_HPD={0.005149,0.22097}])[&index=23,posterior=0.980453]:0.189515[&brlen_95%_HPD={0.025736,0.411562}],(Lydekkerinidae[&index=10]:0.034103[&brlen_95%_HPD={3.8e-05,0.128962}],(Luzocephalus[&index=9]:0.040234[&brlen_95%_HPD={1.9e-05,0.152741}],Rhytidosteidae[&index=8]:0.243038[&brlen_95%_HPD={0.051072,0.492922}])[&index=24,posterior=0.413594]:0.059419[&brlen_95%_HPD={0.000279,0.168051}])[&index=25,posterior=0.337183]:0.065481[&brlen_95%_HPD={0.000318,0.215615}])[&index=26,posterior=0.369169]:0.091255[&brlen_95%_HPD={0.000287,0.290743}])[&index=27,posterior=0.984896]:0.262055[&brlen_95%_HPD={0.062285,0.554726}])[&index=28,posterior=0.952910]:0.145962[&brlen_95%_HPD={0.040078,0.304722}])[&index=29,posterior=0.862728]:0.075515[&brlen_95%_HPD={0.000182,0.175175}])[&index=30,posterior=0.735229]:0.080026[&brlen_95%_HPD={9e-05,0.199324}],(Microposaurus[&index=7]:0.087361[&brlen_95%_HPD={0.000861,0.21339}],((Trematosaurus[&index=6]:0.018104[&brlen_95%_HPD={4.5e-05,0.080358}],Lyrocephaliscus[&index=5]:0.087123[&brlen_95%_HPD={0.00311,0.213743}])[&index=31,posterior=0.265660]:0.030944[&brlen_95%_HPD={3.6e-05,0.104389}],((Cosgriffius[&index=4]:0.132332[&brlen_95%_HPD={0.015076,0.320409}],Aphaneramma[&index=3]:0.053784[&brlen_95%_HPD={1e-06,0.159284}])[&index=32,posterior=0.445135]:0.065447[&brlen_95%_HPD={0.000145,0.184424}],(Platystega[&index=2]:0.050568[&brlen_95%_HPD={0.00015,0.153393}],Tertrema[&index=1]:0.071909[&brlen_95%_HPD={4e-06,0.19705}])[&index=33,posterior=0.163039]:0.040694[&brlen_95%_HPD={0.000258,0.153305}])[&index=34,posterior=0.068414]:0.028633[&brlen_95%_HPD={0.000493,0.101697}])[&index=35,posterior=0.082186]:0.044085[&brlen_95%_HPD={0.001052,0.143623}])[&index=36,posterior=0.213683]:0.071028[&brlen_95%_HPD={0.000586,0.188801}])[&index=37,posterior=0.998223]:0.394361[&brlen_95%_HPD={0.158211,0.715984}])[&index=38,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,22 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=11;
+	Taxlabels
+		Alligator_mississippiensis
+		Anser_anser
+		Chelonia
+		Dromaius_novaehollandiae
+		Hadrosauridae
+		Meleagris_gallopavo
+		Oviraptoridae
+		Rhea_americana
+		Struthio_camelus
+		Titanosauria
+		Troodon_formosus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Chelonia[&index=11]:0.097690[&brlen_95%_HPD={0.000817,0.292291}],Alligator_mississippiensis[&index=10]:0.049560[&brlen_95%_HPD={8e-06,0.205127}],((Oviraptoridae[&index=9]:0.074453[&brlen_95%_HPD={0.000152,0.293421}],(Troodon_formosus[&index=8]:0.079378[&brlen_95%_HPD={1.5e-05,0.294452}],((Anser_anser[&index=7]:0.033133[&brlen_95%_HPD={1.1e-05,0.150188}],Meleagris_gallopavo[&index=6]:0.032767[&brlen_95%_HPD={1e-06,0.15205}])[&index=12,posterior=0.521990]:0.062793[&brlen_95%_HPD={4.8e-05,0.217943}],(Dromaius_novaehollandiae[&index=5]:0.054932[&brlen_95%_HPD={2.5e-05,0.207684}],(Rhea_americana[&index=4]:0.033933[&brlen_95%_HPD={2.3e-05,0.154977}],Struthio_camelus[&index=3]:0.063561[&brlen_95%_HPD={1e-06,0.231812}])[&index=13,posterior=0.244336]:0.043052[&brlen_95%_HPD={7.5e-05,0.208716}])[&index=14,posterior=0.235451]:0.066030[&brlen_95%_HPD={0.000182,0.236438}])[&index=15,posterior=0.601066]:0.149303[&brlen_95%_HPD={0.00129,0.416915}])[&index=16,posterior=0.398045]:0.115563[&brlen_95%_HPD={0.000466,0.382545}])[&index=17,posterior=0.991559]:0.349566[&brlen_95%_HPD={0.081619,0.747846}],(Titanosauria[&index=2]:0.035327[&brlen_95%_HPD={0,0.16315}],Hadrosauridae[&index=1]:0.038842[&brlen_95%_HPD={2e-06,0.175064}])[&index=18,posterior=0.392714]:0.059416[&brlen_95%_HPD={8e-06,0.216639}])[&index=19,posterior=0.381164]:0.062877[&brlen_95%_HPD={9.3e-05,0.242011}])[&index=20,posterior=1.000000]:0.000000;
+End;

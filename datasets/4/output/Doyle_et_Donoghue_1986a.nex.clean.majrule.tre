@@ -1,0 +1,31 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=20;
+	Taxlabels
+		Aneurophyton
+		Archaeopteris
+		Bennettitales
+		Callistophyton
+		Caytonia
+		Coniferales
+		Corystospermaceae
+		Cycadales
+		Early_Carb_lygonopterids
+		Ephedra
+		Euramerican_cordaites
+		Ginkgoales
+		Glossopteridales
+		Gnetum
+		Higher_lygonopterids
+		Medullosa
+		Peltaspermum
+		Pento_ylon
+		Welwitschia
+		angiosperms
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aneurophyton[&index=20]:0.041802[&brlen_95%_HPD={6e-06,0.138406}],Archaeopteris[&index=19]:0.054067[&brlen_95%_HPD={2.1e-05,0.15769}],(Early_Carb_lygonopterids[&index=18]:0.016867[&brlen_95%_HPD={4e-06,0.073305}],(Higher_lygonopterids[&index=17]:0.014158[&brlen_95%_HPD={5e-06,0.068218}],(Medullosa[&index=16]:0.034822[&brlen_95%_HPD={1.6e-05,0.137984}],(Cycadales[&index=15]:0.048943[&brlen_95%_HPD={1.1e-05,0.148334}],(Peltaspermum[&index=14]:0.032898[&brlen_95%_HPD={4e-06,0.123144}],((Ginkgoales[&index=13]:0.042840[&brlen_95%_HPD={3.2e-05,0.123321}],(Euramerican_cordaites[&index=12]:0.104621[&brlen_95%_HPD={0.002567,0.229104}],Coniferales[&index=11]:0.023761[&brlen_95%_HPD={2e-06,0.082952}])[&index=21,posterior=0.502888]:0.040147[&brlen_95%_HPD={0.000141,0.114285}])[&index=22,posterior=0.967126]:0.179761[&brlen_95%_HPD={0.038557,0.372019}],(Callistophyton[&index=10]:0.027174[&brlen_95%_HPD={1e-06,0.103499}],(Glossopteridales[&index=9]:0.113740[&brlen_95%_HPD={0.000457,0.272436}],(Corystospermaceae[&index=8]:0.123825[&brlen_95%_HPD={0.00068,0.268031}],(Caytonia[&index=7]:0.028246[&brlen_95%_HPD={4.6e-05,0.124576}],(angiosperms[&index=6]:0.033476[&brlen_95%_HPD={5.1e-05,0.143192}],(Pento_ylon[&index=5]:0.087960[&brlen_95%_HPD={0.000451,0.224399}],(Bennettitales[&index=4]:0.037072[&brlen_95%_HPD={1e-06,0.131021}],(Ephedra[&index=3]:0.068848[&brlen_95%_HPD={1e-06,0.216097}],(Gnetum[&index=2]:0.088256[&brlen_95%_HPD={0.010192,0.195627}],Welwitschia[&index=1]:0.040132[&brlen_95%_HPD={3.6e-05,0.118916}])[&index=23,posterior=0.795202]:0.106341[&brlen_95%_HPD={0.002562,0.250935}])[&index=24,posterior=1.000000]:0.334502[&brlen_95%_HPD={0.12559,0.607709}])[&index=25,posterior=0.353176]:0.042541[&brlen_95%_HPD={5.4e-05,0.134298}])[&index=26,posterior=0.885829]:0.114521[&brlen_95%_HPD={0.009367,0.252393}])[&index=27,posterior=0.931586]:0.150295[&brlen_95%_HPD={0.02048,0.348725}])[&index=28,posterior=0.536206]:0.096655[&brlen_95%_HPD={0.000225,0.253685}])[&index=29,posterior=0.476677]:0.086956[&brlen_95%_HPD={0.000429,0.209979}])[&index=30,posterior=0.288761]:0.067364[&brlen_95%_HPD={5.2e-05,0.205877}])[&index=31,posterior=0.179476]:0.049848[&brlen_95%_HPD={0.000173,0.146715}])[&index=32,posterior=0.233230]:0.045865[&brlen_95%_HPD={3e-06,0.13359}])[&index=33,posterior=0.497557]:0.068480[&brlen_95%_HPD={0.001319,0.180603}])[&index=34,posterior=0.836961]:0.106406[&brlen_95%_HPD={0.007134,0.243381}])[&index=35,posterior=0.991115]:0.147688[&brlen_95%_HPD={0.030567,0.318542}])[&index=36,posterior=0.846735]:0.046565[&brlen_95%_HPD={8.4e-05,0.125034}])[&index=37,posterior=1.000000]:0.175393[&brlen_95%_HPD={0.044924,0.41013}])[&index=38,posterior=1.000000]:0.000000;
+End;

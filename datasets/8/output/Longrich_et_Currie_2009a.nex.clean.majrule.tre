@@ -1,0 +1,31 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=20;
+	Taxlabels
+		Alaskacephale_gangloffi
+		Colepiocephale_lambei
+		Dracorex_hogwartsi
+		Goyocephale_lattimorei
+		Gravitholus_albertae
+		Hanssuesia_sternbergi
+		Homalocephale_calathocercos
+		Pachycephalosaurus_wyomingensis
+		Prenocephale_prenes
+		Psittacosaurus_spp.
+		Sphaerotholus?_brevis
+		Sphaerotholus_buchholtzae
+		Sphaerotholus_edmontonense
+		Sphaerotholus_goodwini
+		Stegoceras_validum
+		Stygimoloch_spinifer
+		Texacephale_langstoni
+		Thescelosaurus_neglectus
+		Tylocephale_gilmorei
+		Wannanosaurus_yansiensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alaskacephale_gangloffi[&index=20]:0.041317[&brlen_95%_HPD={0.00012,0.172458}],((Sphaerotholus?_brevis[&index=19]:0.033551[&brlen_95%_HPD={3e-06,0.126884}],((Sphaerotholus_goodwini[&index=18]:0.026340[&brlen_95%_HPD={6e-06,0.102421}],(Sphaerotholus_edmontonense[&index=17]:0.017915[&brlen_95%_HPD={9e-06,0.083067}],Sphaerotholus_buchholtzae[&index=16]:0.015979[&brlen_95%_HPD={1.6e-05,0.0695}])[&index=21,posterior=0.788094]:0.046273[&brlen_95%_HPD={5e-05,0.121575}])[&index=22,posterior=0.908041]:0.101473[&brlen_95%_HPD={0.003807,0.246894}],(Hanssuesia_sternbergi[&index=15]:0.082832[&brlen_95%_HPD={2.1e-05,0.221185}],((Psittacosaurus_spp.[&index=14]:0.021717[&brlen_95%_HPD={0,0.062409}],Thescelosaurus_neglectus[&index=13]:0.017821[&brlen_95%_HPD={1.9e-05,0.056514}])[&index=23,posterior=1.000000]:0.893630[&brlen_95%_HPD={0.435453,1.41166}],(Texacephale_langstoni[&index=12]:0.042726[&brlen_95%_HPD={3.5e-05,0.162309}],(Stegoceras_validum[&index=11]:0.025135[&brlen_95%_HPD={3.7e-05,0.100276}],(Colepiocephale_lambei[&index=10]:0.029002[&brlen_95%_HPD={8e-06,0.121968}],Gravitholus_albertae[&index=9]:0.028082[&brlen_95%_HPD={4e-06,0.10962}])[&index=24,posterior=0.661040]:0.064648[&brlen_95%_HPD={0.00019,0.179838}])[&index=25,posterior=0.298534]:0.045482[&brlen_95%_HPD={0.000262,0.130652}])[&index=26,posterior=0.202577]:0.060124[&brlen_95%_HPD={7.3e-05,0.167989}])[&index=27,posterior=0.315415]:0.068708[&brlen_95%_HPD={0.000689,0.191602}])[&index=28,posterior=0.830298]:0.120277[&brlen_95%_HPD={0.00943,0.266239}])[&index=29,posterior=0.402488]:0.053939[&brlen_95%_HPD={5e-06,0.163185}])[&index=30,posterior=0.494003]:0.055954[&brlen_95%_HPD={3e-06,0.158479}],(Tylocephale_gilmorei[&index=8]:0.015969[&brlen_95%_HPD={2e-06,0.07542}],(Prenocephale_prenes[&index=7]:0.008729[&brlen_95%_HPD={2e-06,0.038616}],(Homalocephale_calathocercos[&index=6]:0.008306[&brlen_95%_HPD={8e-06,0.034742}],(Goyocephale_lattimorei[&index=5]:0.026963[&brlen_95%_HPD={4e-06,0.082327}],Wannanosaurus_yansiensis[&index=4]:0.043517[&brlen_95%_HPD={0.000214,0.123826}])[&index=31,posterior=0.742781]:0.034690[&brlen_95%_HPD={2.2e-05,0.095103}])[&index=32,posterior=0.963572]:0.056160[&brlen_95%_HPD={0.013298,0.12014}])[&index=33,posterior=0.702799]:0.031016[&brlen_95%_HPD={0.000164,0.093763}])[&index=34,posterior=0.428698]:0.035918[&brlen_95%_HPD={8.6e-05,0.11348}])[&index=35,posterior=0.934251]:0.110176[&brlen_95%_HPD={0.009044,0.251947}],(Pachycephalosaurus_wyomingensis[&index=3]:0.021371[&brlen_95%_HPD={1.6e-05,0.084488}],(Stygimoloch_spinifer[&index=2]:0.049616[&brlen_95%_HPD={2e-06,0.154398}],Dracorex_hogwartsi[&index=1]:0.087155[&brlen_95%_HPD={0.003024,0.202198}])[&index=36,posterior=0.984896]:0.122108[&brlen_95%_HPD={0.028375,0.273619}])[&index=37,posterior=0.651266]:0.053153[&brlen_95%_HPD={0.000129,0.168094}])[&index=38,posterior=1.000000]:0.000000;
+End;

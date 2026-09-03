@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Antiquatonia
+		Buxtonia
+		Diaphragmus
+		Echinaria
+		Echinoconchus
+		Flexaria
+		Leioproductus
+		Parajuresania
+		Praewaageno
+		Productella
+		Pulchratia
+		Pustula
+		Sentosia
+		Spinocarinifera
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Antiquatonia[&index=14]:0.069287[&brlen_95%_HPD={3.4e-05,0.202939}],(((Pustula[&index=13]:0.091122[&brlen_95%_HPD={9.4e-05,0.288392}],((Echinaria[&index=12]:0.019777[&brlen_95%_HPD={1e-06,0.09454}],Echinoconchus[&index=11]:0.037576[&brlen_95%_HPD={7e-06,0.125434}])[&index=15,posterior=0.900044]:0.117229[&brlen_95%_HPD={0.000597,0.322808}],(Pulchratia[&index=10]:0.052252[&brlen_95%_HPD={5.4e-05,0.159068}],Parajuresania[&index=9]:0.027696[&brlen_95%_HPD={2e-06,0.111569}])[&index=16,posterior=0.800089]:0.101338[&brlen_95%_HPD={0.000403,0.296135}])[&index=17,posterior=0.603732]:0.135651[&brlen_95%_HPD={0.004699,0.335926}])[&index=18,posterior=0.780542]:0.175074[&brlen_95%_HPD={0.000726,0.420353}],(Buxtonia[&index=8]:0.069481[&brlen_95%_HPD={1e-05,0.201487}],Flexaria[&index=7]:0.033829[&brlen_95%_HPD={3.6e-05,0.141063}])[&index=19,posterior=0.527765]:0.103695[&brlen_95%_HPD={0.00015,0.35452}])[&index=20,posterior=0.890715]:0.297130[&brlen_95%_HPD={0.008512,0.601215}],(Leioproductus[&index=6]:0.055004[&brlen_95%_HPD={4e-06,0.241618}],(Productella[&index=5]:0.036739[&brlen_95%_HPD={1e-05,0.181972}],(Sentosia[&index=4]:0.018571[&brlen_95%_HPD={1.2e-05,0.082947}],Praewaageno[&index=3]:0.019227[&brlen_95%_HPD={3.4e-05,0.092346}])[&index=21,posterior=0.955575]:0.156464[&brlen_95%_HPD={9.6e-05,0.366239}])[&index=22,posterior=0.842292]:0.172208[&brlen_95%_HPD={0.004014,0.419253}])[&index=23,posterior=0.799200]:0.220781[&brlen_95%_HPD={0.012281,0.524201}])[&index=24,posterior=0.704576]:0.185985[&brlen_95%_HPD={0.000121,0.46109}],(Spinocarinifera[&index=2]:0.033032[&brlen_95%_HPD={2.3e-05,0.137044}],Diaphragmus[&index=1]:0.072002[&brlen_95%_HPD={4e-06,0.203223}])[&index=25,posterior=0.490004]:0.065233[&brlen_95%_HPD={0.000297,0.205811}])[&index=26,posterior=1.000000]:0.000000;
+End;

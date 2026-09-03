@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Archaeopteryx
+		Caenagnathidae
+		Gobipteryx
+		Hesperornis
+		Ornithomimosauria
+		Oviraptoridae
+		Therizinosauroidea
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ornithomimosauria[&index=7]:0.029688[&brlen_95%_HPD={1.4e-05,0.147459}],Archaeopteryx[&index=6]:0.020563[&brlen_95%_HPD={3e-06,0.104955}],(Therizinosauroidea[&index=5]:0.062266[&brlen_95%_HPD={6e-05,0.225345}],(Oviraptoridae[&index=4]:0.066186[&brlen_95%_HPD={0.00018,0.277584}],(Gobipteryx[&index=3]:0.054635[&brlen_95%_HPD={2.5e-05,0.258215}],(Hesperornis[&index=2]:0.093941[&brlen_95%_HPD={3.3e-05,0.329044}],Caenagnathidae[&index=1]:0.061259[&brlen_95%_HPD={2.3e-05,0.275089}])[&index=8,posterior=0.227899]:0.079845[&brlen_95%_HPD={2.3e-05,0.298314}])[&index=9,posterior=0.253665]:0.076436[&brlen_95%_HPD={0.000321,0.284313}])[&index=10,posterior=0.897379]:0.202665[&brlen_95%_HPD={0.002366,0.522985}])[&index=11,posterior=0.654376]:0.062794[&brlen_95%_HPD={1.3e-05,0.236506}])[&index=12,posterior=1.000000]:0.000000;
+End;

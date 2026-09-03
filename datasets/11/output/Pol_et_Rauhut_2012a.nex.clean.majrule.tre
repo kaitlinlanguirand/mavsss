@@ -1,0 +1,37 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=26;
+	Taxlabels
+		Abelisaurus
+		Allosaurus
+		Aucasaurus
+		Berberosaurus
+		Carnotaurus
+		Ceratosaurus
+		Deltadromeus
+		Ekrixinatosaurus
+		Elaphrosaurus
+		Eoabelisaurus
+		Genusaurus
+		Genyodectes
+		Herrerasaurus
+		Ilokelesia
+		Indosaurus
+		Laevisuchus
+		Limusaurus
+		Majungasaurus
+		Masiakasaurus
+		Noasaurus
+		Rajasaurus
+		Rugops
+		Skorpiovenator
+		Spinostropheus
+		Syntarsus
+		Velocisaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Abelisaurus[&index=26]:0.096150[&brlen_95%_HPD={0.003597,0.199194}],((Eoabelisaurus[&index=25]:0.026718[&brlen_95%_HPD={1.9e-05,0.098202}],((Velocisaurus[&index=24]:0.039414[&brlen_95%_HPD={1.6e-05,0.171607}],(Masiakasaurus[&index=23]:0.021548[&brlen_95%_HPD={1e-05,0.077062}],(Laevisuchus[&index=22]:0.059138[&brlen_95%_HPD={5.3e-05,0.227378}],Noasaurus[&index=21]:0.065748[&brlen_95%_HPD={3e-05,0.194067}])[&index=27,posterior=0.203021]:0.042430[&brlen_95%_HPD={1.8e-05,0.153196}])[&index=28,posterior=0.219902]:0.052518[&brlen_95%_HPD={0.000125,0.243582}])[&index=29,posterior=0.497112]:0.171124[&brlen_95%_HPD={0.00014,0.334736}],((Deltadromeus[&index=20]:0.070919[&brlen_95%_HPD={1.1e-05,0.275657}],(Spinostropheus[&index=19]:0.062895[&brlen_95%_HPD={3.1e-05,0.237366}],(Limusaurus[&index=18]:0.108155[&brlen_95%_HPD={0.000543,0.229207}],Elaphrosaurus[&index=17]:0.047302[&brlen_95%_HPD={5.9e-05,0.17351}])[&index=30,posterior=0.585518]:0.111962[&brlen_95%_HPD={0.000355,0.250932}])[&index=31,posterior=0.455797]:0.122496[&brlen_95%_HPD={0.000758,0.299541}])[&index=32,posterior=0.396713]:0.126800[&brlen_95%_HPD={0.002032,0.300612}],(Ceratosaurus[&index=16]:0.014612[&brlen_95%_HPD={1.8e-05,0.061961}],(Genyodectes[&index=15]:0.052697[&brlen_95%_HPD={5.4e-05,0.221594}],(Berberosaurus[&index=14]:0.069343[&brlen_95%_HPD={0.000122,0.223287}],(Allosaurus[&index=13]:0.018645[&brlen_95%_HPD={7e-06,0.076994}],(Herrerasaurus[&index=12]:0.053569[&brlen_95%_HPD={0.000438,0.108559}],Syntarsus[&index=11]:0.136053[&brlen_95%_HPD={0.066564,0.223373}])[&index=33,posterior=0.987561]:0.206547[&brlen_95%_HPD={0.112231,0.330574}])[&index=34,posterior=0.991115]:0.327882[&brlen_95%_HPD={0.129228,0.5484}])[&index=35,posterior=0.401599]:0.093547[&brlen_95%_HPD={7e-06,0.251579}])[&index=36,posterior=0.250555]:0.080407[&brlen_95%_HPD={2e-05,0.217907}])[&index=37,posterior=0.302976]:0.144062[&brlen_95%_HPD={0.002518,0.280507}])[&index=38,posterior=0.446468]:0.189215[&brlen_95%_HPD={0.030527,0.338315}])[&index=39,posterior=0.520657]:0.104914[&brlen_95%_HPD={0.000384,0.23527}])[&index=40,posterior=0.657930]:0.263454[&brlen_95%_HPD={0.104784,0.445749}],(Genusaurus[&index=10]:0.101611[&brlen_95%_HPD={0.000335,0.291794}],((Skorpiovenator[&index=9]:0.032637[&brlen_95%_HPD={0,0.09787}],(Ilokelesia[&index=8]:0.054853[&brlen_95%_HPD={0.000102,0.167958}],(Ekrixinatosaurus[&index=7]:0.046047[&brlen_95%_HPD={0.000111,0.147981}],Rugops[&index=6]:0.121423[&brlen_95%_HPD={0.000365,0.284935}])[&index=41,posterior=0.438472]:0.058780[&brlen_95%_HPD={0.000497,0.151717}])[&index=42,posterior=0.563305]:0.061091[&brlen_95%_HPD={0.001592,0.142685}])[&index=43,posterior=0.649489]:0.062770[&brlen_95%_HPD={0.006222,0.136107}],(Carnotaurus[&index=5]:0.015378[&brlen_95%_HPD={1e-06,0.04469}],Aucasaurus[&index=4]:0.019762[&brlen_95%_HPD={1e-06,0.060165}])[&index=44,posterior=0.379387]:0.016959[&brlen_95%_HPD={9e-06,0.046607}])[&index=45,posterior=0.292759]:0.048891[&brlen_95%_HPD={5e-05,0.10581}])[&index=46,posterior=0.428698]:0.059482[&brlen_95%_HPD={0.005442,0.125645}])[&index=47,posterior=0.645491]:0.050975[&brlen_95%_HPD={0.001036,0.114756}],(Majungasaurus[&index=3]:0.010881[&brlen_95%_HPD={1e-06,0.037823}],(Indosaurus[&index=2]:0.029653[&brlen_95%_HPD={9e-06,0.125566}],Rajasaurus[&index=1]:0.035596[&brlen_95%_HPD={0,0.09831}])[&index=48,posterior=0.493558]:0.030010[&brlen_95%_HPD={4.7e-05,0.090941}])[&index=49,posterior=0.531319]:0.027284[&brlen_95%_HPD={0.001394,0.068805}])[&index=50,posterior=1.000000]:0.000000;
+End;

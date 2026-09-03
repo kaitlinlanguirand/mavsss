@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Acrotholus_audeti
+		Alaskacephale
+		Amtocephale_gobiensis
+		Colepiocephale_lambei
+		Goyocephale_lattimorei
+		Hanssuesia_sternbergi
+		Homalocephale
+		Pachycephalosaurus
+		Prenocephale_brevis
+		Prenocephale_prenes
+		Psittacosaurus_mongoliensis
+		Sphaerotholus_buchholtzae
+		Sphaerotholus_goodwini
+		Stegoceras_novomexicanum
+		Stegoceras_validum
+		Tylocephale_gilmorei
+		Wannanosaurus
+		Yinlong_downsi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acrotholus_audeti[&index=18]:0.031308[&brlen_95%_HPD={8e-06,0.136731}],Prenocephale_prenes[&index=17]:0.015962[&brlen_95%_HPD={3.5e-05,0.071793}],(((Sphaerotholus_buchholtzae[&index=16]:0.050828[&brlen_95%_HPD={5e-06,0.163696}],Sphaerotholus_goodwini[&index=15]:0.032368[&brlen_95%_HPD={1e-06,0.128895}])[&index=19,posterior=0.872945]:0.104165[&brlen_95%_HPD={0.001032,0.2622}],(Alaskacephale[&index=14]:0.027936[&brlen_95%_HPD={1e-06,0.131995}],Pachycephalosaurus[&index=13]:0.060316[&brlen_95%_HPD={1e-05,0.229736}])[&index=20,posterior=0.777432]:0.124527[&brlen_95%_HPD={0.001204,0.30062}])[&index=21,posterior=0.254109]:0.067244[&brlen_95%_HPD={3.2e-05,0.207047}],((Goyocephale_lattimorei[&index=12]:0.078447[&brlen_95%_HPD={0.002279,0.180324}],Homalocephale[&index=11]:0.020150[&brlen_95%_HPD={1e-06,0.091686}])[&index=22,posterior=0.890271]:0.137572[&brlen_95%_HPD={0.008636,0.29814}],(Tylocephale_gilmorei[&index=10]:0.068162[&brlen_95%_HPD={2.4e-05,0.197841}],(Amtocephale_gobiensis[&index=9]:0.052693[&brlen_95%_HPD={1e-06,0.224502}],(Prenocephale_brevis[&index=8]:0.051624[&brlen_95%_HPD={6e-06,0.223095}],((Wannanosaurus[&index=7]:0.036163[&brlen_95%_HPD={1.2e-05,0.170862}],(Psittacosaurus_mongoliensis[&index=6]:0.067981[&brlen_95%_HPD={0.003438,0.150471}],Yinlong_downsi[&index=5]:0.020547[&brlen_95%_HPD={1e-05,0.08173}])[&index=23,posterior=0.992004]:0.215136[&brlen_95%_HPD={0.033684,0.503378}])[&index=24,posterior=0.995113]:0.397172[&brlen_95%_HPD={0.082871,0.770912}],(Colepiocephale_lambei[&index=4]:0.080834[&brlen_95%_HPD={0.000249,0.266971}],(Hanssuesia_sternbergi[&index=3]:0.033865[&brlen_95%_HPD={9e-06,0.159838}],(Stegoceras_validum[&index=2]:0.027725[&brlen_95%_HPD={1.8e-05,0.122267}],Stegoceras_novomexicanum[&index=1]:0.032349[&brlen_95%_HPD={1.9e-05,0.144766}])[&index=25,posterior=0.232341]:0.036752[&brlen_95%_HPD={3.3e-05,0.157309}])[&index=26,posterior=0.162594]:0.037953[&brlen_95%_HPD={0.000164,0.167697}])[&index=27,posterior=0.351399]:0.110585[&brlen_95%_HPD={0.000181,0.301781}])[&index=28,posterior=0.613505]:0.146993[&brlen_95%_HPD={6.7e-05,0.347743}])[&index=29,posterior=0.478454]:0.110551[&brlen_95%_HPD={0.000318,0.303733}])[&index=30,posterior=0.373612]:0.102241[&brlen_95%_HPD={0.000584,0.270856}])[&index=31,posterior=0.131941]:0.062086[&brlen_95%_HPD={5e-06,0.22261}])[&index=32,posterior=0.118170]:0.041461[&brlen_95%_HPD={0.000526,0.124074}])[&index=33,posterior=0.209685]:0.027630[&brlen_95%_HPD={2e-05,0.093104}])[&index=34,posterior=1.000000]:0.000000;
+End;

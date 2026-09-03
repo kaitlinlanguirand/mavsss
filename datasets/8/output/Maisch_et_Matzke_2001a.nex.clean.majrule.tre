@@ -1,0 +1,20 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=9;
+	Taxlabels
+		Contectopalatus_atavus
+		Cymbospondylus
+		Grippia
+		Mikadocephalus
+		Mixosaurus_cornalianus
+		Mixosaurus_kuhnschnyderi
+		Phalarodon_major
+		Phalarodon_nordenskioeldii
+		Utatsusaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Contectopalatus_atavus[&index=9]:0.020558[&brlen_95%_HPD={2e-06,0.090068}],((Mixosaurus_cornalianus[&index=8]:0.030255[&brlen_95%_HPD={2e-06,0.113087}],Mixosaurus_kuhnschnyderi[&index=7]:0.019581[&brlen_95%_HPD={1e-05,0.087249}])[&index=10,posterior=0.876499]:0.098077[&brlen_95%_HPD={0.001407,0.255087}],((Cymbospondylus[&index=6]:0.014336[&brlen_95%_HPD={2.5e-05,0.069441}],Mikadocephalus[&index=5]:0.014629[&brlen_95%_HPD={2e-06,0.072899}])[&index=11,posterior=0.956020]:0.191634[&brlen_95%_HPD={0.000776,0.470638}],(Utatsusaurus[&index=4]:0.044168[&brlen_95%_HPD={6.6e-05,0.163995}],Grippia[&index=3]:0.026209[&brlen_95%_HPD={1.8e-05,0.12605}])[&index=12,posterior=0.861839]:0.151570[&brlen_95%_HPD={2.6e-05,0.450895}])[&index=13,posterior=0.867614]:0.269526[&brlen_95%_HPD={0.016659,0.615909}])[&index=14,posterior=0.424700]:0.074992[&brlen_95%_HPD={0.00012,0.228395}],(Phalarodon_major[&index=2]:0.056910[&brlen_95%_HPD={4.1e-05,0.263696}],Phalarodon_nordenskioeldii[&index=1]:0.019725[&brlen_95%_HPD={2.1e-05,0.083077}])[&index=15,posterior=0.394936]:0.033661[&brlen_95%_HPD={0.000177,0.120603}])[&index=16,posterior=1.000000]:0.000000;
+End;

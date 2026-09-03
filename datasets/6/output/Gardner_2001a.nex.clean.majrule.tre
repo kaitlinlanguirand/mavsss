@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Albanerpeton
+		Anura
+		Apateon
+		Apoda
+		Balanerpeton
+		Celtedens
+		Dendrerpeton
+		Doleserpeton
+		Eocaecilia
+		Karauridae
+		Triadobatrachus
+		Urodela
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Celtedens[&index=12]:0.011453[&brlen_95%_HPD={1.6e-05,0.050887}],Albanerpeton[&index=11]:0.011761[&brlen_95%_HPD={4e-06,0.053685}],((Apoda[&index=10]:0.036796[&brlen_95%_HPD={0.000166,0.130162}],(Eocaecilia[&index=9]:0.025033[&brlen_95%_HPD={2.4e-05,0.104874}],(Doleserpeton[&index=8]:0.026584[&brlen_95%_HPD={9e-06,0.112887}],(Apateon[&index=7]:0.022506[&brlen_95%_HPD={6e-06,0.085679}],(Balanerpeton[&index=6]:0.007729[&brlen_95%_HPD={1e-06,0.034625}],Dendrerpeton[&index=5]:0.007383[&brlen_95%_HPD={5e-06,0.03536}])[&index=13,posterior=0.998667]:0.111295[&brlen_95%_HPD={0.037098,0.232263}])[&index=14,posterior=0.992004]:0.128297[&brlen_95%_HPD={0.027307,0.273759}])[&index=15,posterior=1.000000]:0.269545[&brlen_95%_HPD={0.087689,0.50246}])[&index=16,posterior=0.777432]:0.082419[&brlen_95%_HPD={0.006521,0.192204}])[&index=17,posterior=0.977788]:0.199041[&brlen_95%_HPD={0.045434,0.383967}],((Anura[&index=4]:0.022568[&brlen_95%_HPD={1.6e-05,0.078374}],Triadobatrachus[&index=3]:0.027874[&brlen_95%_HPD={0.000189,0.082949}])[&index=18,posterior=0.999112]:0.170523[&brlen_95%_HPD={0.056232,0.315083}],(Urodela[&index=2]:0.009338[&brlen_95%_HPD={0,0.040534}],Karauridae[&index=1]:0.015245[&brlen_95%_HPD={6e-06,0.057702}])[&index=19,posterior=0.396713]:0.021998[&brlen_95%_HPD={5.4e-05,0.085174}])[&index=20,posterior=0.450911]:0.057743[&brlen_95%_HPD={0.000187,0.182341}])[&index=21,posterior=1.000000]:0.242638[&brlen_95%_HPD={0.09306,0.461158}])[&index=22,posterior=1.000000]:0.000000;
+End;

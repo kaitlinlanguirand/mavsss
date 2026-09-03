@@ -1,0 +1,41 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=30;
+	Taxlabels
+		Ancestor
+		Araeoscelidia
+		Biarmosuchia
+		Captorhinidae
+		Casea
+		Choristodera
+		Diademodon
+		Dicynodontia
+		Dinocephalia
+		Edaphosaurus
+		Erythrosuchidae
+		Exaeretodon
+		Gorgonopsia
+		Lepidosauromorpha
+		Mammalia
+		Morganucodontidae
+		Ophiacodon
+		Ornithosuchia
+		Procynosuchus
+		Proterochampsidae
+		Proterosuchidae
+		Protorosauria
+		Pseudosuchia
+		Rhynchosauria
+		Sphenacodontinae
+		Testudines
+		Therocephalia
+		Thrinaxodon
+		Trilophosaurus
+		Tritylodontidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ancestor[&index=30]:0.009996[&brlen_95%_HPD={2.3e-05,0.027171}],(Casea[&index=29]:0.009480[&brlen_95%_HPD={1e-06,0.026672}],(Ophiacodon[&index=28]:0.013256[&brlen_95%_HPD={5.3e-05,0.033827}],(Edaphosaurus[&index=27]:0.014074[&brlen_95%_HPD={0.000224,0.034606}],(Sphenacodontinae[&index=26]:0.003368[&brlen_95%_HPD={5e-06,0.014615}],(Biarmosuchia[&index=25]:0.003737[&brlen_95%_HPD={5e-06,0.015375}],(Dinocephalia[&index=24]:0.005735[&brlen_95%_HPD={6e-06,0.018831}],(Gorgonopsia[&index=23]:0.002784[&brlen_95%_HPD={1e-06,0.012905}],(Dicynodontia[&index=22]:0.003564[&brlen_95%_HPD={1e-06,0.014533}],(Therocephalia[&index=21]:0.012193[&brlen_95%_HPD={0.000281,0.030512}],(Procynosuchus[&index=20]:0.002853[&brlen_95%_HPD={0,0.012666}],(Thrinaxodon[&index=19]:0.002789[&brlen_95%_HPD={0,0.01225}],(Diademodon[&index=18]:0.002747[&brlen_95%_HPD={1e-06,0.012561}],(Exaeretodon[&index=17]:0.004029[&brlen_95%_HPD={1e-05,0.01658}],(Tritylodontidae[&index=16]:0.007606[&brlen_95%_HPD={4e-06,0.024024}],(Mammalia[&index=15]:0.010838[&brlen_95%_HPD={0.000311,0.029131}],Morganucodontidae[&index=14]:0.004555[&brlen_95%_HPD={2e-06,0.018966}])[&index=31,posterior=0.999112]:0.028915[&brlen_95%_HPD={0.00898,0.057808}])[&index=32,posterior=1.000000]:0.099162[&brlen_95%_HPD={0.061602,0.151557}])[&index=33,posterior=1.000000]:0.043989[&brlen_95%_HPD={0.019818,0.072121}])[&index=34,posterior=1.000000]:0.036341[&brlen_95%_HPD={0.015297,0.062581}])[&index=35,posterior=1.000000]:0.032490[&brlen_95%_HPD={0.013546,0.055293}])[&index=36,posterior=1.000000]:0.070749[&brlen_95%_HPD={0.036222,0.110282}])[&index=37,posterior=1.000000]:0.029464[&brlen_95%_HPD={0.007167,0.057119}])[&index=38,posterior=1.000000]:0.073893[&brlen_95%_HPD={0.039229,0.113571}])[&index=39,posterior=1.000000]:0.028009[&brlen_95%_HPD={0.008977,0.052903}])[&index=40,posterior=1.000000]:0.034536[&brlen_95%_HPD={0.014363,0.062156}])[&index=41,posterior=1.000000]:0.144418[&brlen_95%_HPD={0.090426,0.208512}])[&index=42,posterior=1.000000]:0.060453[&brlen_95%_HPD={0.029696,0.097715}])[&index=43,posterior=0.997335]:0.022966[&brlen_95%_HPD={0.003878,0.0467}])[&index=44,posterior=0.991559]:0.022325[&brlen_95%_HPD={0.00507,0.045795}])[&index=45,posterior=1.000000]:0.043831[&brlen_95%_HPD={0.017578,0.077014}],((Araeoscelidia[&index=13]:0.005504[&brlen_95%_HPD={1.3e-05,0.021662}],(Lepidosauromorpha[&index=12]:0.005592[&brlen_95%_HPD={7e-06,0.021405}],(Rhynchosauria[&index=11]:0.007509[&brlen_95%_HPD={8e-06,0.022566}],(Trilophosaurus[&index=10]:0.032909[&brlen_95%_HPD={0.011907,0.05935}],(Choristodera[&index=9]:0.035419[&brlen_95%_HPD={0.015161,0.066175}],(Protorosauria[&index=8]:0.002887[&brlen_95%_HPD={2e-06,0.012219}],(Proterosuchidae[&index=7]:0.003800[&brlen_95%_HPD={1e-05,0.01611}],(Erythrosuchidae[&index=6]:0.005760[&brlen_95%_HPD={7e-06,0.019886}],(Proterochampsidae[&index=5]:0.003956[&brlen_95%_HPD={4e-06,0.015822}],(Ornithosuchia[&index=4]:0.002959[&brlen_95%_HPD={1e-06,0.013411}],Pseudosuchia[&index=3]:0.002767[&brlen_95%_HPD={4e-06,0.011932}])[&index=46,posterior=1.000000]:0.020223[&brlen_95%_HPD={0.005705,0.042914}])[&index=47,posterior=1.000000]:0.053035[&brlen_95%_HPD={0.025277,0.085758}])[&index=48,posterior=1.000000]:0.060561[&brlen_95%_HPD={0.031449,0.097298}])[&index=49,posterior=1.000000]:0.041296[&brlen_95%_HPD={0.017781,0.071196}])[&index=50,posterior=0.780542]:0.007667[&brlen_95%_HPD={3e-06,0.022414}])[&index=51,posterior=0.966681]:0.012987[&brlen_95%_HPD={0.000937,0.03102}])[&index=52,posterior=0.899600]:0.011334[&brlen_95%_HPD={0.000451,0.029645}])[&index=53,posterior=0.998667]:0.037021[&brlen_95%_HPD={0.008839,0.072334}])[&index=54,posterior=1.000000]:0.170398[&brlen_95%_HPD={0.099973,0.250206}])[&index=55,posterior=1.000000]:0.064690[&brlen_95%_HPD={0.032307,0.111683}],(Testudines[&index=2]:0.111195[&brlen_95%_HPD={0.056079,0.168446}],Captorhinidae[&index=1]:0.003324[&brlen_95%_HPD={1e-06,0.014841}])[&index=56,posterior=0.789871]:0.013390[&brlen_95%_HPD={1.4e-05,0.034221}])[&index=57,posterior=1.000000]:0.044970[&brlen_95%_HPD={0.016358,0.079936}])[&index=58,posterior=1.000000]:0.000000;
+End;

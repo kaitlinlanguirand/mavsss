@@ -1,0 +1,31 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=20;
+	Taxlabels
+		Carcharhiniformes
+		Centrophoridae
+		Chlamydoselachus
+		Dalatiinae
+		Echinorhinus
+		Etmopteridae
+		Euprotomicrininae
+		Heptranchias
+		Heterodontus
+		Hexanchus
+		Lamniformes
+		Notorynchus
+		Orectolobiformes
+		Outgroup
+		Oxynotus
+		Pristiophoridae
+		Rajiformes
+		Somniosidae
+		Squalidae
+		Squatina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Lamniformes[&index=20]:0.016948[&brlen_95%_HPD={7e-06,0.058348}],Carcharhiniformes[&index=19]:0.011537[&brlen_95%_HPD={5e-06,0.047472}],(Orectolobiformes[&index=18]:0.017435[&brlen_95%_HPD={2.6e-05,0.070737}],(Heterodontus[&index=17]:0.045844[&brlen_95%_HPD={9.8e-05,0.165882}],(Outgroup[&index=16]:0.135911[&brlen_95%_HPD={5e-06,0.354864}],((Echinorhinus[&index=15]:0.036230[&brlen_95%_HPD={3e-05,0.144691}],(Chlamydoselachus[&index=14]:0.188071[&brlen_95%_HPD={0.000109,0.358906}],(Notorynchus[&index=13]:0.018339[&brlen_95%_HPD={1.5e-05,0.074225}],(Heptranchias[&index=12]:0.014428[&brlen_95%_HPD={2e-06,0.051323}],Hexanchus[&index=11]:0.017260[&brlen_95%_HPD={1.2e-05,0.055392}])[&index=21,posterior=0.656597]:0.036895[&brlen_95%_HPD={3e-05,0.099575}])[&index=22,posterior=0.390493]:0.058912[&brlen_95%_HPD={0.00016,0.207584}])[&index=23,posterior=0.777876]:0.281056[&brlen_95%_HPD={0.060704,0.508272}])[&index=24,posterior=0.688139]:0.178256[&brlen_95%_HPD={0.04568,0.360104}],((Etmopteridae[&index=10]:0.009946[&brlen_95%_HPD={4e-06,0.044088}],(Oxynotus[&index=9]:0.022950[&brlen_95%_HPD={3.4e-05,0.064903}],(Somniosidae[&index=8]:0.008485[&brlen_95%_HPD={0,0.03635}],(Euprotomicrininae[&index=7]:0.008085[&brlen_95%_HPD={7e-06,0.035246}],Dalatiinae[&index=6]:0.027124[&brlen_95%_HPD={0.000697,0.067525}])[&index=25,posterior=0.646379]:0.017773[&brlen_95%_HPD={1.3e-05,0.057624}])[&index=26,posterior=0.466015]:0.018963[&brlen_95%_HPD={0.000114,0.057707}])[&index=27,posterior=0.715238]:0.045078[&brlen_95%_HPD={0.001698,0.10164}])[&index=28,posterior=0.509996]:0.030068[&brlen_95%_HPD={1.6e-05,0.085518}],(Centrophoridae[&index=5]:0.021740[&brlen_95%_HPD={2.9e-05,0.069107}],(Squalidae[&index=4]:0.020778[&brlen_95%_HPD={2.2e-05,0.079814}],(Squatina[&index=3]:0.058669[&brlen_95%_HPD={5.8e-05,0.168235}],(Rajiformes[&index=2]:0.124645[&brlen_95%_HPD={0.036494,0.230314}],Pristiophoridae[&index=1]:0.023934[&brlen_95%_HPD={4.3e-05,0.085152}])[&index=29,posterior=0.995113]:0.161768[&brlen_95%_HPD={0.047474,0.310495}])[&index=30,posterior=0.989338]:0.171686[&brlen_95%_HPD={0.061215,0.346155}])[&index=31,posterior=0.936917]:0.081523[&brlen_95%_HPD={0.011942,0.171372}])[&index=32,posterior=0.338072]:0.020705[&brlen_95%_HPD={5.1e-05,0.074925}])[&index=33,posterior=0.498889]:0.140991[&brlen_95%_HPD={0.000527,0.332825}])[&index=34,posterior=0.984007]:0.378124[&brlen_95%_HPD={0.110386,0.704524}])[&index=35,posterior=0.745002]:0.141496[&brlen_95%_HPD={0.000389,0.390756}])[&index=36,posterior=0.763661]:0.094365[&brlen_95%_HPD={0.010339,0.209777}])[&index=37,posterior=0.941359]:0.096100[&brlen_95%_HPD={0.000886,0.194251}])[&index=38,posterior=1.000000]:0.000000;
+End;

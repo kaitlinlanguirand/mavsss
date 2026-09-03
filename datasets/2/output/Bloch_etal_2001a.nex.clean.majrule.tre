@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Carpolestes_aulacodon
+		Carpolestes_cygneus
+		Carpolestes_dubuis
+		Carpolestes_hazelae
+		Carpolestes_hobackensis
+		Carpolestes_jepseni
+		Carpolestes_nigridens
+		Carpolestes_oriens
+		Carpolestes_simpsoni
+		Elphidotarsius_russelli
+		Elphidotarsius_shotgunensis
+		Elphidotarsius_wightoni
+		Pronothodectes
+		Purgatorius
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Carpolestes_aulacodon[&index=14]:0.059715[&brlen_95%_HPD={5.2e-05,0.197077}],(Carpolestes_jepseni[&index=13]:0.087683[&brlen_95%_HPD={0.000414,0.244603}],(Carpolestes_dubuis[&index=12]:0.017372[&brlen_95%_HPD={2e-05,0.071875}],(Carpolestes_simpsoni[&index=11]:0.032114[&brlen_95%_HPD={8e-05,0.094541}],Carpolestes_nigridens[&index=10]:0.013288[&brlen_95%_HPD={3.8e-05,0.061441}])[&index=15,posterior=0.785873]:0.028708[&brlen_95%_HPD={8e-06,0.092681}])[&index=16,posterior=0.947135]:0.126463[&brlen_95%_HPD={0.000281,0.289476}])[&index=17,posterior=0.968458]:0.182530[&brlen_95%_HPD={0.016036,0.428524}],((Carpolestes_hazelae[&index=9]:0.021192[&brlen_95%_HPD={1e-06,0.095537}],(Elphidotarsius_russelli[&index=8]:0.046035[&brlen_95%_HPD={1.1e-05,0.203252}],((Purgatorius[&index=7]:0.156148[&brlen_95%_HPD={0.010727,0.355445}],Pronothodectes[&index=6]:0.070213[&brlen_95%_HPD={8.6e-05,0.252998}])[&index=18,posterior=1.000000]:0.504353[&brlen_95%_HPD={0.194287,0.940583}],(Elphidotarsius_shotgunensis[&index=5]:0.020662[&brlen_95%_HPD={6e-06,0.086041}],Elphidotarsius_wightoni[&index=4]:0.034849[&brlen_95%_HPD={3.4e-05,0.12397}])[&index=19,posterior=0.575300]:0.071294[&brlen_95%_HPD={0.000125,0.255704}])[&index=20,posterior=0.674367]:0.147557[&brlen_95%_HPD={0.00037,0.406406}])[&index=21,posterior=0.815193]:0.174635[&brlen_95%_HPD={0.001308,0.421473}])[&index=22,posterior=0.294536]:0.044780[&brlen_95%_HPD={0.000273,0.152882}],(Carpolestes_oriens[&index=3]:0.120202[&brlen_95%_HPD={0.011506,0.290399}],(Carpolestes_cygneus[&index=2]:0.026944[&brlen_95%_HPD={5.2e-05,0.107865}],Carpolestes_hobackensis[&index=1]:0.031566[&brlen_95%_HPD={2.1e-05,0.12414}])[&index=23,posterior=0.227454]:0.043782[&brlen_95%_HPD={7.8e-05,0.136436}])[&index=24,posterior=0.112839]:0.039439[&brlen_95%_HPD={0.000166,0.138655}])[&index=25,posterior=0.393159]:0.114175[&brlen_95%_HPD={0.006334,0.276983}])[&index=26,posterior=1.000000]:0.000000;
+End;

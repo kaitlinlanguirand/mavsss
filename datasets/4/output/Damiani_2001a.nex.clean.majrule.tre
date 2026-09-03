@@ -1,0 +1,36 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=25;
+	Taxlabels
+		Angusaurus
+		Benthosuchus
+		Cherninia
+		Chomatobatrachus
+		Cyclotosaurus
+		Deltacephalus
+		Eocyclotosaurus
+		Eryosuchus
+		Konshukovia
+		Lydekkerina
+		Mastodonsaurus
+		Odenwaldia
+		P.madagascariensis
+		Paracyclotosaurus
+		Parotosuchus
+		Rhineceps
+		Rhinesuchus
+		Stenotosaurus
+		Tatrasuchus
+		Thoosuchus
+		Trematosaurus
+		Uranocentrodon
+		Watsonisuchus
+		Wellesaurus
+		Wetlugasaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Trematosaurus[&index=25]:0.027922[&brlen_95%_HPD={9e-06,0.091604}],Angusaurus[&index=24]:0.012997[&brlen_95%_HPD={5e-06,0.059946}],(Thoosuchus[&index=23]:0.039714[&brlen_95%_HPD={9e-06,0.116678}],((Benthosuchus[&index=22]:0.035079[&brlen_95%_HPD={2e-06,0.1739}],(Odenwaldia[&index=21]:0.054342[&brlen_95%_HPD={7e-06,0.205684}],(Eocyclotosaurus[&index=20]:0.146493[&brlen_95%_HPD={6.1e-05,0.390445}],(Wetlugasaurus[&index=19]:0.042988[&brlen_95%_HPD={1e-05,0.165425}],(Watsonisuchus[&index=18]:0.029609[&brlen_95%_HPD={5e-06,0.109509}],(Cherninia[&index=17]:0.022436[&brlen_95%_HPD={6.5e-05,0.085891}],(Parotosuchus[&index=16]:0.021229[&brlen_95%_HPD={0,0.079049}],(Eryosuchus[&index=15]:0.012943[&brlen_95%_HPD={2e-06,0.056143}],(Paracyclotosaurus[&index=14]:0.032967[&brlen_95%_HPD={8.7e-05,0.099124}],(Stenotosaurus[&index=13]:0.042084[&brlen_95%_HPD={2.1e-05,0.123813}],(Wellesaurus[&index=12]:0.022217[&brlen_95%_HPD={5.1e-05,0.092038}],(Mastodonsaurus[&index=11]:0.116752[&brlen_95%_HPD={0.00064,0.27414}],(Tatrasuchus[&index=10]:0.051647[&brlen_95%_HPD={1e-05,0.156354}],Cyclotosaurus[&index=9]:0.080802[&brlen_95%_HPD={0.002837,0.203283}])[&index=26,posterior=0.891604]:0.103209[&brlen_95%_HPD={0.000928,0.243937}])[&index=27,posterior=0.623279]:0.085148[&brlen_95%_HPD={0.000497,0.219793}])[&index=28,posterior=0.421590]:0.041043[&brlen_95%_HPD={0.000512,0.118504}])[&index=29,posterior=0.219014]:0.032988[&brlen_95%_HPD={0.000171,0.099525}])[&index=30,posterior=0.251000]:0.030129[&brlen_95%_HPD={5.6e-05,0.093838}])[&index=31,posterior=0.161706]:0.020629[&brlen_95%_HPD={4.5e-05,0.077225}])[&index=32,posterior=0.352288]:0.030111[&brlen_95%_HPD={0.001207,0.092728}])[&index=33,posterior=0.514438]:0.049304[&brlen_95%_HPD={0.000809,0.142039}])[&index=34,posterior=0.486450]:0.076153[&brlen_95%_HPD={0.002306,0.191272}])[&index=35,posterior=0.592181]:0.169290[&brlen_95%_HPD={0.000696,0.378468}])[&index=36,posterior=0.376721]:0.131277[&brlen_95%_HPD={8.6e-05,0.339974}])[&index=37,posterior=0.434474]:0.111209[&brlen_95%_HPD={0.000245,0.305456}])[&index=38,posterior=0.757441]:0.277751[&brlen_95%_HPD={0.014197,0.596633}],((Konshukovia[&index=8]:0.137736[&brlen_95%_HPD={0.000474,0.318063}],(Uranocentrodon[&index=7]:0.017664[&brlen_95%_HPD={1e-06,0.079868}],(Rhineceps[&index=6]:0.032535[&brlen_95%_HPD={5.5e-05,0.102254}],Rhinesuchus[&index=5]:0.034541[&brlen_95%_HPD={4.7e-05,0.11615}])[&index=39,posterior=0.613505]:0.036008[&brlen_95%_HPD={0.000247,0.11056}])[&index=40,posterior=0.685473]:0.092869[&brlen_95%_HPD={0.000128,0.310327}])[&index=41,posterior=0.999112]:0.348383[&brlen_95%_HPD={0.088807,0.684921}],((Chomatobatrachus[&index=4]:0.031459[&brlen_95%_HPD={1.9e-05,0.107177}],Lydekkerina[&index=3]:0.032359[&brlen_95%_HPD={7e-06,0.113868}])[&index=42,posterior=0.305198]:0.034114[&brlen_95%_HPD={9.5e-05,0.145385}],(P.madagascariensis[&index=2]:0.055178[&brlen_95%_HPD={0.000118,0.158247}],Deltacephalus[&index=1]:0.045806[&brlen_95%_HPD={1.8e-05,0.161175}])[&index=43,posterior=0.286095]:0.052337[&brlen_95%_HPD={0.000186,0.150921}])[&index=44,posterior=0.297201]:0.121277[&brlen_95%_HPD={0.000447,0.373864}])[&index=45,posterior=0.723678]:0.293989[&brlen_95%_HPD={2e-06,0.613118}])[&index=46,posterior=0.985784]:0.353670[&brlen_95%_HPD={0.068417,0.705874}])[&index=47,posterior=0.712572]:0.047579[&brlen_95%_HPD={5.4e-05,0.130716}])[&index=48,posterior=1.000000]:0.000000;
+End;

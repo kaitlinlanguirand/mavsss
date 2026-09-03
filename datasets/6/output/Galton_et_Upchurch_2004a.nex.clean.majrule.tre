@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Ammosaurus
+		Ancestor
+		Anchisaurus
+		Barapasaurus
+		Blikanasaurus
+		Camelotia
+		Coloradisaurus
+		Euskelosaurus
+		G._sinensis
+		Jingshanosaurus
+		Kotasaurus
+		Lessemsaurus
+		Lufengosaurus
+		Massospondylus
+		Melanorosaurus
+		Mussaurus
+		Plateosaurus
+		Riojasaurus
+		Saturnalia
+		Sellosaurus
+		Shunosaurus
+		Thecodontosaurus
+		Vulcanodon
+		Yunnanosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ammosaurus[&index=24]:0.018617[&brlen_95%_HPD={3e-06,0.080993}],Anchisaurus[&index=23]:0.023211[&brlen_95%_HPD={1e-05,0.07279}],((Riojasaurus[&index=22]:0.039889[&brlen_95%_HPD={0.000113,0.10684}],(Melanorosaurus[&index=21]:0.019531[&brlen_95%_HPD={4.3e-05,0.0801}],Camelotia[&index=20]:0.052273[&brlen_95%_HPD={1.6e-05,0.151756}])[&index=25,posterior=0.556197]:0.054486[&brlen_95%_HPD={0.000106,0.138151}])[&index=26,posterior=0.523767]:0.087191[&brlen_95%_HPD={0.002725,0.173848}],((Lessemsaurus[&index=19]:0.073981[&brlen_95%_HPD={2.1e-05,0.288432}],(Saturnalia[&index=18]:0.041012[&brlen_95%_HPD={1e-06,0.164686}],(Ancestor[&index=17]:0.384404[&brlen_95%_HPD={0.000873,0.722981}],Thecodontosaurus[&index=16]:0.019285[&brlen_95%_HPD={4.6e-05,0.098222}])[&index=27,posterior=0.650822]:0.095889[&brlen_95%_HPD={0.00687,0.235899}])[&index=28,posterior=0.404709]:0.090564[&brlen_95%_HPD={0.000689,0.20501}])[&index=29,posterior=0.160373]:0.093472[&brlen_95%_HPD={0.011205,0.211354}],((Jingshanosaurus[&index=15]:0.081588[&brlen_95%_HPD={3.6e-05,0.200599}],(Blikanasaurus[&index=14]:0.083732[&brlen_95%_HPD={5.8e-05,0.327956}],(Kotasaurus[&index=13]:0.049982[&brlen_95%_HPD={1.9e-05,0.219948}],(Vulcanodon[&index=12]:0.038550[&brlen_95%_HPD={1.2e-05,0.146475}],(Barapasaurus[&index=11]:0.031666[&brlen_95%_HPD={4.4e-05,0.102834}],Shunosaurus[&index=10]:0.055185[&brlen_95%_HPD={2e-05,0.125133}])[&index=30,posterior=0.958241]:0.127314[&brlen_95%_HPD={0.0152,0.268641}])[&index=31,posterior=0.959574]:0.221877[&brlen_95%_HPD={0.018305,0.476969}])[&index=32,posterior=0.961795]:0.457231[&brlen_95%_HPD={0.032757,0.967438}])[&index=33,posterior=0.754331]:0.315021[&brlen_95%_HPD={0.003725,0.739133}])[&index=34,posterior=0.298090]:0.116950[&brlen_95%_HPD={0.013748,0.234834}],((Massospondylus[&index=9]:0.031061[&brlen_95%_HPD={0.00039,0.074325}],Mussaurus[&index=8]:0.127076[&brlen_95%_HPD={0.012485,0.26206}])[&index=35,posterior=0.182586]:0.022402[&brlen_95%_HPD={2.2e-05,0.079483}],(Yunnanosaurus[&index=7]:0.018391[&brlen_95%_HPD={1e-06,0.057151}],((Lufengosaurus[&index=6]:0.033614[&brlen_95%_HPD={4.1e-05,0.084376}],G._sinensis[&index=5]:0.057691[&brlen_95%_HPD={0.003301,0.132175}])[&index=36,posterior=0.442914]:0.036211[&brlen_95%_HPD={0.000202,0.091682}],(Euskelosaurus[&index=4]:0.072328[&brlen_95%_HPD={0.001012,0.16748}],(Coloradisaurus[&index=3]:0.068324[&brlen_95%_HPD={8.3e-05,0.160768}],(Sellosaurus[&index=2]:0.027025[&brlen_95%_HPD={1.8e-05,0.074724}],Plateosaurus[&index=1]:0.022738[&brlen_95%_HPD={7e-06,0.064093}])[&index=37,posterior=0.365171]:0.032408[&brlen_95%_HPD={7.7e-05,0.080049}])[&index=38,posterior=0.191026]:0.031707[&brlen_95%_HPD={0.000174,0.085526}])[&index=39,posterior=0.135051]:0.028932[&brlen_95%_HPD={0.00224,0.075156}])[&index=40,posterior=0.101733]:0.035884[&brlen_95%_HPD={0.001269,0.082584}])[&index=41,posterior=0.043092]:0.018105[&brlen_95%_HPD={0.000419,0.057247}])[&index=42,posterior=0.063083]:0.051882[&brlen_95%_HPD={9.5e-05,0.123515}])[&index=43,posterior=0.074189]:0.077894[&brlen_95%_HPD={0.000482,0.147606}])[&index=44,posterior=0.123945]:0.067019[&brlen_95%_HPD={0.000729,0.148885}])[&index=45,posterior=0.578854]:0.065749[&brlen_95%_HPD={4.3e-05,0.171042}])[&index=46,posterior=1.000000]:0.000000;
+End;

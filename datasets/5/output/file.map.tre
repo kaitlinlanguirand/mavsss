@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Acrotholus_audeti
+		Alaskacephale
+		Amtocephale_gobiensis
+		Colepiocephale_lambei
+		Goyocephale_lattimorei
+		Hanssuesia_sternbergi
+		Homalocephale
+		Pachycephalosaurus
+		Prenocephale_brevis
+		Prenocephale_prenes
+		Psittacosaurus_mongoliensis
+		Sphaerotholus_buchholtzae
+		Sphaerotholus_goodwini
+		Stegoceras_novomexicanum
+		Stegoceras_validum
+		Tylocephale_gilmorei
+		Wannanosaurus
+		Yinlong_downsi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((((Psittacosaurus_mongoliensis[&index=1]:0.074313[&brlen_95%_HPD={0.003438,0.150471}],Yinlong_downsi[&index=16]:0.028931[&brlen_95%_HPD={1e-05,0.08173}])[&index=19,posterior=0.992004]:0.239297[&brlen_95%_HPD={0.033684,0.503378}],Wannanosaurus[&index=12]:0.055293[&brlen_95%_HPD={1.2e-05,0.170862}])[&index=20,posterior=0.995113]:0.417251[&brlen_95%_HPD={0.082871,0.770912}],Hanssuesia_sternbergi[&index=8]:0.051142[&brlen_95%_HPD={9e-06,0.159838}])[&index=21,posterior=0.071080]:0.054893[&brlen_95%_HPD={3.6e-05,0.194018}],Colepiocephale_lambei[&index=6]:0.103176[&brlen_95%_HPD={0.000249,0.266971}])[&index=22,posterior=0.076410]:0.053316[&brlen_95%_HPD={0.000433,0.162519}],(Stegoceras_novomexicanum[&index=4]:0.047391[&brlen_95%_HPD={1.9e-05,0.144766}],Stegoceras_validum[&index=2]:0.040283[&brlen_95%_HPD={1.8e-05,0.122267}])[&index=23,posterior=0.232341]:0.052523[&brlen_95%_HPD={3.3e-05,0.157309}])[&index=24,posterior=0.613505]:0.162296[&brlen_95%_HPD={6.7e-05,0.347743}],Prenocephale_brevis[&index=18]:0.075952[&brlen_95%_HPD={6e-06,0.223095}])[&index=25,posterior=0.478454]:0.130103[&brlen_95%_HPD={0.000318,0.303733}],Amtocephale_gobiensis[&index=5]:0.075549[&brlen_95%_HPD={1e-06,0.224502}])[&index=26,posterior=0.373612]:0.119531[&brlen_95%_HPD={0.000584,0.270856}],((Alaskacephale[&index=10]:0.043406[&brlen_95%_HPD={1e-06,0.131995}],Pachycephalosaurus[&index=14]:0.083457[&brlen_95%_HPD={1e-05,0.229736}])[&index=27,posterior=0.777432]:0.140337[&brlen_95%_HPD={0.001204,0.30062}],(Sphaerotholus_buchholtzae[&index=11]:0.063611[&brlen_95%_HPD={5e-06,0.163696}],Sphaerotholus_goodwini[&index=17]:0.044681[&brlen_95%_HPD={1e-06,0.128895}])[&index=28,posterior=0.872945]:0.119018[&brlen_95%_HPD={0.001032,0.2622}])[&index=29,posterior=0.254109]:0.082762[&brlen_95%_HPD={3.2e-05,0.207047}])[&index=30,posterior=0.064416]:0.054785[&brlen_95%_HPD={0.000906,0.148809}],((Goyocephale_lattimorei[&index=7]:0.086819[&brlen_95%_HPD={0.002279,0.180324}],Homalocephale[&index=13]:0.029616[&brlen_95%_HPD={1e-06,0.091686}])[&index=31,posterior=0.890271]:0.147928[&brlen_95%_HPD={0.008636,0.29814}],Tylocephale_gilmorei[&index=15]:0.082074[&brlen_95%_HPD={2.4e-05,0.197841}])[&index=32,posterior=0.081741]:0.042305[&brlen_95%_HPD={0.000231,0.1255}])[&index=33,posterior=0.209685]:0.036733[&brlen_95%_HPD={2e-05,0.093104}],Acrotholus_audeti[&index=3]:0.045330[&brlen_95%_HPD={8e-06,0.136731}],Prenocephale_prenes[&index=9]:0.023841[&brlen_95%_HPD={3.5e-05,0.071793}])[&index=34,posterior=1.000000]:0.000000;
+End;

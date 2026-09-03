@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Acaenasuchus
+		Aetosauroides
+		Aetosaurus
+		Coahomasuchus
+		Desmatosuchus_haplocerus
+		Desmatosuchus_smalli
+		Heliocanthus
+		Longosuchus
+		Lucasuchus
+		Neoaetosauroides
+		Paratypothorax
+		Postosuchus
+		Redondasuchus
+		Revueltosaurus
+		Stagonolepis_robertsoni
+		Stagonolepis_wellesi
+		Tecovasuchus
+		Typothorax
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acaenasuchus[&index=18]:0.030593[&brlen_95%_HPD={2.6e-05,0.121035}],(Desmatosuchus_smalli[&index=17]:0.014101[&brlen_95%_HPD={7e-06,0.063675}],Desmatosuchus_haplocerus[&index=16]:0.012864[&brlen_95%_HPD={1.1e-05,0.058145}])[&index=19,posterior=0.979565]:0.088673[&brlen_95%_HPD={0.002985,0.20261}],(Lucasuchus[&index=15]:0.050346[&brlen_95%_HPD={9.4e-05,0.152433}],(Longosuchus[&index=14]:0.032371[&brlen_95%_HPD={1.7e-05,0.11385}],((Postosuchus[&index=13]:0.141988[&brlen_95%_HPD={0.000215,0.400902}],Revueltosaurus[&index=12]:0.100586[&brlen_95%_HPD={0.000278,0.330263}])[&index=20,posterior=0.884940]:0.313158[&brlen_95%_HPD={0.005106,0.659086}],(((Tecovasuchus[&index=11]:0.046740[&brlen_95%_HPD={2.1e-05,0.167911}],(Paratypothorax[&index=10]:0.025178[&brlen_95%_HPD={5e-06,0.118292}],Heliocanthus[&index=9]:0.096838[&brlen_95%_HPD={0.000933,0.244347}])[&index=21,posterior=0.613949]:0.071362[&brlen_95%_HPD={0.000417,0.201313}])[&index=22,posterior=0.960462]:0.321550[&brlen_95%_HPD={0.041973,0.659861}],(Redondasuchus[&index=8]:0.033059[&brlen_95%_HPD={2.1e-05,0.160551}],Typothorax[&index=7]:0.034625[&brlen_95%_HPD={1.1e-05,0.149687}])[&index=23,posterior=0.654820]:0.123433[&brlen_95%_HPD={0.000516,0.421656}])[&index=24,posterior=0.712128]:0.269505[&brlen_95%_HPD={0.01701,0.561727}],((Coahomasuchus[&index=6]:0.021757[&brlen_95%_HPD={9e-06,0.090103}],Neoaetosauroides[&index=5]:0.027102[&brlen_95%_HPD={3e-06,0.107066}])[&index=25,posterior=0.347401]:0.034993[&brlen_95%_HPD={4.9e-05,0.122217}],(Stagonolepis_robertsoni[&index=4]:0.020529[&brlen_95%_HPD={2e-06,0.090649}],(Stagonolepis_wellesi[&index=3]:0.018181[&brlen_95%_HPD={4e-06,0.07581}],(Aetosauroides[&index=2]:0.015119[&brlen_95%_HPD={4.4e-05,0.068475}],Aetosaurus[&index=1]:0.027629[&brlen_95%_HPD={0.000253,0.095144}])[&index=26,posterior=0.350511]:0.025864[&brlen_95%_HPD={1e-06,0.091732}])[&index=27,posterior=0.258996]:0.027720[&brlen_95%_HPD={0.000189,0.089284}])[&index=28,posterior=0.195024]:0.030110[&brlen_95%_HPD={0.000584,0.119849}])[&index=29,posterior=0.278099]:0.115777[&brlen_95%_HPD={6.3e-05,0.358328}])[&index=30,posterior=0.319858]:0.183352[&brlen_95%_HPD={0.000164,0.51229}])[&index=31,posterior=0.952910]:0.376914[&brlen_95%_HPD={0.060425,0.766135}])[&index=32,posterior=0.349622]:0.042488[&brlen_95%_HPD={0.000176,0.129159}])[&index=33,posterior=0.523767]:0.051267[&brlen_95%_HPD={2.5e-05,0.156652}])[&index=34,posterior=1.000000]:0.000000;
+End;

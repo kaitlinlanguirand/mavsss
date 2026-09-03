@@ -1,0 +1,37 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=26;
+	Taxlabels
+		Albertosaurus_libratus
+		Albertosaurus_sarcophagus
+		Alioramus_remotus
+		Allosaurus_fragilis
+		Appalachiosaurus_montgomeriensis
+		Aviatyrannis_jurassica
+		Bagaraatan_ostromi
+		Bistahieversor_sealeyi
+		Cf._Alectrosaurus_GIN_100_slash_50_100
+		Coelophysis_bauri
+		Coelurus_fragilis
+		Daspletosaurus_sp._MOR
+		Daspletosaurus_spp.
+		Dilong_paradoxus
+		Dryptosaurus_aquilunguis
+		Eotyrannus_lengi
+		Guanlong_wucaii
+		Iliosuchus_incognitus
+		Monolophosaurus_jiangi
+		New_genus_from_Utah
+		Sinosauropteryx_prima
+		Stokesosaurus_clevelandi
+		Tanycolagreus_topwilsoni
+		Tyrannosaurus_bataar
+		Tyrannosaurus_rex
+		Velociraptor_mongoliensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Albertosaurus_sarcophagus[&index=26]:0.043727[&brlen_95%_HPD={0.012576,0.082905}],Albertosaurus_libratus[&index=25]:0.028707[&brlen_95%_HPD={0.003081,0.058923}],((New_genus_from_Utah[&index=24]:0.066527[&brlen_95%_HPD={0.000822,0.163193}],(Aviatyrannis_jurassica[&index=23]:0.082311[&brlen_95%_HPD={1.8e-05,0.275729}],(Daspletosaurus_sp._MOR[&index=22]:0.013694[&brlen_95%_HPD={1.6e-05,0.050586}],(Daspletosaurus_spp.[&index=21]:0.019640[&brlen_95%_HPD={0.000834,0.046437}],(Tyrannosaurus_bataar[&index=20]:0.052579[&brlen_95%_HPD={0.000116,0.116369}],(Bagaraatan_ostromi[&index=19]:0.073129[&brlen_95%_HPD={0.000139,0.244816}],Tyrannosaurus_rex[&index=18]:0.128357[&brlen_95%_HPD={0.000137,0.372014}])[&index=27,posterior=0.808530]:0.261117[&brlen_95%_HPD={0.002793,0.470853}])[&index=28,posterior=0.511328]:0.085750[&brlen_95%_HPD={0.005571,0.15804}])[&index=29,posterior=0.318525]:0.021580[&brlen_95%_HPD={0.001741,0.049776}])[&index=30,posterior=0.465127]:0.161398[&brlen_95%_HPD={0.015872,0.266189}])[&index=31,posterior=0.553088]:0.162990[&brlen_95%_HPD={0.025755,0.285917}])[&index=32,posterior=0.549534]:0.065554[&brlen_95%_HPD={0.000242,0.135747}],(Bistahieversor_sealeyi[&index=17]:0.094160[&brlen_95%_HPD={0.027471,0.184842}],(Alioramus_remotus[&index=16]:0.026163[&brlen_95%_HPD={5e-05,0.117846}],(Appalachiosaurus_montgomeriensis[&index=15]:0.020457[&brlen_95%_HPD={1.1e-05,0.080571}],(Dryptosaurus_aquilunguis[&index=14]:0.051280[&brlen_95%_HPD={0.000194,0.20067}],(Cf._Alectrosaurus_GIN_100_slash_50_100[&index=13]:0.038967[&brlen_95%_HPD={7.8e-05,0.150673}],(Eotyrannus_lengi[&index=12]:0.053805[&brlen_95%_HPD={2.4e-05,0.193562}],(Iliosuchus_incognitus[&index=11]:0.068540[&brlen_95%_HPD={5.3e-05,0.300916}],(Stokesosaurus_clevelandi[&index=10]:0.044327[&brlen_95%_HPD={8.8e-05,0.203108}],(Dilong_paradoxus[&index=9]:0.074958[&brlen_95%_HPD={2.5e-05,0.201432}],(Tanycolagreus_topwilsoni[&index=8]:0.081374[&brlen_95%_HPD={0.000668,0.204531}],(Velociraptor_mongoliensis[&index=7]:0.217062[&brlen_95%_HPD={0.072399,0.400197}],(((Allosaurus_fragilis[&index=6]:0.198062[&brlen_95%_HPD={2.5e-05,0.422812}],Coelurus_fragilis[&index=5]:0.203960[&brlen_95%_HPD={0.002521,0.48}])[&index=33,posterior=0.656597]:0.221006[&brlen_95%_HPD={0.002032,0.447298}],(Guanlong_wucaii[&index=4]:0.189314[&brlen_95%_HPD={5e-06,0.373066}],Monolophosaurus_jiangi[&index=3]:0.074678[&brlen_95%_HPD={1.9e-05,0.194012}])[&index=34,posterior=0.461573]:0.112654[&brlen_95%_HPD={0.00402,0.245207}])[&index=35,posterior=0.515771]:0.127898[&brlen_95%_HPD={0.004087,0.278957}],(Coelophysis_bauri[&index=2]:0.179952[&brlen_95%_HPD={0.039593,0.350199}],Sinosauropteryx_prima[&index=1]:0.043244[&brlen_95%_HPD={0.000106,0.140738}])[&index=36,posterior=0.439360]:0.123910[&brlen_95%_HPD={0.001295,0.312499}])[&index=37,posterior=0.752110]:0.161339[&brlen_95%_HPD={0.0038,0.337411}])[&index=38,posterior=0.453132]:0.085199[&brlen_95%_HPD={7.3e-05,0.216519}])[&index=39,posterior=0.560640]:0.123997[&brlen_95%_HPD={0.000279,0.260395}])[&index=40,posterior=0.776988]:0.285993[&brlen_95%_HPD={0.037115,0.557084}])[&index=41,posterior=0.216348]:0.086845[&brlen_95%_HPD={4.8e-05,0.388362}])[&index=42,posterior=0.357619]:0.189422[&brlen_95%_HPD={0.000274,0.537593}])[&index=43,posterior=0.359396]:0.120315[&brlen_95%_HPD={0.000593,0.347885}])[&index=44,posterior=0.278543]:0.060114[&brlen_95%_HPD={0.000294,0.210503}])[&index=45,posterior=0.244780]:0.044475[&brlen_95%_HPD={0.000172,0.163771}])[&index=46,posterior=0.398934]:0.048533[&brlen_95%_HPD={3.5e-05,0.138772}])[&index=47,posterior=0.639716]:0.092815[&brlen_95%_HPD={0.01381,0.183484}])[&index=48,posterior=0.421146]:0.038392[&brlen_95%_HPD={4.2e-05,0.101186}])[&index=49,posterior=0.940915]:0.051019[&brlen_95%_HPD={0.006058,0.105799}])[&index=50,posterior=1.000000]:0.000000;
+End;

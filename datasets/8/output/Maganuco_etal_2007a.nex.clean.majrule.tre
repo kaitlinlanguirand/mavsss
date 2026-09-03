@@ -1,0 +1,22 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=11;
+	Taxlabels
+		Allosaurus_MSNM_V435
+		Deinonychus_Ostrom_1969
+		Ilokelesia_Coria_et_Salgado_2000
+		MPCA_56_Novas_et_Bandyopadhyay_2001
+		MPCM_13573_Novas_et_al_2005_cast_in_MSNM
+		MSMN_V6235_this_study
+		Masiakasaurus_Carrano_et_al_2002_MSMN_V5267_V5276
+		Patagonykus_Novas_1997
+		Plateosaurus_MSNM_V2555
+		Troodon_Russell_1969
+		Tyrannosaurus_MSNM_V3902
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Tyrannosaurus_MSNM_V3902[&index=11]:0.038727[&brlen_95%_HPD={1.3e-05,0.198574}],Allosaurus_MSNM_V435[&index=10]:0.037968[&brlen_95%_HPD={4.3e-05,0.18728}],(Plateosaurus_MSNM_V2555[&index=9]:0.075857[&brlen_95%_HPD={0.000267,0.276325}],((MSMN_V6235_this_study[&index=8]:0.085999[&brlen_95%_HPD={1.3e-05,0.326238}],(Ilokelesia_Coria_et_Salgado_2000[&index=7]:0.068143[&brlen_95%_HPD={6e-06,0.275291}],(MPCM_13573_Novas_et_al_2005_cast_in_MSNM[&index=6]:0.052532[&brlen_95%_HPD={1.9e-05,0.208543}],(MPCA_56_Novas_et_Bandyopadhyay_2001[&index=5]:0.034604[&brlen_95%_HPD={1e-06,0.160013}],Masiakasaurus_Carrano_et_al_2002_MSMN_V5267_V5276[&index=4]:0.034975[&brlen_95%_HPD={2.6e-05,0.168458}])[&index=12,posterior=0.549978]:0.074720[&brlen_95%_HPD={0.000289,0.267527}])[&index=13,posterior=0.452688]:0.094647[&brlen_95%_HPD={0.000164,0.317218}])[&index=14,posterior=0.848512]:0.200790[&brlen_95%_HPD={0.005233,0.52509}])[&index=15,posterior=0.743669]:0.187683[&brlen_95%_HPD={0.000692,0.479957}],(Patagonykus_Novas_1997[&index=3]:0.060771[&brlen_95%_HPD={3e-05,0.262102}],(Deinonychus_Ostrom_1969[&index=2]:0.061576[&brlen_95%_HPD={3e-06,0.244301}],Troodon_Russell_1969[&index=1]:0.057466[&brlen_95%_HPD={5e-06,0.255219}])[&index=16,posterior=0.454465]:0.112412[&brlen_95%_HPD={0.000657,0.340496}])[&index=17,posterior=0.300755]:0.126530[&brlen_95%_HPD={0.0002,0.372721}])[&index=18,posterior=0.274989]:0.098268[&brlen_95%_HPD={0.000102,0.344264}])[&index=19,posterior=0.352288]:0.066923[&brlen_95%_HPD={0.000196,0.26631}])[&index=20,posterior=1.000000]:0.000000;
+End;

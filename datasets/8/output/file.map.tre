@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Archaeoceratops_oshimai
+		Asiaceratops_salsopaludalis
+		Bagaceratops_rozhdestvenskyi
+		Centrosaurus_apertus
+		Chaoyangsaurus_youngi
+		Hypsilophodon_foxii
+		Leptoceratops_gracilis
+		Microceratops_gobiensis
+		Montanoceratops_ceorhynchus
+		Protoceratops_andrewsi
+		Psittacosaurus_mongoliensis
+		Stegoceras_validum
+		Triceratops_horridus
+		Udanoceratops_tschizhovi
+		Zuniceratops_christopheri
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((Centrosaurus_apertus[&index=8]:0.009479[&brlen_95%_HPD={1.1e-05,0.0268}],Triceratops_horridus[&index=12]:0.010208[&brlen_95%_HPD={1e-06,0.028024}])[&index=16,posterior=1.000000]:0.407315[&brlen_95%_HPD={0.10937,0.787376}],Zuniceratops_christopheri[&index=13]:0.066234[&brlen_95%_HPD={1.9e-05,0.199957}])[&index=17,posterior=0.971568]:0.319718[&brlen_95%_HPD={0.032115,0.607108}],(Bagaceratops_rozhdestvenskyi[&index=6]:0.010142[&brlen_95%_HPD={1e-06,0.031342}],Protoceratops_andrewsi[&index=3]:0.023572[&brlen_95%_HPD={0.000168,0.052313}])[&index=18,posterior=0.778765]:0.046238[&brlen_95%_HPD={7e-05,0.10892}])[&index=19,posterior=0.531319]:0.051150[&brlen_95%_HPD={6e-05,0.122253}],Microceratops_gobiensis[&index=11]:0.022959[&brlen_95%_HPD={1.5e-05,0.073632}])[&index=20,posterior=0.681475]:0.072599[&brlen_95%_HPD={0.001272,0.157958}],(((Leptoceratops_gracilis[&index=7]:0.029056[&brlen_95%_HPD={0.000549,0.067032}],Udanoceratops_tschizhovi[&index=14]:0.026308[&brlen_95%_HPD={1.3e-05,0.070473}])[&index=21,posterior=0.979565]:0.052258[&brlen_95%_HPD={0.007356,0.107115}],Montanoceratops_ceorhynchus[&index=4]:0.017795[&brlen_95%_HPD={5e-06,0.054749}])[&index=22,posterior=0.991559]:0.105091[&brlen_95%_HPD={0.02664,0.199731}],Asiaceratops_salsopaludalis[&index=10]:0.039385[&brlen_95%_HPD={4e-06,0.116717}])[&index=23,posterior=0.438472]:0.047330[&brlen_95%_HPD={3.8e-05,0.116711}])[&index=24,posterior=0.868059]:0.122225[&brlen_95%_HPD={0.005518,0.231056}],(((Hypsilophodon_foxii[&index=1]:0.026408[&brlen_95%_HPD={1.7e-05,0.071051}],Stegoceras_validum[&index=5]:0.112370[&brlen_95%_HPD={0.033112,0.198951}])[&index=25,posterior=1.000000]:0.124508[&brlen_95%_HPD={0.042284,0.223912}],Chaoyangsaurus_youngi[&index=9]:0.035691[&brlen_95%_HPD={5e-06,0.096091}])[&index=26,posterior=0.968458]:0.077317[&brlen_95%_HPD={0.004248,0.154357}],Psittacosaurus_mongoliensis[&index=15]:0.024019[&brlen_95%_HPD={3.4e-05,0.069516}])[&index=27,posterior=1.000000]:0.232679[&brlen_95%_HPD={0.089885,0.387845}],Archaeoceratops_oshimai[&index=2]:0.047253[&brlen_95%_HPD={7e-06,0.126372}])[&index=28,posterior=1.000000]:0.000000;
+End;

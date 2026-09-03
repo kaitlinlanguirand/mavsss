@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Brachyrhinodon_taylori
+		Clevosaurus_hudsoni
+		Cynosphenodon_huizachalensis
+		Diphydontosaurus_sp
+		Gephyrosaurus_bridensis
+		Homoeosaurus_maximilliani
+		Iguana_iguana
+		Lacerta_lepida
+		Palaeopleurosaurus_posidoniae
+		Planocephalosaurus_robinsonae
+		Pleurosaurus_ginsburgi
+		Pleurosaurus_goldfussi
+		Polysphenodon_muelleri
+		Prolacerta_broomi
+		Saphaeosaurus_thiolleri
+		Sphenodon_punctatus
+		Varanus_griseus
+		Youngina_capensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Brachyrhinodon_taylori[&index=18]:0.030263[&brlen_95%_HPD={2.8e-05,0.092778}],Clevosaurus_hudsoni[&index=17]:0.092928[&brlen_95%_HPD={0.028611,0.186778}],(((Sphenodon_punctatus[&index=16]:0.073879[&brlen_95%_HPD={0.008617,0.180988}],Cynosphenodon_huizachalensis[&index=15]:0.028167[&brlen_95%_HPD={6e-06,0.122287}])[&index=19,posterior=0.849845]:0.071931[&brlen_95%_HPD={0.005961,0.187669}],(Saphaeosaurus_thiolleri[&index=14]:0.058532[&brlen_95%_HPD={0.003647,0.141622}],Palaeopleurosaurus_posidoniae[&index=13]:0.093102[&brlen_95%_HPD={1.7e-05,0.220551}])[&index=20,posterior=0.453576]:0.068531[&brlen_95%_HPD={0.001858,0.172917}])[&index=21,posterior=0.482896]:0.093669[&brlen_95%_HPD={0.000452,0.206476}],((Planocephalosaurus_robinsonae[&index=12]:0.047455[&brlen_95%_HPD={7.4e-05,0.164604}],((Pleurosaurus_ginsburgi[&index=11]:0.020245[&brlen_95%_HPD={1.8e-05,0.069476}],Pleurosaurus_goldfussi[&index=10]:0.013783[&brlen_95%_HPD={2.9e-05,0.058445}])[&index=22,posterior=0.998223]:0.348902[&brlen_95%_HPD={0.127644,0.607932}],(Diphydontosaurus_sp[&index=9]:0.081000[&brlen_95%_HPD={0.000184,0.243623}],(Gephyrosaurus_bridensis[&index=8]:0.036159[&brlen_95%_HPD={2e-06,0.143175}],(Youngina_capensis[&index=7]:0.079123[&brlen_95%_HPD={0.000128,0.229359}],(Prolacerta_broomi[&index=6]:0.218080[&brlen_95%_HPD={0.02888,0.47514}],(Lacerta_lepida[&index=5]:0.108737[&brlen_95%_HPD={0.000226,0.268034}],(Varanus_griseus[&index=4]:0.143500[&brlen_95%_HPD={0.000815,0.309458}],Iguana_iguana[&index=3]:0.162046[&brlen_95%_HPD={0.013226,0.342615}])[&index=23,posterior=0.350067]:0.082063[&brlen_95%_HPD={0.000105,0.231119}])[&index=24,posterior=0.753887]:0.166713[&brlen_95%_HPD={0.001262,0.376159}])[&index=25,posterior=0.649933]:0.120249[&brlen_95%_HPD={0.000324,0.351014}])[&index=26,posterior=0.832075]:0.105038[&brlen_95%_HPD={4e-06,0.269561}])[&index=27,posterior=0.952021]:0.157541[&brlen_95%_HPD={0.01241,0.356949}])[&index=28,posterior=0.613505]:0.157222[&brlen_95%_HPD={0.000315,0.363686}])[&index=29,posterior=0.568636]:0.167289[&brlen_95%_HPD={0.014027,0.351811}])[&index=30,posterior=0.580187]:0.172947[&brlen_95%_HPD={0.050392,0.342311}],(Polysphenodon_muelleri[&index=2]:0.018514[&brlen_95%_HPD={1.1e-05,0.071088}],Homoeosaurus_maximilliani[&index=1]:0.135352[&brlen_95%_HPD={0.039718,0.26181}])[&index=31,posterior=0.386495]:0.028544[&brlen_95%_HPD={0.000126,0.082347}])[&index=32,posterior=0.267437]:0.038663[&brlen_95%_HPD={0.000935,0.100033}])[&index=33,posterior=0.361617]:0.025946[&brlen_95%_HPD={0.000195,0.092243}])[&index=34,posterior=1.000000]:0.000000;
+End;

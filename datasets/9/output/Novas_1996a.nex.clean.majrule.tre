@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Alvarezsaurus
+		Archaeopteryx
+		Deinonychus
+		Mononykus
+		Ornithomimidae
+		Ornithothoraces
+		Patagonykus
+		Tyrannosauridae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alvarezsaurus[&index=8]:0.062798[&brlen_95%_HPD={9.3e-05,0.197011}],(Ornithothoraces[&index=7]:0.009883[&brlen_95%_HPD={2e-06,0.053396}],(Archaeopteryx[&index=6]:0.006685[&brlen_95%_HPD={4e-06,0.029618}],(Deinonychus[&index=5]:0.009317[&brlen_95%_HPD={1e-06,0.044172}],(Tyrannosauridae[&index=4]:0.007129[&brlen_95%_HPD={4e-06,0.031177}],Ornithomimidae[&index=3]:0.010614[&brlen_95%_HPD={3e-06,0.035499}])[&index=9,posterior=1.000000]:0.215969[&brlen_95%_HPD={0.096823,0.392014}])[&index=10,posterior=0.996890]:0.114697[&brlen_95%_HPD={0.047021,0.221246}])[&index=11,posterior=0.996890]:0.118858[&brlen_95%_HPD={0.043113,0.219238}])[&index=12,posterior=0.999556]:0.250917[&brlen_95%_HPD={0.085957,0.501482}],(Patagonykus[&index=2]:0.037275[&brlen_95%_HPD={1.5e-05,0.092224}],Mononykus[&index=1]:0.012669[&brlen_95%_HPD={1e-05,0.05688}])[&index=13,posterior=0.838294]:0.086811[&brlen_95%_HPD={0.005081,0.209195}])[&index=14,posterior=1.000000]:0.000000;
+End;

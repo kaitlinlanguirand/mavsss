@@ -1,0 +1,30 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=19;
+	Taxlabels
+		Almasaurus
+		Aphaneramma
+		Batrachosuchus
+		Callistomordax
+		Capitosauroidea
+		Dendrerpeton
+		Gerrothorax
+		Laidleria
+		Lydekkerina
+		Lyrocephaliscus
+		Metoposauridae
+		Plagiosuchus
+		Rhinesuchidae
+		Rhytidosteidae
+		Rileymillerus
+		Sclerocephalus
+		Siderops
+		Trematolestes
+		Trimerorhachis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Almasaurus[&index=19]:0.010630[&brlen_95%_HPD={7e-06,0.043526}],((Aphaneramma[&index=18]:0.011104[&brlen_95%_HPD={2e-05,0.045405}],Trematolestes[&index=17]:0.031924[&brlen_95%_HPD={0.000461,0.077238}])[&index=20,posterior=0.905820]:0.075119[&brlen_95%_HPD={0.013124,0.154004}],(Lyrocephaliscus[&index=16]:0.021458[&brlen_95%_HPD={0,0.074876}],(((Laidleria[&index=15]:0.028096[&brlen_95%_HPD={5e-06,0.096072}],(Gerrothorax[&index=14]:0.054183[&brlen_95%_HPD={0.006641,0.111347}],Plagiosuchus[&index=13]:0.016396[&brlen_95%_HPD={2e-06,0.059398}])[&index=21,posterior=1.000000]:0.146503[&brlen_95%_HPD={0.059467,0.261861}])[&index=22,posterior=0.992004]:0.120925[&brlen_95%_HPD={0.024848,0.240535}],(Batrachosuchus[&index=12]:0.024214[&brlen_95%_HPD={2.7e-05,0.080971}],Siderops[&index=11]:0.037301[&brlen_95%_HPD={7.4e-05,0.105444}])[&index=23,posterior=0.487783]:0.056736[&brlen_95%_HPD={0.000211,0.152107}])[&index=24,posterior=0.990671]:0.169124[&brlen_95%_HPD={0.051566,0.317956}],(Rhytidosteidae[&index=10]:0.021555[&brlen_95%_HPD={6e-06,0.088277}],(Capitosauroidea[&index=9]:0.076179[&brlen_95%_HPD={0.001899,0.187537}],(Lydekkerina[&index=8]:0.011659[&brlen_95%_HPD={1e-05,0.048633}],(Rhinesuchidae[&index=7]:0.026086[&brlen_95%_HPD={1e-05,0.109189}],(Trimerorhachis[&index=6]:0.089592[&brlen_95%_HPD={0.000146,0.214589}],(Dendrerpeton[&index=5]:0.016763[&brlen_95%_HPD={6e-06,0.055243}],Sclerocephalus[&index=4]:0.044606[&brlen_95%_HPD={5e-06,0.119625}])[&index=25,posterior=0.535762]:0.119494[&brlen_95%_HPD={0.028409,0.243947}])[&index=26,posterior=1.000000]:0.270889[&brlen_95%_HPD={0.130293,0.46148}])[&index=27,posterior=0.871168]:0.070697[&brlen_95%_HPD={0.000939,0.14861}])[&index=28,posterior=0.999112]:0.165498[&brlen_95%_HPD={0.056298,0.310404}])[&index=29,posterior=0.956464]:0.106078[&brlen_95%_HPD={0.016269,0.226257}])[&index=30,posterior=0.464682]:0.048273[&brlen_95%_HPD={1.6e-05,0.1532}])[&index=31,posterior=0.993781]:0.176640[&brlen_95%_HPD={0.062659,0.331677}])[&index=32,posterior=0.417148]:0.034386[&brlen_95%_HPD={8e-06,0.108617}])[&index=33,posterior=0.985784]:0.147026[&brlen_95%_HPD={0.061453,0.261905}],(Rileymillerus[&index=3]:0.130956[&brlen_95%_HPD={0.032981,0.253733}],(Metoposauridae[&index=2]:0.073986[&brlen_95%_HPD={0.01819,0.14857}],Callistomordax[&index=1]:0.035319[&brlen_95%_HPD={0.000264,0.092565}])[&index=34,posterior=0.996002]:0.082713[&brlen_95%_HPD={0.020622,0.159206}])[&index=35,posterior=0.350511]:0.017804[&brlen_95%_HPD={1e-05,0.06509}])[&index=36,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Archaeoceratops_oshimai
+		Asiaceratops_salsopaludalis
+		Bagaceratops_rozhdestvenskyi
+		Centrosaurus_apertus
+		Chaoyangsaurus_youngi
+		Hypsilophodon_foxii
+		Leptoceratops_gracilis
+		Microceratops_gobiensis
+		Montanoceratops_ceorhynchus
+		Protoceratops_andrewsi
+		Psittacosaurus_mongoliensis
+		Stegoceras_validum
+		Triceratops_horridus
+		Udanoceratops_tschizhovi
+		Zuniceratops_christopheri
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Archaeoceratops_oshimai[&index=15]:0.037536[&brlen_95%_HPD={7e-06,0.126372}],(Psittacosaurus_mongoliensis[&index=14]:0.017464[&brlen_95%_HPD={3.4e-05,0.069516}],(Chaoyangsaurus_youngi[&index=13]:0.027819[&brlen_95%_HPD={5e-06,0.096091}],(Hypsilophodon_foxii[&index=12]:0.020674[&brlen_95%_HPD={1.7e-05,0.071051}],Stegoceras_validum[&index=11]:0.107091[&brlen_95%_HPD={0.033112,0.198951}])[&index=16,posterior=1.000000]:0.117303[&brlen_95%_HPD={0.042284,0.223912}])[&index=17,posterior=0.968458]:0.071406[&brlen_95%_HPD={0.004248,0.154357}])[&index=18,posterior=1.000000]:0.222805[&brlen_95%_HPD={0.089885,0.387845}],((Microceratops_gobiensis[&index=10]:0.014870[&brlen_95%_HPD={1.5e-05,0.073632}],((Zuniceratops_christopheri[&index=9]:0.045085[&brlen_95%_HPD={1.9e-05,0.199957}],(Centrosaurus_apertus[&index=8]:0.006879[&brlen_95%_HPD={1.1e-05,0.0268}],Triceratops_horridus[&index=7]:0.007915[&brlen_95%_HPD={1e-06,0.028024}])[&index=19,posterior=1.000000]:0.386577[&brlen_95%_HPD={0.10937,0.787376}])[&index=20,posterior=0.971568]:0.301795[&brlen_95%_HPD={0.032115,0.607108}],(Protoceratops_andrewsi[&index=6]:0.020027[&brlen_95%_HPD={0.000168,0.052313}],Bagaceratops_rozhdestvenskyi[&index=5]:0.006943[&brlen_95%_HPD={1e-06,0.031342}])[&index=21,posterior=0.778765]:0.038200[&brlen_95%_HPD={7e-05,0.10892}])[&index=22,posterior=0.531319]:0.043713[&brlen_95%_HPD={6e-05,0.122253}])[&index=23,posterior=0.681475]:0.065232[&brlen_95%_HPD={0.001272,0.157958}],(Asiaceratops_salsopaludalis[&index=4]:0.026532[&brlen_95%_HPD={4e-06,0.116717}],(Montanoceratops_ceorhynchus[&index=3]:0.012098[&brlen_95%_HPD={5e-06,0.054749}],(Leptoceratops_gracilis[&index=2]:0.024803[&brlen_95%_HPD={0.000549,0.067032}],Udanoceratops_tschizhovi[&index=1]:0.020799[&brlen_95%_HPD={1.3e-05,0.070473}])[&index=24,posterior=0.979565]:0.047202[&brlen_95%_HPD={0.007356,0.107115}])[&index=25,posterior=0.991559]:0.099845[&brlen_95%_HPD={0.02664,0.199731}])[&index=26,posterior=0.438472]:0.039540[&brlen_95%_HPD={3.8e-05,0.116711}])[&index=27,posterior=0.868059]:0.115547[&brlen_95%_HPD={0.005518,0.231056}])[&index=28,posterior=1.000000]:0.000000;
+End;

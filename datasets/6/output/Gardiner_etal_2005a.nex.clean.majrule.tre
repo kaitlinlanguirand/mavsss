@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Acipenserformes
+		Australosomus
+		Birgeria
+		Boreosomus
+		Cheirolepis
+		Howqualepis
+		Kentuckia
+		Mimia
+		Moythomasia
+		Neopterygian
+		Outgroup
+		Perleidus
+		Polypterus
+		Pteronisculus
+		Saurichthys
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acipenserformes[&index=15]:0.146746[&brlen_95%_HPD={0.024205,0.309827}],Saurichthys[&index=14]:0.055142[&brlen_95%_HPD={3.2e-05,0.167625}],(Birgeria[&index=13]:0.076597[&brlen_95%_HPD={0.000106,0.240026}],((Australosomus[&index=12]:0.100783[&brlen_95%_HPD={5e-05,0.262682}],(Neopterygian[&index=11]:0.161630[&brlen_95%_HPD={0.044089,0.307115}],Perleidus[&index=10]:0.024911[&brlen_95%_HPD={1.7e-05,0.103687}])[&index=16,posterior=0.994225]:0.194928[&brlen_95%_HPD={0.04077,0.418074}])[&index=17,posterior=0.787650]:0.126538[&brlen_95%_HPD={0.013372,0.309236}],(Boreosomus[&index=9]:0.044606[&brlen_95%_HPD={4e-06,0.143466}],(Pteronisculus[&index=8]:0.061910[&brlen_95%_HPD={1.8e-05,0.176675}],(Kentuckia[&index=7]:0.043181[&brlen_95%_HPD={3.7e-05,0.14163}],((Moythomasia[&index=6]:0.060531[&brlen_95%_HPD={0.000121,0.150291}],Howqualepis[&index=5]:0.052288[&brlen_95%_HPD={0.000572,0.140709}])[&index=18,posterior=0.244780]:0.028539[&brlen_95%_HPD={0.000534,0.099967}],(Mimia[&index=4]:0.012628[&brlen_95%_HPD={9e-06,0.061792}],(Polypterus[&index=3]:0.328996[&brlen_95%_HPD={0.134268,0.617385}],(Outgroup[&index=2]:0.077887[&brlen_95%_HPD={0.009216,0.179392}],Cheirolepis[&index=1]:0.022394[&brlen_95%_HPD={3.6e-05,0.083774}])[&index=19,posterior=0.967126]:0.075352[&brlen_95%_HPD={0.002783,0.189565}])[&index=20,posterior=0.314527]:0.040178[&brlen_95%_HPD={0.000163,0.140105}])[&index=21,posterior=0.205242]:0.022642[&brlen_95%_HPD={0.000189,0.092861}])[&index=22,posterior=0.511773]:0.069157[&brlen_95%_HPD={0.000167,0.185728}])[&index=23,posterior=0.989782]:0.283025[&brlen_95%_HPD={0.079662,0.573955}])[&index=24,posterior=0.407375]:0.070360[&brlen_95%_HPD={0.000191,0.180632}])[&index=25,posterior=0.350067]:0.069607[&brlen_95%_HPD={0.00057,0.259104}])[&index=26,posterior=0.990671]:0.320540[&brlen_95%_HPD={0.110659,0.621031}])[&index=27,posterior=0.793869]:0.114954[&brlen_95%_HPD={0.001072,0.271319}])[&index=28,posterior=1.000000]:0.000000;
+End;

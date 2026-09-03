@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Bouleia
+		M_giganteus
+		Metacryphaeus_tuberculatus
+		Parabouleia
+		Plesiomalvinella_boulei
+		Plesiomalvinella_pujravii
+		aspera
+		australis
+		buddeae
+		donegalenus
+		gemellus
+		goeldi
+		haugi
+		lacunafera
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Bouleia[&index=14]:0.026955[&brlen_95%_HPD={1e-06,0.094034}],Parabouleia[&index=13]:0.041774[&brlen_95%_HPD={3.2e-05,0.112824}],((australis[&index=12]:0.112313[&brlen_95%_HPD={4e-05,0.296566}],((haugi[&index=11]:0.030324[&brlen_95%_HPD={6.5e-05,0.103092}],buddeae[&index=10]:0.036779[&brlen_95%_HPD={2.2e-05,0.119957}])[&index=15,posterior=0.358063]:0.058625[&brlen_95%_HPD={0.000152,0.19548}],(goeldi[&index=9]:0.067751[&brlen_95%_HPD={8.4e-05,0.264445}],(donegalenus[&index=8]:0.056823[&brlen_95%_HPD={5.3e-05,0.214022}],(gemellus[&index=7]:0.122258[&brlen_95%_HPD={1.8e-05,0.360665}],(aspera[&index=6]:0.027155[&brlen_95%_HPD={1.7e-05,0.11359}],lacunafera[&index=5]:0.092523[&brlen_95%_HPD={0.006794,0.206912}])[&index=16,posterior=0.936473]:0.199454[&brlen_95%_HPD={0.007102,0.467341}])[&index=17,posterior=0.476677]:0.191075[&brlen_95%_HPD={0.008262,0.47224}])[&index=18,posterior=0.284318]:0.121698[&brlen_95%_HPD={0.007051,0.296627}])[&index=19,posterior=0.343847]:0.098228[&brlen_95%_HPD={0.000449,0.277419}])[&index=20,posterior=0.342514]:0.112999[&brlen_95%_HPD={0.0001,0.302645}])[&index=21,posterior=0.959129]:0.254908[&brlen_95%_HPD={0.023588,0.564145}],(Plesiomalvinella_pujravii[&index=4]:0.041701[&brlen_95%_HPD={3.4e-05,0.165747}],(Plesiomalvinella_boulei[&index=3]:0.068080[&brlen_95%_HPD={4.9e-05,0.228661}],(M_giganteus[&index=2]:0.054658[&brlen_95%_HPD={2.3e-05,0.155319}],Metacryphaeus_tuberculatus[&index=1]:0.048648[&brlen_95%_HPD={5.1e-05,0.141889}])[&index=22,posterior=0.980009]:0.184962[&brlen_95%_HPD={0.030807,0.394269}])[&index=23,posterior=0.817859]:0.125933[&brlen_95%_HPD={0.003259,0.323153}])[&index=24,posterior=0.890271]:0.199465[&brlen_95%_HPD={0.001029,0.494713}])[&index=25,posterior=0.969347]:0.228428[&brlen_95%_HPD={0.000369,0.511547}])[&index=26,posterior=1.000000]:0.000000;
+End;

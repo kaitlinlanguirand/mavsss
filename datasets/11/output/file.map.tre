@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Agilisaurus
+		Archaeoceratops_oshimai
+		Ceratopsidae
+		Chaoyangsaurus_youngi
+		Heterodontosauridae
+		Hypsilophodon_foxii
+		Iguanodontia
+		Jeholosaurus_lujiatunensis
+		Lesothosaurus_diagnosticus
+		Liaoceratops_yanzigouensis
+		Pachycephalosauria
+		Psittacosaurus_mongoliensis
+		Thyreophora
+		Yinlong_downsi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((Archaeoceratops_oshimai[&index=4]:0.009783[&brlen_95%_HPD={1.1e-05,0.02866}],Ceratopsidae[&index=12]:0.137198[&brlen_95%_HPD={0.066104,0.224481}])[&index=15,posterior=0.996002]:0.062932[&brlen_95%_HPD={0.01629,0.116924}],Liaoceratops_yanzigouensis[&index=14]:0.016085[&brlen_95%_HPD={5e-06,0.047722}])[&index=16,posterior=0.987561]:0.147326[&brlen_95%_HPD={0.026308,0.295213}],Psittacosaurus_mongoliensis[&index=9]:0.208194[&brlen_95%_HPD={0.065645,0.378346}])[&index=17,posterior=0.974234]:0.146265[&brlen_95%_HPD={0.01869,0.288384}],Chaoyangsaurus_youngi[&index=3]:0.029585[&brlen_95%_HPD={8e-06,0.093671}])[&index=18,posterior=0.999556]:0.239199[&brlen_95%_HPD={0.075688,0.417919}],Yinlong_downsi[&index=5]:0.035624[&brlen_95%_HPD={2.7e-05,0.111}])[&index=19,posterior=0.994669]:0.365180[&brlen_95%_HPD={0.062157,0.645846}],Pachycephalosauria[&index=6]:0.096264[&brlen_95%_HPD={2e-06,0.317599}])[&index=20,posterior=0.972012]:0.369080[&brlen_95%_HPD={0.159206,0.608984}],Heterodontosauridae[&index=11]:0.116903[&brlen_95%_HPD={1e-06,0.246644}])[&index=21,posterior=0.374500]:0.135950[&brlen_95%_HPD={0.007261,0.250054}],(((Hypsilophodon_foxii[&index=10]:0.016642[&brlen_95%_HPD={2e-06,0.04715}],Iguanodontia[&index=13]:0.124056[&brlen_95%_HPD={0.045992,0.20767}])[&index=22,posterior=0.940027]:0.063927[&brlen_95%_HPD={0.002406,0.132306}],Jeholosaurus_lujiatunensis[&index=7]:0.049147[&brlen_95%_HPD={8.2e-05,0.10879}])[&index=23,posterior=0.840071]:0.065959[&brlen_95%_HPD={0.005153,0.136946}],(Lesothosaurus_diagnosticus[&index=1]:0.014046[&brlen_95%_HPD={6e-06,0.041911}],Thyreophora[&index=8]:0.031766[&brlen_95%_HPD={0.000139,0.07019}])[&index=24,posterior=0.730786]:0.052058[&brlen_95%_HPD={1.1e-05,0.128937}])[&index=25,posterior=0.469569]:0.087794[&brlen_95%_HPD={0.000129,0.180244}],Agilisaurus[&index=2]:0.032038[&brlen_95%_HPD={2.1e-05,0.089919}])[&index=26,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Amygdalotheca_griffei
+		Arauricystis_primaeva
+		Aspidocarpus_bohemicus
+		Ateleocystites_guttenbergensis
+		Barrandeocarpus_jaekeli
+		Ceratocystis_perneri
+		Chinainocarpos_thorali
+		Eumitrocystella_savilli
+		Galliaecystis_lignieresi
+		Lagynocystis_pyramidalis
+		Lobocarpus_viscainoi
+		Mitrocystella_incipiens
+		Mitrocystites_mitra
+		Ovocarpus_moncereti
+		Peltocystis_cornuta
+		Promitrocystites_barrandei
+		Protocystites_menevensis
+		Vizcainocarpus_dentiger
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Amygdalotheca_griffei[&index=18]:0.060939[&brlen_95%_HPD={5.8e-05,0.200605}],Galliaecystis_lignieresi[&index=17]:0.028638[&brlen_95%_HPD={2.8e-05,0.123911}],(Arauricystis_primaeva[&index=16]:0.033205[&brlen_95%_HPD={1e-06,0.154405}],(Protocystites_menevensis[&index=15]:0.029869[&brlen_95%_HPD={8e-06,0.146633}],(Ceratocystis_perneri[&index=14]:0.086097[&brlen_95%_HPD={3.2e-05,0.298069}],(Lagynocystis_pyramidalis[&index=13]:0.193854[&brlen_95%_HPD={0.001011,0.458071}],((Vizcainocarpus_dentiger[&index=12]:0.028789[&brlen_95%_HPD={2.8e-05,0.119509}],(Chinainocarpos_thorali[&index=11]:0.113019[&brlen_95%_HPD={0.00034,0.271815}],(Ovocarpus_moncereti[&index=10]:0.022439[&brlen_95%_HPD={8e-06,0.10031}],(Aspidocarpus_bohemicus[&index=9]:0.025924[&brlen_95%_HPD={2.6e-05,0.120408}],(Mitrocystites_mitra[&index=8]:0.039003[&brlen_95%_HPD={8.4e-05,0.16313}],(Eumitrocystella_savilli[&index=7]:0.058280[&brlen_95%_HPD={4.3e-05,0.191503}],(Promitrocystites_barrandei[&index=6]:0.037447[&brlen_95%_HPD={2e-06,0.1439}],(Mitrocystella_incipiens[&index=5]:0.022667[&brlen_95%_HPD={1.4e-05,0.10051}],(Ateleocystites_guttenbergensis[&index=4]:0.075876[&brlen_95%_HPD={0.000548,0.202239}],Barrandeocarpus_jaekeli[&index=3]:0.043801[&brlen_95%_HPD={3.5e-05,0.162115}])[&index=19,posterior=0.825855]:0.076674[&brlen_95%_HPD={1.1e-05,0.207546}])[&index=20,posterior=0.341626]:0.033382[&brlen_95%_HPD={2.2e-05,0.144136}])[&index=21,posterior=0.632608]:0.073540[&brlen_95%_HPD={0.000276,0.208731}])[&index=22,posterior=0.901821]:0.120799[&brlen_95%_HPD={0.00788,0.301605}])[&index=23,posterior=0.783652]:0.082109[&brlen_95%_HPD={0.001565,0.242223}])[&index=24,posterior=0.598845]:0.050792[&brlen_95%_HPD={1.8e-05,0.163149}])[&index=25,posterior=0.250555]:0.032246[&brlen_95%_HPD={2.8e-05,0.124}])[&index=26,posterior=0.440249]:0.055124[&brlen_95%_HPD={7.5e-05,0.166046}])[&index=27,posterior=0.537095]:0.104301[&brlen_95%_HPD={0.001064,0.328606}],(Lobocarpus_viscainoi[&index=2]:0.062071[&brlen_95%_HPD={2.9e-05,0.226273}],Peltocystis_cornuta[&index=1]:0.112411[&brlen_95%_HPD={0.000258,0.308985}])[&index=28,posterior=0.291426]:0.089704[&brlen_95%_HPD={0.000156,0.273637}])[&index=29,posterior=0.336739]:0.135924[&brlen_95%_HPD={3.2e-05,0.39252}])[&index=30,posterior=0.977343]:0.301289[&brlen_95%_HPD={0.079391,0.655341}])[&index=31,posterior=0.504665]:0.143960[&brlen_95%_HPD={0.011643,0.354605}])[&index=32,posterior=0.567748]:0.191837[&brlen_95%_HPD={0.041178,0.465657}])[&index=33,posterior=0.616171]:0.148803[&brlen_95%_HPD={0.001664,0.347067}])[&index=34,posterior=1.000000]:0.000000;
+End;

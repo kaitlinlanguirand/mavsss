@@ -1,0 +1,20 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=9;
+	Taxlabels
+		Agyrosaurus
+		Andesaurus
+		Epachtosaurus
+		Haplocanthosaurus
+		Lirainosaurus
+		Opishtocoelicaudia
+		Patagosaurus
+		Peiropolis_titanosaur
+		Saltasaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Agyrosaurus[&index=9]:0.093842[&brlen_95%_HPD={2.5e-05,0.279843}],Saltasaurus[&index=8]:0.120762[&brlen_95%_HPD={0.000144,0.317395}],((Lirainosaurus[&index=7]:0.098599[&brlen_95%_HPD={0.000273,0.263434}],Peiropolis_titanosaur[&index=6]:0.024984[&brlen_95%_HPD={3.9e-05,0.112305}])[&index=10,posterior=0.657041]:0.085360[&brlen_95%_HPD={0.000105,0.273773}],(Epachtosaurus[&index=5]:0.085379[&brlen_95%_HPD={3.3e-05,0.254119}],(Opishtocoelicaudia[&index=4]:0.046179[&brlen_95%_HPD={2.7e-05,0.179008}],(Andesaurus[&index=3]:0.089184[&brlen_95%_HPD={8.1e-05,0.279382}],(Patagosaurus[&index=2]:0.257670[&brlen_95%_HPD={0.041086,0.556383}],Haplocanthosaurus[&index=1]:0.047522[&brlen_95%_HPD={6e-06,0.184564}])[&index=11,posterior=0.471790]:0.089855[&brlen_95%_HPD={0.000271,0.268643}])[&index=12,posterior=0.686806]:0.127890[&brlen_95%_HPD={0.000372,0.348527}])[&index=13,posterior=0.659707]:0.110813[&brlen_95%_HPD={0.000759,0.303766}])[&index=14,posterior=0.384274]:0.091857[&brlen_95%_HPD={3.9e-05,0.260741}])[&index=15,posterior=0.585073]:0.122581[&brlen_95%_HPD={0.00066,0.337179}])[&index=16,posterior=1.000000]:0.000000;
+End;

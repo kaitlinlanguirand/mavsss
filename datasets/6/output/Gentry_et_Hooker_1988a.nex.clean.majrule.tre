@@ -1,0 +1,51 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=40;
+	Taxlabels
+		0romerycidae
+		Achaenodon
+		Agriochoeridae
+		Amphimerycidae
+		Anoplotheriinae
+		Anthracothema
+		Anthracotherium
+		Antiacodon
+		Bothriodontinae
+		Bunomerycidae
+		Cainotheriidae
+		Camelidae
+		Cebochoeridae
+		Choeropotamidae
+		D.pakistanensis
+		D_metsiacus
+		D_varleti
+		Dacrytheriinae
+		Dichobuninae
+		Entelodontidae
+		Gobiohyus
+		Helohyus
+		Hippopotamidae
+		Homacodon
+		Hyperdichobuninae
+		Hypertragulidae
+		Leptochoeridae
+		Leptomerycidae
+		Merycoidodontidae
+		Messelobunodon
+		Microsus
+		Mixtotheriidae
+		Outgroup
+		Protoceratidae
+		Protodichobune
+		Raoellidae
+		Suidae
+		Tayassuidae
+		Tragulidae
+		Xiphodontidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](0romerycidae[&index=40]:0.145522[&brlen_95%_HPD={0.005969,0.282757}],Camelidae[&index=39]:0.126646[&brlen_95%_HPD={0.022073,0.273288}],((Amphimerycidae[&index=38]:0.043566[&brlen_95%_HPD={6e-06,0.125356}],(Leptomerycidae[&index=37]:0.015527[&brlen_95%_HPD={4e-06,0.061342}],(Tragulidae[&index=36]:0.136911[&brlen_95%_HPD={0.039527,0.273746}],Hypertragulidae[&index=35]:0.272680[&brlen_95%_HPD={0.140664,0.48491}])[&index=41,posterior=0.890715]:0.081645[&brlen_95%_HPD={0.001119,0.185348}])[&index=42,posterior=0.991559]:0.183132[&brlen_95%_HPD={0.070485,0.315084}])[&index=43,posterior=0.980453]:0.179777[&brlen_95%_HPD={0.048783,0.314845}],(Xiphodontidae[&index=34]:0.018932[&brlen_95%_HPD={4.1e-05,0.071502}],((Cainotheriidae[&index=33]:0.094832[&brlen_95%_HPD={4.9e-05,0.219977}],((Choeropotamidae[&index=32]:0.107449[&brlen_95%_HPD={4.8e-05,0.314882}],(((Anthracothema[&index=31]:0.041994[&brlen_95%_HPD={5.7e-05,0.140431}],(Bothriodontinae[&index=30]:0.092820[&brlen_95%_HPD={0.000635,0.16901}],Anthracotherium[&index=29]:0.008837[&brlen_95%_HPD={5e-06,0.040691}])[&index=44,posterior=0.589960]:0.076352[&brlen_95%_HPD={0.000117,0.180373}])[&index=45,posterior=0.423812]:0.108306[&brlen_95%_HPD={0.007146,0.247361}],((Raoellidae[&index=28]:0.069969[&brlen_95%_HPD={0.000327,0.179031}],(Helohyus[&index=27]:0.057667[&brlen_95%_HPD={0.001389,0.144927}],Gobiohyus[&index=26]:0.080932[&brlen_95%_HPD={0.006274,0.187003}])[&index=46,posterior=0.523767]:0.055303[&brlen_95%_HPD={2.4e-05,0.168037}])[&index=47,posterior=0.525988]:0.083305[&brlen_95%_HPD={0.0008,0.217623}],(Cebochoeridae[&index=25]:0.207536[&brlen_95%_HPD={0.015206,0.413211}],(Achaenodon[&index=24]:0.070933[&brlen_95%_HPD={5.9e-05,0.188585}],(Hippopotamidae[&index=23]:0.144282[&brlen_95%_HPD={0.027886,0.303905}],(Entelodontidae[&index=22]:0.233089[&brlen_95%_HPD={0.097699,0.426868}],(Tayassuidae[&index=21]:0.066245[&brlen_95%_HPD={1e-05,0.149811}],Suidae[&index=20]:0.079356[&brlen_95%_HPD={0.007541,0.168301}])[&index=48,posterior=0.984896]:0.157585[&brlen_95%_HPD={0.030193,0.321495}])[&index=49,posterior=0.307863]:0.067487[&brlen_95%_HPD={7e-06,0.207095}])[&index=50,posterior=0.309196]:0.074434[&brlen_95%_HPD={7.2e-05,0.191979}])[&index=51,posterior=0.411373]:0.102111[&brlen_95%_HPD={0.000358,0.237758}])[&index=52,posterior=0.305198]:0.104523[&brlen_95%_HPD={0.006523,0.244008}])[&index=53,posterior=0.184363]:0.093538[&brlen_95%_HPD={0.000243,0.24214}])[&index=54,posterior=0.441582]:0.152423[&brlen_95%_HPD={0.000424,0.327964}],(((Hyperdichobuninae[&index=19]:0.198554[&brlen_95%_HPD={0.003312,0.396497}],Microsus[&index=18]:0.114185[&brlen_95%_HPD={9.5e-05,0.285287}])[&index=55,posterior=0.438916]:0.070228[&brlen_95%_HPD={6.2e-05,0.206466}],(Messelobunodon[&index=17]:0.013053[&brlen_95%_HPD={2.8e-05,0.057799}],(Protodichobune[&index=16]:0.111948[&brlen_95%_HPD={0.002147,0.26373}],(D_varleti[&index=15]:0.040744[&brlen_95%_HPD={6.9e-05,0.145112}],(D.pakistanensis[&index=14]:0.014109[&brlen_95%_HPD={2.7e-05,0.063744}],(Leptochoeridae[&index=13]:0.114420[&brlen_95%_HPD={0.022113,0.229172}],D_metsiacus[&index=12]:0.036391[&brlen_95%_HPD={1.1e-05,0.113295}])[&index=56,posterior=0.890715]:0.075655[&brlen_95%_HPD={0.001893,0.182912}])[&index=57,posterior=0.821413]:0.048905[&brlen_95%_HPD={0.000731,0.123956}])[&index=58,posterior=0.888050]:0.061986[&brlen_95%_HPD={0.000768,0.149946}])[&index=59,posterior=0.262994]:0.036906[&brlen_95%_HPD={0.000253,0.106621}])[&index=60,posterior=0.335851]:0.054580[&brlen_95%_HPD={0.00018,0.146245}])[&index=61,posterior=0.657486]:0.104109[&brlen_95%_HPD={0.005637,0.248197}],(Outgroup[&index=11]:0.023144[&brlen_95%_HPD={5e-06,0.091103}],(Dichobuninae[&index=10]:0.054726[&brlen_95%_HPD={0.000689,0.131096}],(Homacodon[&index=9]:0.024848[&brlen_95%_HPD={3.2e-05,0.089806}],Antiacodon[&index=8]:0.110212[&brlen_95%_HPD={0.015006,0.246621}])[&index=62,posterior=0.612617]:0.060469[&brlen_95%_HPD={0.000165,0.148512}])[&index=63,posterior=0.402932]:0.040317[&brlen_95%_HPD={4.3e-05,0.106666}])[&index=64,posterior=0.366060]:0.075002[&brlen_95%_HPD={3.1e-05,0.204975}])[&index=65,posterior=0.429587]:0.133598[&brlen_95%_HPD={0.003464,0.317051}])[&index=66,posterior=0.535762]:0.164438[&brlen_95%_HPD={0.006562,0.360921}])[&index=67,posterior=0.974234]:0.314831[&brlen_95%_HPD={0.089618,0.581782}],(Protoceratidae[&index=7]:0.295026[&brlen_95%_HPD={0.143514,0.549119}],(Mixtotheriidae[&index=6]:0.173260[&brlen_95%_HPD={0.038311,0.331121}],(Bunomerycidae[&index=5]:0.192901[&brlen_95%_HPD={0.05041,0.360607}],(Agriochoeridae[&index=4]:0.023908[&brlen_95%_HPD={1.8e-05,0.07371}],Merycoidodontidae[&index=3]:0.036821[&brlen_95%_HPD={0.000432,0.089964}])[&index=68,posterior=0.498445]:0.039778[&brlen_95%_HPD={0.000119,0.114171}])[&index=69,posterior=0.368281]:0.055366[&brlen_95%_HPD={0.000429,0.150157}])[&index=70,posterior=0.265660]:0.060841[&brlen_95%_HPD={0.000112,0.19861}])[&index=71,posterior=0.618392]:0.123246[&brlen_95%_HPD={0.002869,0.257934}])[&index=72,posterior=0.389605]:0.102554[&brlen_95%_HPD={0.000284,0.240417}])[&index=73,posterior=0.748112]:0.109185[&brlen_95%_HPD={0.001365,0.233799}],(Anoplotheriinae[&index=2]:0.036002[&brlen_95%_HPD={0.003711,0.078224}],Dacrytheriinae[&index=1]:0.007177[&brlen_95%_HPD={1e-06,0.031189}])[&index=74,posterior=0.352732]:0.011815[&brlen_95%_HPD={5.4e-05,0.049744}])[&index=75,posterior=0.860951]:0.110324[&brlen_95%_HPD={0.031628,0.206741}])[&index=76,posterior=0.434029]:0.037757[&brlen_95%_HPD={0.000202,0.141376}])[&index=77,posterior=0.997335]:0.223563[&brlen_95%_HPD={0.077119,0.408094}])[&index=78,posterior=1.000000]:0.000000;
+End;

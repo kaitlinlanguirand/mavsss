@@ -1,0 +1,27 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=16;
+	Taxlabels
+		Amargasaurus
+		Apatosaurus
+		Brachytrachelopan
+		Cathartesaura
+		Dicraeosaurus
+		Diplodocus
+		Histriasaurus
+		Jobaria
+		Limaysaurus
+		MACRONARIA
+		Nigersaurus
+		Omeisaurus
+		Rebbachisaurus
+		Spain_Rebbach.
+		Suuwassea
+		Zapalasaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Amargasaurus[&index=16]:0.057858[&brlen_95%_HPD={0.00012,0.158218}],((Suuwassea[&index=15]:0.079999[&brlen_95%_HPD={9.4e-05,0.241654}],((Histriasaurus[&index=14]:0.071945[&brlen_95%_HPD={1.2e-05,0.267125}],((Rebbachisaurus[&index=13]:0.036387[&brlen_95%_HPD={2.3e-05,0.156692}],(Spain_Rebbach.[&index=12]:0.044757[&brlen_95%_HPD={9e-06,0.151051}],Nigersaurus[&index=11]:0.029859[&brlen_95%_HPD={3.8e-05,0.096557}])[&index=17,posterior=0.759662]:0.121324[&brlen_95%_HPD={9.1e-05,0.283209}])[&index=18,posterior=0.390493]:0.102733[&brlen_95%_HPD={0.000325,0.260086}],(Limaysaurus[&index=10]:0.022604[&brlen_95%_HPD={3.4e-05,0.089585}],Cathartesaura[&index=9]:0.080375[&brlen_95%_HPD={5.9e-05,0.237692}])[&index=19,posterior=0.266548]:0.048276[&brlen_95%_HPD={0.000186,0.190871}])[&index=20,posterior=0.327854]:0.132384[&brlen_95%_HPD={0.000616,0.423471}])[&index=21,posterior=0.537539]:0.256989[&brlen_95%_HPD={0.000324,0.605991}],(Zapalasaurus[&index=8]:0.042101[&brlen_95%_HPD={5.2e-05,0.186548}],(MACRONARIA[&index=7]:0.019115[&brlen_95%_HPD={4e-05,0.057779}],(Omeisaurus[&index=6]:0.048096[&brlen_95%_HPD={4e-05,0.110911}],Jobaria[&index=5]:0.025674[&brlen_95%_HPD={0.000348,0.065061}])[&index=22,posterior=0.353621]:0.019164[&brlen_95%_HPD={1.6e-05,0.05565}])[&index=23,posterior=0.721013]:0.235035[&brlen_95%_HPD={1.8e-05,0.611154}])[&index=24,posterior=0.484229]:0.284169[&brlen_95%_HPD={0.00053,0.671222}])[&index=25,posterior=0.932474]:0.379428[&brlen_95%_HPD={0.054841,0.788341}])[&index=26,posterior=0.717459]:0.143768[&brlen_95%_HPD={0.001119,0.332473}],(Apatosaurus[&index=4]:0.024977[&brlen_95%_HPD={6.2e-05,0.068498}],Diplodocus[&index=3]:0.025966[&brlen_95%_HPD={1e-05,0.069999}])[&index=27,posterior=0.573967]:0.047341[&brlen_95%_HPD={0.000252,0.151323}])[&index=28,posterior=0.988894]:0.253516[&brlen_95%_HPD={0.105411,0.466999}],(Dicraeosaurus[&index=2]:0.026794[&brlen_95%_HPD={3.3e-05,0.078073}],Brachytrachelopan[&index=1]:0.026409[&brlen_95%_HPD={3.1e-05,0.108437}])[&index=29,posterior=0.664149]:0.041388[&brlen_95%_HPD={1.5e-05,0.107763}])[&index=30,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,28 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Acanthostomatops
+		Adamanterpeton
+		Balanerpeton
+		Baphetes
+		Chenoprosopus_lewisi
+		Chenoprosopus_milleri
+		Cochleosaurus_bohemicus
+		Cochleosaurus_florensis
+		Dendrerpeton
+		Edops
+		Eucritta
+		Loxomma
+		Outgroup
+		Procochleosaurus
+		Trimerorhachis_insignis
+		Trimerorhachis_sandovalensis
+		Zatrachys
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Zatrachys[&index=17]:0.114475[&brlen_95%_HPD={0.005815,0.245826}],Acanthostomatops[&index=16]:0.042847[&brlen_95%_HPD={0.000116,0.147138}],((((Eucritta[&index=15]:0.071911[&brlen_95%_HPD={0.000119,0.267881}],(Loxomma[&index=14]:0.040221[&brlen_95%_HPD={2.4e-05,0.118045}],(Outgroup[&index=13]:0.016237[&brlen_95%_HPD={3.7e-05,0.064082}],Baphetes[&index=12]:0.016320[&brlen_95%_HPD={9e-06,0.06229}])[&index=18,posterior=0.621057]:0.035307[&brlen_95%_HPD={7e-06,0.120361}])[&index=19,posterior=0.968458]:0.192024[&brlen_95%_HPD={0.02116,0.409806}])[&index=20,posterior=0.996890]:0.344613[&brlen_95%_HPD={0.06685,0.681592}],(Edops[&index=11]:0.045772[&brlen_95%_HPD={7e-05,0.165619}],(Procochleosaurus[&index=10]:0.070831[&brlen_95%_HPD={6.3e-05,0.196781}],(Adamanterpeton[&index=9]:0.036904[&brlen_95%_HPD={1.3e-05,0.11793}],((Chenoprosopus_milleri[&index=8]:0.024712[&brlen_95%_HPD={3e-06,0.094107}],Chenoprosopus_lewisi[&index=7]:0.113087[&brlen_95%_HPD={0.025362,0.240878}])[&index=21,posterior=0.990671]:0.136751[&brlen_95%_HPD={0.033904,0.278214}],(Cochleosaurus_florensis[&index=6]:0.014494[&brlen_95%_HPD={5e-06,0.05338}],Cochleosaurus_bohemicus[&index=5]:0.043127[&brlen_95%_HPD={0.000573,0.100023}])[&index=22,posterior=0.611728]:0.032433[&brlen_95%_HPD={1e-06,0.11782}])[&index=23,posterior=0.707241]:0.073364[&brlen_95%_HPD={0.000137,0.16337}])[&index=24,posterior=0.510884]:0.066144[&brlen_95%_HPD={1e-06,0.177209}])[&index=25,posterior=0.815193]:0.097840[&brlen_95%_HPD={0.00336,0.24741}])[&index=26,posterior=0.904043]:0.216757[&brlen_95%_HPD={0.013143,0.472784}])[&index=27,posterior=0.649489]:0.185566[&brlen_95%_HPD={0.001839,0.437428}],(Dendrerpeton[&index=4]:0.069201[&brlen_95%_HPD={3.4e-05,0.188929}],Balanerpeton[&index=3]:0.057179[&brlen_95%_HPD={4.7e-05,0.176929}])[&index=28,posterior=0.438916]:0.111067[&brlen_95%_HPD={0.000138,0.316873}])[&index=29,posterior=0.936028]:0.242682[&brlen_95%_HPD={0.032142,0.505746}],(Trimerorhachis_sandovalensis[&index=2]:0.100312[&brlen_95%_HPD={5e-06,0.245823}],Trimerorhachis_insignis[&index=1]:0.046326[&brlen_95%_HPD={3e-05,0.159786}])[&index=30,posterior=0.745002]:0.150682[&brlen_95%_HPD={0.000299,0.35793}])[&index=31,posterior=0.979120]:0.239603[&brlen_95%_HPD={0.040726,0.509058}])[&index=32,posterior=1.000000]:0.000000;
+End;

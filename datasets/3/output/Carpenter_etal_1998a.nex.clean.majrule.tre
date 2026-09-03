@@ -1,0 +1,15 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=4;
+	Taxlabels
+		Ankylosauridae
+		Gargoyleosaurus
+		Nodosauridae
+		Scelidosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Gargoyleosaurus[&index=4]:0.050330[&brlen_95%_HPD={1.4e-05,0.220787}],Ankylosauridae[&index=3]:0.148451[&brlen_95%_HPD={0.000108,0.39089}],(Scelidosaurus[&index=2]:0.177628[&brlen_95%_HPD={0.000371,0.437094}],Nodosauridae[&index=1]:0.069470[&brlen_95%_HPD={7.6e-05,0.251541}])[&index=5,posterior=0.569525]:0.089589[&brlen_95%_HPD={0.000109,0.289826}])[&index=6,posterior=1.000000]:0.000000;
+End;

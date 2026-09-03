@@ -1,0 +1,34 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=23;
+	Taxlabels
+		Anaspida
+		Arandaspida
+		Astraspida
+		Cephalochordata
+		Conodonta
+		Eriptychius
+		Euphanerops
+		Galeaspida
+		Gilpichthys
+		Gnathostomata
+		Hardistiella
+		Heterostraci
+		Hyperoartia_lampreys
+		Hyperotreti_hagfishes
+		Jamoytius
+		Loganellia
+		Mayomyzon
+		Myxinikela
+		Osteostraci
+		Phlebolepis
+		Pipiscius
+		Pituriaspida
+		Tunicata
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Anaspida[&index=23]:0.055675[&brlen_95%_HPD={2e-06,0.197671}],((Jamoytius[&index=22]:0.022220[&brlen_95%_HPD={2.6e-05,0.101889}],Euphanerops[&index=21]:0.025532[&brlen_95%_HPD={1.6e-05,0.105365}])[&index=24,posterior=0.156819]:0.037092[&brlen_95%_HPD={0.000108,0.154665}],(Conodonta[&index=20]:0.079127[&brlen_95%_HPD={2.1e-05,0.225937}],(Hardistiella[&index=19]:0.033076[&brlen_95%_HPD={4.4e-05,0.122488}],(Hyperoartia_lampreys[&index=18]:0.024702[&brlen_95%_HPD={2.8e-05,0.075838}],(Pipiscius[&index=17]:0.017351[&brlen_95%_HPD={1.2e-05,0.080689}],Mayomyzon[&index=16]:0.015170[&brlen_95%_HPD={6.9e-05,0.063195}])[&index=25,posterior=0.229231]:0.016002[&brlen_95%_HPD={0.000163,0.074235}])[&index=26,posterior=0.328743]:0.043507[&brlen_95%_HPD={0.000123,0.145533}])[&index=27,posterior=0.249223]:0.064118[&brlen_95%_HPD={5.7e-05,0.189876}])[&index=28,posterior=0.140826]:0.056128[&brlen_95%_HPD={0.000107,0.189823}])[&index=29,posterior=0.167037]:0.081357[&brlen_95%_HPD={0.001764,0.234655}],((Galeaspida[&index=15]:0.067205[&brlen_95%_HPD={8.9e-05,0.207387}],((Gnathostomata[&index=14]:0.030888[&brlen_95%_HPD={4.3e-05,0.112064}],(Pituriaspida[&index=13]:0.022304[&brlen_95%_HPD={3.3e-05,0.104396}],Osteostraci[&index=12]:0.030272[&brlen_95%_HPD={3.4e-05,0.106645}])[&index=30,posterior=0.641493]:0.055829[&brlen_95%_HPD={2.4e-05,0.142918}])[&index=31,posterior=0.960018]:0.220650[&brlen_95%_HPD={0.057564,0.436525}],(Loganellia[&index=11]:0.038517[&brlen_95%_HPD={4.4e-05,0.12552}],Phlebolepis[&index=10]:0.031835[&brlen_95%_HPD={5.6e-05,0.112031}])[&index=32,posterior=0.711239]:0.103434[&brlen_95%_HPD={8.7e-05,0.316325}])[&index=33,posterior=0.384274]:0.089017[&brlen_95%_HPD={0.00017,0.212102}])[&index=34,posterior=0.357619]:0.095375[&brlen_95%_HPD={0.000188,0.274052}],((Arandaspida[&index=9]:0.168423[&brlen_95%_HPD={0.000105,0.383355}],Heterostraci[&index=8]:0.057197[&brlen_95%_HPD={0.000108,0.220312}])[&index=35,posterior=0.406486]:0.120715[&brlen_95%_HPD={0.000196,0.31718}],(Eriptychius[&index=7]:0.150807[&brlen_95%_HPD={0.0009,0.410135}],(Astraspida[&index=6]:0.093403[&brlen_95%_HPD={1.8e-05,0.284081}],(Gilpichthys[&index=5]:0.026471[&brlen_95%_HPD={5e-06,0.098073}],((Tunicata[&index=4]:0.020879[&brlen_95%_HPD={0.00016,0.058186}],Cephalochordata[&index=3]:0.008292[&brlen_95%_HPD={6e-06,0.036217}])[&index=36,posterior=0.999112]:0.203890[&brlen_95%_HPD={0.065334,0.38249}],(Hyperotreti_hagfishes[&index=2]:0.012036[&brlen_95%_HPD={1.2e-05,0.05405}],Myxinikela[&index=1]:0.012341[&brlen_95%_HPD={2e-06,0.056614}])[&index=37,posterior=0.674367]:0.040092[&brlen_95%_HPD={1.9e-05,0.125618}])[&index=38,posterior=0.393159]:0.048175[&brlen_95%_HPD={0.000493,0.17859}])[&index=39,posterior=0.799200]:0.254126[&brlen_95%_HPD={0.001165,0.665163}])[&index=40,posterior=0.618836]:0.289098[&brlen_95%_HPD={0.007165,0.712099}])[&index=41,posterior=0.219014]:0.200621[&brlen_95%_HPD={0.00162,0.561747}])[&index=42,posterior=0.252332]:0.193284[&brlen_95%_HPD={0.007044,0.394471}])[&index=43,posterior=0.158596]:0.122738[&brlen_95%_HPD={0.002983,0.318186}])[&index=44,posterior=1.000000]:0.000000;
+End;

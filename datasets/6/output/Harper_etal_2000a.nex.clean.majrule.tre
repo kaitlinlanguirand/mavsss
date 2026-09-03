@@ -1,0 +1,27 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=16;
+	Taxlabels
+		Brechites
+		Clavagella
+		Cleidothaeridae
+		Cuspidariidae
+		Laternulidae
+		Lyonsiellidae
+		Lyonsiidae
+		Myadora
+		Myochama
+		Pandoridae
+		Parilimyidae
+		Periplomatidae
+		Pholadomyidae
+		Poromyidae
+		Thraciidae
+		Verticordiidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Brechites[&index=16]:0.010329[&brlen_95%_HPD={7e-06,0.048825}],Clavagella[&index=15]:0.010243[&brlen_95%_HPD={2e-06,0.049751}],(((Myochama[&index=14]:0.074980[&brlen_95%_HPD={0.000521,0.185539}],Myadora[&index=13]:0.020321[&brlen_95%_HPD={2e-05,0.086033}])[&index=17,posterior=0.673923]:0.066920[&brlen_95%_HPD={0.000195,0.188774}],(Pandoridae[&index=12]:0.063111[&brlen_95%_HPD={0.000292,0.189903}],Cleidothaeridae[&index=11]:0.169225[&brlen_95%_HPD={0.035794,0.370572}])[&index=18,posterior=0.292759]:0.048171[&brlen_95%_HPD={0.000474,0.168296}])[&index=19,posterior=0.361617]:0.095528[&brlen_95%_HPD={0.000258,0.276896}],(Lyonsiidae[&index=10]:0.088810[&brlen_95%_HPD={0.000502,0.25637}],((Laternulidae[&index=9]:0.101242[&brlen_95%_HPD={0.000152,0.275577}],(Periplomatidae[&index=8]:0.061203[&brlen_95%_HPD={0.000101,0.19597}],Thraciidae[&index=7]:0.119159[&brlen_95%_HPD={0.002665,0.273185}])[&index=20,posterior=0.629054]:0.099137[&brlen_95%_HPD={0.000388,0.263194}])[&index=21,posterior=0.762328]:0.178916[&brlen_95%_HPD={0.002998,0.425056}],((Lyonsiellidae[&index=6]:0.032540[&brlen_95%_HPD={1.9e-05,0.109932}],Verticordiidae[&index=5]:0.018703[&brlen_95%_HPD={2e-05,0.079894}])[&index=22,posterior=0.817414]:0.131697[&brlen_95%_HPD={0.00027,0.360938}],((Pholadomyidae[&index=4]:0.124259[&brlen_95%_HPD={2.6e-05,0.308392}],Parilimyidae[&index=3]:0.070075[&brlen_95%_HPD={1.2e-05,0.257747}])[&index=23,posterior=0.983563]:0.384356[&brlen_95%_HPD={0.099088,0.771952}],(Poromyidae[&index=2]:0.123606[&brlen_95%_HPD={2.4e-05,0.351826}],Cuspidariidae[&index=1]:0.152269[&brlen_95%_HPD={4e-05,0.38192}])[&index=24,posterior=0.716570]:0.244667[&brlen_95%_HPD={0.029357,0.562338}])[&index=25,posterior=0.393603]:0.216082[&brlen_95%_HPD={0.000298,0.520226}])[&index=26,posterior=0.270546]:0.163631[&brlen_95%_HPD={0.010465,0.403299}])[&index=27,posterior=0.153709]:0.079712[&brlen_95%_HPD={1.7e-05,0.289849}])[&index=28,posterior=0.260773]:0.096642[&brlen_95%_HPD={0.001636,0.263245}])[&index=29,posterior=0.980897]:0.200020[&brlen_95%_HPD={0.016238,0.434374}])[&index=30,posterior=1.000000]:0.000000;
+End;

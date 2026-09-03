@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Alvarezsaurus
+		Archaeopteryx
+		Caudipteryx
+		Confucisornis
+		Enantiornithes
+		Hesperornithiformes
+		Iberomesornis
+		Ichthyornithiformes
+		Mononykus
+		Neornithes
+		Oviraptorosaurs
+		Patagonykus
+		Patagopteryx
+		Velociraptorinae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alvarezsaurus[&index=14]:0.037563[&brlen_95%_HPD={1.9e-05,0.17237}],(Patagonykus[&index=13]:0.035683[&brlen_95%_HPD={1e-06,0.163044}],Mononykus[&index=12]:0.112779[&brlen_95%_HPD={0.000647,0.254863}])[&index=15,posterior=0.905375]:0.209417[&brlen_95%_HPD={0.00022,0.489004}],((Caudipteryx[&index=11]:0.064830[&brlen_95%_HPD={0.000192,0.197196}],(Velociraptorinae[&index=10]:0.042134[&brlen_95%_HPD={2.5e-05,0.115351}],Archaeopteryx[&index=9]:0.047213[&brlen_95%_HPD={5.6e-05,0.122239}])[&index=16,posterior=0.893825]:0.104018[&brlen_95%_HPD={0.000469,0.244849}])[&index=17,posterior=0.549534]:0.106487[&brlen_95%_HPD={0.000231,0.30665}],(Oviraptorosaurs[&index=8]:0.152885[&brlen_95%_HPD={0.000501,0.39512}],(Iberomesornis[&index=7]:0.057817[&brlen_95%_HPD={9e-06,0.235363}],(Confucisornis[&index=6]:0.161656[&brlen_95%_HPD={0.000317,0.402406}],(Enantiornithes[&index=5]:0.049446[&brlen_95%_HPD={3e-05,0.194179}],(Patagopteryx[&index=4]:0.034021[&brlen_95%_HPD={1.4e-05,0.136637}],(Hesperornithiformes[&index=3]:0.062241[&brlen_95%_HPD={3e-06,0.145375}],(Neornithes[&index=2]:0.015013[&brlen_95%_HPD={3.5e-05,0.052233}],Ichthyornithiformes[&index=1]:0.035577[&brlen_95%_HPD={0.000327,0.092582}])[&index=18,posterior=0.705020]:0.044280[&brlen_95%_HPD={1.6e-05,0.121714}])[&index=19,posterior=0.999556]:0.235239[&brlen_95%_HPD={0.077389,0.437793}])[&index=20,posterior=0.922257]:0.142844[&brlen_95%_HPD={0.005626,0.304573}])[&index=21,posterior=0.777876]:0.175733[&brlen_95%_HPD={0.007019,0.423127}])[&index=22,posterior=0.637494]:0.181122[&brlen_95%_HPD={0.00065,0.45262}])[&index=23,posterior=0.804976]:0.251154[&brlen_95%_HPD={0.003759,0.562851}])[&index=24,posterior=0.432252]:0.182770[&brlen_95%_HPD={0.000898,0.40247}])[&index=25,posterior=0.368281]:0.137388[&brlen_95%_HPD={7.5e-05,0.38712}])[&index=26,posterior=1.000000]:0.000000;
+End;

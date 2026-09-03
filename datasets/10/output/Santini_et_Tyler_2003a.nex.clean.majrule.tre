@@ -1,0 +1,69 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=58;
+	Taxlabels
+		Acanthopleurus_collettei
+		Acanthopleurus_serratus
+		Acanthopleurus_trispinosus
+		Acanthostracion_quadricornis
+		Antigonia_capros
+		Aracana_aurita
+		Archaeotetraodon_jamestyleri
+		Archaeotetraodon_winterbottomi
+		Balistapus_undulatus
+		Balistes_vetula
+		Balistomorphus_orbiculatus
+		Balistomorphus_ovalis
+		Balistomorphus_spinosus
+		Bolcabalistes_varii
+		Canthigaster_rostrata
+		Carpathospinosus_propheticus
+		Chilomycterus_schoepfi
+		Cretatriacanthus_guidottii
+		Cryptobalistes_brevis
+		Cyttus_novaezelandiae
+		Diodon_holocanthus
+		Eolactoria_sorbinii
+		Eomola_bimaxillaria
+		Eoplectus_bloti
+		Eospinus_daniltshenkoi
+		Eotetraodon_pygmaeus
+		Heptadiodon_echinus
+		Kentrocapros_aculeatus
+		Lagocephalus_laevigatus
+		Moclaybalistes_danekrus
+		Mola_mola
+		Monacanthus_ciliatus
+		Oligobalistes_robustus
+		Oligolactoria_bubiki
+		Ostracion_tuberculatus
+		Parahollardia_lineata
+		Plectocretacicus_clarae
+		Proaracana_dubia
+		Prodiodon_erinaceus
+		Prodiodon_tenuispinus
+		Prohollardia_avita
+		Protacanthodes_nimesensis
+		Protacanthodes_ombonii
+		Protobalistum_imperialis
+		Protriacanthus_gortanii
+		Pseudotriacanthus_strigilifer
+		Pshekhadiodon_parini
+		Ranzania_laevis
+		Sphoeroides_hyperostosus
+		Sphoeroides_maculatus
+		Spinacanthus_cuneiformis
+		Stephanolepis_hispidus
+		Triacanthodes_anomalus
+		Triacanthus_biaculeatus
+		Triodon_antiquus
+		Triodon_macropterus
+		Zignodon_fornasieroae
+		Zignoichthys_oblongus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acanthopleurus_collettei[&index=58]:0.008302[&brlen_95%_HPD={0,0.035002}],(Acanthopleurus_serratus[&index=57]:0.037051[&brlen_95%_HPD={0.006036,0.088347}],(Triacanthus_biaculeatus[&index=56]:0.004879[&brlen_95%_HPD={0,0.019607}],Pseudotriacanthus_strigilifer[&index=55]:0.026035[&brlen_95%_HPD={0.007705,0.05273}])[&index=59,posterior=0.997779]:0.058348[&brlen_95%_HPD={0.018262,0.118433}])[&index=60,posterior=0.507774]:0.019999[&brlen_95%_HPD={8.8e-05,0.057703}],(Cryptobalistes_brevis[&index=54]:0.009233[&brlen_95%_HPD={1e-05,0.037001}],(Acanthopleurus_trispinosus[&index=53]:0.029341[&brlen_95%_HPD={0.000351,0.071397}],(((((Spinacanthus_cuneiformis[&index=52]:0.039479[&brlen_95%_HPD={1.5e-05,0.15614}],(Protobalistum_imperialis[&index=51]:0.058985[&brlen_95%_HPD={1e-05,0.196837}],((Kentrocapros_aculeatus[&index=50]:0.012830[&brlen_95%_HPD={0,0.041557}],Aracana_aurita[&index=49]:0.033639[&brlen_95%_HPD={0.004732,0.070448}])[&index=61,posterior=0.724567]:0.056741[&brlen_95%_HPD={0.000797,0.141196}],(Proaracana_dubia[&index=48]:0.038037[&brlen_95%_HPD={2.5e-05,0.123996}],(Acanthostracion_quadricornis[&index=47]:0.008751[&brlen_95%_HPD={6e-06,0.032881}],(Ostracion_tuberculatus[&index=46]:0.033195[&brlen_95%_HPD={0.002437,0.074198}],(Eolactoria_sorbinii[&index=45]:0.025281[&brlen_95%_HPD={5e-06,0.113969}],Oligolactoria_bubiki[&index=44]:0.036710[&brlen_95%_HPD={0.000265,0.108747}])[&index=62,posterior=0.396268]:0.022845[&brlen_95%_HPD={1.8e-05,0.100298}])[&index=63,posterior=0.573079]:0.018964[&brlen_95%_HPD={0.000341,0.053063}])[&index=64,posterior=0.879165]:0.080090[&brlen_95%_HPD={0.004681,0.160403}])[&index=65,posterior=0.595735]:0.068251[&brlen_95%_HPD={4.4e-05,0.15512}])[&index=66,posterior=0.999112]:0.472902[&brlen_95%_HPD={0.150925,0.944736}])[&index=67,posterior=0.696135]:0.146852[&brlen_95%_HPD={0.004677,0.37955}])[&index=68,posterior=0.888050]:0.255268[&brlen_95%_HPD={0.0362,0.561493}],(((Stephanolepis_hispidus[&index=43]:0.011227[&brlen_95%_HPD={1.7e-05,0.034844}],Monacanthus_ciliatus[&index=42]:0.025755[&brlen_95%_HPD={0.003722,0.05478}])[&index=69,posterior=0.972901]:0.109320[&brlen_95%_HPD={0.021742,0.192511}],(Balistomorphus_ovalis[&index=41]:0.008947[&brlen_95%_HPD={1.1e-05,0.035004}],(Balistomorphus_orbiculatus[&index=40]:0.006733[&brlen_95%_HPD={3e-06,0.030678}],(Balistomorphus_spinosus[&index=39]:0.007200[&brlen_95%_HPD={2e-06,0.029949}],(Oligobalistes_robustus[&index=38]:0.005863[&brlen_95%_HPD={5e-06,0.025536}],(Balistes_vetula[&index=37]:0.013528[&brlen_95%_HPD={8e-06,0.037322}],Balistapus_undulatus[&index=36]:0.007090[&brlen_95%_HPD={4e-06,0.023383}])[&index=70,posterior=0.235007]:0.008612[&brlen_95%_HPD={2.2e-05,0.030203}])[&index=71,posterior=0.241226]:0.011450[&brlen_95%_HPD={0.000114,0.034266}])[&index=72,posterior=0.330520]:0.012125[&brlen_95%_HPD={3.8e-05,0.036817}])[&index=73,posterior=0.322968]:0.012874[&brlen_95%_HPD={0.000212,0.03781}])[&index=74,posterior=0.446024]:0.041563[&brlen_95%_HPD={6.9e-05,0.130022}])[&index=75,posterior=0.956908]:0.215142[&brlen_95%_HPD={0.040168,0.410105}],(Eospinus_daniltshenkoi[&index=35]:0.066279[&brlen_95%_HPD={3.1e-05,0.212668}],Bolcabalistes_varii[&index=34]:0.088286[&brlen_95%_HPD={0.000371,0.220653}])[&index=76,posterior=0.525544]:0.097313[&brlen_95%_HPD={0.00117,0.267767}])[&index=77,posterior=0.398934]:0.103265[&brlen_95%_HPD={0.000149,0.293973}])[&index=78,posterior=0.649489]:0.170308[&brlen_95%_HPD={0.027108,0.358982}],(Eoplectus_bloti[&index=33]:0.039114[&brlen_95%_HPD={2e-05,0.142326}],((Triodon_macropterus[&index=32]:0.031585[&brlen_95%_HPD={2e-06,0.113522}],Triodon_antiquus[&index=31]:0.034255[&brlen_95%_HPD={0.000166,0.129806}])[&index=79,posterior=0.957797]:0.207300[&brlen_95%_HPD={0.024339,0.366667}],((Eomola_bimaxillaria[&index=30]:0.072633[&brlen_95%_HPD={9.7e-05,0.275072}],((Mola_mola[&index=29]:0.048318[&brlen_95%_HPD={0.00064,0.102014}],Ranzania_laevis[&index=28]:0.030020[&brlen_95%_HPD={2.7e-05,0.087059}])[&index=80,posterior=0.998223]:0.544143[&brlen_95%_HPD={0.199268,0.879327}],(((Zignodon_fornasieroae[&index=27]:0.028783[&brlen_95%_HPD={3.7e-05,0.125249}],(Pshekhadiodon_parini[&index=26]:0.037604[&brlen_95%_HPD={3.3e-05,0.135921}],(Heptadiodon_echinus[&index=25]:0.022036[&brlen_95%_HPD={6e-06,0.097351}],(Diodon_holocanthus[&index=24]:0.016520[&brlen_95%_HPD={3.1e-05,0.043973}],Chilomycterus_schoepfi[&index=23]:0.012654[&brlen_95%_HPD={7e-06,0.038634}])[&index=81,posterior=0.900044]:0.131616[&brlen_95%_HPD={0.000135,0.264017}])[&index=82,posterior=0.506886]:0.106498[&brlen_95%_HPD={0.000512,0.250036}])[&index=83,posterior=0.601510]:0.051226[&brlen_95%_HPD={1.1e-05,0.142711}])[&index=84,posterior=0.564638]:0.049462[&brlen_95%_HPD={4.3e-05,0.13058}],(Prodiodon_tenuispinus[&index=22]:0.028475[&brlen_95%_HPD={2.6e-05,0.114425}],Prodiodon_erinaceus[&index=21]:0.023736[&brlen_95%_HPD={2e-06,0.103689}])[&index=85,posterior=0.481564]:0.050700[&brlen_95%_HPD={0.00013,0.169341}])[&index=86,posterior=0.578854]:0.171679[&brlen_95%_HPD={0.015949,0.322863}],(Archaeotetraodon_jamestyleri[&index=20]:0.032747[&brlen_95%_HPD={1.6e-05,0.091081}],((Sphoeroides_maculatus[&index=19]:0.004483[&brlen_95%_HPD={2e-06,0.019989}],(Canthigaster_rostrata[&index=18]:0.051277[&brlen_95%_HPD={0.014604,0.106344}],Archaeotetraodon_winterbottomi[&index=17]:0.020328[&brlen_95%_HPD={0,0.069585}])[&index=87,posterior=0.647268]:0.025803[&brlen_95%_HPD={3.4e-05,0.060063}])[&index=88,posterior=0.239893]:0.013012[&brlen_95%_HPD={7e-05,0.050617}],(Lagocephalus_laevigatus[&index=16]:0.029587[&brlen_95%_HPD={2.7e-05,0.071464}],Sphoeroides_hyperostosus[&index=15]:0.012867[&brlen_95%_HPD={6e-06,0.054949}])[&index=89,posterior=0.238116]:0.022250[&brlen_95%_HPD={7e-05,0.062261}])[&index=90,posterior=0.126166]:0.021258[&brlen_95%_HPD={2.2e-05,0.075304}])[&index=91,posterior=0.436251]:0.107246[&brlen_95%_HPD={0.000285,0.230551}])[&index=92,posterior=0.370946]:0.118293[&brlen_95%_HPD={0.000286,0.28797}])[&index=93,posterior=0.373612]:0.194017[&brlen_95%_HPD={0.00264,0.384851}])[&index=94,posterior=0.539760]:0.199335[&brlen_95%_HPD={0.000189,0.408707}],(Zignoichthys_oblongus[&index=14]:0.129908[&brlen_95%_HPD={0.005372,0.275369}],Eotetraodon_pygmaeus[&index=13]:0.060473[&brlen_95%_HPD={0.000326,0.159274}])[&index=95,posterior=0.179476]:0.038296[&brlen_95%_HPD={4.2e-05,0.12247}])[&index=96,posterior=0.245224]:0.073384[&brlen_95%_HPD={0.002214,0.226005}])[&index=97,posterior=0.788983]:0.205935[&brlen_95%_HPD={0.061339,0.396985}])[&index=98,posterior=0.600178]:0.107194[&brlen_95%_HPD={0.003507,0.235731}])[&index=99,posterior=0.577521]:0.089922[&brlen_95%_HPD={0.015303,0.196188}],(Moclaybalistes_danekrus[&index=12]:0.128565[&brlen_95%_HPD={0.007269,0.25807}],(Prohollardia_avita[&index=11]:0.031980[&brlen_95%_HPD={0.000589,0.073768}],(Parahollardia_lineata[&index=10]:0.005750[&brlen_95%_HPD={7e-06,0.022974}],(((Antigonia_capros[&index=9]:0.091106[&brlen_95%_HPD={0.009293,0.209613}],Cyttus_novaezelandiae[&index=8]:0.118521[&brlen_95%_HPD={0.009664,0.220434}])[&index=100,posterior=1.000000]:0.367061[&brlen_95%_HPD={0.203443,0.584329}],(Cretatriacanthus_guidottii[&index=7]:0.028898[&brlen_95%_HPD={3.4e-05,0.100349}],(Protriacanthus_gortanii[&index=6]:0.165589[&brlen_95%_HPD={0.047692,0.316117}],Plectocretacicus_clarae[&index=5]:0.095351[&brlen_95%_HPD={0.000338,0.200592}])[&index=101,posterior=0.868947]:0.146224[&brlen_95%_HPD={0.034703,0.281125}])[&index=102,posterior=0.698801]:0.079142[&brlen_95%_HPD={0.00089,0.185967}])[&index=103,posterior=0.993336]:0.139346[&brlen_95%_HPD={0.033046,0.259062}],(Carpathospinosus_propheticus[&index=4]:0.032864[&brlen_95%_HPD={0.002372,0.073465}],Triacanthodes_anomalus[&index=3]:0.009094[&brlen_95%_HPD={1.1e-05,0.030447}])[&index=104,posterior=0.597068]:0.018843[&brlen_95%_HPD={5e-05,0.047352}])[&index=105,posterior=0.422035]:0.021506[&brlen_95%_HPD={0.000278,0.050389}])[&index=106,posterior=0.334962]:0.021133[&brlen_95%_HPD={0.000209,0.06359}])[&index=107,posterior=0.657486]:0.058154[&brlen_95%_HPD={0.001823,0.138919}])[&index=108,posterior=0.362506]:0.055864[&brlen_95%_HPD={0.000243,0.136703}])[&index=109,posterior=0.807197]:0.113285[&brlen_95%_HPD={0.032636,0.20583}],(Protacanthodes_nimesensis[&index=2]:0.007863[&brlen_95%_HPD={1e-06,0.033197}],Protacanthodes_ombonii[&index=1]:0.033001[&brlen_95%_HPD={0.0014,0.075929}])[&index=110,posterior=0.359840]:0.012946[&brlen_95%_HPD={2.3e-05,0.054064}])[&index=111,posterior=0.905375]:0.116055[&brlen_95%_HPD={0.017025,0.197378}])[&index=112,posterior=0.382941]:0.021079[&brlen_95%_HPD={1.3e-05,0.062311}])[&index=113,posterior=0.334962]:0.013200[&brlen_95%_HPD={7.3e-05,0.049022}])[&index=114,posterior=1.000000]:0.000000;
+End;

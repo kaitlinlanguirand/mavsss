@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		C_aguti
+		C_laticeps
+		Labidosaurikos
+		Labidosaurus
+		Protocaptorhinus
+		Protorothyris
+		Rhiodenticulatus
+		Romeria
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](C_laticeps[&index=8]:0.010564[&brlen_95%_HPD={0,0.043498}],C_aguti[&index=7]:0.015374[&brlen_95%_HPD={3.6e-05,0.052961}],((Labidosaurikos[&index=6]:0.030932[&brlen_95%_HPD={3e-06,0.087344}],Labidosaurus[&index=5]:0.019616[&brlen_95%_HPD={1.1e-05,0.072663}])[&index=9,posterior=1.000000]:0.317169[&brlen_95%_HPD={0.111656,0.605353}],(Rhiodenticulatus[&index=4]:0.026235[&brlen_95%_HPD={2.6e-05,0.097492}],(Protocaptorhinus[&index=3]:0.015555[&brlen_95%_HPD={2.6e-05,0.067969}],(Protorothyris[&index=2]:0.150286[&brlen_95%_HPD={0.03691,0.307019}],Romeria[&index=1]:0.014507[&brlen_95%_HPD={3e-06,0.068384}])[&index=10,posterior=0.962239]:0.070704[&brlen_95%_HPD={0.005475,0.176778}])[&index=11,posterior=0.809418]:0.048297[&brlen_95%_HPD={0.00013,0.13393}])[&index=12,posterior=0.981786]:0.161467[&brlen_95%_HPD={0.028487,0.358898}])[&index=13,posterior=0.775655]:0.057366[&brlen_95%_HPD={6.8e-05,0.195641}])[&index=14,posterior=1.000000]:0.000000;
+End;

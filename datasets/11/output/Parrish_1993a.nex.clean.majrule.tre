@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Alligator
+		Chanaresuchus
+		Desmatosuchus
+		Erythrosuchus
+		Euparkeria
+		Fasolasuchus
+		Gracilisuchus
+		Kupferzell_Raui
+		Lagosuchus
+		Lewisuchus
+		Lotosaurus
+		PAPresto
+		Plateosaurus
+		Postosuchus
+		Prestosuchus
+		Proterosuchus
+		Pseudhesperosuchus
+		Rauisuchus
+		Riojasuchus
+		Rutiodon
+		SanJuanSauro
+		Saurosuchus
+		Ticinosuchus
+		Turfanosuchus_da
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Pseudhesperosuchus[&index=24]:0.022295[&brlen_95%_HPD={2.3e-05,0.103704}],Alligator[&index=23]:0.087397[&brlen_95%_HPD={0.009223,0.218204}],(Postosuchus[&index=22]:0.031221[&brlen_95%_HPD={1.1e-05,0.126295}],(Fasolasuchus[&index=21]:0.045116[&brlen_95%_HPD={6.2e-05,0.160678}],((Gracilisuchus[&index=20]:0.036865[&brlen_95%_HPD={1.5e-05,0.130167}],(Desmatosuchus[&index=19]:0.041645[&brlen_95%_HPD={0.000111,0.13986}],(Lewisuchus[&index=18]:0.030856[&brlen_95%_HPD={4.7e-05,0.14526}],(Turfanosuchus_da[&index=17]:0.025561[&brlen_95%_HPD={3.5e-05,0.123995}],((Rutiodon[&index=16]:0.104659[&brlen_95%_HPD={0.001039,0.263566}],(Riojasuchus[&index=15]:0.050723[&brlen_95%_HPD={7e-05,0.167564}],((Chanaresuchus[&index=14]:0.040652[&brlen_95%_HPD={6e-05,0.152206}],(Euparkeria[&index=13]:0.048872[&brlen_95%_HPD={0,0.163484}],(Proterosuchus[&index=12]:0.021076[&brlen_95%_HPD={2.1e-05,0.089364}],Erythrosuchus[&index=11]:0.049058[&brlen_95%_HPD={0.000408,0.14109}])[&index=25,posterior=0.979120]:0.151138[&brlen_95%_HPD={0.019785,0.349535}])[&index=26,posterior=0.504665]:0.068917[&brlen_95%_HPD={0.000157,0.188793}])[&index=27,posterior=0.515327]:0.079535[&brlen_95%_HPD={0.000327,0.236929}],(Plateosaurus[&index=10]:0.054306[&brlen_95%_HPD={0.000106,0.17349}],Lagosuchus[&index=9]:0.155948[&brlen_95%_HPD={0.004146,0.374709}])[&index=28,posterior=0.292315]:0.054231[&brlen_95%_HPD={0.000101,0.176644}])[&index=29,posterior=0.731231]:0.081007[&brlen_95%_HPD={0.000623,0.228807}])[&index=30,posterior=0.700133]:0.090162[&brlen_95%_HPD={0.000175,0.25519}])[&index=31,posterior=0.983119]:0.163550[&brlen_95%_HPD={0.034901,0.363968}],((SanJuanSauro[&index=8]:0.028740[&brlen_95%_HPD={9e-06,0.125999}],Saurosuchus[&index=7]:0.031903[&brlen_95%_HPD={1e-05,0.117567}])[&index=32,posterior=0.292759]:0.032594[&brlen_95%_HPD={0,0.113405}],(Ticinosuchus[&index=6]:0.018977[&brlen_95%_HPD={1.2e-05,0.085513}],(PAPresto[&index=5]:0.028011[&brlen_95%_HPD={1.7e-05,0.127439}],Prestosuchus[&index=4]:0.029086[&brlen_95%_HPD={2e-05,0.112012}])[&index=33,posterior=0.175033]:0.024321[&brlen_95%_HPD={2.3e-05,0.108645}])[&index=34,posterior=0.135940]:0.029279[&brlen_95%_HPD={4.6e-05,0.097575}])[&index=35,posterior=0.290538]:0.058126[&brlen_95%_HPD={0.000151,0.191177}])[&index=36,posterior=0.752110]:0.094907[&brlen_95%_HPD={0.000229,0.242593}])[&index=37,posterior=0.286095]:0.037829[&brlen_95%_HPD={5.1e-05,0.167075}])[&index=38,posterior=0.561972]:0.059723[&brlen_95%_HPD={0.001162,0.185724}])[&index=39,posterior=0.984896]:0.188530[&brlen_95%_HPD={0.040494,0.395018}])[&index=40,posterior=0.325633]:0.048212[&brlen_95%_HPD={1.1e-05,0.145277}],(Lotosaurus[&index=3]:0.054908[&brlen_95%_HPD={5.7e-05,0.164572}],(Kupferzell_Raui[&index=2]:0.031365[&brlen_95%_HPD={3.3e-05,0.144282}],Rauisuchus[&index=1]:0.024302[&brlen_95%_HPD={1e-06,0.115957}])[&index=41,posterior=0.677477]:0.054353[&brlen_95%_HPD={0.00013,0.16432}])[&index=42,posterior=0.151932]:0.037711[&brlen_95%_HPD={0.000372,0.12028}])[&index=43,posterior=0.348290]:0.059055[&brlen_95%_HPD={0.001767,0.152919}])[&index=44,posterior=0.776544]:0.077572[&brlen_95%_HPD={0.002477,0.199497}])[&index=45,posterior=0.999556]:0.169378[&brlen_95%_HPD={0.032558,0.358497}])[&index=46,posterior=1.000000]:0.000000;
+End;

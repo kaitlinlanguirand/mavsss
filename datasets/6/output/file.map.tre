@@ -1,0 +1,27 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=16;
+	Taxlabels
+		Brechites
+		Clavagella
+		Cleidothaeridae
+		Cuspidariidae
+		Laternulidae
+		Lyonsiellidae
+		Lyonsiidae
+		Myadora
+		Myochama
+		Pandoridae
+		Parilimyidae
+		Periplomatidae
+		Pholadomyidae
+		Poromyidae
+		Thraciidae
+		Verticordiidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((Periplomatidae[&index=2]:0.075887[&brlen_95%_HPD={0.000101,0.19597}],Thraciidae[&index=6]:0.130626[&brlen_95%_HPD={0.002665,0.273185}])[&index=17,posterior=0.629054]:0.112769[&brlen_95%_HPD={0.000388,0.263194}],Laternulidae[&index=13]:0.115909[&brlen_95%_HPD={0.000152,0.275577}])[&index=18,posterior=0.762328]:0.199497[&brlen_95%_HPD={0.002998,0.425056}],(Lyonsiellidae[&index=8]:0.041567[&brlen_95%_HPD={1.9e-05,0.109932}],Verticordiidae[&index=16]:0.027119[&brlen_95%_HPD={2e-05,0.079894}])[&index=19,posterior=0.817414]:0.151902[&brlen_95%_HPD={0.00027,0.360938}])[&index=20,posterior=0.182141]:0.133263[&brlen_95%_HPD={0.007736,0.329889}],Lyonsiidae[&index=7]:0.104109[&brlen_95%_HPD={0.000502,0.25637}])[&index=21,posterior=0.100844]:0.109614[&brlen_95%_HPD={0.004162,0.273434}],((Cleidothaeridae[&index=15]:0.182597[&brlen_95%_HPD={0.035794,0.370572}],Pandoridae[&index=5]:0.076363[&brlen_95%_HPD={0.000292,0.189903}])[&index=22,posterior=0.292759]:0.063195[&brlen_95%_HPD={0.000474,0.168296}],(Myadora[&index=9]:0.029144[&brlen_95%_HPD={2e-05,0.086033}],Myochama[&index=4]:0.083882[&brlen_95%_HPD={0.000521,0.185539}])[&index=23,posterior=0.673923]:0.079783[&brlen_95%_HPD={0.000195,0.188774}])[&index=24,posterior=0.361617]:0.112128[&brlen_95%_HPD={0.000258,0.276896}])[&index=25,posterior=0.060418]:0.121501[&brlen_95%_HPD={0.001665,0.286734}],(((Parilimyidae[&index=11]:0.093599[&brlen_95%_HPD={1.2e-05,0.257747}],Pholadomyidae[&index=10]:0.138179[&brlen_95%_HPD={2.6e-05,0.308392}])[&index=26,posterior=0.983563]:0.399119[&brlen_95%_HPD={0.099088,0.771952}],Poromyidae[&index=3]:0.143148[&brlen_95%_HPD={2.4e-05,0.351826}])[&index=27,posterior=0.241670]:0.200847[&brlen_95%_HPD={0.00797,0.457203}],Cuspidariidae[&index=14]:0.171000[&brlen_95%_HPD={4e-05,0.38192}])[&index=28,posterior=0.393603]:0.238266[&brlen_95%_HPD={0.000298,0.520226}])[&index=29,posterior=0.980897]:0.213655[&brlen_95%_HPD={0.016238,0.434374}],Brechites[&index=1]:0.016249[&brlen_95%_HPD={7e-06,0.048825}],Clavagella[&index=12]:0.015624[&brlen_95%_HPD={2e-06,0.049751}])[&index=30,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Dyrosaurus
+		Hyposaurus
+		Phosphatosaurus
+		Rhabdognathus
+		Sarcosuchus
+		Sokotosuchus
+		Terminonaris
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Dyrosaurus[&index=7]:0.054197[&brlen_95%_HPD={2.5e-05,0.239257}],(Phosphatosaurus[&index=6]:0.065891[&brlen_95%_HPD={0.000168,0.259297}],(Sokotosuchus[&index=5]:0.081020[&brlen_95%_HPD={0.000174,0.2961}],(Sarcosuchus[&index=4]:0.045832[&brlen_95%_HPD={1e-05,0.19822}],Terminonaris[&index=3]:0.053911[&brlen_95%_HPD={5.3e-05,0.216414}])[&index=8,posterior=0.864505]:0.187898[&brlen_95%_HPD={9.2e-05,0.488124}])[&index=9,posterior=0.402932]:0.127728[&brlen_95%_HPD={0.001133,0.414853}])[&index=10,posterior=0.511773]:0.151374[&brlen_95%_HPD={2.1e-05,0.425938}],(Hyposaurus[&index=2]:0.060651[&brlen_95%_HPD={2.5e-05,0.247432}],Rhabdognathus[&index=1]:0.091565[&brlen_95%_HPD={0.00015,0.31349}])[&index=11,posterior=0.441582]:0.093048[&brlen_95%_HPD={0.000145,0.325828}])[&index=12,posterior=1.000000]:0.000000;
+End;

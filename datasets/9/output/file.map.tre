@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Archaeopteryx_lithographica
+		Avimimus_portentosus
+		Caudipteryx_zoui
+		Chirostenotes_pergracilis
+		Citipati_osmolskae
+		Conchoraptor_gracilis
+		Herrerasaurus_ischigualastensis
+		Ingenia_yanshini
+		Khaan_mckennai
+		Rinchenia_mongoliensis
+		Unnamed_Zamin_Khondt_oviraptorid
+		Velociraptor_mongoliensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((Citipati_osmolskae[&index=11]:0.036767[&brlen_95%_HPD={0.006194,0.077833}],Unnamed_Zamin_Khondt_oviraptorid[&index=6]:0.006599[&brlen_95%_HPD={6e-06,0.019217}])[&index=13,posterior=0.840515]:0.020443[&brlen_95%_HPD={0.000108,0.046221}],Rinchenia_mongoliensis[&index=5]:0.029742[&brlen_95%_HPD={4.1e-05,0.061905}])[&index=14,posterior=0.569525]:0.034740[&brlen_95%_HPD={4e-06,0.068944}],(Conchoraptor_gracilis[&index=2]:0.004925[&brlen_95%_HPD={2e-06,0.014707}],Khaan_mckennai[&index=12]:0.022783[&brlen_95%_HPD={0.000303,0.04775}])[&index=15,posterior=0.417148]:0.014133[&brlen_95%_HPD={2.4e-05,0.037549}])[&index=16,posterior=0.169258]:0.021450[&brlen_95%_HPD={0.000119,0.049651}],Ingenia_yanshini[&index=3]:0.030058[&brlen_95%_HPD={4e-06,0.061035}])[&index=17,posterior=0.820080]:0.184201[&brlen_95%_HPD={0.008527,0.365486}],Chirostenotes_pergracilis[&index=7]:0.132067[&brlen_95%_HPD={5.1e-05,0.312565}])[&index=18,posterior=0.992892]:0.360662[&brlen_95%_HPD={0.088734,0.696593}],Caudipteryx_zoui[&index=8]:0.053511[&brlen_95%_HPD={5.3e-05,0.163608}])[&index=19,posterior=0.848956]:0.282704[&brlen_95%_HPD={0.03345,0.561312}],Avimimus_portentosus[&index=4]:0.113257[&brlen_95%_HPD={3e-06,0.293326}])[&index=20,posterior=1.000000]:0.465743[&brlen_95%_HPD={0.156104,0.792401}],(Herrerasaurus_ischigualastensis[&index=1]:0.233249[&brlen_95%_HPD={0.092014,0.381249}],Velociraptor_mongoliensis[&index=9]:0.041337[&brlen_95%_HPD={3.9e-05,0.111937}])[&index=21,posterior=0.991115]:0.252226[&brlen_95%_HPD={0.094055,0.428912}],Archaeopteryx_lithographica[&index=10]:0.049665[&brlen_95%_HPD={2.2e-05,0.143879}])[&index=22,posterior=1.000000]:0.000000;
+End;

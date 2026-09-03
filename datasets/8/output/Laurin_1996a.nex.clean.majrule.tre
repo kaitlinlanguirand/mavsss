@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Ariekanerpeton
+		Discosauriscus
+		Kotlassia
+		Limnoscelis
+		Proterogyrinus
+		Seymouria_baylorensis
+		Seymouria_sanjuanensis
+		Utegenia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ariekanerpeton[&index=8]:0.032432[&brlen_95%_HPD={1.3e-05,0.156181}],(Seymouria_baylorensis[&index=7]:0.103521[&brlen_95%_HPD={4.5e-05,0.322519}],Seymouria_sanjuanensis[&index=6]:0.039850[&brlen_95%_HPD={1.8e-05,0.19167}])[&index=9,posterior=0.375833]:0.065949[&brlen_95%_HPD={7.4e-05,0.250469}],(Discosauriscus[&index=5]:0.055048[&brlen_95%_HPD={3e-05,0.222157}],(Limnoscelis[&index=4]:0.130819[&brlen_95%_HPD={0.00028,0.391211}],(Proterogyrinus[&index=3]:0.048806[&brlen_95%_HPD={2.5e-05,0.22886}],(Utegenia[&index=2]:0.067344[&brlen_95%_HPD={1.7e-05,0.255768}],Kotlassia[&index=1]:0.067879[&brlen_95%_HPD={2.1e-05,0.268106}])[&index=10,posterior=0.308307]:0.078006[&brlen_95%_HPD={0.00013,0.286216}])[&index=11,posterior=0.358952]:0.126186[&brlen_95%_HPD={0.000382,0.388707}])[&index=12,posterior=0.859618]:0.261288[&brlen_95%_HPD={0.010181,0.567413}])[&index=13,posterior=0.366948]:0.073489[&brlen_95%_HPD={0.001564,0.289889}])[&index=14,posterior=1.000000]:0.000000;
+End;

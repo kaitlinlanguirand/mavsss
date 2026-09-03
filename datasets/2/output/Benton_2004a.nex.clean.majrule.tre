@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Crocodylomorpha
+		Erythrosuchus
+		Euparkeria
+		Fasolasuchus
+		Gracilisuchus
+		Herrerasaurus
+		Hyperodapedon
+		Lagerpeton
+		Marasuchus
+		Ornithischia
+		Ornithosuchidae
+		Phytosauridae
+		Postosuchus
+		Prestosuchus
+		Prolacerta
+		Proterochampsidae
+		Proterosuchus
+		Pterosauria
+		Sauropodomorpha
+		Saurosuchus
+		Scleromochlus
+		Stagonolepididae
+		Theropoda
+		Ticinosuchus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Crocodylomorpha[&index=24]:0.051634[&brlen_95%_HPD={0.009759,0.118505}],Postosuchus[&index=23]:0.084850[&brlen_95%_HPD={0.029307,0.167788}],(Ornithosuchidae[&index=22]:0.057190[&brlen_95%_HPD={0.007728,0.126282}],((((Scleromochlus[&index=21]:0.022154[&brlen_95%_HPD={1.2e-05,0.088905}],(Pterosauria[&index=20]:0.061624[&brlen_95%_HPD={0.001386,0.148281}],(Lagerpeton[&index=19]:0.023360[&brlen_95%_HPD={1.2e-05,0.097706}],(Marasuchus[&index=18]:0.044246[&brlen_95%_HPD={7e-06,0.135484}],(Ornithischia[&index=17]:0.010640[&brlen_95%_HPD={0,0.059396}],(Sauropodomorpha[&index=16]:0.015641[&brlen_95%_HPD={0,0.05079}],(Herrerasaurus[&index=15]:0.044074[&brlen_95%_HPD={0.006564,0.09715}],Theropoda[&index=14]:0.013721[&brlen_95%_HPD={2.4e-05,0.04499}])[&index=25,posterior=0.705020]:0.026903[&brlen_95%_HPD={0.001333,0.064964}])[&index=26,posterior=0.966681]:0.072257[&brlen_95%_HPD={0.026543,0.141014}])[&index=27,posterior=1.000000]:0.154541[&brlen_95%_HPD={0.062208,0.279867}])[&index=28,posterior=0.979565]:0.083096[&brlen_95%_HPD={0.009821,0.175294}])[&index=29,posterior=0.999556]:0.143714[&brlen_95%_HPD={0.046553,0.280877}])[&index=30,posterior=0.859174]:0.069507[&brlen_95%_HPD={0.001465,0.165585}])[&index=31,posterior=0.999556]:0.148450[&brlen_95%_HPD={0.044443,0.288565}],(Proterochampsidae[&index=13]:0.034982[&brlen_95%_HPD={0.000178,0.089337}],(Euparkeria[&index=12]:0.007056[&brlen_95%_HPD={5e-06,0.028961}],(Erythrosuchus[&index=11]:0.013730[&brlen_95%_HPD={2.7e-05,0.05132}],(Proterosuchus[&index=10]:0.012943[&brlen_95%_HPD={3.9e-05,0.049132}],(Hyperodapedon[&index=9]:0.024298[&brlen_95%_HPD={0.001153,0.06449}],Prolacerta[&index=8]:0.014419[&brlen_95%_HPD={1e-06,0.047865}])[&index=32,posterior=0.999556]:0.074735[&brlen_95%_HPD={0.02148,0.14734}])[&index=33,posterior=1.000000]:0.195959[&brlen_95%_HPD={0.084472,0.329799}])[&index=34,posterior=0.972457]:0.035611[&brlen_95%_HPD={0.005227,0.085714}])[&index=35,posterior=0.988894]:0.051723[&brlen_95%_HPD={0.007149,0.116293}])[&index=36,posterior=0.808530]:0.052575[&brlen_95%_HPD={0.000243,0.156217}])[&index=37,posterior=0.999112]:0.157051[&brlen_95%_HPD={0.056597,0.292274}],(Phytosauridae[&index=7]:0.073563[&brlen_95%_HPD={0.014976,0.147485}],Gracilisuchus[&index=6]:0.076765[&brlen_95%_HPD={0.014056,0.162171}])[&index=38,posterior=0.381164]:0.028818[&brlen_95%_HPD={0.000838,0.080445}])[&index=39,posterior=0.165260]:0.024684[&brlen_95%_HPD={0.000315,0.080464}],(Stagonolepididae[&index=5]:0.024523[&brlen_95%_HPD={5.2e-05,0.066852}],(Fasolasuchus[&index=4]:0.070899[&brlen_95%_HPD={0.005442,0.175915}],(Ticinosuchus[&index=3]:0.008541[&brlen_95%_HPD={3e-06,0.03695}],(Prestosuchus[&index=2]:0.006954[&brlen_95%_HPD={4e-06,0.032164}],Saurosuchus[&index=1]:0.007625[&brlen_95%_HPD={1e-06,0.033369}])[&index=40,posterior=0.467348]:0.013901[&brlen_95%_HPD={7.2e-05,0.051124}])[&index=41,posterior=0.900933]:0.043931[&brlen_95%_HPD={2.3e-05,0.105226}])[&index=42,posterior=0.339405]:0.028901[&brlen_95%_HPD={3.5e-05,0.082087}])[&index=43,posterior=0.164816]:0.022640[&brlen_95%_HPD={8.7e-05,0.061075}])[&index=44,posterior=0.251888]:0.031127[&brlen_95%_HPD={0.001032,0.077244}])[&index=45,posterior=0.301644]:0.029028[&brlen_95%_HPD={0.000228,0.085119}])[&index=46,posterior=1.000000]:0.000000;
+End;

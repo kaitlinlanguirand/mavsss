@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		Anatotitan
+		Bactrosaurus
+		Brachylophosaurus
+		Edmontosaurus
+		Gryposaurus
+		Kerberosaurus
+		Lambeosaurinae
+		Maiasaura
+		Prosaurolophus
+		Saurolophus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Edmontosaurus[&index=10]:0.016232[&brlen_95%_HPD={7e-06,0.079358}],Anatotitan[&index=9]:0.016526[&brlen_95%_HPD={1.3e-05,0.081284}],((Gryposaurus[&index=8]:0.037289[&brlen_95%_HPD={1.3e-05,0.160442}],((Maiasaura[&index=7]:0.032541[&brlen_95%_HPD={1.2e-05,0.113704}],Brachylophosaurus[&index=6]:0.022619[&brlen_95%_HPD={3.4e-05,0.096037}])[&index=11,posterior=0.886717]:0.120832[&brlen_95%_HPD={0.000612,0.327298}],(Bactrosaurus[&index=5]:0.276971[&brlen_95%_HPD={0.036396,0.613516}],Lambeosaurinae[&index=4]:0.248145[&brlen_95%_HPD={0.024382,0.551898}])[&index=12,posterior=0.583296]:0.167659[&brlen_95%_HPD={0.000218,0.447481}])[&index=13,posterior=0.448245]:0.089093[&brlen_95%_HPD={0.000234,0.284375}])[&index=14,posterior=0.557974]:0.070599[&brlen_95%_HPD={6.8e-05,0.207177}],(Kerberosaurus[&index=3]:0.020243[&brlen_95%_HPD={1.7e-05,0.099357}],(Saurolophus[&index=2]:0.015041[&brlen_95%_HPD={4e-06,0.069479}],Prosaurolophus[&index=1]:0.015877[&brlen_95%_HPD={1.3e-05,0.074657}])[&index=15,posterior=0.933363]:0.063481[&brlen_95%_HPD={0.000951,0.183487}])[&index=16,posterior=0.429143]:0.041831[&brlen_95%_HPD={4.6e-05,0.141798}])[&index=17,posterior=0.775211]:0.051980[&brlen_95%_HPD={2.1e-05,0.161579}])[&index=18,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Barasaurus
+		Hypsognathus
+		Koiloskiosaurus
+		Lanthanosuchoidea
+		Leptopleuron
+		Macroleter
+		Millerettidae
+		Owenetta
+		Pareiasauria
+		Procolothon
+		Sclerosaurus
+		Thelegnathus
+		Tichvinskia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Owenetta[&index=13]:0.020879[&brlen_95%_HPD={2e-06,0.067742}],Barasaurus[&index=12]:0.013300[&brlen_95%_HPD={8e-06,0.057738}],((Pareiasauria[&index=11]:0.184248[&brlen_95%_HPD={0.001368,0.428378}],(Macroleter[&index=10]:0.033729[&brlen_95%_HPD={2.9e-05,0.125215}],(Millerettidae[&index=9]:0.115775[&brlen_95%_HPD={0.026081,0.224598}],Lanthanosuchoidea[&index=8]:0.021285[&brlen_95%_HPD={1.8e-05,0.082223}])[&index=14,posterior=0.942692]:0.090141[&brlen_95%_HPD={0.008996,0.205947}])[&index=15,posterior=0.900489]:0.173776[&brlen_95%_HPD={0.000426,0.42267}])[&index=16,posterior=0.977343]:0.278385[&brlen_95%_HPD={0.080394,0.539688}],((Koiloskiosaurus[&index=7]:0.042698[&brlen_95%_HPD={7.2e-05,0.137132}],(Sclerosaurus[&index=6]:0.095402[&brlen_95%_HPD={0.000236,0.255895}],(Thelegnathus[&index=5]:0.021731[&brlen_95%_HPD={4.3e-05,0.102804}],(Leptopleuron[&index=4]:0.012260[&brlen_95%_HPD={1.2e-05,0.049683}],Hypsognathus[&index=3]:0.021074[&brlen_95%_HPD={2e-06,0.066507}])[&index=17,posterior=0.993336]:0.091406[&brlen_95%_HPD={0.011809,0.203565}])[&index=18,posterior=0.741892]:0.066606[&brlen_95%_HPD={3.9e-05,0.161615}])[&index=19,posterior=0.691693]:0.071249[&brlen_95%_HPD={0.000349,0.179185}])[&index=20,posterior=0.439805]:0.033955[&brlen_95%_HPD={0.000321,0.099472}],(Tichvinskia[&index=2]:0.044276[&brlen_95%_HPD={0.00192,0.108763}],Procolothon[&index=1]:0.010906[&brlen_95%_HPD={1e-05,0.046698}])[&index=21,posterior=0.375389]:0.027055[&brlen_95%_HPD={4.2e-05,0.083234}])[&index=22,posterior=0.918703]:0.211883[&brlen_95%_HPD={0.075609,0.423591}])[&index=23,posterior=0.561084]:0.061730[&brlen_95%_HPD={0.000147,0.252733}])[&index=24,posterior=1.000000]:0.000000;
+End;

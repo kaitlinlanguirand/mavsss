@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Chanaresuchus
+		Coelophysis
+		Dromicosuchus
+		Erythrosuchus
+		Euparkeria
+		Herrerasaurus
+		Mesosuchus
+		Postosuchus
+		Prolacerta
+		Proterosuchus
+		Tropidosuchus
+		Vancleavea
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Tropidosuchus[&index=12]:0.030630[&brlen_95%_HPD={7.9e-05,0.086741}],Chanaresuchus[&index=11]:0.013232[&brlen_95%_HPD={2e-06,0.056552}],((Vancleavea[&index=10]:0.074826[&brlen_95%_HPD={0.000229,0.196718}],(Erythrosuchus[&index=9]:0.034731[&brlen_95%_HPD={5.5e-05,0.147012}],(Proterosuchus[&index=8]:0.019474[&brlen_95%_HPD={1.7e-05,0.097653}],(Mesosuchus[&index=7]:0.034372[&brlen_95%_HPD={0.000668,0.088823}],Prolacerta[&index=6]:0.010220[&brlen_95%_HPD={8e-06,0.046103}])[&index=13,posterior=0.965349]:0.090967[&brlen_95%_HPD={0.01258,0.200563}])[&index=14,posterior=1.000000]:0.382245[&brlen_95%_HPD={0.162658,0.725294}])[&index=15,posterior=0.747223]:0.092894[&brlen_95%_HPD={0.000623,0.210991}])[&index=16,posterior=0.876944]:0.093437[&brlen_95%_HPD={0.002303,0.237615}],(Euparkeria[&index=5]:0.035547[&brlen_95%_HPD={3.2e-05,0.113439}],((Coelophysis[&index=4]:0.009387[&brlen_95%_HPD={3e-06,0.041449}],Herrerasaurus[&index=3]:0.008614[&brlen_95%_HPD={3e-06,0.036753}])[&index=17,posterior=0.996446]:0.091176[&brlen_95%_HPD={0.021052,0.188755}],(Postosuchus[&index=2]:0.013318[&brlen_95%_HPD={1e-06,0.054402}],Dromicosuchus[&index=1]:0.018790[&brlen_95%_HPD={3.1e-05,0.073466}])[&index=18,posterior=0.458907]:0.029236[&brlen_95%_HPD={3.7e-05,0.097693}])[&index=19,posterior=0.994225]:0.110445[&brlen_95%_HPD={0.027406,0.235545}])[&index=20,posterior=0.820080]:0.065494[&brlen_95%_HPD={0.002068,0.171433}])[&index=21,posterior=0.983563]:0.085058[&brlen_95%_HPD={0.00686,0.198749}])[&index=22,posterior=1.000000]:0.000000;
+End;

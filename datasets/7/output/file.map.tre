@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Andreyevichthys
+		Chirodipterus
+		Dipterus_val
+		Fleurantia
+		Griphagnathus_se
+		Griphagnathus_wh
+		Jarvikia
+		Oervigia
+		Orlovichthys
+		R_Stolbovi
+		R_ulrichi
+		Rhnodipterus_se
+		Scaumenacia
+		Soedenberghia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((Chirodipterus[&index=13]:0.193304[&brlen_95%_HPD={0.000835,0.425927}],Dipterus_val[&index=1]:0.098518[&brlen_95%_HPD={2.6e-05,0.261218}])[&index=15,posterior=0.495335]:0.144400[&brlen_95%_HPD={0.00013,0.372899}],Orlovichthys[&index=4]:0.203771[&brlen_95%_HPD={0.003529,0.433348}])[&index=16,posterior=0.293647]:0.143462[&brlen_95%_HPD={0.000244,0.367421}],Scaumenacia[&index=5]:0.123618[&brlen_95%_HPD={0.000103,0.289903}])[&index=17,posterior=0.274545]:0.155396[&brlen_95%_HPD={8.5e-05,0.390712}],((R_ulrichi[&index=11]:0.036982[&brlen_95%_HPD={2.4e-05,0.082443}],Rhnodipterus_se[&index=3]:0.016429[&brlen_95%_HPD={9e-06,0.046745}])[&index=18,posterior=0.462905]:0.057414[&brlen_95%_HPD={8e-05,0.161476}],R_Stolbovi[&index=7]:0.044287[&brlen_95%_HPD={8e-06,0.13287}])[&index=19,posterior=0.328743]:0.093631[&brlen_95%_HPD={0.000308,0.24568}])[&index=20,posterior=0.366948]:0.130156[&brlen_95%_HPD={0.000114,0.340587}],Oervigia[&index=10]:0.027376[&brlen_95%_HPD={1.4e-05,0.079758}])[&index=21,posterior=0.088405]:0.032457[&brlen_95%_HPD={0.000192,0.082683}],((((Griphagnathus_se[&index=8]:0.015756[&brlen_95%_HPD={4e-06,0.04303}],Griphagnathus_wh[&index=2]:0.018757[&brlen_95%_HPD={8e-06,0.047552}])[&index=22,posterior=0.945802]:0.121528[&brlen_95%_HPD={9.2e-05,0.297736}],Soedenberghia[&index=14]:0.041361[&brlen_95%_HPD={1.4e-05,0.125882}])[&index=23,posterior=0.716570]:0.117511[&brlen_95%_HPD={0.0003,0.300195}],Jarvikia[&index=6]:0.042598[&brlen_95%_HPD={4.9e-05,0.106778}])[&index=24,posterior=0.179476]:0.041428[&brlen_95%_HPD={2.7e-05,0.100749}],Fleurantia[&index=9]:0.038603[&brlen_95%_HPD={6e-06,0.100092}])[&index=25,posterior=0.541981]:0.135772[&brlen_95%_HPD={0.002152,0.345175}],Andreyevichthys[&index=12]:0.061300[&brlen_95%_HPD={6.1e-05,0.137419}])[&index=26,posterior=1.000000]:0.000000;
+End;

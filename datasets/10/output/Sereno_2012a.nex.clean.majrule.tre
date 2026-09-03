@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Abrictosaurus
+		Echinodon
+		Eodromaeus
+		Eoraptor
+		Fruitadens
+		Heterodontosaurus
+		Lesothosaurus
+		Lycorhinus
+		Manidens
+		Neornithischia
+		Pegomastax
+		Thyreophora
+		Tianyulong
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Abrictosaurus[&index=13]:0.067173[&brlen_95%_HPD={2.7e-05,0.201337}],(Lycorhinus[&index=12]:0.064877[&brlen_95%_HPD={4e-06,0.25097}],(((Thyreophora[&index=11]:0.014764[&brlen_95%_HPD={1e-06,0.066256}],(Lesothosaurus[&index=10]:0.013924[&brlen_95%_HPD={5e-06,0.065563}],Neornithischia[&index=9]:0.014129[&brlen_95%_HPD={2e-06,0.067059}])[&index=14,posterior=0.265660]:0.015577[&brlen_95%_HPD={8e-05,0.081365}])[&index=15,posterior=0.569080]:0.051225[&brlen_95%_HPD={9.6e-05,0.167332}],(Eoraptor[&index=8]:0.037748[&brlen_95%_HPD={8e-06,0.129787}],Eodromaeus[&index=7]:0.057638[&brlen_95%_HPD={0.000112,0.170551}])[&index=16,posterior=0.552643]:0.055870[&brlen_95%_HPD={0.000146,0.172281}])[&index=17,posterior=0.996890]:0.394986[&brlen_95%_HPD={0.119069,0.786227}],(Tianyulong[&index=6]:0.026883[&brlen_95%_HPD={4.7e-05,0.118679}],(Echinodon[&index=5]:0.022460[&brlen_95%_HPD={9e-06,0.104358}],Fruitadens[&index=4]:0.024461[&brlen_95%_HPD={1e-06,0.116114}])[&index=18,posterior=0.277654]:0.027150[&brlen_95%_HPD={0.000109,0.146517}])[&index=19,posterior=0.560640]:0.129543[&brlen_95%_HPD={9.2e-05,0.385816}])[&index=20,posterior=0.884940]:0.237175[&brlen_95%_HPD={0.014972,0.551819}])[&index=21,posterior=0.892492]:0.177338[&brlen_95%_HPD={0.008639,0.429186}],(Heterodontosaurus[&index=3]:0.021431[&brlen_95%_HPD={4e-06,0.095623}],(Manidens[&index=2]:0.022106[&brlen_95%_HPD={6e-06,0.095707}],Pegomastax[&index=1]:0.021549[&brlen_95%_HPD={1.5e-05,0.107342}])[&index=22,posterior=0.856508]:0.077547[&brlen_95%_HPD={0.000435,0.202465}])[&index=23,posterior=0.490893]:0.061170[&brlen_95%_HPD={3.8e-05,0.202859}])[&index=24,posterior=1.000000]:0.000000;
+End;

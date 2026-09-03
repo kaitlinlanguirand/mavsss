@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Bactrosaurus
+		Camptosaurus
+		Hadrosaurinae
+		Hypsilophodon
+		Iguanodon
+		Lambeosaurinae
+		Ouranosaurus
+		Telmatosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Bactrosaurus[&index=8]:0.012679[&brlen_95%_HPD={2.9e-05,0.060347}],((Hypsilophodon[&index=7]:0.006903[&brlen_95%_HPD={1e-06,0.033833}],Camptosaurus[&index=6]:0.006866[&brlen_95%_HPD={1.5e-05,0.032862}])[&index=9,posterior=1.000000]:0.135215[&brlen_95%_HPD={0.030713,0.320932}],(Ouranosaurus[&index=5]:0.029051[&brlen_95%_HPD={1.5e-05,0.078654}],Iguanodon[&index=4]:0.020148[&brlen_95%_HPD={2.8e-05,0.064309}])[&index=10,posterior=0.620613]:0.035619[&brlen_95%_HPD={2e-06,0.116901}])[&index=11,posterior=1.000000]:0.171853[&brlen_95%_HPD={0.048601,0.364849}],(Telmatosaurus[&index=3]:0.014592[&brlen_95%_HPD={1e-06,0.062071}],(Lambeosaurinae[&index=2]:0.069809[&brlen_95%_HPD={0.008562,0.152096}],Hadrosaurinae[&index=1]:0.042904[&brlen_95%_HPD={8.6e-05,0.11131}])[&index=12,posterior=1.000000]:0.143409[&brlen_95%_HPD={0.04146,0.283551}])[&index=13,posterior=0.933807]:0.046109[&brlen_95%_HPD={0.002383,0.11701}])[&index=14,posterior=1.000000]:0.000000;
+End;

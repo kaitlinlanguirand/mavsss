@@ -1,0 +1,33 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=22;
+	Taxlabels
+		Aeolosaurus
+		Alamosaurus
+		Andesaurus
+		Bonitasaura
+		Brachiosaurus
+		Camarasaurus
+		Chubutisaurus
+		Epachthosaurus
+		Futalognkosaurus
+		Gondwanatitan
+		Ligabuesaurus
+		Lirainosaurus
+		Malawisaurus
+		Mendozasaurus
+		Muyelensaurus
+		Neuquensaurus
+		Opisthocoelicaudia
+		Quetecsaurus
+		Rapetosaurus
+		Rinconsaurus
+		Rocasaurus
+		Saltasaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aeolosaurus[&index=22]:0.038714[&brlen_95%_HPD={3.5e-05,0.142052}],Gondwanatitan[&index=21]:0.088415[&brlen_95%_HPD={0.000517,0.218436}],((Rinconsaurus[&index=20]:0.023665[&brlen_95%_HPD={0.000376,0.072154}],Muyelensaurus[&index=19]:0.012043[&brlen_95%_HPD={3e-06,0.050704}])[&index=23,posterior=0.960462]:0.048879[&brlen_95%_HPD={0.002963,0.124683}],(Rapetosaurus[&index=18]:0.048720[&brlen_95%_HPD={0.00015,0.12362}],(Bonitasaura[&index=17]:0.023389[&brlen_95%_HPD={5.3e-05,0.082909}],((((Neuquensaurus[&index=16]:0.015900[&brlen_95%_HPD={5e-06,0.068975}],(Rocasaurus[&index=15]:0.016113[&brlen_95%_HPD={1e-06,0.071998}],Saltasaurus[&index=14]:0.056202[&brlen_95%_HPD={0.001837,0.142626}])[&index=24,posterior=0.937805]:0.055342[&brlen_95%_HPD={0.00039,0.14025}])[&index=25,posterior=0.981786]:0.086117[&brlen_95%_HPD={0.01663,0.196114}],(Alamosaurus[&index=13]:0.057045[&brlen_95%_HPD={0.001238,0.148218}],Opisthocoelicaudia[&index=12]:0.158815[&brlen_95%_HPD={0.041837,0.322602}])[&index=26,posterior=0.505109]:0.045198[&brlen_95%_HPD={2.4e-05,0.141281}])[&index=27,posterior=0.662372]:0.065434[&brlen_95%_HPD={0.000395,0.15639}],(Epachthosaurus[&index=11]:0.045402[&brlen_95%_HPD={0.000359,0.128953}],Lirainosaurus[&index=10]:0.019414[&brlen_95%_HPD={1.1e-05,0.080434}])[&index=28,posterior=0.428254]:0.032539[&brlen_95%_HPD={4.6e-05,0.127325}])[&index=29,posterior=0.361617]:0.053349[&brlen_95%_HPD={0.000538,0.140393}],(Quetecsaurus[&index=9]:0.106935[&brlen_95%_HPD={0.001486,0.28246}],((Futalognkosaurus[&index=8]:0.017841[&brlen_95%_HPD={8e-06,0.077658}],Mendozasaurus[&index=7]:0.017611[&brlen_95%_HPD={4e-06,0.078459}])[&index=30,posterior=0.976455]:0.128715[&brlen_95%_HPD={0.013057,0.292317}],(Malawisaurus[&index=6]:0.030587[&brlen_95%_HPD={3.2e-05,0.13422}],(Ligabuesaurus[&index=5]:0.066973[&brlen_95%_HPD={3.9e-05,0.233837}],(Andesaurus[&index=4]:0.059152[&brlen_95%_HPD={1.3e-05,0.211123}],(Chubutisaurus[&index=3]:0.081407[&brlen_95%_HPD={0.000182,0.283216}],(Camarasaurus[&index=2]:0.168653[&brlen_95%_HPD={0.067022,0.295307}],Brachiosaurus[&index=1]:0.024904[&brlen_95%_HPD={8e-06,0.100081}])[&index=31,posterior=0.986228]:0.220379[&brlen_95%_HPD={0.032209,0.485771}])[&index=32,posterior=0.929809]:0.207252[&brlen_95%_HPD={0.007999,0.474541}])[&index=33,posterior=0.604620]:0.146677[&brlen_95%_HPD={3.4e-05,0.361389}])[&index=34,posterior=0.647268]:0.107973[&brlen_95%_HPD={0.000204,0.29306}])[&index=35,posterior=0.933807]:0.194375[&brlen_95%_HPD={0.01147,0.405688}])[&index=36,posterior=0.358507]:0.109727[&brlen_95%_HPD={0.001174,0.278844}])[&index=37,posterior=0.272768]:0.089525[&brlen_95%_HPD={0.00039,0.226193}])[&index=38,posterior=0.201688]:0.037198[&brlen_95%_HPD={4.6e-05,0.117832}])[&index=39,posterior=0.306975]:0.040630[&brlen_95%_HPD={7.9e-05,0.105646}])[&index=40,posterior=0.300755]:0.029316[&brlen_95%_HPD={1.1e-05,0.092281}])[&index=41,posterior=0.986228]:0.168328[&brlen_95%_HPD={0.038273,0.346537}])[&index=42,posterior=1.000000]:0.000000;
+End;

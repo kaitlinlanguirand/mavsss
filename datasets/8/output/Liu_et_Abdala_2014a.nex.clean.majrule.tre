@@ -1,0 +1,41 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=30;
+	Taxlabels
+		Andescynodon_mendozensis
+		Arctotraversodon_plemmyridon
+		Beishanodon_youngi
+		Boreogomphodon_jeffersoni
+		Cricodon_metabolus
+		Cynognathus_crateronotus
+		Dadadon_isaloi
+		Diademodon_tetragonus
+		Exaeretodon_argentinus
+		Exaeretodon_riograndensis
+		Gomphodontosuchus_brasiliensis
+		JSM_100
+		Langbergia_modisei
+		Luangwa_drysdalli
+		Luangwa_sudamericana
+		Mandagomphodon_attridgei
+		Mandagomphodon_hirschoni
+		Massetognathus_ochagaviae
+		Massetognathus_pascuali
+		Menadon_besairiei
+		Nanogomphodon_wildi
+		Pascualgnathus_polanskii
+		Protuberum_cabralense
+		Santacruzodon_hopsoni
+		Scalenodon_angustifrons
+		Scalenodontoides_macrodontoides
+		Sinognathus_gracilis
+		Thrinaxodon_liorhinus
+		Traversodon_stahleckeri
+		Trirachodon_berryi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Andescynodon_mendozensis[&index=30]:0.070921[&brlen_95%_HPD={4.2e-05,0.176129}],Pascualgnathus_polanskii[&index=29]:0.049381[&brlen_95%_HPD={5.8e-05,0.151801}],(((Luangwa_sudamericana[&index=28]:0.035935[&brlen_95%_HPD={9e-05,0.106123}],Luangwa_drysdalli[&index=27]:0.030468[&brlen_95%_HPD={4.7e-05,0.104535}])[&index=31,posterior=0.652599]:0.093249[&brlen_95%_HPD={7.9e-05,0.247253}],(Traversodon_stahleckeri[&index=26]:0.071626[&brlen_95%_HPD={0.000157,0.200013}],((Mandagomphodon_attridgei[&index=25]:0.040259[&brlen_95%_HPD={0.000158,0.140591}],Mandagomphodon_hirschoni[&index=24]:0.068979[&brlen_95%_HPD={1.6e-05,0.184344}])[&index=32,posterior=0.811195]:0.117591[&brlen_95%_HPD={2.5e-05,0.288994}],(Nanogomphodon_wildi[&index=23]:0.117874[&brlen_95%_HPD={5e-06,0.35929}],((Boreogomphodon_jeffersoni[&index=22]:0.147162[&brlen_95%_HPD={0.00065,0.365775}],Arctotraversodon_plemmyridon[&index=21]:0.249935[&brlen_95%_HPD={0.023518,0.522255}])[&index=33,posterior=0.561084]:0.166626[&brlen_95%_HPD={0.015908,0.375998}],(Santacruzodon_hopsoni[&index=20]:0.078591[&brlen_95%_HPD={0.001247,0.233518}],(Dadadon_isaloi[&index=19]:0.073322[&brlen_95%_HPD={0.000162,0.215367}],((Gomphodontosuchus_brasiliensis[&index=18]:0.022173[&brlen_95%_HPD={2e-05,0.099214}],(Menadon_besairiei[&index=17]:0.024821[&brlen_95%_HPD={6e-06,0.088968}],(Protuberum_cabralense[&index=16]:0.057183[&brlen_95%_HPD={5.2e-05,0.176364}],(Scalenodontoides_macrodontoides[&index=15]:0.050565[&brlen_95%_HPD={0.0015,0.125039}],(Exaeretodon_argentinus[&index=14]:0.007821[&brlen_95%_HPD={4e-06,0.034686}],Exaeretodon_riograndensis[&index=13]:0.008084[&brlen_95%_HPD={6e-06,0.036588}])[&index=34,posterior=0.595735]:0.021423[&brlen_95%_HPD={2.3e-05,0.08014}])[&index=35,posterior=0.936917]:0.092660[&brlen_95%_HPD={0.015264,0.2017}])[&index=36,posterior=0.988450]:0.170163[&brlen_95%_HPD={0.052027,0.340782}])[&index=37,posterior=0.858285]:0.066216[&brlen_95%_HPD={0.000173,0.177484}])[&index=38,posterior=0.960906]:0.231908[&brlen_95%_HPD={0.052011,0.449017}],(Massetognathus_ochagaviae[&index=12]:0.036232[&brlen_95%_HPD={2e-06,0.11573}],Massetognathus_pascuali[&index=11]:0.043309[&brlen_95%_HPD={1.7e-05,0.122118}])[&index=39,posterior=0.282985]:0.054404[&brlen_95%_HPD={0.000195,0.172406}])[&index=40,posterior=0.352288]:0.062433[&brlen_95%_HPD={0.000137,0.186004}])[&index=41,posterior=0.565526]:0.095160[&brlen_95%_HPD={0.00273,0.238846}])[&index=42,posterior=0.213683]:0.072068[&brlen_95%_HPD={0.000235,0.227063}])[&index=43,posterior=0.321635]:0.133663[&brlen_95%_HPD={0.005183,0.322263}])[&index=44,posterior=0.338960]:0.121693[&brlen_95%_HPD={0.001824,0.301068}])[&index=45,posterior=0.141715]:0.072003[&brlen_95%_HPD={0.000226,0.224101}])[&index=46,posterior=0.271435]:0.123330[&brlen_95%_HPD={0.00468,0.263213}])[&index=47,posterior=0.669036]:0.197167[&brlen_95%_HPD={0.000101,0.408184}],(Scalenodon_angustifrons[&index=10]:0.062257[&brlen_95%_HPD={2e-06,0.241835}],((Diademodon_tetragonus[&index=9]:0.033860[&brlen_95%_HPD={2e-05,0.122108}],(Thrinaxodon_liorhinus[&index=8]:0.156594[&brlen_95%_HPD={0.030589,0.325217}],Cynognathus_crateronotus[&index=7]:0.047791[&brlen_95%_HPD={3.8e-05,0.156849}])[&index=48,posterior=0.916037]:0.100744[&brlen_95%_HPD={0.008991,0.234382}])[&index=49,posterior=0.913372]:0.183341[&brlen_95%_HPD={0.012044,0.35668}],(JSM_100[&index=6]:0.083380[&brlen_95%_HPD={9.8e-05,0.227631}],(Langbergia_modisei[&index=5]:0.038748[&brlen_95%_HPD={0.000107,0.115729}],(Cricodon_metabolus[&index=4]:0.040869[&brlen_95%_HPD={1.9e-05,0.123826}],(Trirachodon_berryi[&index=3]:0.014943[&brlen_95%_HPD={1.1e-05,0.065822}],(Beishanodon_youngi[&index=2]:0.053516[&brlen_95%_HPD={0.000129,0.162814}],Sinognathus_gracilis[&index=1]:0.061525[&brlen_95%_HPD={7e-05,0.17137}])[&index=50,posterior=0.625056]:0.072219[&brlen_95%_HPD={0.000347,0.18833}])[&index=51,posterior=0.135051]:0.021569[&brlen_95%_HPD={0.000196,0.077552}])[&index=52,posterior=0.128832]:0.031831[&brlen_95%_HPD={0.00054,0.101169}])[&index=53,posterior=0.259884]:0.066520[&brlen_95%_HPD={0.000344,0.187486}])[&index=54,posterior=0.326522]:0.115126[&brlen_95%_HPD={0.001078,0.319096}])[&index=55,posterior=0.999112]:0.401975[&brlen_95%_HPD={0.123132,0.767077}])[&index=56,posterior=0.448245]:0.139360[&brlen_95%_HPD={0.000858,0.367652}])[&index=57,posterior=0.864949]:0.191668[&brlen_95%_HPD={0.005445,0.403283}])[&index=58,posterior=1.000000]:0.000000;
+End;

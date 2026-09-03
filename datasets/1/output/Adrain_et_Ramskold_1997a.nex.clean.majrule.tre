@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		E_belli
+		E_beni
+		E_besti
+		E_boltoni
+		E_jahansi
+		E_johansonae
+		E_longstaffei
+		E_soehni
+		E_ulrichi
+		Outgroup
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](E_belli[&index=10]:0.081566[&brlen_95%_HPD={0.000745,0.22834}],(E_boltoni[&index=9]:0.026655[&brlen_95%_HPD={1.8e-05,0.13356}],(E_besti[&index=8]:0.052650[&brlen_95%_HPD={2.4e-05,0.186099}],(E_beni[&index=7]:0.043402[&brlen_95%_HPD={2.6e-05,0.1529}],(E_johansonae[&index=6]:0.023368[&brlen_95%_HPD={7e-06,0.105625}],(E_longstaffei[&index=5]:0.038667[&brlen_95%_HPD={2e-05,0.141266}],(E_soehni[&index=4]:0.040928[&brlen_95%_HPD={7.3e-05,0.15217}],E_jahansi[&index=3]:0.030859[&brlen_95%_HPD={4e-06,0.125864}])[&index=11,posterior=0.951133]:0.123144[&brlen_95%_HPD={0.008496,0.314286}])[&index=12,posterior=0.282097]:0.032964[&brlen_95%_HPD={8e-05,0.139198}])[&index=13,posterior=0.366504]:0.048837[&brlen_95%_HPD={0.000129,0.173308}])[&index=14,posterior=0.999112]:0.326945[&brlen_95%_HPD={0.088082,0.681445}])[&index=15,posterior=0.618836]:0.066567[&brlen_95%_HPD={0.000241,0.209806}])[&index=16,posterior=0.926699]:0.121631[&brlen_95%_HPD={0.004651,0.322991}],(Outgroup[&index=2]:0.063568[&brlen_95%_HPD={0.000247,0.190685}],E_ulrichi[&index=1]:0.021414[&brlen_95%_HPD={1.2e-05,0.10814}])[&index=17,posterior=0.457130]:0.041492[&brlen_95%_HPD={8.6e-05,0.189086}])[&index=18,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Amphibamus_grandiceps
+		Cacopinae
+		Dendrerpeton_acadianum
+		Dissorophinae
+		Doleserpeton_annectens
+		Ecolsonia_cutlerensis
+		Eosscopus_lockardi
+		Eryopidae
+		Micromelepeton_credneri
+		Micropholis_stowi
+		Platyrhinops_lyelli
+		Sclerocephalus_haeuseri
+		Tersomius_sp
+		Trematopidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Amphibamus_grandiceps[&index=14]:0.069789[&brlen_95%_HPD={0.006625,0.149675}],Doleserpeton_annectens[&index=13]:0.019534[&brlen_95%_HPD={1.7e-05,0.077841}],(Platyrhinops_lyelli[&index=12]:0.019035[&brlen_95%_HPD={1.2e-05,0.080311}],(Eosscopus_lockardi[&index=11]:0.017234[&brlen_95%_HPD={9e-06,0.076234}],(((Ecolsonia_cutlerensis[&index=10]:0.025133[&brlen_95%_HPD={3.9e-05,0.09666}],(Trematopidae[&index=9]:0.039207[&brlen_95%_HPD={2e-06,0.121739}],(Cacopinae[&index=8]:0.009612[&brlen_95%_HPD={8e-06,0.045101}],Dissorophinae[&index=7]:0.010204[&brlen_95%_HPD={3e-06,0.04267}])[&index=15,posterior=0.994669]:0.189370[&brlen_95%_HPD={0.055299,0.38678}])[&index=16,posterior=0.344291]:0.032688[&brlen_95%_HPD={2e-05,0.113971}])[&index=17,posterior=0.882275]:0.183316[&brlen_95%_HPD={0.032558,0.420473}],(Micromelepeton_credneri[&index=6]:0.039099[&brlen_95%_HPD={0.000121,0.156374}],(Dendrerpeton_acadianum[&index=5]:0.021514[&brlen_95%_HPD={2e-06,0.070985}],(Sclerocephalus_haeuseri[&index=4]:0.010496[&brlen_95%_HPD={0,0.053192}],Eryopidae[&index=3]:0.024219[&brlen_95%_HPD={9.9e-05,0.075614}])[&index=18,posterior=0.398490]:0.016806[&brlen_95%_HPD={1e-06,0.063222}])[&index=19,posterior=0.993336]:0.179948[&brlen_95%_HPD={0.02881,0.373346}])[&index=20,posterior=0.590849]:0.115565[&brlen_95%_HPD={0.000408,0.344067}])[&index=21,posterior=0.997779]:0.319781[&brlen_95%_HPD={0.090786,0.619578}],(Micropholis_stowi[&index=2]:0.046881[&brlen_95%_HPD={0.000384,0.130057}],Tersomius_sp[&index=1]:0.036884[&brlen_95%_HPD={5.4e-05,0.126207}])[&index=22,posterior=0.519769]:0.060218[&brlen_95%_HPD={0.000472,0.195845}])[&index=23,posterior=0.939582]:0.115814[&brlen_95%_HPD={0.002435,0.246061}])[&index=24,posterior=0.999112]:0.126964[&brlen_95%_HPD={0.032419,0.262925}])[&index=25,posterior=0.996002]:0.088394[&brlen_95%_HPD={0.017774,0.193689}])[&index=26,posterior=1.000000]:0.000000;
+End;

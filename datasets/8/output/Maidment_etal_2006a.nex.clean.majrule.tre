@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		Dacentrurus
+		Euoplocephalus
+		Hesperosaurus
+		Huayangosaurus
+		Kentrosaurus
+		Sauropelta
+		Scelidosaurus
+		Scutellosaurus
+		Stegosaurus
+		Tuojiangosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Kentrosaurus[&index=10]:0.025747[&brlen_95%_HPD={6e-06,0.07904}],Dacentrurus[&index=9]:0.035325[&brlen_95%_HPD={5.3e-05,0.105432}],((Hesperosaurus[&index=8]:0.041712[&brlen_95%_HPD={0.000169,0.109943}],Stegosaurus[&index=7]:0.014465[&brlen_95%_HPD={5e-06,0.063782}])[&index=11,posterior=0.994669]:0.147399[&brlen_95%_HPD={0.026734,0.280038}],(Tuojiangosaurus[&index=6]:0.054337[&brlen_95%_HPD={8.5e-05,0.209889}],(Huayangosaurus[&index=5]:0.026185[&brlen_95%_HPD={1.5e-05,0.12043}],((Euoplocephalus[&index=4]:0.121184[&brlen_95%_HPD={0.000766,0.273904}],Sauropelta[&index=3]:0.058057[&brlen_95%_HPD={2.6e-05,0.197661}])[&index=12,posterior=0.959574]:0.239658[&brlen_95%_HPD={0.03725,0.52687}],(Scutellosaurus[&index=2]:0.149867[&brlen_95%_HPD={0.029374,0.301851}],Scelidosaurus[&index=1]:0.025580[&brlen_95%_HPD={2.3e-05,0.117365}])[&index=13,posterior=0.921368]:0.176285[&brlen_95%_HPD={0.005513,0.415803}])[&index=14,posterior=0.916926]:0.193998[&brlen_95%_HPD={0.004651,0.417226}])[&index=15,posterior=0.955575]:0.176778[&brlen_95%_HPD={0.009533,0.361138}])[&index=16,posterior=0.717015]:0.087172[&brlen_95%_HPD={0.000245,0.238289}])[&index=17,posterior=0.481564]:0.036616[&brlen_95%_HPD={0.000188,0.129143}])[&index=18,posterior=1.000000]:0.000000;
+End;

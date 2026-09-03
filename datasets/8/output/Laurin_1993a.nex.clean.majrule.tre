@@ -1,0 +1,22 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=11;
+	Taxlabels
+		Biarmosuchus
+		Cutleria
+		Dimetrodon
+		Dinocephalia
+		Edaphosauridae
+		Haptodus
+		Ophiacodontidae
+		Palaeohatteria
+		Pantelosaurus
+		Sphenacodon
+		Varanopseidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Biarmosuchus[&index=11]:0.017308[&brlen_95%_HPD={2e-06,0.058805}],Dinocephalia[&index=10]:0.039493[&brlen_95%_HPD={0.001566,0.088566}],((Dimetrodon[&index=9]:0.008482[&brlen_95%_HPD={7e-06,0.02229}],Sphenacodon[&index=8]:0.006405[&brlen_95%_HPD={2.7e-05,0.022839}])[&index=12,posterior=0.963572]:0.084115[&brlen_95%_HPD={0.001406,0.173671}],(Cutleria[&index=7]:0.011127[&brlen_95%_HPD={1.6e-05,0.048612}],(Pantelosaurus[&index=6]:0.009963[&brlen_95%_HPD={2e-06,0.031425}],(Palaeohatteria[&index=5]:0.015328[&brlen_95%_HPD={1.7e-05,0.04403}],(Haptodus[&index=4]:0.054090[&brlen_95%_HPD={0.009829,0.102397}],(Edaphosauridae[&index=3]:0.026630[&brlen_95%_HPD={0.000159,0.056691}],(Varanopseidae[&index=2]:0.025078[&brlen_95%_HPD={7.8e-05,0.073165}],Ophiacodontidae[&index=1]:0.101778[&brlen_95%_HPD={0.038112,0.182747}])[&index=13,posterior=0.997779]:0.095037[&brlen_95%_HPD={0.028351,0.169413}])[&index=14,posterior=0.753887]:0.026530[&brlen_95%_HPD={0.000299,0.061514}])[&index=15,posterior=0.875167]:0.054608[&brlen_95%_HPD={0.007471,0.106982}])[&index=16,posterior=0.822745]:0.032170[&brlen_95%_HPD={0.004149,0.077466}])[&index=17,posterior=0.788538]:0.066717[&brlen_95%_HPD={0.009627,0.143204}])[&index=18,posterior=0.579742]:0.046351[&brlen_95%_HPD={0.00028,0.148615}])[&index=19,posterior=1.000000]:0.583835[&brlen_95%_HPD={0.312766,0.99037}])[&index=20,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		Anura
+		Caudata
+		Dissorophidae
+		Gymnophiona
+		Hapsidopareion
+		Primitive
+		Trematopsidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Anura[&index=7]:0.049255[&brlen_95%_HPD={2.6e-05,0.219331}],(Dissorophidae[&index=6]:0.083090[&brlen_95%_HPD={6.8e-05,0.299809}],(Trematopsidae[&index=5]:0.077558[&brlen_95%_HPD={4e-05,0.295318}],(Primitive[&index=4]:0.065271[&brlen_95%_HPD={1e-05,0.247448}],Hapsidopareion[&index=3]:0.070301[&brlen_95%_HPD={6.6e-05,0.26859}])[&index=8,posterior=0.479343]:0.088390[&brlen_95%_HPD={0.0006,0.334555}])[&index=9,posterior=0.915593]:0.265856[&brlen_95%_HPD={0.026689,0.63069}])[&index=10,posterior=0.549534]:0.118038[&brlen_95%_HPD={0.000202,0.365698}],(Gymnophiona[&index=2]:0.045132[&brlen_95%_HPD={2.1e-05,0.187153}],Caudata[&index=1]:0.056146[&brlen_95%_HPD={0,0.229644}])[&index=11,posterior=0.432252]:0.065232[&brlen_95%_HPD={7.8e-05,0.270137}])[&index=12,posterior=1.000000]:0.000000;
+End;

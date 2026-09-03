@@ -1,0 +1,46 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=35;
+	Taxlabels
+		Alectrion
+		Antillophos
+		Buccinanops
+		Buccinopsis
+		Buccinum
+		Buccitriton
+		Bullia
+		Bulliopsis
+		Caesia
+		Colwellia
+		Demondia
+		Desorinassa
+		Dorsanum
+		Gussonea
+		Hebra
+		Hima
+		Hinia
+		Ilyanassa_peralta
+		Keepingia
+		N_schlotheimi
+		Nassarius_ss
+		Neptunea
+		Niotha
+		Northia
+		Phos
+		Phrontis
+		Plicarcularia
+		Profundinassa
+		Pseudocominella
+		Sphaeronassa
+		Telasco
+		Thanetinassa
+		Uzita
+		Whitecliffia
+		Zeuxis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alectrion[&index=35]:0.120253[&brlen_95%_HPD={0.000527,0.275567}],(Niotha[&index=34]:0.070969[&brlen_95%_HPD={1.1e-05,0.225777}],(Plicarcularia[&index=33]:0.088253[&brlen_95%_HPD={0.000345,0.238127}],((Hima[&index=32]:0.028045[&brlen_95%_HPD={7e-06,0.111966}],Phrontis[&index=31]:0.024539[&brlen_95%_HPD={6.9e-05,0.103777}])[&index=36,posterior=0.057752]:0.019661[&brlen_95%_HPD={6.4e-05,0.079253}],((Demondia[&index=30]:0.088446[&brlen_95%_HPD={2.1e-05,0.253373}],(Caesia[&index=29]:0.076179[&brlen_95%_HPD={8.2e-05,0.247043}],(Buccitriton[&index=28]:0.049326[&brlen_95%_HPD={4e-06,0.22023}],((Antillophos[&index=27]:0.039803[&brlen_95%_HPD={1.6e-05,0.159447}],(Phos[&index=26]:0.123046[&brlen_95%_HPD={0.005104,0.309539}],Northia[&index=25]:0.130216[&brlen_95%_HPD={0.000694,0.324801}])[&index=37,posterior=0.591737]:0.084861[&brlen_95%_HPD={7.3e-05,0.250244}])[&index=38,posterior=0.784984]:0.145128[&brlen_95%_HPD={0.005821,0.381633}],(Thanetinassa[&index=24]:0.077306[&brlen_95%_HPD={5e-06,0.251371}],(Buccinopsis[&index=23]:0.159904[&brlen_95%_HPD={0.022014,0.390663}],((Neptunea[&index=22]:0.113432[&brlen_95%_HPD={2.9e-05,0.285161}],Buccinum[&index=21]:0.044291[&brlen_95%_HPD={7.3e-05,0.175557}])[&index=39,posterior=0.681031]:0.136194[&brlen_95%_HPD={0.000676,0.340937}],((Ilyanassa_peralta[&index=20]:0.156985[&brlen_95%_HPD={0.000545,0.395027}],(Dorsanum[&index=19]:0.155086[&brlen_95%_HPD={0.000108,0.388802}],(Bulliopsis[&index=18]:0.033105[&brlen_95%_HPD={3e-06,0.129371}],(Buccinanops[&index=17]:0.027599[&brlen_95%_HPD={1.3e-05,0.120137}],Bullia[&index=16]:0.085701[&brlen_95%_HPD={4e-05,0.213764}])[&index=40,posterior=0.540204]:0.074612[&brlen_95%_HPD={8.6e-05,0.233707}])[&index=41,posterior=0.787650]:0.187429[&brlen_95%_HPD={0.000358,0.479619}])[&index=42,posterior=0.513994]:0.168378[&brlen_95%_HPD={0.002902,0.440151}])[&index=43,posterior=0.184363]:0.138807[&brlen_95%_HPD={0.003754,0.355171}],(Pseudocominella[&index=15]:0.063888[&brlen_95%_HPD={0.000111,0.208284}],(Colwellia[&index=14]:0.109799[&brlen_95%_HPD={0.000255,0.298073}],(Keepingia[&index=13]:0.035161[&brlen_95%_HPD={1.2e-05,0.14374}],(Whitecliffia[&index=12]:0.037278[&brlen_95%_HPD={2.8e-05,0.160567}],Desorinassa[&index=11]:0.057985[&brlen_95%_HPD={5.2e-05,0.200523}])[&index=44,posterior=0.302532]:0.076521[&brlen_95%_HPD={2.6e-05,0.260727}])[&index=45,posterior=0.152377]:0.070247[&brlen_95%_HPD={0.000848,0.255647}])[&index=46,posterior=0.071968]:0.062293[&brlen_95%_HPD={7e-05,0.23909}])[&index=47,posterior=0.088849]:0.087474[&brlen_95%_HPD={0.004741,0.306804}])[&index=48,posterior=0.102621]:0.084169[&brlen_95%_HPD={0.002623,0.286177}])[&index=49,posterior=0.125722]:0.098316[&brlen_95%_HPD={0.001338,0.347438}])[&index=50,posterior=0.362061]:0.110530[&brlen_95%_HPD={0.001209,0.31658}])[&index=51,posterior=0.296757]:0.107966[&brlen_95%_HPD={0.000598,0.323582}])[&index=52,posterior=0.568636]:0.154689[&brlen_95%_HPD={0.000547,0.436753}])[&index=53,posterior=0.607286]:0.170429[&brlen_95%_HPD={2.5e-05,0.475515}])[&index=54,posterior=0.278543]:0.107784[&brlen_95%_HPD={6.9e-05,0.310212}])[&index=55,posterior=0.183030]:0.098566[&brlen_95%_HPD={0.001056,0.263412}],(Uzita[&index=10]:0.093704[&brlen_95%_HPD={0.000111,0.236721}],((Hebra[&index=9]:0.197674[&brlen_95%_HPD={0.030954,0.419714}],Hinia[&index=8]:0.064833[&brlen_95%_HPD={7.9e-05,0.191966}])[&index=56,posterior=0.127499]:0.045262[&brlen_95%_HPD={3.3e-05,0.161105}],((Sphaeronassa[&index=7]:0.091796[&brlen_95%_HPD={0.000259,0.279362}],Gussonea[&index=6]:0.109678[&brlen_95%_HPD={0.000217,0.302636}])[&index=57,posterior=0.903154]:0.219906[&brlen_95%_HPD={0.019884,0.486829}],(N_schlotheimi[&index=5]:0.123358[&brlen_95%_HPD={0.000201,0.340568}],Profundinassa[&index=4]:0.129093[&brlen_95%_HPD={7.2e-05,0.322532}])[&index=58,posterior=0.199467]:0.078220[&brlen_95%_HPD={1.5e-05,0.252659}])[&index=59,posterior=0.081297]:0.077094[&brlen_95%_HPD={0.000294,0.199415}])[&index=60,posterior=0.069747]:0.065483[&brlen_95%_HPD={0.000242,0.197029}])[&index=61,posterior=0.038649]:0.056576[&brlen_95%_HPD={0.000608,0.183058}])[&index=62,posterior=0.048423]:0.042183[&brlen_95%_HPD={7.5e-05,0.177404}])[&index=63,posterior=0.156375]:0.079775[&brlen_95%_HPD={0.000211,0.238185}])[&index=64,posterior=0.466015]:0.114175[&brlen_95%_HPD={0.006325,0.277162}])[&index=65,posterior=0.698801]:0.139148[&brlen_95%_HPD={0.00361,0.326315}],(Nassarius_ss[&index=3]:0.084101[&brlen_95%_HPD={0.000226,0.235172}],(Telasco[&index=2]:0.035024[&brlen_95%_HPD={2.5e-05,0.124394}],Zeuxis[&index=1]:0.093597[&brlen_95%_HPD={0.001666,0.234291}])[&index=66,posterior=0.410040]:0.056429[&brlen_95%_HPD={0.0004,0.196464}])[&index=67,posterior=0.469569]:0.090899[&brlen_95%_HPD={0.000352,0.26002}])[&index=68,posterior=1.000000]:0.000000;
+End;

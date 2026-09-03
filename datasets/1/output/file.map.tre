@@ -1,0 +1,81 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=70;
+	Taxlabels
+		Alligator_mcqrewi
+		Alligator_mefferdi
+		Alligator_mississippiensis
+		Alligator_olseni
+		Alligator_prenasalis
+		Alligator_sinensis
+		Allognathosuchus_haupti
+		Allognathosuchus_mooki
+		Allognathosuchus_polyodon
+		Allognathosuchus_wartheni
+		Arambourgia_gaudryi
+		Asiatosuchus_germanicus
+		Australosuchus_clarkae
+		Baryphracta_deponiae
+		Bernissartia_fagesii
+		Borealosuchus_acutidentatus
+		Borealosuchus_formidabilis
+		Borealosuchus_sternbergii
+		Borealosuchus_wilsoni
+		Brachychampsa_montana
+		Brachychampsa_sealyi
+		Brachyuranochampsa_eversolei
+		Caiman_crocodilus
+		Caiman_latirostris
+		Caiman_lutescens
+		Caiman_yacare
+		Ceratosuchus_burdoshi
+		Crocodylus_acer
+		Crocodylus_affinis
+		Crocodylus_cataphractus
+		Crocodylus_lloidi
+		Crocodylus_megarhinus
+		Crocodylus_niloticus
+		Crocodylus_palaeindicus
+		Crocodylus_porosus
+		Crocodylus_rhombifer
+		Crocodylus_robustus
+		Crocodylus_spenceri
+		Deinosuchus
+		Diplocynodon_darwini
+		Diplocynodon_hantoniensis
+		Diplocynodon_ratelii
+		Dormaal_crocodyloid
+		Eocaiman_cavernensis
+		Eogavialis_africanus
+		Euthecodon_arambourgii
+		Gavialis_gangeticus
+		Gavialis_lewisi
+		Gavialosuchus_americanus
+		Glen_Rose_Form
+		Gryposuchus_colombianus
+		Hylaeochampsa_vectiana
+		Leidyosuchus_canadensis
+		Melanosuchus_fisheri
+		Melanosuchus_niger
+		Mourasuchus
+		Orthogenysuchus_olseni
+		Osteolaemus_tetraspis
+		Paleosuchus_palpebrosus
+		Paleosuchus_trigonatus
+		Pristichampsus_vorax
+		Procaimanoidea_kayi
+		Prodiplocynodon_langi
+		Purussaurus_neivensis
+		Stangerochampsa_mccabei
+		Thoracosaurus_macrorhynchus
+		Tomistoma_cairense
+		Tomistoma_lusitanica
+		Tomistoma_schlegelii
+		Wannaganosuchus_brachymanus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((((((((((((Crocodylus_niloticus[&index=61]:0.015178[&brlen_95%_HPD={0.000108,0.03719}],Crocodylus_rhombifer[&index=45]:0.026540[&brlen_95%_HPD={0.001186,0.057607}])[&index=71,posterior=0.549978]:0.021406[&brlen_95%_HPD={0.000236,0.050855}],Crocodylus_porosus[&index=37]:0.034146[&brlen_95%_HPD={0.000459,0.073707}])[&index=72,posterior=0.150600]:0.017069[&brlen_95%_HPD={1.5e-05,0.048263}],Crocodylus_palaeindicus[&index=54]:0.056680[&brlen_95%_HPD={0.008562,0.117493}])[&index=73,posterior=0.473567]:0.033967[&brlen_95%_HPD={2.1e-05,0.077609}],Crocodylus_cataphractus[&index=30]:0.069039[&brlen_95%_HPD={0.011161,0.129993}])[&index=74,posterior=0.960018]:0.068043[&brlen_95%_HPD={0.007505,0.136938}],((Crocodylus_lloidi[&index=35]:0.030641[&brlen_95%_HPD={3.8e-05,0.088758}],Euthecodon_arambourgii[&index=22]:0.183489[&brlen_95%_HPD={0.058265,0.32624}])[&index=75,posterior=0.413594]:0.032324[&brlen_95%_HPD={7e-06,0.095657}],(Crocodylus_robustus[&index=16]:0.055807[&brlen_95%_HPD={0.001238,0.1183}],Osteolaemus_tetraspis[&index=6]:0.077589[&brlen_95%_HPD={0.019961,0.144327}])[&index=76,posterior=0.996446]:0.083194[&brlen_95%_HPD={0.013637,0.165636}])[&index=77,posterior=0.770324]:0.047360[&brlen_95%_HPD={0.000449,0.106178}])[&index=78,posterior=0.983119]:0.079539[&brlen_95%_HPD={0.006775,0.168095}],Australosuchus_clarkae[&index=18]:0.052085[&brlen_95%_HPD={0.003584,0.116234}])[&index=79,posterior=0.239893]:0.027585[&brlen_95%_HPD={6.4e-05,0.079748}],Crocodylus_megarhinus[&index=5]:0.059664[&brlen_95%_HPD={0.000857,0.12888}])[&index=80,posterior=0.803199]:0.056035[&brlen_95%_HPD={0.00018,0.134704}],((((Tomistoma_lusitanica[&index=32]:0.030669[&brlen_95%_HPD={1.8e-05,0.088164}],Tomistoma_schlegelii[&index=65]:0.094533[&brlen_95%_HPD={0.021631,0.18467}])[&index=81,posterior=0.593958]:0.040730[&brlen_95%_HPD={0.0001,0.089086}],Tomistoma_cairense[&index=66]:0.084903[&brlen_95%_HPD={0.007159,0.182025}])[&index=82,posterior=0.506442]:0.040708[&brlen_95%_HPD={3.7e-05,0.096812}],Gavialosuchus_americanus[&index=55]:0.051170[&brlen_95%_HPD={0.000463,0.115778}])[&index=83,posterior=0.886273]:0.078020[&brlen_95%_HPD={0.001577,0.160077}],Crocodylus_spenceri[&index=67]:0.045868[&brlen_95%_HPD={2e-06,0.127139}])[&index=84,posterior=0.915593]:0.084142[&brlen_95%_HPD={0.008875,0.173276}])[&index=85,posterior=0.999112]:0.112616[&brlen_95%_HPD={0.022798,0.224157}],(Brachyuranochampsa_eversolei[&index=10]:0.046211[&brlen_95%_HPD={9.4e-05,0.120621}],Crocodylus_acer[&index=69]:0.025963[&brlen_95%_HPD={2e-06,0.076083}])[&index=86,posterior=0.167925]:0.027342[&brlen_95%_HPD={7e-06,0.083079}])[&index=87,posterior=0.984451]:0.093172[&brlen_95%_HPD={0.011943,0.189657}],(Crocodylus_affinis[&index=51]:0.019679[&brlen_95%_HPD={2e-06,0.054774}],Dormaal_crocodyloid[&index=40]:0.017678[&brlen_95%_HPD={2e-06,0.052261}])[&index=88,posterior=0.303865]:0.030057[&brlen_95%_HPD={1.4e-05,0.086964}])[&index=89,posterior=0.998667]:0.139955[&brlen_95%_HPD={0.043163,0.263829}],(Asiatosuchus_germanicus[&index=43]:0.041235[&brlen_95%_HPD={5.4e-05,0.110651}],Prodiplocynodon_langi[&index=62]:0.039143[&brlen_95%_HPD={4.5e-05,0.110758}])[&index=90,posterior=0.076855]:0.034881[&brlen_95%_HPD={0.000467,0.087112}])[&index=91,posterior=0.906708]:0.139441[&brlen_95%_HPD={0.000516,0.282467}],(((((((((Gavialis_gangeticus[&index=50]:0.013932[&brlen_95%_HPD={1e-06,0.043934}],Gavialis_lewisi[&index=20]:0.022711[&brlen_95%_HPD={6e-06,0.06946}])[&index=92,posterior=0.709018]:0.026639[&brlen_95%_HPD={0.000163,0.065303}],Gryposuchus_colombianus[&index=39]:0.050034[&brlen_95%_HPD={0.004903,0.104559}])[&index=93,posterior=0.897379]:0.050695[&brlen_95%_HPD={0.000263,0.115859}],Eogavialis_africanus[&index=44]:0.086823[&brlen_95%_HPD={0.012482,0.183722}])[&index=94,posterior=0.997335]:0.094047[&brlen_95%_HPD={0.01478,0.189701}],Thoracosaurus_macrorhynchus[&index=42]:0.036523[&brlen_95%_HPD={3.7e-05,0.09813}])[&index=95,posterior=0.997779]:0.232422[&brlen_95%_HPD={0.061594,0.426335}],((Bernissartia_fagesii[&index=1]:0.156175[&brlen_95%_HPD={0.014527,0.313141}],Glen_Rose_Form[&index=56]:0.125229[&brlen_95%_HPD={0.004415,0.253039}])[&index=96,posterior=0.870724]:0.128789[&brlen_95%_HPD={0.001991,0.280648}],Hylaeochampsa_vectiana[&index=23]:0.067390[&brlen_95%_HPD={1.6e-05,0.184141}])[&index=97,posterior=0.993781]:0.214408[&brlen_95%_HPD={0.04597,0.428267}])[&index=98,posterior=0.996890]:0.214350[&brlen_95%_HPD={0.046789,0.398704}],Borealosuchus_wilsoni[&index=29]:0.022585[&brlen_95%_HPD={7e-06,0.064127}])[&index=99,posterior=0.043536]:0.018567[&brlen_95%_HPD={0.000242,0.059302}],Borealosuchus_acutidentatus[&index=57]:0.024176[&brlen_95%_HPD={9e-06,0.073227}])[&index=100,posterior=0.282541]:0.025267[&brlen_95%_HPD={2.8e-05,0.067761}],(Borealosuchus_formidabilis[&index=60]:0.011711[&brlen_95%_HPD={7e-06,0.034728}],Borealosuchus_sternbergii[&index=3]:0.061762[&brlen_95%_HPD={1.4e-05,0.146673}])[&index=101,posterior=0.039982]:0.020062[&brlen_95%_HPD={2.2e-05,0.052307}])[&index=102,posterior=0.999556]:0.301415[&brlen_95%_HPD={0.091917,0.525328}],Pristichampsus_vorax[&index=41]:0.104753[&brlen_95%_HPD={8e-06,0.243288}])[&index=103,posterior=0.932030]:0.171014[&brlen_95%_HPD={0.023273,0.337354}])[&index=104,posterior=0.997779]:0.215990[&brlen_95%_HPD={0.04598,0.405655}],Leidyosuchus_canadensis[&index=15]:0.048384[&brlen_95%_HPD={5e-06,0.128269}])[&index=105,posterior=0.475344]:0.059348[&brlen_95%_HPD={1e-05,0.1589}],((((Diplocynodon_hantoniensis[&index=13]:0.029885[&brlen_95%_HPD={0,0.071841}],Diplocynodon_ratelii[&index=25]:0.051204[&brlen_95%_HPD={0.006069,0.106197}])[&index=106,posterior=0.896935]:0.055803[&brlen_95%_HPD={0.000341,0.117459}],Diplocynodon_darwini[&index=27]:0.018840[&brlen_95%_HPD={1.7e-05,0.054313}])[&index=107,posterior=0.563749]:0.036051[&brlen_95%_HPD={4e-05,0.08911}],Baryphracta_deponiae[&index=36]:0.044084[&brlen_95%_HPD={8.4e-05,0.105027}])[&index=108,posterior=0.862283]:0.099938[&brlen_95%_HPD={5.9e-05,0.211429}],Deinosuchus[&index=17]:0.269296[&brlen_95%_HPD={0.080149,0.474221}])[&index=109,posterior=0.035984]:0.052616[&brlen_95%_HPD={0.001512,0.128527}])[&index=110,posterior=0.996890]:0.281157[&brlen_95%_HPD={0.110324,0.495103}],(Brachychampsa_montana[&index=34]:0.039730[&brlen_95%_HPD={9e-06,0.095039}],Brachychampsa_sealyi[&index=58]:0.046006[&brlen_95%_HPD={0.000535,0.112459}])[&index=111,posterior=0.832963]:0.078651[&brlen_95%_HPD={0.001098,0.17693}])[&index=112,posterior=0.592625]:0.077935[&brlen_95%_HPD={0.001799,0.166376}],Stangerochampsa_mccabei[&index=4]:0.053387[&brlen_95%_HPD={6.1e-05,0.125696}])[&index=113,posterior=0.917370]:0.135750[&brlen_95%_HPD={0.021696,0.260294}],((((((Allognathosuchus_mooki[&index=21]:0.016972[&brlen_95%_HPD={1.5e-05,0.049806}],Ceratosuchus_burdoshi[&index=19]:0.043810[&brlen_95%_HPD={0.000136,0.113216}])[&index=114,posterior=0.179920]:0.022692[&brlen_95%_HPD={2.1e-05,0.068365}],Allognathosuchus_haupti[&index=70]:0.036913[&brlen_95%_HPD={1.3e-05,0.097691}])[&index=115,posterior=0.440249]:0.043397[&brlen_95%_HPD={0.000113,0.103585}],Wannaganosuchus_brachymanus[&index=52]:0.032977[&brlen_95%_HPD={0.000183,0.082741}])[&index=116,posterior=0.020435]:0.017190[&brlen_95%_HPD={2.5e-05,0.037554}],Arambourgia_gaudryi[&index=2]:0.049928[&brlen_95%_HPD={0.000224,0.120446}])[&index=117,posterior=0.019547]:0.025513[&brlen_95%_HPD={0.000183,0.067766}],(Allognathosuchus_polyodon[&index=48]:0.020470[&brlen_95%_HPD={5.3e-05,0.062478}],Allognathosuchus_wartheni[&index=8]:0.013208[&brlen_95%_HPD={6e-06,0.040193}])[&index=118,posterior=0.199023]:0.014229[&brlen_95%_HPD={2e-06,0.041443}])[&index=119,posterior=0.001777]:0.037791[&brlen_95%_HPD={0.030424,0.033827}],Procaimanoidea_kayi[&index=46]:0.025372[&brlen_95%_HPD={8.2e-05,0.065953}])[&index=120,posterior=0.020880]:0.027469[&brlen_95%_HPD={0.001203,0.068259}])[&index=121,posterior=0.275433]:0.065316[&brlen_95%_HPD={0.003014,0.139045}],(((((((((((Paleosuchus_palpebrosus[&index=24]:0.011152[&brlen_95%_HPD={3e-06,0.02911}],Paleosuchus_trigonatus[&index=14]:0.010322[&brlen_95%_HPD={9e-06,0.029496}])[&index=122,posterior=0.996002]:0.155822[&brlen_95%_HPD={0.026558,0.283984}],Caiman_lutescens[&index=31]:0.046212[&brlen_95%_HPD={8.8e-05,0.115881}])[&index=123,posterior=0.012883]:0.039766[&brlen_95%_HPD={0.005176,0.093815}],(Mourasuchus[&index=9]:0.112979[&brlen_95%_HPD={6.9e-05,0.270614}],Orthogenysuchus_olseni[&index=49]:0.087725[&brlen_95%_HPD={8.2e-05,0.244854}])[&index=124,posterior=0.966681]:0.207226[&brlen_95%_HPD={0.025639,0.39526}])[&index=125,posterior=0.070635]:0.036788[&brlen_95%_HPD={0.000328,0.093492}],((Melanosuchus_fisheri[&index=63]:0.026164[&brlen_95%_HPD={6e-06,0.082024}],Melanosuchus_niger[&index=68]:0.008315[&brlen_95%_HPD={1e-05,0.025531}])[&index=126,posterior=0.775211]:0.015959[&brlen_95%_HPD={0.000111,0.039038}],Caiman_latirostris[&index=11]:0.012923[&brlen_95%_HPD={6e-06,0.034929}])[&index=127,posterior=0.340737]:0.015231[&brlen_95%_HPD={3e-06,0.043582}])[&index=128,posterior=0.042648]:0.017301[&brlen_95%_HPD={0.000649,0.044584}],(Caiman_crocodilus[&index=26]:0.007979[&brlen_95%_HPD={6e-06,0.023181}],Caiman_yacare[&index=28]:0.014174[&brlen_95%_HPD={0.000155,0.034793}])[&index=129,posterior=0.938694]:0.033422[&brlen_95%_HPD={0.000303,0.071874}])[&index=130,posterior=0.467792]:0.100565[&brlen_95%_HPD={0.001306,0.221014}],Eocaiman_cavernensis[&index=59]:0.078237[&brlen_95%_HPD={3.4e-05,0.217144}])[&index=131,posterior=0.489116]:0.127721[&brlen_95%_HPD={0.00043,0.278815}],Purussaurus_neivensis[&index=12]:0.374336[&brlen_95%_HPD={0.1466,0.621543}])[&index=132,posterior=0.998667]:0.278600[&brlen_95%_HPD={0.09249,0.498673}],Alligator_sinensis[&index=38]:0.014476[&brlen_95%_HPD={2e-06,0.041648}])[&index=133,posterior=0.062639]:0.014508[&brlen_95%_HPD={0.00013,0.03569}],(Alligator_mefferdi[&index=53]:0.015159[&brlen_95%_HPD={1e-06,0.046987}],Alligator_mississippiensis[&index=47]:0.035959[&brlen_95%_HPD={0.002663,0.076784}])[&index=134,posterior=0.979120]:0.047470[&brlen_95%_HPD={0.004376,0.094199}])[&index=135,posterior=0.244780]:0.050177[&brlen_95%_HPD={0.006142,0.105257}],Alligator_olseni[&index=64]:0.064700[&brlen_95%_HPD={0.00466,0.136878}])[&index=136,posterior=0.273656]:0.082753[&brlen_95%_HPD={0.018999,0.149771}],Alligator_prenasalis[&index=33]:0.012745[&brlen_95%_HPD={1e-06,0.038621}])[&index=137,posterior=0.023101]:0.014238[&brlen_95%_HPD={0.000338,0.030588}],Alligator_mcqrewi[&index=7]:0.033052[&brlen_95%_HPD={5e-06,0.079162}])[&index=138,posterior=1.000000]:0.000000;
+End;

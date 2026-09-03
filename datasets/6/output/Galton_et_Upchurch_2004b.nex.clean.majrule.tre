@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Ancestor
+		Chialingosaurus
+		Chungkingosaurus
+		Dacentrurus
+		Hesperosaurus
+		Huayangosaurus
+		Kentrosaurus
+		Lexovisaurus
+		Paranthodon
+		S._stenops
+		Tuojiangosaurus
+		Wuerhosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ancestor[&index=12]:0.367980[&brlen_95%_HPD={0.1628,0.680102}],Huayangosaurus[&index=11]:0.017302[&brlen_95%_HPD={1.2e-05,0.08839}],(Dacentrurus[&index=10]:0.031028[&brlen_95%_HPD={2e-06,0.131719}],((Kentrosaurus[&index=9]:0.013058[&brlen_95%_HPD={2e-06,0.056964}],(Chialingosaurus[&index=8]:0.052698[&brlen_95%_HPD={7.7e-05,0.193011}],Tuojiangosaurus[&index=7]:0.021731[&brlen_95%_HPD={2.3e-05,0.087341}])[&index=13,posterior=0.266992]:0.028687[&brlen_95%_HPD={0.000268,0.103568}])[&index=14,posterior=0.155486]:0.032228[&brlen_95%_HPD={0.000845,0.107628}],(((Hesperosaurus[&index=6]:0.035060[&brlen_95%_HPD={4.1e-05,0.125473}],Lexovisaurus[&index=5]:0.038279[&brlen_95%_HPD={0.000155,0.129111}])[&index=15,posterior=0.290538]:0.031747[&brlen_95%_HPD={6.6e-05,0.114375}],(Wuerhosaurus[&index=4]:0.054241[&brlen_95%_HPD={1.2e-05,0.163773}],S._stenops[&index=3]:0.032461[&brlen_95%_HPD={0.000175,0.106457}])[&index=16,posterior=0.187028]:0.027509[&brlen_95%_HPD={9.1e-05,0.096673}])[&index=17,posterior=0.258108]:0.046567[&brlen_95%_HPD={0.001268,0.113736}],(Paranthodon[&index=2]:0.046546[&brlen_95%_HPD={1e-05,0.210096}],Chungkingosaurus[&index=1]:0.074176[&brlen_95%_HPD={0.000108,0.241127}])[&index=18,posterior=0.249223]:0.065170[&brlen_95%_HPD={0.000258,0.215345}])[&index=19,posterior=0.128832]:0.036699[&brlen_95%_HPD={0.000239,0.113803}])[&index=20,posterior=0.884496]:0.135251[&brlen_95%_HPD={0.001347,0.304805}])[&index=21,posterior=0.991115]:0.158644[&brlen_95%_HPD={0.035548,0.347901}])[&index=22,posterior=1.000000]:0.000000;
+End;

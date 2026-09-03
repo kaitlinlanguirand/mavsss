@@ -1,0 +1,33 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=22;
+	Taxlabels
+		Boreopricea
+		Choristodere
+		Cosesaurus
+		Iguana
+		Jesairosaurus
+		Kadimakara
+		Langobardisaurus
+		Macrocnemus
+		Malerisaurus
+		Malutinisuchus
+		Petrolacosaurus
+		Prolacerta
+		Prolacertoides
+		Proterosuchus
+		Protorosaurus
+		Rhynchosaures
+		Sphenodontida
+		Tanystropheus
+		Tanytrachelos
+		Trachelosaurus
+		Trilophosaurus
+		Youngina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Boreopricea[&index=22]:0.057432[&brlen_95%_HPD={0.000464,0.159003}],Cosesaurus[&index=21]:0.019277[&brlen_95%_HPD={6e-06,0.088127}],((Tanystropheus[&index=20]:0.027891[&brlen_95%_HPD={2e-06,0.083186}],Tanytrachelos[&index=19]:0.015673[&brlen_95%_HPD={6e-06,0.077747}])[&index=23,posterior=0.447357]:0.051411[&brlen_95%_HPD={0.000367,0.130019}],(Langobardisaurus[&index=18]:0.048596[&brlen_95%_HPD={8.1e-05,0.190258}],(Prolacertoides[&index=17]:0.064545[&brlen_95%_HPD={9.7e-05,0.272929}],(Macrocnemus[&index=16]:0.021324[&brlen_95%_HPD={2e-06,0.084193}],(Malutinisuchus[&index=15]:0.057491[&brlen_95%_HPD={1.5e-05,0.256162}],((Malerisaurus[&index=14]:0.037428[&brlen_95%_HPD={3e-06,0.159488}],Jesairosaurus[&index=13]:0.099743[&brlen_95%_HPD={0.006694,0.250624}])[&index=24,posterior=0.417592]:0.042567[&brlen_95%_HPD={2.2e-05,0.151333}],(Kadimakara[&index=12]:0.070284[&brlen_95%_HPD={1.8e-05,0.241492}],(Prolacerta[&index=11]:0.009767[&brlen_95%_HPD={4e-06,0.04226}],(Protorosaurus[&index=10]:0.023753[&brlen_95%_HPD={6e-06,0.080109}],(Trachelosaurus[&index=9]:0.055939[&brlen_95%_HPD={5.6e-05,0.21669}],(Proterosuchus[&index=8]:0.044205[&brlen_95%_HPD={3.3e-05,0.130763}],((Rhynchosaures[&index=7]:0.067954[&brlen_95%_HPD={6.1e-05,0.182952}],Trilophosaurus[&index=6]:0.049790[&brlen_95%_HPD={3.2e-05,0.146387}])[&index=25,posterior=0.316304]:0.073819[&brlen_95%_HPD={0.000487,0.189606}],((Sphenodontida[&index=5]:0.060251[&brlen_95%_HPD={2e-05,0.169644}],Iguana[&index=4]:0.073020[&brlen_95%_HPD={0.000203,0.179023}])[&index=26,posterior=0.977788]:0.422000[&brlen_95%_HPD={0.114549,0.772155}],(Choristodere[&index=3]:0.069307[&brlen_95%_HPD={0,0.309809}],(Petrolacosaurus[&index=2]:0.029714[&brlen_95%_HPD={3.7e-05,0.098463}],Youngina[&index=1]:0.032781[&brlen_95%_HPD={6.9e-05,0.098599}])[&index=27,posterior=0.999112]:0.578627[&brlen_95%_HPD={0.239094,1.06292}])[&index=28,posterior=0.657930]:0.212496[&brlen_95%_HPD={0.005666,0.417688}])[&index=29,posterior=0.281208]:0.120694[&brlen_95%_HPD={0.000538,0.31797}])[&index=30,posterior=0.374056]:0.096922[&brlen_95%_HPD={0.000768,0.235841}])[&index=31,posterior=0.231897]:0.043646[&brlen_95%_HPD={0.000753,0.126725}])[&index=32,posterior=0.175033]:0.041571[&brlen_95%_HPD={0.001555,0.105345}])[&index=33,posterior=0.144825]:0.032356[&brlen_95%_HPD={0.000929,0.088465}])[&index=34,posterior=0.089294]:0.024779[&brlen_95%_HPD={0.000201,0.089794}])[&index=35,posterior=0.106619]:0.039626[&brlen_95%_HPD={0.002546,0.114884}])[&index=36,posterior=0.215016]:0.071264[&brlen_95%_HPD={0.000531,0.164687}])[&index=37,posterior=0.221679]:0.073423[&brlen_95%_HPD={0.002682,0.154979}])[&index=38,posterior=0.223900]:0.073367[&brlen_95%_HPD={0.000553,0.196793}])[&index=39,posterior=0.276322]:0.081452[&brlen_95%_HPD={0.000132,0.191543}])[&index=40,posterior=0.367837]:0.079296[&brlen_95%_HPD={4.9e-05,0.17974}])[&index=41,posterior=0.562861]:0.062731[&brlen_95%_HPD={9.9e-05,0.169815}])[&index=42,posterior=1.000000]:0.000000;
+End;

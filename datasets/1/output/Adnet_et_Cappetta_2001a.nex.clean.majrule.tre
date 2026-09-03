@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Centrophorus
+		Centroscymnus
+		Cretascymnus
+		Dalatias
+		Deania
+		Echinorhinus
+		Eoetmopterus
+		Etmopterus
+		Euprotomicroides
+		Euprotomicrus
+		Isistius
+		Microetmopterus
+		Oxynotus
+		Palaeomicroides
+		Pristiophorus
+		Proetmopterus
+		Protospinax
+		Protosqualus
+		Scymnodalatias
+		Scymnodon
+		Somniosus
+		Squaliolus
+		Squalus
+		Squatina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Centrophorus[&index=24]:0.034611[&brlen_95%_HPD={9e-06,0.118011}],Deania[&index=23]:0.026703[&brlen_95%_HPD={4e-05,0.097405}],(((Oxynotus[&index=22]:0.101321[&brlen_95%_HPD={0.000231,0.251113}],(Cretascymnus[&index=21]:0.023356[&brlen_95%_HPD={3.4e-05,0.106689}],Somniosus[&index=20]:0.057407[&brlen_95%_HPD={8.5e-05,0.159663}])[&index=25,posterior=0.390937]:0.045538[&brlen_95%_HPD={0.000317,0.164734}])[&index=26,posterior=0.199023]:0.060924[&brlen_95%_HPD={7.3e-05,0.174206}],((Palaeomicroides[&index=19]:0.108797[&brlen_95%_HPD={9.5e-05,0.27375}],(Proetmopterus[&index=18]:0.054200[&brlen_95%_HPD={4e-06,0.176886}],(Microetmopterus[&index=17]:0.040879[&brlen_95%_HPD={4.7e-05,0.149595}],((Euprotomicroides[&index=16]:0.037209[&brlen_95%_HPD={6e-06,0.161152}],((Isistius[&index=15]:0.067386[&brlen_95%_HPD={0.000505,0.177815}],Dalatias[&index=14]:0.039440[&brlen_95%_HPD={3.4e-05,0.133054}])[&index=27,posterior=0.957797]:0.135968[&brlen_95%_HPD={0.007003,0.294536}],(Squaliolus[&index=13]:0.016664[&brlen_95%_HPD={1e-05,0.078299}],Euprotomicrus[&index=12]:0.016156[&brlen_95%_HPD={9e-06,0.077565}])[&index=28,posterior=0.843181]:0.076981[&brlen_95%_HPD={3e-06,0.207777}])[&index=29,posterior=0.743225]:0.098903[&brlen_95%_HPD={9e-06,0.263432}])[&index=30,posterior=0.934696]:0.169331[&brlen_95%_HPD={0.011079,0.408382}],(Etmopterus[&index=11]:0.044429[&brlen_95%_HPD={6e-05,0.177239}],Eoetmopterus[&index=10]:0.110918[&brlen_95%_HPD={0.000704,0.313105}])[&index=31,posterior=0.525544]:0.098538[&brlen_95%_HPD={0.000461,0.317554}])[&index=32,posterior=0.836517]:0.169963[&brlen_95%_HPD={0.025584,0.388952}])[&index=33,posterior=0.446024]:0.056588[&brlen_95%_HPD={0.0002,0.189838}])[&index=34,posterior=0.779653]:0.131765[&brlen_95%_HPD={0.012023,0.312475}])[&index=35,posterior=0.326522]:0.100821[&brlen_95%_HPD={0.011712,0.286569}],(Scymnodalatias[&index=9]:0.130774[&brlen_95%_HPD={0.000475,0.291643}],(Centroscymnus[&index=8]:0.017454[&brlen_95%_HPD={1.4e-05,0.08155}],Scymnodon[&index=7]:0.026026[&brlen_95%_HPD={1.6e-05,0.112236}])[&index=36,posterior=0.391826]:0.042481[&brlen_95%_HPD={3.4e-05,0.142959}])[&index=37,posterior=0.251444]:0.059987[&brlen_95%_HPD={0.0002,0.18917}])[&index=38,posterior=0.123056]:0.058524[&brlen_95%_HPD={0.000923,0.18319}])[&index=39,posterior=0.948023]:0.275180[&brlen_95%_HPD={0.076961,0.573127}],((Protosqualus[&index=6]:0.029983[&brlen_95%_HPD={1e-05,0.128434}],Squalus[&index=5]:0.091122[&brlen_95%_HPD={0.001108,0.227559}])[&index=40,posterior=0.801422]:0.110956[&brlen_95%_HPD={0.000751,0.323801}],(Echinorhinus[&index=4]:0.336613[&brlen_95%_HPD={0.117644,0.701506}],(Protospinax[&index=3]:0.141255[&brlen_95%_HPD={0.000204,0.344394}],(Squatina[&index=2]:0.038905[&brlen_95%_HPD={7e-06,0.155747}],Pristiophorus[&index=1]:0.181535[&brlen_95%_HPD={0.002818,0.399207}])[&index=41,posterior=0.322079]:0.079060[&brlen_95%_HPD={0.000914,0.237569}])[&index=42,posterior=0.294092]:0.104044[&brlen_95%_HPD={9.6e-05,0.301308}])[&index=43,posterior=0.565971]:0.132828[&brlen_95%_HPD={0.000106,0.344668}])[&index=44,posterior=0.923590]:0.249951[&brlen_95%_HPD={0.010432,0.517004}])[&index=45,posterior=0.604176]:0.081390[&brlen_95%_HPD={7.5e-05,0.32506}])[&index=46,posterior=1.000000]:0.000000;
+End;

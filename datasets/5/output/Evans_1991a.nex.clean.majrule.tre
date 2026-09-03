@@ -1,0 +1,66 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=55;
+	Taxlabels
+		Acerosodontosaurus
+		Aenigmatosaurus
+		Ancestor
+		Aphelosaurus
+		Araeoscelis
+		Blomosaurus
+		Boreopricea
+		Choristodera
+		Claudisaurus
+		Clevosaurus
+		Coelurosauravus
+		Colubrifer
+		Cosesaurus
+		Diphydontosaurus
+		Drepanosaurus
+		Galesphyrus
+		Gephyrosaurus
+		Heleosaurus
+		Heleosuchus
+		Homoeosaurus
+		Hovasaurus
+		Howesia
+		Kadimarkara
+		Kallimodon
+		Kenyasaurus
+		Kudnu
+		Kuehneosauridae
+		Lacertulus
+		Macrocnemus
+		Malerisaurus
+		Megalancosaurus
+		Mesenosaurus
+		Mesosuchus
+		Noteosuchus
+		Palaeagama
+		Paliguana
+		Petrolacosaurus
+		Planocephalosaurus
+		Pleurosauridae
+		Prolacerta
+		Prolacertoides
+		Proterosuchus
+		Protorosaurus
+		Rhynchosauridae
+		Saurosternon
+		Sphenodon
+		Squamata
+		Tangasaurus
+		Tanystropheus
+		Tanytrachelos
+		Thadeosaurus
+		Thalattosauria
+		Trachelosaurus
+		Trilophosaurus
+		Youngina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acerosodontosaurus[&index=55]:0.031274[&brlen_95%_HPD={5.5e-05,0.103434}],(Tangasaurus[&index=54]:0.015651[&brlen_95%_HPD={1.2e-05,0.048373}],(Hovasaurus[&index=53]:0.006417[&brlen_95%_HPD={1.3e-05,0.02792}],(Kenyasaurus[&index=52]:0.029918[&brlen_95%_HPD={1.9e-05,0.099385}],Thadeosaurus[&index=51]:0.056420[&brlen_95%_HPD={7.4e-05,0.141795}])[&index=56,posterior=0.786317]:0.083887[&brlen_95%_HPD={0.000527,0.180436}])[&index=57,posterior=0.465571]:0.019388[&brlen_95%_HPD={0.000162,0.049884}])[&index=58,posterior=0.701466]:0.101045[&brlen_95%_HPD={0.015519,0.222554}],(Youngina[&index=50]:0.060100[&brlen_95%_HPD={1e-05,0.149499}],((Saurosternon[&index=49]:0.028293[&brlen_95%_HPD={5.3e-05,0.112934}],Heleosuchus[&index=48]:0.054031[&brlen_95%_HPD={2.8e-05,0.177247}])[&index=59,posterior=0.138161]:0.031408[&brlen_95%_HPD={1.2e-05,0.115778}],((Kudnu[&index=47]:0.047981[&brlen_95%_HPD={3.1e-05,0.192913}],((((Squamata[&index=46]:0.048358[&brlen_95%_HPD={5.1e-05,0.131775}],(Colubrifer[&index=45]:0.151282[&brlen_95%_HPD={0.02244,0.325404}],(Blomosaurus[&index=44]:0.033296[&brlen_95%_HPD={4e-06,0.144681}],(Gephyrosaurus[&index=43]:0.010303[&brlen_95%_HPD={2e-06,0.041418}],(Diphydontosaurus[&index=42]:0.018842[&brlen_95%_HPD={1.9e-05,0.057727}],(Planocephalosaurus[&index=41]:0.014918[&brlen_95%_HPD={2e-06,0.04635}],(Clevosaurus[&index=40]:0.065602[&brlen_95%_HPD={0.015651,0.137104}],(Homoeosaurus[&index=39]:0.017842[&brlen_95%_HPD={0.000263,0.043035}],(Kallimodon[&index=38]:0.004530[&brlen_95%_HPD={5e-06,0.01947}],(Sphenodon[&index=37]:0.061308[&brlen_95%_HPD={0.023627,0.110929}],Pleurosauridae[&index=36]:0.119595[&brlen_95%_HPD={0.064155,0.187891}])[&index=60,posterior=0.930697]:0.037861[&brlen_95%_HPD={0.004049,0.079474}])[&index=61,posterior=0.906708]:0.023009[&brlen_95%_HPD={0.002734,0.049842}])[&index=62,posterior=0.403821]:0.012872[&brlen_95%_HPD={8.5e-05,0.046775}])[&index=63,posterior=0.994225]:0.049535[&brlen_95%_HPD={0.014041,0.095557}])[&index=64,posterior=0.995558]:0.056013[&brlen_95%_HPD={0.017267,0.110059}])[&index=65,posterior=0.966681]:0.052163[&brlen_95%_HPD={0.010055,0.106276}])[&index=66,posterior=0.780986]:0.083324[&brlen_95%_HPD={1e-05,0.211342}])[&index=67,posterior=0.569525]:0.108992[&brlen_95%_HPD={0.001649,0.234635}])[&index=68,posterior=0.255886]:0.049702[&brlen_95%_HPD={0.000147,0.139573}])[&index=69,posterior=0.662372]:0.370564[&brlen_95%_HPD={0.121405,0.62209}],((Kuehneosauridae[&index=35]:0.115083[&brlen_95%_HPD={9e-06,0.30349}],Drepanosaurus[&index=34]:0.254620[&brlen_95%_HPD={0.02718,0.533682}])[&index=70,posterior=0.436695]:0.145492[&brlen_95%_HPD={0.000251,0.311432}],(Boreopricea[&index=33]:0.075437[&brlen_95%_HPD={0.000598,0.167509}],((Prolacertoides[&index=32]:0.041872[&brlen_95%_HPD={4e-05,0.161768}],(Macrocnemus[&index=31]:0.046803[&brlen_95%_HPD={4e-05,0.101992}],(Cosesaurus[&index=30]:0.020837[&brlen_95%_HPD={8e-06,0.059832}],(Tanytrachelos[&index=29]:0.028436[&brlen_95%_HPD={0.000576,0.0654}],Tanystropheus[&index=28]:0.018224[&brlen_95%_HPD={1.1e-05,0.044478}])[&index=71,posterior=0.902710]:0.050782[&brlen_95%_HPD={0.005558,0.099619}])[&index=72,posterior=0.283874]:0.018674[&brlen_95%_HPD={0.000129,0.0532}])[&index=73,posterior=0.121279]:0.028265[&brlen_95%_HPD={0.000244,0.088106}])[&index=74,posterior=0.083518]:0.035749[&brlen_95%_HPD={0.000469,0.103057}],(Thalattosauria[&index=27]:0.244667[&brlen_95%_HPD={0.086539,0.433948}],((Aenigmatosaurus[&index=26]:0.175759[&brlen_95%_HPD={0.00015,0.406677}],Megalancosaurus[&index=25]:0.164994[&brlen_95%_HPD={0.00068,0.349412}])[&index=75,posterior=0.109729]:0.087566[&brlen_95%_HPD={0.001634,0.28746}],((Trilophosaurus[&index=24]:0.096132[&brlen_95%_HPD={0.007773,0.186787}],(Choristodera[&index=23]:0.293185[&brlen_95%_HPD={0.139929,0.480414}],(Rhynchosauridae[&index=22]:0.120668[&brlen_95%_HPD={0.038103,0.217207}],(Mesosuchus[&index=21]:0.025116[&brlen_95%_HPD={1e-06,0.070175}],Howesia[&index=20]:0.037308[&brlen_95%_HPD={0.000777,0.091589}])[&index=76,posterior=0.696135]:0.061841[&brlen_95%_HPD={0.005999,0.135485}])[&index=77,posterior=0.920924]:0.116630[&brlen_95%_HPD={0.010097,0.230515}])[&index=78,posterior=0.541537]:0.076060[&brlen_95%_HPD={0.000316,0.178619}])[&index=79,posterior=0.435806]:0.071740[&brlen_95%_HPD={0.000191,0.167573}],(Trachelosaurus[&index=19]:0.070979[&brlen_95%_HPD={0.000121,0.222208}],((Noteosuchus[&index=18]:0.077771[&brlen_95%_HPD={0.0001,0.191939}],(Prolacerta[&index=17]:0.016643[&brlen_95%_HPD={1.3e-05,0.050203}],(Kadimarkara[&index=16]:0.035184[&brlen_95%_HPD={0.000136,0.145934}],Protorosaurus[&index=15]:0.033727[&brlen_95%_HPD={6.6e-05,0.081537}])[&index=80,posterior=0.358507]:0.034562[&brlen_95%_HPD={0.000151,0.083769}])[&index=81,posterior=0.103065]:0.016822[&brlen_95%_HPD={4.6e-05,0.053343}])[&index=82,posterior=0.117725]:0.023187[&brlen_95%_HPD={1.6e-05,0.067251}],(Malerisaurus[&index=14]:0.026605[&brlen_95%_HPD={5.4e-05,0.080894}],Proterosuchus[&index=13]:0.051249[&brlen_95%_HPD={0.001339,0.110612}])[&index=83,posterior=0.113283]:0.026178[&brlen_95%_HPD={0.001288,0.070296}])[&index=84,posterior=0.154154]:0.079126[&brlen_95%_HPD={0.001079,0.168085}])[&index=85,posterior=0.083518]:0.075356[&brlen_95%_HPD={0.005724,0.181468}])[&index=86,posterior=0.058641]:0.108507[&brlen_95%_HPD={0.001814,0.238233}])[&index=87,posterior=0.120391]:0.123931[&brlen_95%_HPD={0.0003,0.267139}])[&index=88,posterior=0.072412]:0.105214[&brlen_95%_HPD={0.003248,0.216313}])[&index=89,posterior=0.087961]:0.049213[&brlen_95%_HPD={0.002045,0.12298}])[&index=90,posterior=0.175922]:0.127277[&brlen_95%_HPD={0.009519,0.247515}])[&index=91,posterior=0.309196]:0.326172[&brlen_95%_HPD={0.075008,0.56473}])[&index=92,posterior=0.925811]:0.429319[&brlen_95%_HPD={0.054689,0.840903}],(Mesenosaurus[&index=12]:0.174594[&brlen_95%_HPD={0.000452,0.387178}],Coelurosauravus[&index=11]:0.158871[&brlen_95%_HPD={0.006023,0.353946}])[&index=93,posterior=0.770769]:0.222039[&brlen_95%_HPD={0.003483,0.463379}])[&index=94,posterior=0.279876]:0.212970[&brlen_95%_HPD={0.000123,0.450998}],(Galesphyrus[&index=10]:0.046373[&brlen_95%_HPD={4.9e-05,0.153829}],(Claudisaurus[&index=9]:0.035640[&brlen_95%_HPD={1.8e-05,0.109588}],(Heleosaurus[&index=8]:0.081277[&brlen_95%_HPD={0.000303,0.213111}],(Lacertulus[&index=7]:0.046304[&brlen_95%_HPD={5e-05,0.140106}],(Ancestor[&index=6]:0.022555[&brlen_95%_HPD={2e-06,0.084932}],(Petrolacosaurus[&index=5]:0.006370[&brlen_95%_HPD={1e-06,0.027159}],(Aphelosaurus[&index=4]:0.110252[&brlen_95%_HPD={0.003979,0.254476}],Araeoscelis[&index=3]:0.057032[&brlen_95%_HPD={0.010484,0.107496}])[&index=95,posterior=0.452243]:0.024282[&brlen_95%_HPD={0.000167,0.069554}])[&index=96,posterior=0.804531]:0.054274[&brlen_95%_HPD={0.005776,0.114585}])[&index=97,posterior=0.588627]:0.085972[&brlen_95%_HPD={0.001308,0.209}])[&index=98,posterior=0.539760]:0.109705[&brlen_95%_HPD={0.001234,0.249647}])[&index=99,posterior=0.131497]:0.051520[&brlen_95%_HPD={9.1e-05,0.145695}])[&index=100,posterior=0.082630]:0.061020[&brlen_95%_HPD={0.000527,0.176555}])[&index=101,posterior=0.085740]:0.074917[&brlen_95%_HPD={0.001217,0.215541}])[&index=102,posterior=0.119058]:0.090505[&brlen_95%_HPD={0.000163,0.211495}])[&index=103,posterior=0.103954]:0.083088[&brlen_95%_HPD={0.001555,0.207966}],(Paliguana[&index=2]:0.047402[&brlen_95%_HPD={7.8e-05,0.182261}],Palaeagama[&index=1]:0.042167[&brlen_95%_HPD={4e-05,0.131309}])[&index=104,posterior=0.095957]:0.030589[&brlen_95%_HPD={7.5e-05,0.112814}])[&index=105,posterior=0.105287]:0.051701[&brlen_95%_HPD={0.000165,0.183292}])[&index=106,posterior=0.358952]:0.073220[&brlen_95%_HPD={0.006561,0.174571}])[&index=107,posterior=0.202132]:0.050260[&brlen_95%_HPD={0.001635,0.161341}])[&index=108,posterior=1.000000]:0.000000;
+End;

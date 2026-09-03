@@ -1,0 +1,6 @@
+        cp ss/file10000* ss/$file10000*; 
+        cp ss/file.ss ss/$file.ss; 
+    done
+        cp ss/file10000* ss/$file10000*; 
+        cp ss/file.ss ss/$file.ss; 
+

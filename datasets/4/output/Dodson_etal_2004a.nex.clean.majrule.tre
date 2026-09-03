@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Achelousaurus
+		Anchiceratops
+		Arrhinoceratops
+		Avaceratops
+		Centrosaurus
+		Chasmosaurus
+		Diceratops
+		Einiosaurus
+		Pachyrhinosaurus
+		Pentaceratops
+		Protoceratops
+		Styracosaurus
+		Torosaurus
+		Triceratops
+		Zuniceratops
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Pachyrhinosaurus[&index=15]:0.011372[&brlen_95%_HPD={7e-06,0.038245}],Achelousaurus[&index=14]:0.007294[&brlen_95%_HPD={6e-06,0.030389}],(Einiosaurus[&index=13]:0.006916[&brlen_95%_HPD={1e-06,0.029707}],((Centrosaurus[&index=12]:0.012372[&brlen_95%_HPD={4.5e-05,0.039255}],Styracosaurus[&index=11]:0.005824[&brlen_95%_HPD={1e-06,0.025495}])[&index=16,posterior=0.838738]:0.025677[&brlen_95%_HPD={1.9e-05,0.061812}],(Avaceratops[&index=10]:0.023736[&brlen_95%_HPD={9e-06,0.097573}],((Protoceratops[&index=9]:0.323970[&brlen_95%_HPD={0.000107,0.801422}],Zuniceratops[&index=8]:0.061337[&brlen_95%_HPD={3.5e-05,0.269002}])[&index=17,posterior=0.970235]:0.492686[&brlen_95%_HPD={0.104588,0.979077}],((Chasmosaurus[&index=7]:0.011548[&brlen_95%_HPD={1.1e-05,0.036621}],Pentaceratops[&index=6]:0.005641[&brlen_95%_HPD={0,0.024851}])[&index=18,posterior=0.911595]:0.062170[&brlen_95%_HPD={0.000271,0.12767}],((Triceratops[&index=5]:0.016736[&brlen_95%_HPD={2e-05,0.045523}],(Diceratops[&index=4]:0.005491[&brlen_95%_HPD={5e-06,0.025851}],Torosaurus[&index=3]:0.005584[&brlen_95%_HPD={0,0.024466}])[&index=19,posterior=0.815637]:0.013771[&brlen_95%_HPD={6.1e-05,0.042019}])[&index=20,posterior=0.703687]:0.025027[&brlen_95%_HPD={5.2e-05,0.061943}],(Anchiceratops[&index=2]:0.004961[&brlen_95%_HPD={1e-06,0.022408}],Arrhinoceratops[&index=1]:0.007672[&brlen_95%_HPD={2e-06,0.033606}])[&index=21,posterior=0.562861]:0.012557[&brlen_95%_HPD={1.1e-05,0.043996}])[&index=22,posterior=0.380720]:0.032775[&brlen_95%_HPD={0.000117,0.104253}])[&index=23,posterior=0.676144]:0.161560[&brlen_95%_HPD={0.000267,0.383822}])[&index=24,posterior=0.813416]:0.190995[&brlen_95%_HPD={0.00358,0.409938}])[&index=25,posterior=0.764993]:0.064492[&brlen_95%_HPD={1e-06,0.172454}])[&index=26,posterior=0.383385]:0.013297[&brlen_95%_HPD={2.2e-05,0.051647}])[&index=27,posterior=0.884496]:0.021341[&brlen_95%_HPD={0.00031,0.05429}])[&index=28,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,44 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=33;
+	Taxlabels
+		Alligator_mississippiensis
+		Araripesuchus_gomesii
+		Baurusuchus_pachecoi_and_Baurusuchus_salgadoensis
+		Bretesuchus_bonapartei
+		Crocodylus_porosus
+		Dyrosaurus_phosphaticus
+		Eutretauranosuchus_delfsi
+		Geosaurus_suevicus
+		Goniopholis_simus
+		Hamadasuchus_rebouli
+		Hsisosuchus
+		Hylaeochampsa_vectiana
+		Juvenile_Hamadasuchus_rebouli
+		Leidyosuchus_canadensis
+		Lomasuchus_palpebrosus
+		Mahajangasuchus_insignis
+		Malawisuchus_mwakasyungutiensis
+		Metriorhynchus_superciliosum
+		Notosuchus_terrestris
+		Orthosuchus_stormbergi
+		Pabwehshi_pakistanensis
+		Peirosaurus_torminni
+		Pelagosaurus_typus
+		Pholidosaurus_decipiens
+		Sarcosuchus_imperator
+		Sebecus_icaeorhinus
+		Steneosaurus_durobrivensis
+		Stolokrosuchus_lapparenti
+		Sunosuchus_junggarensis
+		Terminonaris_robusta
+		Theriosuchus_pusillus
+		Trematochampsa_taqueti
+		Uberabasuchus_terrificus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alligator_mississippiensis[&index=33]:0.150483[&brlen_95%_HPD={0.057992,0.255368}],Leidyosuchus_canadensis[&index=32]:0.036462[&brlen_95%_HPD={4e-06,0.091097}],(Crocodylus_porosus[&index=31]:0.052144[&brlen_95%_HPD={0.000535,0.124656}],(Hylaeochampsa_vectiana[&index=30]:0.148188[&brlen_95%_HPD={0.031945,0.305433}],((Sunosuchus_junggarensis[&index=29]:0.025341[&brlen_95%_HPD={5.6e-05,0.074741}],(Eutretauranosuchus_delfsi[&index=28]:0.027850[&brlen_95%_HPD={4.3e-05,0.074029}],(Goniopholis_simus[&index=27]:0.026969[&brlen_95%_HPD={3.7e-05,0.075832}],(Dyrosaurus_phosphaticus[&index=26]:0.157448[&brlen_95%_HPD={0.019509,0.298544}],(Terminonaris_robusta[&index=25]:0.049932[&brlen_95%_HPD={0.000193,0.112579}],(Pholidosaurus_decipiens[&index=24]:0.059112[&brlen_95%_HPD={0.01233,0.128433}],Sarcosuchus_imperator[&index=23]:0.023895[&brlen_95%_HPD={2e-06,0.072614}])[&index=34,posterior=0.686806]:0.052926[&brlen_95%_HPD={0.000254,0.124368}])[&index=35,posterior=0.609951]:0.056616[&brlen_95%_HPD={0.000283,0.14107}])[&index=36,posterior=0.890271]:0.308187[&brlen_95%_HPD={0.150736,0.516893}])[&index=37,posterior=0.394047]:0.032772[&brlen_95%_HPD={1e-06,0.083465}])[&index=38,posterior=0.735673]:0.060999[&brlen_95%_HPD={0.008544,0.129776}])[&index=39,posterior=0.598401]:0.074882[&brlen_95%_HPD={6.8e-05,0.179859}],(Theriosuchus_pusillus[&index=22]:0.124216[&brlen_95%_HPD={0.019532,0.248417}],(Trematochampsa_taqueti[&index=21]:0.024115[&brlen_95%_HPD={1e-06,0.110054}],(Mahajangasuchus_insignis[&index=20]:0.040578[&brlen_95%_HPD={2.7e-05,0.170562}],((Araripesuchus_gomesii[&index=19]:0.046957[&brlen_95%_HPD={0.000168,0.136888}],(((Pelagosaurus_typus[&index=18]:0.026116[&brlen_95%_HPD={6.2e-05,0.1032}],(Steneosaurus_durobrivensis[&index=17]:0.088608[&brlen_95%_HPD={0.018624,0.174783}],(Metriorhynchus_superciliosum[&index=16]:0.019030[&brlen_95%_HPD={3.2e-05,0.058807}],Geosaurus_suevicus[&index=15]:0.050346[&brlen_95%_HPD={0.008629,0.10361}])[&index=40,posterior=0.999556]:0.170575[&brlen_95%_HPD={0.078901,0.280932}])[&index=41,posterior=0.825855]:0.068626[&brlen_95%_HPD={0.000807,0.147063}])[&index=42,posterior=0.997779]:0.562706[&brlen_95%_HPD={0.239135,0.952486}],(Orthosuchus_stormbergi[&index=14]:0.211835[&brlen_95%_HPD={0.046647,0.415342}],Hsisosuchus[&index=13]:0.124416[&brlen_95%_HPD={0.000656,0.281232}])[&index=43,posterior=0.778765]:0.202129[&brlen_95%_HPD={0.000397,0.577057}])[&index=44,posterior=0.874278]:0.429121[&brlen_95%_HPD={0.158083,0.803594}],(Baurusuchus_pachecoi_and_Baurusuchus_salgadoensis[&index=12]:0.075052[&brlen_95%_HPD={0.000355,0.173717}],(Notosuchus_terrestris[&index=11]:0.088582[&brlen_95%_HPD={0.017863,0.17431}],Malawisuchus_mwakasyungutiensis[&index=10]:0.025920[&brlen_95%_HPD={7e-06,0.088251}])[&index=45,posterior=0.993781]:0.265319[&brlen_95%_HPD={0.074113,0.470286}])[&index=46,posterior=0.575744]:0.085288[&brlen_95%_HPD={0.00112,0.183066}])[&index=47,posterior=0.332297]:0.053979[&brlen_95%_HPD={0.000574,0.165424}])[&index=48,posterior=0.673034]:0.221216[&brlen_95%_HPD={0.035081,0.424288}],(((Peirosaurus_torminni[&index=9]:0.011623[&brlen_95%_HPD={0,0.053398}],Uberabasuchus_terrificus[&index=8]:0.020046[&brlen_95%_HPD={1.5e-05,0.073975}])[&index=49,posterior=0.524656]:0.034109[&brlen_95%_HPD={8e-06,0.102991}],(Stolokrosuchus_lapparenti[&index=7]:0.173204[&brlen_95%_HPD={0.074374,0.283688}],Lomasuchus_palpebrosus[&index=6]:0.039989[&brlen_95%_HPD={0.000229,0.106391}])[&index=50,posterior=0.402488]:0.041216[&brlen_95%_HPD={0.000674,0.101544}])[&index=51,posterior=0.189693]:0.038165[&brlen_95%_HPD={0.000644,0.086622}],((Sebecus_icaeorhinus[&index=5]:0.034043[&brlen_95%_HPD={1.1e-05,0.087071}],Bretesuchus_bonapartei[&index=4]:0.016917[&brlen_95%_HPD={2e-06,0.0727}])[&index=52,posterior=0.902266]:0.070890[&brlen_95%_HPD={0.005796,0.150806}],(Pabwehshi_pakistanensis[&index=3]:0.134086[&brlen_95%_HPD={5e-06,0.317968}],(Hamadasuchus_rebouli[&index=2]:0.033421[&brlen_95%_HPD={3.5e-05,0.08398}],Juvenile_Hamadasuchus_rebouli[&index=1]:0.049308[&brlen_95%_HPD={0.002306,0.114666}])[&index=53,posterior=0.743669]:0.061175[&brlen_95%_HPD={1.9e-05,0.144283}])[&index=54,posterior=0.249223]:0.058889[&brlen_95%_HPD={0.002098,0.144193}])[&index=55,posterior=0.138605]:0.047326[&brlen_95%_HPD={0.000249,0.124374}])[&index=56,posterior=0.315860]:0.086722[&brlen_95%_HPD={0.001776,0.203336}])[&index=57,posterior=0.505997]:0.132489[&brlen_95%_HPD={0.000388,0.279405}])[&index=58,posterior=0.493558]:0.117903[&brlen_95%_HPD={0.00055,0.263523}])[&index=59,posterior=0.742337]:0.154571[&brlen_95%_HPD={0.003112,0.30536}])[&index=60,posterior=0.402488]:0.085716[&brlen_95%_HPD={0.001544,0.205955}])[&index=61,posterior=0.982674]:0.200442[&brlen_95%_HPD={0.03449,0.376554}])[&index=62,posterior=0.696135]:0.091671[&brlen_95%_HPD={0.001738,0.207502}])[&index=63,posterior=0.876499]:0.081072[&brlen_95%_HPD={0.009355,0.168204}])[&index=64,posterior=1.000000]:0.000000;
+End;

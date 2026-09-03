@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Avialae
+		Caenagnathidae
+		Carnosauria
+		Ceratosauria
+		Coelurus
+		Compsognathus
+		Deinonychosauria
+		Elmisauridae
+		Hulsanpes
+		Liliensternus
+		Microvenator
+		Ornithischia
+		Ornithmimidae
+		Ornitholestes
+		Outgroup
+		Procompsognathus
+		Sauropodomorpha
+		Saurornitholestes
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Avialae[&index=18]:0.053896[&brlen_95%_HPD={0.011553,0.108192}],Deinonychosauria[&index=17]:0.006624[&brlen_95%_HPD={3e-06,0.028696}],((Ornitholestes[&index=16]:0.008543[&brlen_95%_HPD={1e-06,0.040233}],Caenagnathidae[&index=15]:0.014592[&brlen_95%_HPD={2.2e-05,0.048945}])[&index=19,posterior=0.204354]:0.010772[&brlen_95%_HPD={2e-06,0.043539}],(Microvenator[&index=14]:0.025748[&brlen_95%_HPD={1.3e-05,0.117789}],((Compsognathus[&index=13]:0.027691[&brlen_95%_HPD={1.8e-05,0.086673}],Coelurus[&index=12]:0.026044[&brlen_95%_HPD={9e-06,0.120059}])[&index=20,posterior=0.120391]:0.023084[&brlen_95%_HPD={6e-05,0.074625}],(Hulsanpes[&index=11]:0.047252[&brlen_95%_HPD={5.1e-05,0.228744}],(Elmisauridae[&index=10]:0.017460[&brlen_95%_HPD={1e-06,0.071626}],(Saurornitholestes[&index=9]:0.026025[&brlen_95%_HPD={3e-06,0.12095}],(Ornithmimidae[&index=8]:0.013101[&brlen_95%_HPD={2.2e-05,0.050072}],(Carnosauria[&index=7]:0.006587[&brlen_95%_HPD={0,0.029587}],(Procompsognathus[&index=6]:0.017238[&brlen_95%_HPD={4e-06,0.077369}],(Ceratosauria[&index=5]:0.005308[&brlen_95%_HPD={2e-06,0.023801}],(Liliensternus[&index=4]:0.009917[&brlen_95%_HPD={6e-06,0.042803}],(Sauropodomorpha[&index=3]:0.009497[&brlen_95%_HPD={9e-06,0.038508}],(Outgroup[&index=2]:0.005286[&brlen_95%_HPD={2e-06,0.0227}],Ornithischia[&index=1]:0.010096[&brlen_95%_HPD={1.5e-05,0.030197}])[&index=21,posterior=1.000000]:0.075190[&brlen_95%_HPD={0.029986,0.135312}])[&index=22,posterior=0.999556]:0.209146[&brlen_95%_HPD={0.106774,0.349449}])[&index=23,posterior=0.252332]:0.010338[&brlen_95%_HPD={3.9e-05,0.050603}])[&index=24,posterior=0.330076]:0.018099[&brlen_95%_HPD={3.8e-05,0.0781}])[&index=25,posterior=0.992448]:0.131584[&brlen_95%_HPD={0.057196,0.234213}])[&index=26,posterior=0.968903]:0.114694[&brlen_95%_HPD={0.027094,0.214076}])[&index=27,posterior=0.629054]:0.053122[&brlen_95%_HPD={0.000154,0.135352}])[&index=28,posterior=0.247446]:0.048345[&brlen_95%_HPD={3.3e-05,0.12488}])[&index=29,posterior=0.131497]:0.027423[&brlen_95%_HPD={0.000531,0.084981}])[&index=30,posterior=0.105287]:0.029964[&brlen_95%_HPD={1.3e-05,0.088207}])[&index=31,posterior=0.127943]:0.022996[&brlen_95%_HPD={8.4e-05,0.072823}])[&index=32,posterior=0.145713]:0.018315[&brlen_95%_HPD={0.000169,0.057737}])[&index=33,posterior=0.668592]:0.017799[&brlen_95%_HPD={1.9e-05,0.049306}])[&index=34,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Mehlina_gradata_gradata
+		Mesotaxis_asymmetricus_asymmetricus
+		Palmatolepis_bogartensis
+		Palmatolepis_deliculata_deliculata
+		Palmatolepis_falcata
+		Palmatolepis_gracilis
+		Palmatolepis_loba
+		Palmatolepis_minuta_minuta
+		Palmatolepis_muelleri
+		Palmatolepis_perlobata_maxima
+		Palmatolepis_perlobata_perlobata
+		Palmatolepis_quadrantinodosalobata
+		Palmatolepis_rugosa
+		Palmatolepis_schindewola
+		Palmatolepis_subgracilis
+		Palmatolepis_winchelli
+		Palmatolepis_wolskae
+		Polygnathus_xylus_xylus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Mehlina_gradata_gradata[&index=18]:0.085257[&brlen_95%_HPD={0.016323,0.194772}],Polygnathus_xylus_xylus[&index=17]:0.016879[&brlen_95%_HPD={1.4e-05,0.079356}],(Mesotaxis_asymmetricus_asymmetricus[&index=16]:0.028040[&brlen_95%_HPD={2e-06,0.128967}],(Palmatolepis_subgracilis[&index=15]:0.083299[&brlen_95%_HPD={5e-05,0.226109}],(Palmatolepis_falcata[&index=14]:0.087304[&brlen_95%_HPD={8.5e-05,0.248564}],(Palmatolepis_minuta_minuta[&index=13]:0.042830[&brlen_95%_HPD={5.6e-05,0.131312}],(((Palmatolepis_deliculata_deliculata[&index=12]:0.034542[&brlen_95%_HPD={8e-06,0.163825}],(Palmatolepis_wolskae[&index=11]:0.071318[&brlen_95%_HPD={0.000134,0.222568}],(Palmatolepis_rugosa[&index=10]:0.038333[&brlen_95%_HPD={9e-06,0.133248}],(Palmatolepis_schindewola[&index=9]:0.021641[&brlen_95%_HPD={2.1e-05,0.094451}],(Palmatolepis_perlobata_perlobata[&index=8]:0.017788[&brlen_95%_HPD={8e-06,0.080084}],Palmatolepis_perlobata_maxima[&index=7]:0.019094[&brlen_95%_HPD={1.8e-05,0.094696}])[&index=19,posterior=0.763216]:0.036834[&brlen_95%_HPD={0.000345,0.115896}])[&index=20,posterior=0.814305]:0.068257[&brlen_95%_HPD={0.002972,0.180585}])[&index=21,posterior=0.697024]:0.070129[&brlen_95%_HPD={0.001429,0.213871}])[&index=22,posterior=0.981342]:0.160243[&brlen_95%_HPD={0.016527,0.398867}])[&index=23,posterior=0.809862]:0.104137[&brlen_95%_HPD={0.0025,0.268307}],(Palmatolepis_loba[&index=6]:0.066277[&brlen_95%_HPD={3.7e-05,0.174863}],Palmatolepis_muelleri[&index=5]:0.025818[&brlen_95%_HPD={2.2e-05,0.119588}])[&index=24,posterior=0.755220]:0.075024[&brlen_95%_HPD={0.000817,0.194674}])[&index=25,posterior=0.262550]:0.049041[&brlen_95%_HPD={0.000496,0.146472}],(Palmatolepis_winchelli[&index=4]:0.016950[&brlen_95%_HPD={2.3e-05,0.074715}],(Palmatolepis_quadrantinodosalobata[&index=3]:0.062619[&brlen_95%_HPD={0.000154,0.181825}],(Palmatolepis_gracilis[&index=2]:0.083221[&brlen_95%_HPD={0.002718,0.206495}],Palmatolepis_bogartensis[&index=1]:0.036341[&brlen_95%_HPD={0.000115,0.112744}])[&index=26,posterior=0.195913]:0.027049[&brlen_95%_HPD={5e-05,0.098951}])[&index=27,posterior=0.192359]:0.033639[&brlen_95%_HPD={0.000179,0.111547}])[&index=28,posterior=0.099511]:0.028077[&brlen_95%_HPD={0.000238,0.111171}])[&index=29,posterior=0.099067]:0.036717[&brlen_95%_HPD={0.000485,0.133397}])[&index=30,posterior=0.429587]:0.074482[&brlen_95%_HPD={0.001113,0.214465}])[&index=31,posterior=0.382497]:0.082326[&brlen_95%_HPD={0.000147,0.225827}])[&index=32,posterior=1.000000]:0.367220[&brlen_95%_HPD={0.111674,0.674681}])[&index=33,posterior=0.958685]:0.104425[&brlen_95%_HPD={0.014152,0.250423}])[&index=34,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,20 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=9;
+	Taxlabels
+		Amphioxus
+		Bichir
+		Ciona
+		Coelacanth
+		Dogfish
+		Hagfish
+		Lamprey
+		Lungfish
+		Salamander
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Amphioxus[&index=9]:0.020764[&brlen_95%_HPD={2.1e-05,0.078548}],Ciona[&index=8]:0.049134[&brlen_95%_HPD={0.001523,0.114667}],(Hagfish[&index=7]:0.042826[&brlen_95%_HPD={1.4e-05,0.169696}],(Lamprey[&index=6]:0.023555[&brlen_95%_HPD={3.4e-05,0.091277}],((Salamander[&index=5]:0.018520[&brlen_95%_HPD={4.9e-05,0.045525}],Coelacanth[&index=4]:0.031688[&brlen_95%_HPD={0.007117,0.066397}])[&index=10,posterior=0.701466]:0.022468[&brlen_95%_HPD={0.00151,0.05221}],(Lungfish[&index=3]:0.038848[&brlen_95%_HPD={0.007616,0.07869}],(Dogfish[&index=2]:0.023587[&brlen_95%_HPD={0.00347,0.052136}],Bichir[&index=1]:0.023439[&brlen_95%_HPD={0.003313,0.054319}])[&index=11,posterior=0.710351]:0.017240[&brlen_95%_HPD={7e-06,0.044289}])[&index=12,posterior=0.381608]:0.017321[&brlen_95%_HPD={5.2e-05,0.049164}])[&index=13,posterior=0.998667]:0.165760[&brlen_95%_HPD={0.067002,0.302862}])[&index=14,posterior=0.998667]:0.283033[&brlen_95%_HPD={0.114793,0.503544}])[&index=15,posterior=1.000000]:0.396087[&brlen_95%_HPD={0.157451,0.7498}])[&index=16,posterior=1.000000]:0.000000;
+End;

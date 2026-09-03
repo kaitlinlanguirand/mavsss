@@ -1,0 +1,7 @@
+ss_analysis.marginal()
+ss_analysis.methods()
+ss = steppingStoneSampler(file="ss/power", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal()
+ss = steppingStoneSampler(file="ss/power100000", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal()
+q()

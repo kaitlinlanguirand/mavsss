@@ -1,0 +1,16 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=5;
+	Taxlabels
+		CRUROTARSI
+		DINOSAURIA
+		Lagerpeton_chanarensis
+		Lagosuchus_lilloensis
+		PTEROSAURIA
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](CRUROTARSI[&index=5]:0.009671[&brlen_95%_HPD={6e-06,0.052464}],PTEROSAURIA[&index=4]:0.020241[&brlen_95%_HPD={9e-06,0.080176}],(Lagerpeton_chanarensis[&index=3]:0.318109[&brlen_95%_HPD={0.10141,0.677778}],(Lagosuchus_lilloensis[&index=2]:0.007077[&brlen_95%_HPD={1e-06,0.032456}],DINOSAURIA[&index=1]:0.007122[&brlen_95%_HPD={1.4e-05,0.033094}])[&index=6,posterior=0.535318]:0.016169[&brlen_95%_HPD={5.6e-05,0.086191}])[&index=7,posterior=0.959574]:0.055510[&brlen_95%_HPD={0.003282,0.146689}])[&index=8,posterior=1.000000]:0.000000;
+End;

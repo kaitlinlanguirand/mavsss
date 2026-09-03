@@ -1,0 +1,22 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=11;
+	Taxlabels
+		Bristolia_anteros
+		Bristolia_bristolensis
+		Bristolia_fragilis
+		Bristolia_harringtoni
+		Bristolia_insolens
+		Bristolia_mohavensis
+		Bristolia_sp
+		Fremontella_halli
+		Laudonia_amputata
+		Laudonia_bispinata
+		Lochmanolenellus_mexicana
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Bristolia_anteros[&index=11]:0.019522[&brlen_95%_HPD={7e-06,0.094462}],Bristolia_sp[&index=10]:0.019242[&brlen_95%_HPD={1.9e-05,0.093244}],(Bristolia_insolens[&index=9]:0.076437[&brlen_95%_HPD={3.3e-05,0.282798}],((Fremontella_halli[&index=8]:0.100344[&brlen_95%_HPD={8.9e-05,0.339164}],(Lochmanolenellus_mexicana[&index=7]:0.064984[&brlen_95%_HPD={9.6e-05,0.236459}],(Laudonia_bispinata[&index=6]:0.113774[&brlen_95%_HPD={0.012391,0.29828}],Laudonia_amputata[&index=5]:0.028638[&brlen_95%_HPD={1e-05,0.13073}])[&index=12,posterior=0.895158]:0.120957[&brlen_95%_HPD={0.001303,0.334706}])[&index=13,posterior=0.882275]:0.191348[&brlen_95%_HPD={0.002193,0.487688}])[&index=14,posterior=0.792537]:0.212841[&brlen_95%_HPD={0.003671,0.513929}],(Bristolia_bristolensis[&index=4]:0.046199[&brlen_95%_HPD={3.2e-05,0.180247}],(Bristolia_fragilis[&index=3]:0.035088[&brlen_95%_HPD={1.9e-05,0.160159}],(Bristolia_mohavensis[&index=2]:0.045310[&brlen_95%_HPD={1e-05,0.174859}],Bristolia_harringtoni[&index=1]:0.028051[&brlen_95%_HPD={4.1e-05,0.137076}])[&index=15,posterior=0.354065]:0.064949[&brlen_95%_HPD={0.000389,0.219949}])[&index=16,posterior=0.340293]:0.070264[&brlen_95%_HPD={0.000252,0.229874}])[&index=17,posterior=0.397601]:0.126990[&brlen_95%_HPD={5.6e-05,0.36867}])[&index=18,posterior=0.795646]:0.184771[&brlen_95%_HPD={0.005513,0.460373}])[&index=19,posterior=0.919147]:0.143195[&brlen_95%_HPD={0.000351,0.369668}])[&index=20,posterior=1.000000]:0.000000;
+End;

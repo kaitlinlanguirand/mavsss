@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		AMNH_22569
+		Anhanguera_piscator
+		Anhanguera_santanae
+		Anurognathus_ammoni
+		Arthurdactylus_conandoylei
+		Barbosania_gracilirostris
+		Campylognathoides_liasicus
+		Coloborhynchus_speilbergi
+		DFMMh_slash_FV_500_dsungaripterid
+		Darwinopterus_linglongtaensis
+		Dimorphodon_macronyx
+		Dsungaripterus_weii
+		Eudimorphodon_ranzii
+		Gegepterus_changae
+		Germanodactylus_rhamphastinus
+		MN_6588_dash_V
+		Nyctosaurus_gracilis
+		Pteranodon_longiceps
+		Pterodactylus_antiquus
+		Rhamphorhynchus_muensteri
+		Tapejara_wellnhoferi
+		Toolebuc_pterosaur
+		Tropeognathus_cf_robustus_SMNK_1133_PAL
+		Vectidraco_daisymorrisae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](AMNH_22569[&index=24]:0.082856[&brlen_95%_HPD={0.000192,0.287128}],(MN_6588_dash_V[&index=23]:0.063223[&brlen_95%_HPD={7.9e-05,0.252475}],(Tapejara_wellnhoferi[&index=22]:0.039738[&brlen_95%_HPD={2.7e-05,0.195771}],Vectidraco_daisymorrisae[&index=21]:0.118211[&brlen_95%_HPD={0.000274,0.34763}])[&index=25,posterior=0.346068]:0.082431[&brlen_95%_HPD={6e-06,0.290205}])[&index=26,posterior=0.322968]:0.121055[&brlen_95%_HPD={0.000123,0.361426}],(Pterodactylus_antiquus[&index=20]:0.222468[&brlen_95%_HPD={0.01238,0.496532}],((Coloborhynchus_speilbergi[&index=19]:0.042594[&brlen_95%_HPD={1.3e-05,0.189441}],(Pteranodon_longiceps[&index=18]:0.062564[&brlen_95%_HPD={8.4e-05,0.229688}],(Nyctosaurus_gracilis[&index=17]:0.050295[&brlen_95%_HPD={0.00021,0.217081}],((Arthurdactylus_conandoylei[&index=16]:0.107286[&brlen_95%_HPD={0.000198,0.317569}],Tropeognathus_cf_robustus_SMNK_1133_PAL[&index=15]:0.062872[&brlen_95%_HPD={6e-06,0.248618}])[&index=27,posterior=0.062195]:0.081989[&brlen_95%_HPD={0.000842,0.317341}],((Anurognathus_ammoni[&index=14]:0.062040[&brlen_95%_HPD={1.4e-05,0.274092}],(Anhanguera_santanae[&index=13]:0.022982[&brlen_95%_HPD={1.8e-05,0.114498}],Anhanguera_piscator[&index=12]:0.024192[&brlen_95%_HPD={1e-05,0.124228}])[&index=28,posterior=0.478010]:0.065344[&brlen_95%_HPD={1e-05,0.22896}])[&index=29,posterior=0.074633]:0.069808[&brlen_95%_HPD={0.001775,0.226223}],(DFMMh_slash_FV_500_dsungaripterid[&index=11]:0.218603[&brlen_95%_HPD={0.003308,0.522617}],(Barbosania_gracilirostris[&index=10]:0.067702[&brlen_95%_HPD={4.7e-05,0.262209}],((Darwinopterus_linglongtaensis[&index=9]:0.057533[&brlen_95%_HPD={1.1e-05,0.232453}],Germanodactylus_rhamphastinus[&index=8]:0.061337[&brlen_95%_HPD={2e-05,0.231954}])[&index=30,posterior=0.228343]:0.081986[&brlen_95%_HPD={0.000259,0.282451}],((Dimorphodon_macronyx[&index=7]:0.210120[&brlen_95%_HPD={0.010873,0.495746}],Eudimorphodon_ranzii[&index=6]:0.118974[&brlen_95%_HPD={0.000354,0.375238}])[&index=31,posterior=0.362061]:0.133404[&brlen_95%_HPD={0.000198,0.393499}],(Gegepterus_changae[&index=5]:0.070419[&brlen_95%_HPD={3.6e-05,0.260665}],(Rhamphorhynchus_muensteri[&index=4]:0.084950[&brlen_95%_HPD={0.000223,0.276743}],Campylognathoides_liasicus[&index=3]:0.064086[&brlen_95%_HPD={0.000118,0.23496}])[&index=32,posterior=0.271435]:0.092537[&brlen_95%_HPD={0.000205,0.338557}])[&index=33,posterior=0.132386]:0.096010[&brlen_95%_HPD={0.002011,0.318749}])[&index=34,posterior=0.103510]:0.109146[&brlen_95%_HPD={0.000579,0.349089}])[&index=35,posterior=0.187472]:0.132203[&brlen_95%_HPD={0.005147,0.381725}])[&index=36,posterior=0.112394]:0.138635[&brlen_95%_HPD={0.00095,0.374652}])[&index=37,posterior=0.040871]:0.131698[&brlen_95%_HPD={0.012412,0.372634}])[&index=38,posterior=0.021324]:0.110595[&brlen_95%_HPD={0.005324,0.268209}])[&index=39,posterior=0.098623]:0.081214[&brlen_95%_HPD={0.000817,0.260791}])[&index=40,posterior=0.261217]:0.100071[&brlen_95%_HPD={0.0029,0.316158}])[&index=41,posterior=0.365171]:0.103875[&brlen_95%_HPD={0.000327,0.338046}])[&index=42,posterior=0.383829]:0.085257[&brlen_95%_HPD={0.000143,0.302462}],(Toolebuc_pterosaur[&index=2]:0.067571[&brlen_95%_HPD={1.2e-05,0.253128}],Dsungaripterus_weii[&index=1]:0.037366[&brlen_95%_HPD={7e-06,0.185152}])[&index=43,posterior=0.224789]:0.052011[&brlen_95%_HPD={0.000333,0.219281}])[&index=44,posterior=0.458019]:0.128634[&brlen_95%_HPD={0.000438,0.35511}])[&index=45,posterior=0.185695]:0.103703[&brlen_95%_HPD={0.00048,0.32085}])[&index=46,posterior=1.000000]:0.000000;
+End;

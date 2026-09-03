@@ -1,0 +1,71 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=60;
+	Taxlabels
+		Acanthodes
+		Akmonistion
+		Austroptyctodus
+		Bothriolepis
+		Brachyacanthus
+		Brindabellaspis
+		Brochoadmones
+		Buchanosteus
+		Campbellodus
+		Cassidiceps
+		Cheiracanthus
+		Cheirolepis
+		Chondrenchelys
+		Cladodoides
+		Cladoselache
+		Climatius
+		Cobelodus
+		Coccosteus
+		Cowralepis
+		Culmacanthus
+		Debeerius
+		Dialipina
+		Dicksonosteus
+		Diplacanthus
+		Doliodus
+		Eusthenopteron
+		Euthacanthus
+		Galeaspida
+		Gladiobranchus
+		Gogonasus
+		Guiyu
+		Hamiltonichthys
+		Homalacanthus
+		Howqualepis
+		Ischnacanthus
+		Kathemacanthus
+		Ligulalepis
+		Lupopsyrus
+		Macropetalichthys
+		Mesacanthus
+		Mimia
+		Obtusacanthus
+		Onychodus
+		Onychoselache
+		Orthacanthus
+		Osteostraci
+		Parexus
+		Poracanthodes
+		Porolepis
+		Promesacanthus
+		Psarolepis
+		Pterichthyodes
+		Ptomacanthus
+		Pucapampella
+		Rhadinacanthus
+		Rhamphodopsis
+		Tamiobatis
+		Tetanopsyrus
+		Tristychius
+		Vernicomacanthus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Homalacanthus[&index=60]:0.010709[&brlen_95%_HPD={1e-06,0.047078}],Acanthodes[&index=59]:0.054745[&brlen_95%_HPD={0.00341,0.125792}],(Cheiracanthus[&index=58]:0.009805[&brlen_95%_HPD={1e-05,0.04583}],((Cassidiceps[&index=57]:0.020281[&brlen_95%_HPD={2e-06,0.089124}],(Mesacanthus[&index=56]:0.014456[&brlen_95%_HPD={1.3e-05,0.067544}],Promesacanthus[&index=55]:0.050227[&brlen_95%_HPD={0.000163,0.120485}])[&index=61,posterior=0.746335]:0.043812[&brlen_95%_HPD={0.00062,0.117753}])[&index=62,posterior=0.233674]:0.032809[&brlen_95%_HPD={0.000318,0.126792}],((Euthacanthus[&index=54]:0.028696[&brlen_95%_HPD={1.3e-05,0.145902}],(((Obtusacanthus[&index=53]:0.050741[&brlen_95%_HPD={5.1e-05,0.165098}],Lupopsyrus[&index=52]:0.036449[&brlen_95%_HPD={2e-06,0.148545}])[&index=63,posterior=0.678365]:0.131679[&brlen_95%_HPD={9.2e-05,0.32126}],(Pucapampella[&index=51]:0.048800[&brlen_95%_HPD={4.5e-05,0.208343}],(((Cowralepis[&index=50]:0.031610[&brlen_95%_HPD={1e-05,0.131868}],((Macropetalichthys[&index=49]:0.040463[&brlen_95%_HPD={8.1e-05,0.135886}],(Brindabellaspis[&index=48]:0.016334[&brlen_95%_HPD={4.2e-05,0.073676}],(Osteostraci[&index=47]:0.105500[&brlen_95%_HPD={0.00664,0.242506}],(Galeaspida[&index=46]:0.063713[&brlen_95%_HPD={2.2e-05,0.188767}],(Pterichthyodes[&index=45]:0.017340[&brlen_95%_HPD={1.7e-05,0.080323}],Bothriolepis[&index=44]:0.015088[&brlen_95%_HPD={0,0.065553}])[&index=64,posterior=0.927588]:0.094322[&brlen_95%_HPD={0.00028,0.266863}])[&index=65,posterior=0.556641]:0.064943[&brlen_95%_HPD={0.000119,0.191149}])[&index=66,posterior=0.966681]:0.119922[&brlen_95%_HPD={0.004012,0.285743}])[&index=67,posterior=0.883163]:0.057586[&brlen_95%_HPD={0.00046,0.153083}])[&index=68,posterior=0.989782]:0.220280[&brlen_95%_HPD={0.041336,0.417744}],(Dicksonosteus[&index=43]:0.035364[&brlen_95%_HPD={7e-06,0.096798}],(Coccosteus[&index=42]:0.014667[&brlen_95%_HPD={7e-06,0.065087}],Buchanosteus[&index=41]:0.020540[&brlen_95%_HPD={3.1e-05,0.06461}])[&index=69,posterior=0.422035]:0.022295[&brlen_95%_HPD={0.000107,0.07571}])[&index=70,posterior=0.618836]:0.077723[&brlen_95%_HPD={2.1e-05,0.230995}])[&index=71,posterior=0.828521]:0.180523[&brlen_95%_HPD={0.004038,0.418771}])[&index=72,posterior=0.795202]:0.160763[&brlen_95%_HPD={0.000379,0.405216}],(Rhamphodopsis[&index=40]:0.034798[&brlen_95%_HPD={7.5e-05,0.11044}],(Austroptyctodus[&index=39]:0.029835[&brlen_95%_HPD={6.9e-05,0.089553}],Campbellodus[&index=38]:0.013579[&brlen_95%_HPD={3.3e-05,0.056343}])[&index=73,posterior=0.413594]:0.024370[&brlen_95%_HPD={1.5e-05,0.099062}])[&index=74,posterior=0.475344]:0.090192[&brlen_95%_HPD={7e-06,0.265396}])[&index=75,posterior=1.000000]:0.622618[&brlen_95%_HPD={0.311479,1.07087}],(((Debeerius[&index=37]:0.042806[&brlen_95%_HPD={8.4e-05,0.134978}],Chondrenchelys[&index=36]:0.069436[&brlen_95%_HPD={0.000308,0.162197}])[&index=76,posterior=0.859618]:0.153517[&brlen_95%_HPD={0.000307,0.285005}],(Cobelodus[&index=35]:0.029265[&brlen_95%_HPD={0.000182,0.086649}],(Cladoselache[&index=34]:0.053126[&brlen_95%_HPD={0.000789,0.116445}],Akmonistion[&index=33]:0.027789[&brlen_95%_HPD={0.000176,0.074719}])[&index=77,posterior=0.412261]:0.022407[&brlen_95%_HPD={1.1e-05,0.071185}])[&index=78,posterior=0.371835]:0.064017[&brlen_95%_HPD={0.00156,0.148695}])[&index=79,posterior=0.275877]:0.064500[&brlen_95%_HPD={0.010691,0.142259}],((Doliodus[&index=32]:0.036761[&brlen_95%_HPD={7.3e-05,0.104579}],Tamiobatis[&index=31]:0.009124[&brlen_95%_HPD={1e-06,0.043414}])[&index=80,posterior=0.398045]:0.018845[&brlen_95%_HPD={4.2e-05,0.069947}],((Tristychius[&index=30]:0.022068[&brlen_95%_HPD={4e-06,0.077663}],(Onychoselache[&index=29]:0.023537[&brlen_95%_HPD={5e-06,0.077825}],Hamiltonichthys[&index=28]:0.052488[&brlen_95%_HPD={0.001249,0.12145}])[&index=81,posterior=0.640604]:0.036329[&brlen_95%_HPD={1.4e-05,0.099623}])[&index=82,posterior=0.617059]:0.082941[&brlen_95%_HPD={0.000559,0.172158}],(Cladodoides[&index=27]:0.010095[&brlen_95%_HPD={1.1e-05,0.044956}],Orthacanthus[&index=26]:0.010497[&brlen_95%_HPD={6e-06,0.041476}])[&index=83,posterior=0.354953]:0.014452[&brlen_95%_HPD={2.4e-05,0.056746}])[&index=84,posterior=0.260773]:0.024002[&brlen_95%_HPD={4.5e-05,0.066813}])[&index=85,posterior=0.192803]:0.043041[&brlen_95%_HPD={0.001031,0.112823}])[&index=86,posterior=0.355398]:0.159647[&brlen_95%_HPD={0.000859,0.349366}])[&index=87,posterior=0.581075]:0.169382[&brlen_95%_HPD={0.019823,0.364846}])[&index=88,posterior=0.613949]:0.193379[&brlen_95%_HPD={0.000468,0.442605}])[&index=89,posterior=0.294980]:0.133938[&brlen_95%_HPD={0.002766,0.307986}],((Brochoadmones[&index=25]:0.033425[&brlen_95%_HPD={6e-06,0.135076}],Kathemacanthus[&index=24]:0.093616[&brlen_95%_HPD={1.3e-05,0.23666}])[&index=90,posterior=0.563305]:0.093666[&brlen_95%_HPD={0.000262,0.239708}],(Vernicomacanthus[&index=23]:0.038379[&brlen_95%_HPD={2.1e-05,0.143479}],(Ptomacanthus[&index=22]:0.023396[&brlen_95%_HPD={2.3e-05,0.097574}],(Climatius[&index=21]:0.020018[&brlen_95%_HPD={2.2e-05,0.072637}],(Brachyacanthus[&index=20]:0.014563[&brlen_95%_HPD={2.1e-05,0.066741}],Parexus[&index=19]:0.041439[&brlen_95%_HPD={0.000647,0.109725}])[&index=91,posterior=0.414038]:0.022011[&brlen_95%_HPD={1.9e-05,0.081789}])[&index=92,posterior=0.573967]:0.044844[&brlen_95%_HPD={0.000549,0.120772}])[&index=93,posterior=0.366948]:0.061491[&brlen_95%_HPD={1e-05,0.184945}])[&index=94,posterior=0.219014]:0.071130[&brlen_95%_HPD={0.000207,0.200476}])[&index=95,posterior=0.160817]:0.096534[&brlen_95%_HPD={0.001282,0.223242}])[&index=96,posterior=0.182141]:0.109964[&brlen_95%_HPD={0.00122,0.237069}])[&index=97,posterior=0.187916]:0.087245[&brlen_95%_HPD={0.000352,0.206637}],((Diplacanthus[&index=18]:0.127415[&brlen_95%_HPD={7.9e-05,0.299843}],(Rhadinacanthus[&index=17]:0.064315[&brlen_95%_HPD={9.4e-05,0.225819}],Gladiobranchus[&index=16]:0.102012[&brlen_95%_HPD={0.000544,0.256963}])[&index=98,posterior=0.307863]:0.092442[&brlen_95%_HPD={0.00039,0.271464}])[&index=99,posterior=0.229676]:0.110870[&brlen_95%_HPD={0.005258,0.288647}],(((Dialipina[&index=15]:0.117118[&brlen_95%_HPD={4e-05,0.27956}],((Ligulalepis[&index=14]:0.051371[&brlen_95%_HPD={0.000362,0.147013}],(Howqualepis[&index=13]:0.011049[&brlen_95%_HPD={1e-06,0.046194}],(Cheirolepis[&index=12]:0.059849[&brlen_95%_HPD={0.001449,0.13159}],Mimia[&index=11]:0.007988[&brlen_95%_HPD={4e-06,0.036419}])[&index=100,posterior=0.357619]:0.017255[&brlen_95%_HPD={0.000133,0.048041}])[&index=101,posterior=0.388272]:0.042797[&brlen_95%_HPD={0.000435,0.109351}])[&index=102,posterior=0.531764]:0.060654[&brlen_95%_HPD={1.3e-05,0.120822}],((Porolepis[&index=10]:0.008528[&brlen_95%_HPD={1e-06,0.037611}],(Eusthenopteron[&index=9]:0.010506[&brlen_95%_HPD={3e-06,0.036527}],Gogonasus[&index=8]:0.057305[&brlen_95%_HPD={0.012514,0.120967}])[&index=103,posterior=0.817859]:0.030402[&brlen_95%_HPD={0.000518,0.070723}])[&index=104,posterior=0.350067]:0.017428[&brlen_95%_HPD={2.1e-05,0.055804}],(Onychodus[&index=7]:0.039157[&brlen_95%_HPD={0.000222,0.093718}],(Psarolepis[&index=6]:0.018475[&brlen_95%_HPD={2e-06,0.079549}],Guiyu[&index=5]:0.052660[&brlen_95%_HPD={0.000137,0.12183}])[&index=105,posterior=0.757885]:0.042336[&brlen_95%_HPD={0.001025,0.108549}])[&index=106,posterior=0.194136]:0.016678[&brlen_95%_HPD={9.3e-05,0.054157}])[&index=107,posterior=0.173701]:0.041908[&brlen_95%_HPD={0.000427,0.111629}])[&index=108,posterior=0.325633]:0.101109[&brlen_95%_HPD={0.000297,0.244996}])[&index=109,posterior=0.985340]:0.467438[&brlen_95%_HPD={0.186961,0.824122}],(Poracanthodes[&index=4]:0.013834[&brlen_95%_HPD={2.9e-05,0.060057}],Ischnacanthus[&index=3]:0.011202[&brlen_95%_HPD={9e-06,0.052914}])[&index=110,posterior=0.704576]:0.052872[&brlen_95%_HPD={4e-06,0.171276}])[&index=111,posterior=0.322968]:0.063495[&brlen_95%_HPD={0.000416,0.1714}],(Culmacanthus[&index=2]:0.099268[&brlen_95%_HPD={0.000178,0.282059}],Tetanopsyrus[&index=1]:0.118362[&brlen_95%_HPD={0.000311,0.28469}])[&index=112,posterior=0.232341]:0.083767[&brlen_95%_HPD={0.001484,0.242888}])[&index=113,posterior=0.125722]:0.071114[&brlen_95%_HPD={0.001497,0.17083}])[&index=114,posterior=0.074189]:0.060736[&brlen_95%_HPD={0.000166,0.146121}])[&index=115,posterior=0.183474]:0.040962[&brlen_95%_HPD={0.000617,0.132424}])[&index=116,posterior=0.627721]:0.061662[&brlen_95%_HPD={4.4e-05,0.146181}])[&index=117,posterior=0.712128]:0.036082[&brlen_95%_HPD={0.000174,0.090682}])[&index=118,posterior=1.000000]:0.000000;
+End;

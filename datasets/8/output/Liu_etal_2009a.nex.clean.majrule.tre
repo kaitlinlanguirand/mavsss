@@ -1,0 +1,34 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=23;
+	Taxlabels
+		Biarmosuchus
+		Biseridens
+		Burnetia
+		Cyonosaurus
+		Dimetrodon
+		Estemmenosuchus
+		Gorgonops
+		Haptodus
+		Herpetoskylax
+		Hipposaurus
+		Jonkeria
+		Lemurosaurus
+		Lycaenodon
+		Lycaenops
+		Patranomodon
+		Proburnetia
+		Raranimus
+		Stenocybus
+		Styracocephalus
+		Suminia
+		Syodon
+		Tetraceratops
+		Titanophoneus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Biarmosuchus[&index=23]:0.056496[&brlen_95%_HPD={6.7e-05,0.201543}],(Hipposaurus[&index=22]:0.015635[&brlen_95%_HPD={1.4e-05,0.06808}],(Herpetoskylax[&index=21]:0.011367[&brlen_95%_HPD={1.4e-05,0.047049}],(Lycaenodon[&index=20]:0.013181[&brlen_95%_HPD={6e-06,0.063345}],(Lemurosaurus[&index=19]:0.012403[&brlen_95%_HPD={2e-05,0.051801}],(Proburnetia[&index=18]:0.032512[&brlen_95%_HPD={8e-05,0.099586}],Burnetia[&index=17]:0.035666[&brlen_95%_HPD={4.2e-05,0.117979}])[&index=24,posterior=0.985340]:0.120267[&brlen_95%_HPD={0.03473,0.24796}])[&index=25,posterior=0.729454]:0.026142[&brlen_95%_HPD={0.000556,0.075073}])[&index=26,posterior=0.725011]:0.027047[&brlen_95%_HPD={0.000353,0.075704}])[&index=27,posterior=0.784540]:0.060747[&brlen_95%_HPD={0.00012,0.142004}])[&index=28,posterior=0.752554]:0.121747[&brlen_95%_HPD={0.012705,0.276641}],(((Lycaenops[&index=16]:0.041376[&brlen_95%_HPD={5e-06,0.101606}],(Cyonosaurus[&index=15]:0.008572[&brlen_95%_HPD={3e-06,0.038571}],Gorgonops[&index=14]:0.016654[&brlen_95%_HPD={1.9e-05,0.0533}])[&index=29,posterior=0.584185]:0.027404[&brlen_95%_HPD={9e-06,0.083143}])[&index=30,posterior=0.911595]:0.196085[&brlen_95%_HPD={0.00126,0.467804}],(Biseridens[&index=13]:0.079702[&brlen_95%_HPD={3.9e-05,0.253052}],(Patranomodon[&index=12]:0.085926[&brlen_95%_HPD={0.002859,0.199156}],Suminia[&index=11]:0.049906[&brlen_95%_HPD={1.3e-05,0.15474}])[&index=31,posterior=0.778765]:0.138093[&brlen_95%_HPD={4.3e-05,0.360245}])[&index=32,posterior=0.858285]:0.263667[&brlen_95%_HPD={0.007024,0.571364}])[&index=33,posterior=0.435806]:0.186287[&brlen_95%_HPD={0.001,0.481417}],((Raranimus[&index=10]:0.056595[&brlen_95%_HPD={4e-06,0.238382}],(Tetraceratops[&index=9]:0.031418[&brlen_95%_HPD={5.7e-05,0.121106}],(Haptodus[&index=8]:0.020367[&brlen_95%_HPD={0.000278,0.064705}],Dimetrodon[&index=7]:0.012135[&brlen_95%_HPD={5e-06,0.049386}])[&index=34,posterior=0.754331]:0.050077[&brlen_95%_HPD={2.3e-05,0.153879}])[&index=35,posterior=0.948023]:0.200858[&brlen_95%_HPD={0.010354,0.447474}])[&index=36,posterior=0.996446]:0.500735[&brlen_95%_HPD={0.159944,0.998276}],((Estemmenosuchus[&index=6]:0.131290[&brlen_95%_HPD={0.002102,0.298294}],(Styracocephalus[&index=5]:0.096945[&brlen_95%_HPD={1.2e-05,0.250283}],Jonkeria[&index=4]:0.081117[&brlen_95%_HPD={1.2e-05,0.20913}])[&index=37,posterior=0.731231]:0.123866[&brlen_95%_HPD={0.000422,0.285291}])[&index=38,posterior=0.816082]:0.208181[&brlen_95%_HPD={0.011122,0.427964}],(Stenocybus[&index=3]:0.054582[&brlen_95%_HPD={0.000199,0.141716}],(Titanophoneus[&index=2]:0.024694[&brlen_95%_HPD={1e-06,0.073637}],Syodon[&index=1]:0.015877[&brlen_95%_HPD={3.9e-05,0.057428}])[&index=39,posterior=0.315415]:0.024059[&brlen_95%_HPD={3.2e-05,0.096289}])[&index=40,posterior=0.613061]:0.146331[&brlen_95%_HPD={0.000324,0.372972}])[&index=41,posterior=0.855620]:0.323464[&brlen_95%_HPD={0.027446,0.663957}])[&index=42,posterior=0.402932]:0.247357[&brlen_95%_HPD={0.000723,0.575741}])[&index=43,posterior=0.695691]:0.221809[&brlen_95%_HPD={0.001757,0.515232}])[&index=44,posterior=1.000000]:0.000000;
+End;

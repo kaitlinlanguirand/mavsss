@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Acanthodes
+		C_wildungensis
+		Cobelodus
+		Gutturensis_neilsoni
+		Helodus
+		Hybodus
+		Kujdanowiaspis
+		Mimia
+		Orthacanthus
+		Stethacanthus
+		Tamiobatis_sp
+		Tamiobatis_vetustus
+		Tristychius
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Mimia[&index=13]:0.016445[&brlen_95%_HPD={9e-06,0.08043}],Acanthodes[&index=12]:0.018287[&brlen_95%_HPD={1.1e-05,0.089842}],(Kujdanowiaspis[&index=11]:0.097246[&brlen_95%_HPD={0.000192,0.273668}],(Helodus[&index=10]:0.093879[&brlen_95%_HPD={5e-06,0.322311}],((Stethacanthus[&index=9]:0.141105[&brlen_95%_HPD={0.001649,0.370378}],(Gutturensis_neilsoni[&index=8]:0.040078[&brlen_95%_HPD={0.000108,0.181465}],Cobelodus[&index=7]:0.087941[&brlen_95%_HPD={2.2e-05,0.308477}])[&index=14,posterior=0.275877]:0.072421[&brlen_95%_HPD={0.000482,0.274812}])[&index=15,posterior=0.429143]:0.147693[&brlen_95%_HPD={1e-06,0.392481}],((Tamiobatis_vetustus[&index=6]:0.021401[&brlen_95%_HPD={2.8e-05,0.088371}],Tamiobatis_sp[&index=5]:0.028069[&brlen_95%_HPD={2e-05,0.110402}])[&index=16,posterior=0.296757]:0.031379[&brlen_95%_HPD={6e-06,0.116873}],(C_wildungensis[&index=4]:0.030948[&brlen_95%_HPD={1e-06,0.132177}],(Orthacanthus[&index=3]:0.043632[&brlen_95%_HPD={7e-05,0.188247}],(Hybodus[&index=2]:0.077436[&brlen_95%_HPD={3e-05,0.240705}],Tristychius[&index=1]:0.088038[&brlen_95%_HPD={0.000157,0.25312}])[&index=17,posterior=0.820080]:0.203024[&brlen_95%_HPD={0.009044,0.481513}])[&index=18,posterior=0.400267]:0.095737[&brlen_95%_HPD={0.001708,0.272839}])[&index=19,posterior=0.228787]:0.048462[&brlen_95%_HPD={0.000143,0.169298}])[&index=20,posterior=0.410928]:0.192378[&brlen_95%_HPD={0.000457,0.46691}])[&index=21,posterior=0.879609]:0.276381[&brlen_95%_HPD={0.013433,0.605886}])[&index=22,posterior=0.751666]:0.156776[&brlen_95%_HPD={0.000196,0.439686}])[&index=23,posterior=0.797868]:0.079942[&brlen_95%_HPD={0.000101,0.246877}])[&index=24,posterior=1.000000]:0.000000;
+End;

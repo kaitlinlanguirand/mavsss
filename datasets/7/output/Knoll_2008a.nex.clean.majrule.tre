@@ -1,0 +1,17 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=6;
+	Taxlabels
+		Ceratosaurus
+		Coelophysis
+		Dilophosaurus
+		Liliensternus
+		Procompsognathus
+		Segisaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Ceratosaurus[&index=6]:0.138116[&brlen_95%_HPD={0.004146,0.361}],Dilophosaurus[&index=5]:0.023787[&brlen_95%_HPD={1.2e-05,0.123926}],(Liliensternus[&index=4]:0.035289[&brlen_95%_HPD={3e-06,0.174384}],(Coelophysis[&index=3]:0.036289[&brlen_95%_HPD={8e-06,0.171018}],(Procompsognathus[&index=2]:0.041110[&brlen_95%_HPD={0.000112,0.159379}],Segisaurus[&index=1]:0.053890[&brlen_95%_HPD={9.3e-05,0.194133}])[&index=7,posterior=0.746779]:0.082089[&brlen_95%_HPD={0.000135,0.251861}])[&index=8,posterior=0.801866]:0.098145[&brlen_95%_HPD={0.000786,0.277394}])[&index=9,posterior=0.986673]:0.185950[&brlen_95%_HPD={0.024398,0.447511}])[&index=10,posterior=1.000000]:0.000000;
+End;

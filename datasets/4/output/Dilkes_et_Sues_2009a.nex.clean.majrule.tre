@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Doswellia
+		Erythrosuchus
+		Euparkeria
+		Gracilisuchus
+		Marasuchus
+		Mesosuchus
+		Parasuchus
+		Prolacerta
+		Proterochampsidae
+		Proterosuchus
+		Qianosuchus
+		Scleromochlus
+		Stagonolepididae
+		Turfanosuchus
+		Yonghesuchus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Doswellia[&index=15]:0.221918[&brlen_95%_HPD={0.08356,0.420416}],Proterochampsidae[&index=14]:0.032215[&brlen_95%_HPD={6.1e-05,0.119154}],((Erythrosuchus[&index=13]:0.055243[&brlen_95%_HPD={0.000135,0.153118}],(Euparkeria[&index=12]:0.024386[&brlen_95%_HPD={3.5e-05,0.096556}],(Proterosuchus[&index=11]:0.011667[&brlen_95%_HPD={1e-06,0.050706}],(Prolacerta[&index=10]:0.007886[&brlen_95%_HPD={0,0.034706}],Mesosuchus[&index=9]:0.124953[&brlen_95%_HPD={0.058895,0.223882}])[&index=16,posterior=1.000000]:0.118427[&brlen_95%_HPD={0.04826,0.216383}])[&index=17,posterior=1.000000]:0.294877[&brlen_95%_HPD={0.151753,0.506263}])[&index=18,posterior=0.954687]:0.110266[&brlen_95%_HPD={0.016302,0.220942}])[&index=19,posterior=0.992004]:0.177030[&brlen_95%_HPD={0.061247,0.350653}],((Yonghesuchus[&index=8]:0.052639[&brlen_95%_HPD={9e-06,0.18069}],(Marasuchus[&index=7]:0.032373[&brlen_95%_HPD={3.6e-05,0.108982}],Scleromochlus[&index=6]:0.041249[&brlen_95%_HPD={2e-05,0.122495}])[&index=20,posterior=0.870280]:0.120581[&brlen_95%_HPD={0.001451,0.257263}])[&index=21,posterior=0.419813]:0.084689[&brlen_95%_HPD={0.000137,0.210303}],(Turfanosuchus[&index=5]:0.026275[&brlen_95%_HPD={4e-05,0.091243}],(Gracilisuchus[&index=4]:0.054630[&brlen_95%_HPD={0.00241,0.132066}],(Qianosuchus[&index=3]:0.038274[&brlen_95%_HPD={0.001507,0.107038}],(Stagonolepididae[&index=2]:0.054745[&brlen_95%_HPD={0.009071,0.114383}],Parasuchus[&index=1]:0.035206[&brlen_95%_HPD={0.001185,0.086947}])[&index=22,posterior=0.944025]:0.052170[&brlen_95%_HPD={0.001676,0.122347}])[&index=23,posterior=0.818303]:0.046414[&brlen_95%_HPD={0.002739,0.12144}])[&index=24,posterior=0.929809]:0.100276[&brlen_95%_HPD={0.016822,0.22134}])[&index=25,posterior=0.310084]:0.033486[&brlen_95%_HPD={7.9e-05,0.10463}])[&index=26,posterior=0.566415]:0.070469[&brlen_95%_HPD={0.000131,0.17166}])[&index=27,posterior=0.597956]:0.066402[&brlen_95%_HPD={0.000291,0.154503}])[&index=28,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,48 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=37;
+	Taxlabels
+		Aigiasaurus_dalmaticus
+		Clidastes_liodontus_KU
+		Clidastes_liodontus_YP
+		Clidastes_mooreville
+		Clidastes_novumsp.
+		Clidastes_propython
+		Dallas_Aigiasaurus
+		Ectenosaurus_YPcomposit
+		Ectenosaurus_clidastoid
+		Globidens_alabamaens
+		Globidens_dakotensis
+		Halisaurus_cf._sternbergi
+		Halisaurus_novumsp.
+		Halisaurus_platyspond
+		Halisaurus_sternbergi
+		Mosasaurus_conodon
+		Mosasaurus_indet.
+		Mosasaurus_maximus
+		Mosasaurus_missourien
+		OUTGROUP
+		Opetiosaurus_buccichi
+		Platecarpus_af.somenen
+		Platecarpus_planifrons
+		Platecarpus_tympanticus_600
+		Platecarpus_tympanticus_8769
+		Plesiotylosaurus_crassidens
+		Plioplatecarpus_AMNHsp.
+		Plioplatecarpus_RMMsp.
+		Plotosaurus_bennisoni
+		Plotosaurus_tuckeri
+		Prognathodon_overtoni
+		Prognathodon_rapax
+		Taxon_novum
+		Trieste_Aigiasaurus
+		Tylosaurus_nepaeolicu
+		Tylosaurus_novumsp.
+		Tylosaurus_proriger
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aigiasaurus_dalmaticus[&index=37]:0.067188[&brlen_95%_HPD={0.000117,0.186231}],(OUTGROUP[&index=36]:0.067712[&brlen_95%_HPD={0.001121,0.163755}],Opetiosaurus_buccichi[&index=35]:0.028871[&brlen_95%_HPD={3e-06,0.09431}])[&index=38,posterior=0.857841]:0.098911[&brlen_95%_HPD={0.001295,0.245897}],(Trieste_Aigiasaurus[&index=34]:0.043743[&brlen_95%_HPD={6e-05,0.164866}],(Dallas_Aigiasaurus[&index=33]:0.135798[&brlen_95%_HPD={0.000297,0.330092}],((Taxon_novum[&index=32]:0.057307[&brlen_95%_HPD={9.3e-05,0.268918}],((((Clidastes_liodontus_YP[&index=31]:0.014670[&brlen_95%_HPD={8e-06,0.045183}],Clidastes_liodontus_KU[&index=30]:0.005432[&brlen_95%_HPD={0,0.025428}])[&index=39,posterior=0.872945]:0.022395[&brlen_95%_HPD={0.000625,0.054885}],(Clidastes_novumsp.[&index=29]:0.006114[&brlen_95%_HPD={7e-06,0.026673}],Clidastes_mooreville[&index=28]:0.004906[&brlen_95%_HPD={0,0.019765}])[&index=40,posterior=0.323856]:0.006787[&brlen_95%_HPD={3e-05,0.028256}])[&index=41,posterior=0.509551]:0.018903[&brlen_95%_HPD={0.000105,0.050977}],(Clidastes_propython[&index=27]:0.012050[&brlen_95%_HPD={2e-06,0.043942}],((Mosasaurus_missourien[&index=26]:0.012894[&brlen_95%_HPD={2.1e-05,0.055305}],(Mosasaurus_conodon[&index=25]:0.047580[&brlen_95%_HPD={7e-06,0.139859}],((Plotosaurus_tuckeri[&index=24]:0.006463[&brlen_95%_HPD={2e-06,0.028704}],Plotosaurus_bennisoni[&index=23]:0.009550[&brlen_95%_HPD={5e-06,0.044346}])[&index=42,posterior=0.999556]:0.140997[&brlen_95%_HPD={0.056519,0.243184}],(Mosasaurus_indet.[&index=22]:0.020217[&brlen_95%_HPD={7.4e-05,0.060826}],Mosasaurus_maximus[&index=21]:0.042666[&brlen_95%_HPD={0.005778,0.089949}])[&index=43,posterior=0.647712]:0.031078[&brlen_95%_HPD={3e-06,0.081877}])[&index=44,posterior=0.522879]:0.035055[&brlen_95%_HPD={3e-06,0.087705}])[&index=45,posterior=0.838738]:0.053252[&brlen_95%_HPD={0.002833,0.120144}])[&index=46,posterior=0.988894]:0.193914[&brlen_95%_HPD={0.064353,0.334532}],((Plesiotylosaurus_crassidens[&index=20]:0.048656[&brlen_95%_HPD={0.000151,0.110305}],(Prognathodon_rapax[&index=19]:0.028284[&brlen_95%_HPD={0.000667,0.073019}],Prognathodon_overtoni[&index=18]:0.069630[&brlen_95%_HPD={0.01792,0.148917}])[&index=47,posterior=0.633052]:0.031917[&brlen_95%_HPD={0.000222,0.091317}])[&index=48,posterior=0.943581]:0.085001[&brlen_95%_HPD={0.015026,0.174295}],(Globidens_alabamaens[&index=17]:0.040121[&brlen_95%_HPD={7.1e-05,0.105392}],Globidens_dakotensis[&index=16]:0.023786[&brlen_95%_HPD={2e-06,0.075932}])[&index=49,posterior=0.889827]:0.059893[&brlen_95%_HPD={0.003661,0.141784}])[&index=50,posterior=0.854731]:0.089322[&brlen_95%_HPD={0.008297,0.180318}])[&index=51,posterior=0.288316]:0.030195[&brlen_95%_HPD={0.000271,0.115817}])[&index=52,posterior=0.305642]:0.019739[&brlen_95%_HPD={0.000302,0.049686}])[&index=53,posterior=0.999556]:0.729787[&brlen_95%_HPD={0.321967,1.14099}],(((Ectenosaurus_clidastoid[&index=15]:0.053259[&brlen_95%_HPD={3.5e-05,0.129637}],Ectenosaurus_YPcomposit[&index=14]:0.029777[&brlen_95%_HPD={3.3e-05,0.098444}])[&index=54,posterior=0.939138]:0.215848[&brlen_95%_HPD={0.030038,0.399575}],(Platecarpus_planifrons[&index=13]:0.017009[&brlen_95%_HPD={6e-06,0.062829}],(Platecarpus_tympanticus_600[&index=12]:0.007983[&brlen_95%_HPD={0,0.031182}],(Platecarpus_af.somenen[&index=11]:0.020605[&brlen_95%_HPD={1.1e-05,0.068409}],(Platecarpus_tympanticus_8769[&index=10]:0.031703[&brlen_95%_HPD={0.001378,0.077561}],(Plioplatecarpus_AMNHsp.[&index=9]:0.010126[&brlen_95%_HPD={5e-06,0.04058}],Plioplatecarpus_RMMsp.[&index=8]:0.058796[&brlen_95%_HPD={0.006116,0.138277}])[&index=55,posterior=0.964904]:0.056518[&brlen_95%_HPD={0.01161,0.123663}])[&index=56,posterior=0.359396]:0.018897[&brlen_95%_HPD={0.00011,0.055608}])[&index=57,posterior=0.446912]:0.017608[&brlen_95%_HPD={3.9e-05,0.047965}])[&index=58,posterior=0.762328]:0.065823[&brlen_95%_HPD={0.010774,0.1356}])[&index=59,posterior=0.481564]:0.076743[&brlen_95%_HPD={3.9e-05,0.197638}])[&index=60,posterior=0.770769]:0.286975[&brlen_95%_HPD={0.029228,0.522397}],(Tylosaurus_novumsp.[&index=7]:0.040227[&brlen_95%_HPD={2.1e-05,0.108292}],(Tylosaurus_proriger[&index=6]:0.065061[&brlen_95%_HPD={0.01089,0.129327}],Tylosaurus_nepaeolicu[&index=5]:0.029414[&brlen_95%_HPD={5.5e-05,0.07839}])[&index=61,posterior=0.677477]:0.049955[&brlen_95%_HPD={0.000828,0.11409}])[&index=62,posterior=0.574856]:0.096126[&brlen_95%_HPD={0.0001,0.333405}])[&index=63,posterior=0.513550]:0.289686[&brlen_95%_HPD={0.000688,0.622929}])[&index=64,posterior=0.877388]:0.378535[&brlen_95%_HPD={0.093871,0.728874}])[&index=65,posterior=0.818303]:0.254340[&brlen_95%_HPD={0.010656,0.506216}],(Halisaurus_cf._sternbergi[&index=4]:0.046903[&brlen_95%_HPD={1.8e-05,0.14902}],(Halisaurus_sternbergi[&index=3]:0.024056[&brlen_95%_HPD={3.5e-05,0.08989}],(Halisaurus_platyspond[&index=2]:0.057240[&brlen_95%_HPD={0.00016,0.130598}],Halisaurus_novumsp.[&index=1]:0.021528[&brlen_95%_HPD={0,0.074814}])[&index=66,posterior=0.373167]:0.031970[&brlen_95%_HPD={5.7e-05,0.102646}])[&index=67,posterior=0.369614]:0.046359[&brlen_95%_HPD={0.000146,0.148655}])[&index=68,posterior=0.686806]:0.175430[&brlen_95%_HPD={0.000963,0.409071}])[&index=69,posterior=0.933807]:0.331336[&brlen_95%_HPD={0.056166,0.664714}])[&index=70,posterior=0.361617]:0.119877[&brlen_95%_HPD={1.2e-05,0.352197}])[&index=71,posterior=0.361617]:0.090943[&brlen_95%_HPD={0.001188,0.280638}])[&index=72,posterior=1.000000]:0.000000;
+End;

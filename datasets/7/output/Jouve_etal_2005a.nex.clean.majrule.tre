@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Arambourgisuchus
+		Chenanisuchus
+		Congosaurus
+		Dyrosaurus
+		Elosuchus
+		Eutretauranosuchus
+		Hyposaurus
+		Phosphatosaurus
+		R_rarus
+		Rhabdognathus_sp
+		Sarcosuchus
+		Sokotosuchus
+		Terminonaris
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Arambourgisuchus[&index=13]:0.091526[&brlen_95%_HPD={9.1e-05,0.28428}],(Hyposaurus[&index=12]:0.105181[&brlen_95%_HPD={0.000332,0.280421}],(Rhabdognathus_sp[&index=11]:0.022933[&brlen_95%_HPD={2.9e-05,0.096182}],R_rarus[&index=10]:0.022387[&brlen_95%_HPD={1.3e-05,0.100457}])[&index=14,posterior=0.848512]:0.105380[&brlen_95%_HPD={7.1e-05,0.29513}])[&index=15,posterior=0.521546]:0.100473[&brlen_95%_HPD={0.000249,0.275816}],(Congosaurus[&index=9]:0.038548[&brlen_95%_HPD={4.6e-05,0.17339}],(Dyrosaurus[&index=8]:0.029213[&brlen_95%_HPD={1.1e-05,0.130652}],(Chenanisuchus[&index=7]:0.066217[&brlen_95%_HPD={3.1e-05,0.223144}],((Terminonaris[&index=6]:0.096617[&brlen_95%_HPD={0.000473,0.243208}],(Elosuchus[&index=5]:0.048910[&brlen_95%_HPD={3.3e-05,0.147377}],(Eutretauranosuchus[&index=4]:0.045099[&brlen_95%_HPD={0.00015,0.147302}],Sarcosuchus[&index=3]:0.034875[&brlen_95%_HPD={1.3e-05,0.1331}])[&index=16,posterior=0.226566]:0.034257[&brlen_95%_HPD={0.000123,0.127825}])[&index=17,posterior=0.339849]:0.080756[&brlen_95%_HPD={0.000148,0.258095}])[&index=18,posterior=0.959574]:0.344851[&brlen_95%_HPD={0.080598,0.72399}],(Phosphatosaurus[&index=2]:0.027748[&brlen_95%_HPD={1e-06,0.130593}],Sokotosuchus[&index=1]:0.027100[&brlen_95%_HPD={1.8e-05,0.122237}])[&index=19,posterior=0.692137]:0.122108[&brlen_95%_HPD={0.000542,0.362953}])[&index=20,posterior=0.696579]:0.216087[&brlen_95%_HPD={0.002506,0.506456}])[&index=21,posterior=0.637050]:0.095916[&brlen_95%_HPD={0.000661,0.274139}])[&index=22,posterior=0.672590]:0.121818[&brlen_95%_HPD={0.000703,0.321138}])[&index=23,posterior=0.493558]:0.123161[&brlen_95%_HPD={0.000629,0.338023}])[&index=24,posterior=1.000000]:0.000000;
+End;

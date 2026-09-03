@@ -1,0 +1,32 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=21;
+	Taxlabels
+		Chanaresuchus
+		Crocodylus
+		Doswellia
+		Erythrosuchus
+		Euparkeria
+		Gracilisuchus
+		Hyperodapedon
+		Lagosuchus
+		Ornithosuchus
+		P1ateosaurus
+		Parasuchus
+		Postosuchus
+		Prolacerta
+		Proterosuchus
+		Protosuchus
+		Saurosuchus
+		Stagonolepis
+		Terrestrisuchus
+		Ticinosuchus
+		Trilophosaurus
+		Youngina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Doswellia[&index=21]:0.101088[&brlen_95%_HPD={0.039779,0.18187}],Chanaresuchus[&index=20]:0.012607[&brlen_95%_HPD={1e-05,0.045106}],((Erythrosuchus[&index=19]:0.007414[&brlen_95%_HPD={4e-06,0.029426}],(Proterosuchus[&index=18]:0.005981[&brlen_95%_HPD={0,0.026379}],((Trilophosaurus[&index=17]:0.005230[&brlen_95%_HPD={1e-06,0.022616}],Hyperodapedon[&index=16]:0.030666[&brlen_95%_HPD={0.005975,0.064268}])[&index=22,posterior=0.999112]:0.042197[&brlen_95%_HPD={0.00931,0.084807}],(Youngina[&index=15]:0.011053[&brlen_95%_HPD={0.000215,0.034436}],Prolacerta[&index=14]:0.004803[&brlen_95%_HPD={2e-06,0.021673}])[&index=23,posterior=0.756997]:0.012783[&brlen_95%_HPD={4.2e-05,0.041157}])[&index=24,posterior=1.000000]:0.075329[&brlen_95%_HPD={0.03269,0.139422}])[&index=25,posterior=1.000000]:0.126464[&brlen_95%_HPD={0.061118,0.202608}])[&index=26,posterior=1.000000]:0.062257[&brlen_95%_HPD={0.019615,0.113254}],(Euparkeria[&index=13]:0.039573[&brlen_95%_HPD={0.005727,0.083673}],(Parasuchus[&index=12]:0.021078[&brlen_95%_HPD={2e-05,0.055735}],((Stagonolepis[&index=11]:0.029288[&brlen_95%_HPD={0.000358,0.068333}],(Ticinosuchus[&index=10]:0.005262[&brlen_95%_HPD={2e-06,0.023583}],(Saurosuchus[&index=9]:0.005433[&brlen_95%_HPD={6e-06,0.022088}],(Postosuchus[&index=8]:0.018134[&brlen_95%_HPD={5e-06,0.061354}],(Terrestrisuchus[&index=7]:0.022344[&brlen_95%_HPD={4e-06,0.119093}],(Protosuchus[&index=6]:0.093395[&brlen_95%_HPD={0.001835,0.157823}],Crocodylus[&index=5]:0.039731[&brlen_95%_HPD={0.000794,0.090222}])[&index=27,posterior=0.937361]:0.131048[&brlen_95%_HPD={0.068346,0.222783}])[&index=28,posterior=1.000000]:0.239762[&brlen_95%_HPD={0.137493,0.366848}])[&index=29,posterior=0.992892]:0.088304[&brlen_95%_HPD={0.034593,0.153885}])[&index=30,posterior=0.852954]:0.016689[&brlen_95%_HPD={0.000861,0.043647}])[&index=31,posterior=0.985340]:0.060929[&brlen_95%_HPD={0.015759,0.114004}])[&index=32,posterior=0.998667]:0.081970[&brlen_95%_HPD={0.031145,0.144938}],(Gracilisuchus[&index=4]:0.007181[&brlen_95%_HPD={3e-06,0.031704}],(Ornithosuchus[&index=3]:0.011846[&brlen_95%_HPD={2e-06,0.042243}],(P1ateosaurus[&index=2]:0.067105[&brlen_95%_HPD={0.02714,0.116221}],Lagosuchus[&index=1]:0.005612[&brlen_95%_HPD={3e-06,0.023809}])[&index=33,posterior=1.000000]:0.099235[&brlen_95%_HPD={0.047366,0.167187}])[&index=34,posterior=1.000000]:0.133431[&brlen_95%_HPD={0.065661,0.209458}])[&index=35,posterior=0.402932]:0.018761[&brlen_95%_HPD={3e-06,0.053533}])[&index=36,posterior=0.907597]:0.062114[&brlen_95%_HPD={0.01728,0.119271}])[&index=37,posterior=0.954243]:0.054518[&brlen_95%_HPD={0.013057,0.108146}])[&index=38,posterior=0.995113]:0.052241[&brlen_95%_HPD={0.011399,0.109248}])[&index=39,posterior=0.625056]:0.024076[&brlen_95%_HPD={7.1e-05,0.057601}])[&index=40,posterior=1.000000]:0.000000;
+End;

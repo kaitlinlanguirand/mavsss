@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Alligator
+		Byronosaurus_jaffei
+		Citipati_osmolskae
+		Deinonychus_antirrhopus
+		Gallus_gallus
+		Hadrosaurid
+		Lithornis_celetius
+		Lithornis_vulturinus
+		Macroelongatoolithus_xixiaensis
+		Ornithothoracine
+		Phu_Phok_eggs
+		Rhea_americana
+		Titanosauridae
+		Troodon_formosus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Alligator[&index=14]:0.054272[&brlen_95%_HPD={8e-06,0.204213}],((Citipati_osmolskae[&index=13]:0.085369[&brlen_95%_HPD={8.2e-05,0.284661}],(Macroelongatoolithus_xixiaensis[&index=12]:0.140179[&brlen_95%_HPD={0.000723,0.372636}],Deinonychus_antirrhopus[&index=11]:0.046365[&brlen_95%_HPD={5.7e-05,0.211954}])[&index=15,posterior=0.376721]:0.072908[&brlen_95%_HPD={3.9e-05,0.247395}])[&index=16,posterior=0.896935]:0.360559[&brlen_95%_HPD={0.023784,0.719519}],(((Troodon_formosus[&index=10]:0.021315[&brlen_95%_HPD={2.1e-05,0.097801}],Byronosaurus_jaffei[&index=9]:0.020645[&brlen_95%_HPD={3e-06,0.094658}])[&index=17,posterior=0.771213]:0.112473[&brlen_95%_HPD={0.00011,0.340878}],(Phu_Phok_eggs[&index=8]:0.063841[&brlen_95%_HPD={3e-05,0.225071}],Ornithothoracine[&index=7]:0.040980[&brlen_95%_HPD={4.2e-05,0.176471}])[&index=18,posterior=0.737894]:0.142521[&brlen_95%_HPD={0.001256,0.436722}])[&index=19,posterior=0.433141]:0.187672[&brlen_95%_HPD={0.000228,0.46235}],(Gallus_gallus[&index=6]:0.033963[&brlen_95%_HPD={2.3e-05,0.12868}],(Rhea_americana[&index=5]:0.020006[&brlen_95%_HPD={8e-06,0.094055}],(Lithornis_vulturinus[&index=4]:0.028626[&brlen_95%_HPD={1e-05,0.123482}],Lithornis_celetius[&index=3]:0.027866[&brlen_95%_HPD={6.2e-05,0.124053}])[&index=20,posterior=0.223012]:0.032671[&brlen_95%_HPD={0.000401,0.149164}])[&index=21,posterior=0.221235]:0.034857[&brlen_95%_HPD={6.2e-05,0.12778}])[&index=22,posterior=0.422035]:0.131814[&brlen_95%_HPD={0.001431,0.421045}])[&index=23,posterior=0.556641]:0.303043[&brlen_95%_HPD={0.006324,0.661169}])[&index=24,posterior=0.831186]:0.267421[&brlen_95%_HPD={0.000616,0.602675}],(Titanosauridae[&index=2]:0.024919[&brlen_95%_HPD={1.5e-05,0.12105}],Hadrosaurid[&index=1]:0.025775[&brlen_95%_HPD={5.9e-05,0.11864}])[&index=25,posterior=0.557974]:0.058619[&brlen_95%_HPD={5.3e-05,0.2126}])[&index=26,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		Avialae
+		Byronosaurus_jaffei
+		Dromaeosauridae
+		IGM_100_slash_144
+		Ornithomimidae
+		Oviraptorosauria
+		Sauronrithoides_junior
+		Saurornithoides_mongoliensis
+		Sinornithoides_youngi
+		Troodon_formosus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Avialae[&index=10]:0.035045[&brlen_95%_HPD={5.9e-05,0.137604}],Oviraptorosauria[&index=9]:0.038085[&brlen_95%_HPD={1.1e-05,0.137907}],(Dromaeosauridae[&index=8]:0.100522[&brlen_95%_HPD={3.7e-05,0.277285}],(Ornithomimidae[&index=7]:0.244598[&brlen_95%_HPD={0.001024,0.525469}],(IGM_100_slash_144[&index=6]:0.070922[&brlen_95%_HPD={8.2e-05,0.250086}],(Sinornithoides_youngi[&index=5]:0.038118[&brlen_95%_HPD={5e-06,0.162652}],(Byronosaurus_jaffei[&index=4]:0.048766[&brlen_95%_HPD={5e-06,0.155602}],(Sauronrithoides_junior[&index=3]:0.017025[&brlen_95%_HPD={3e-06,0.086788}],(Saurornithoides_mongoliensis[&index=2]:0.017895[&brlen_95%_HPD={2e-06,0.093353}],Troodon_formosus[&index=1]:0.041006[&brlen_95%_HPD={1.3e-05,0.131965}])[&index=11,posterior=0.388716]:0.032103[&brlen_95%_HPD={0,0.118974}])[&index=12,posterior=0.394936]:0.037183[&brlen_95%_HPD={7.7e-05,0.131639}])[&index=13,posterior=0.691248]:0.103951[&brlen_95%_HPD={0.000163,0.281472}])[&index=14,posterior=0.513994]:0.092908[&brlen_95%_HPD={0.000356,0.319438}])[&index=15,posterior=0.978232]:0.344866[&brlen_95%_HPD={0.067625,0.710085}])[&index=16,posterior=0.531319]:0.204922[&brlen_95%_HPD={0.001457,0.52224}])[&index=17,posterior=0.470013]:0.061532[&brlen_95%_HPD={0.000114,0.238922}])[&index=18,posterior=1.000000]:0.000000;
+End;

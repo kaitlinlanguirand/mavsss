@@ -1,0 +1,33 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=22;
+	Taxlabels
+		Advenimus
+		Alaymys
+		Bandaomys
+		Birbalomys
+		Butomys
+		Chapattimys
+		Chuankueimys
+		Cocomys
+		Ctenodactylinae
+		Distylomyinae
+		Hohomys
+		Karakoronyinae
+		Mergenomys
+		Petrokozlovia
+		Protataromys
+		Saykanomys
+		Stelmomys
+		Tamquammys
+		Tataromyinae
+		Tribosphenomys
+		Tsinlingomys
+		Yuomys
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Advenimus[&index=22]:0.075769[&brlen_95%_HPD={0.0004,0.218797}],Petrokozlovia[&index=21]:0.046960[&brlen_95%_HPD={3.2e-05,0.160773}],((Hohomys[&index=20]:0.028996[&brlen_95%_HPD={1.1e-05,0.117372}],Saykanomys[&index=19]:0.027795[&brlen_95%_HPD={5e-06,0.116635}])[&index=23,posterior=0.104842]:0.033898[&brlen_95%_HPD={0.000173,0.124769}],((Tamquammys[&index=18]:0.076546[&brlen_95%_HPD={6.4e-05,0.217523}],(Bandaomys[&index=17]:0.030679[&brlen_95%_HPD={3e-05,0.119962}],(Tribosphenomys[&index=16]:0.136193[&brlen_95%_HPD={0.025258,0.29971}],Cocomys[&index=15]:0.022584[&brlen_95%_HPD={1.5e-05,0.094397}])[&index=24,posterior=0.576633]:0.045852[&brlen_95%_HPD={7.4e-05,0.16381}])[&index=25,posterior=0.996890]:0.225004[&brlen_95%_HPD={0.052725,0.458297}])[&index=26,posterior=0.100844]:0.067986[&brlen_95%_HPD={0.000339,0.190228}],(Stelmomys[&index=14]:0.081117[&brlen_95%_HPD={1.3e-05,0.229612}],(((Chuankueimys[&index=13]:0.086415[&brlen_95%_HPD={0.000984,0.23045}],Tsinlingomys[&index=12]:0.098596[&brlen_95%_HPD={0.000164,0.261777}])[&index=27,posterior=0.256775]:0.063224[&brlen_95%_HPD={0.000474,0.208233}],(Butomys[&index=11]:0.095649[&brlen_95%_HPD={0.000182,0.284887}],Alaymys[&index=10]:0.028232[&brlen_95%_HPD={1.2e-05,0.127459}])[&index=28,posterior=0.193247]:0.043973[&brlen_95%_HPD={0.000362,0.163743}])[&index=29,posterior=0.213239]:0.087349[&brlen_95%_HPD={0.000524,0.228609}],((Chapattimys[&index=9]:0.134048[&brlen_95%_HPD={0.002317,0.312962}],Birbalomys[&index=8]:0.074141[&brlen_95%_HPD={8e-06,0.232856}])[&index=30,posterior=0.917814]:0.192397[&brlen_95%_HPD={0.01133,0.423314}],(Yuomys[&index=7]:0.182825[&brlen_95%_HPD={0.000205,0.420824}],(Mergenomys[&index=6]:0.087982[&brlen_95%_HPD={6.1e-05,0.273968}],(Protataromys[&index=5]:0.043536[&brlen_95%_HPD={2.1e-05,0.192346}],(Karakoronyinae[&index=4]:0.027293[&brlen_95%_HPD={5.4e-05,0.119952}],(Tataromyinae[&index=3]:0.071914[&brlen_95%_HPD={0.000312,0.208795}],(Distylomyinae[&index=2]:0.029595[&brlen_95%_HPD={3.2e-05,0.131035}],Ctenodactylinae[&index=1]:0.021425[&brlen_95%_HPD={2.1e-05,0.093264}])[&index=31,posterior=0.995113]:0.147553[&brlen_95%_HPD={0.033487,0.326821}])[&index=32,posterior=0.900044]:0.092245[&brlen_95%_HPD={0.005396,0.242989}])[&index=33,posterior=0.991115]:0.201103[&brlen_95%_HPD={0.0159,0.458909}])[&index=34,posterior=0.801866]:0.136116[&brlen_95%_HPD={0.0008,0.339861}])[&index=35,posterior=0.997779]:0.370681[&brlen_95%_HPD={0.110239,0.742775}])[&index=36,posterior=0.355842]:0.141882[&brlen_95%_HPD={0.001333,0.340991}])[&index=37,posterior=0.211906]:0.134874[&brlen_95%_HPD={0.002621,0.339574}])[&index=38,posterior=0.079964]:0.081104[&brlen_95%_HPD={0.000646,0.255194}])[&index=39,posterior=0.052421]:0.058942[&brlen_95%_HPD={0.001042,0.18061}])[&index=40,posterior=0.020435]:0.043562[&brlen_95%_HPD={0.001842,0.164111}])[&index=41,posterior=0.180809]:0.055452[&brlen_95%_HPD={0.000152,0.174609}])[&index=42,posterior=1.000000]:0.000000;
+End;

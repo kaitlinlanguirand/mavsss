@@ -1,0 +1,26 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=15;
+	Taxlabels
+		Aetosaurus_ferratus
+		Cerritosaurus_binsfeldi
+		Chanaresuchus_bonapartei
+		Doswellia_kaltenbachi
+		Erythrosuchus_africanus
+		Euparkeria_capensis
+		Gualosuchus_reigi
+		Herrerasaurus_ischigualastensis
+		Parasuchus_hislopi
+		Proterochampsa_barrionuevoi
+		Proterosuchus_fergusi
+		Riojasuchus_tenuisceps
+		Silesaurus_opolensis
+		Tropidosuchus_romeri
+		Vancleavea_campi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Riojasuchus_tenuisceps[&index=15]:0.072241[&brlen_95%_HPD={0.006187,0.161542}],Aetosaurus_ferratus[&index=14]:0.065637[&brlen_95%_HPD={0.00249,0.150138}],((Herrerasaurus_ischigualastensis[&index=13]:0.027688[&brlen_95%_HPD={3.7e-05,0.093031}],Silesaurus_opolensis[&index=12]:0.056462[&brlen_95%_HPD={0.001239,0.120805}])[&index=16,posterior=0.996890]:0.168405[&brlen_95%_HPD={0.05549,0.31375}],(Parasuchus_hislopi[&index=11]:0.027900[&brlen_95%_HPD={8e-06,0.093715}],((Euparkeria_capensis[&index=10]:0.069229[&brlen_95%_HPD={9.2e-05,0.186741}],(Proterosuchus_fergusi[&index=9]:0.292768[&brlen_95%_HPD={0.119958,0.511482}],Erythrosuchus_africanus[&index=8]:0.035285[&brlen_95%_HPD={5.9e-05,0.129282}])[&index=17,posterior=0.749445]:0.119710[&brlen_95%_HPD={0.003504,0.246915}])[&index=18,posterior=0.737450]:0.128414[&brlen_95%_HPD={0.033021,0.264811}],((Proterochampsa_barrionuevoi[&index=7]:0.029289[&brlen_95%_HPD={9e-05,0.113996}],(Cerritosaurus_binsfeldi[&index=6]:0.021768[&brlen_95%_HPD={1.2e-05,0.094904}],(Tropidosuchus_romeri[&index=5]:0.018321[&brlen_95%_HPD={2e-06,0.052401}],(Chanaresuchus_bonapartei[&index=4]:0.005078[&brlen_95%_HPD={1e-06,0.021634}],Gualosuchus_reigi[&index=3]:0.008042[&brlen_95%_HPD={8e-06,0.034144}])[&index=19,posterior=0.788094]:0.017722[&brlen_95%_HPD={5.1e-05,0.047683}])[&index=20,posterior=0.993781]:0.110199[&brlen_95%_HPD={0.022777,0.220706}])[&index=21,posterior=0.856508]:0.069973[&brlen_95%_HPD={0.005241,0.16875}])[&index=22,posterior=1.000000]:0.281818[&brlen_95%_HPD={0.112726,0.537823}],(Vancleavea_campi[&index=2]:0.090342[&brlen_95%_HPD={0.000189,0.218079}],Doswellia_kaltenbachi[&index=1]:0.041505[&brlen_95%_HPD={4.2e-05,0.146257}])[&index=23,posterior=0.844514]:0.122124[&brlen_95%_HPD={0.002285,0.262056}])[&index=24,posterior=0.541537]:0.086729[&brlen_95%_HPD={0.000532,0.241333}])[&index=25,posterior=0.842292]:0.085693[&brlen_95%_HPD={0.000208,0.203695}])[&index=26,posterior=0.995558]:0.166171[&brlen_95%_HPD={0.05778,0.319469}])[&index=27,posterior=0.657041]:0.059911[&brlen_95%_HPD={9.5e-05,0.158085}])[&index=28,posterior=1.000000]:0.000000;
+End;

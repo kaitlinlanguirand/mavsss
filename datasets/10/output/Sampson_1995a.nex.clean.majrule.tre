@@ -1,0 +1,20 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=9;
+	Taxlabels
+		Achelousaurus
+		Ancestor
+		Centrosaurus
+		Chasmosaurinae
+		Einiosaurus
+		P._canadensis
+		P._species
+		Protoceratops
+		Styracosaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Achelousaurus[&index=9]:0.024750[&brlen_95%_HPD={1.8e-05,0.112669}],(P._canadensis[&index=8]:0.024708[&brlen_95%_HPD={1e-06,0.120267}],P._species[&index=7]:0.038011[&brlen_95%_HPD={2.1e-05,0.150055}])[&index=10,posterior=0.810751]:0.091423[&brlen_95%_HPD={3e-06,0.272247}],(Einiosaurus[&index=6]:0.048332[&brlen_95%_HPD={1.6e-05,0.180021}],((Chasmosaurinae[&index=5]:0.034359[&brlen_95%_HPD={4e-06,0.154209}],(Ancestor[&index=4]:0.019862[&brlen_95%_HPD={7.6e-05,0.103769}],Protoceratops[&index=3]:0.051488[&brlen_95%_HPD={2e-05,0.199453}])[&index=11,posterior=0.457130]:0.052714[&brlen_95%_HPD={0.000187,0.224561}])[&index=12,posterior=0.852510]:0.217181[&brlen_95%_HPD={0.000405,0.550435}],(Styracosaurus[&index=2]:0.113907[&brlen_95%_HPD={0.000717,0.357664}],Centrosaurus[&index=1]:0.134030[&brlen_95%_HPD={3.9e-05,0.405355}])[&index=13,posterior=0.545535]:0.178215[&brlen_95%_HPD={0.000254,0.443948}])[&index=14,posterior=0.676588]:0.193468[&brlen_95%_HPD={0.000989,0.50816}])[&index=15,posterior=0.498889]:0.068706[&brlen_95%_HPD={0.000308,0.24383}])[&index=16,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Arambourgisuchus_khouribgaensis
+		Chenanisuchus_lateroculi
+		Congosaurus_bequaerti
+		Dyrosaurus_phosphaticus
+		Elosuchus
+		Eutretauranosuchus
+		Guarinisuchus_munizi
+		Hyposaurus_rogersii
+		Phosphatosaurus_gavialoides
+		Rhabdognathus_aslerensis
+		Rhabdognathus_keiniensis
+		Sarcosuchus
+		Sokotosuchus_ianwilsoni
+		Terminonaris_robusta
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Arambourgisuchus_khouribgaensis[&index=14]:0.107130[&brlen_95%_HPD={3.5e-05,0.292702}],(Guarinisuchus_munizi[&index=13]:0.043623[&brlen_95%_HPD={9.4e-05,0.168095}],(Rhabdognathus_keiniensis[&index=12]:0.042802[&brlen_95%_HPD={4e-05,0.156575}],Rhabdognathus_aslerensis[&index=11]:0.038501[&brlen_95%_HPD={4.5e-05,0.147403}])[&index=15,posterior=0.760107]:0.092286[&brlen_95%_HPD={0.000134,0.255855}])[&index=16,posterior=0.527321]:0.095748[&brlen_95%_HPD={0.000584,0.288538}],(Hyposaurus_rogersii[&index=10]:0.129139[&brlen_95%_HPD={0.00054,0.337362}],(Congosaurus_bequaerti[&index=9]:0.043134[&brlen_95%_HPD={2e-06,0.188024}],(Dyrosaurus_phosphaticus[&index=8]:0.032085[&brlen_95%_HPD={1.5e-05,0.138996}],(Chenanisuchus_lateroculi[&index=7]:0.061267[&brlen_95%_HPD={5e-06,0.213114}],((Terminonaris_robusta[&index=6]:0.090904[&brlen_95%_HPD={0.000103,0.22701}],(Elosuchus[&index=5]:0.046077[&brlen_95%_HPD={1.1e-05,0.139968}],(Eutretauranosuchus[&index=4]:0.043391[&brlen_95%_HPD={0.000192,0.134914}],Sarcosuchus[&index=3]:0.033242[&brlen_95%_HPD={6e-06,0.113562}])[&index=17,posterior=0.225677]:0.028259[&brlen_95%_HPD={3.6e-05,0.121448}])[&index=18,posterior=0.333629]:0.070934[&brlen_95%_HPD={0.000194,0.229784}])[&index=19,posterior=0.988005]:0.362200[&brlen_95%_HPD={0.091138,0.701149}],(Sokotosuchus_ianwilsoni[&index=2]:0.026149[&brlen_95%_HPD={9e-06,0.115076}],Phosphatosaurus_gavialoides[&index=1]:0.026472[&brlen_95%_HPD={1e-06,0.122912}])[&index=20,posterior=0.690360]:0.116238[&brlen_95%_HPD={4.4e-05,0.32754}])[&index=21,posterior=0.689471]:0.201800[&brlen_95%_HPD={0.002862,0.482658}])[&index=22,posterior=0.648601]:0.091394[&brlen_95%_HPD={2e-05,0.268439}])[&index=23,posterior=0.761884]:0.183013[&brlen_95%_HPD={1.9e-05,0.460858}])[&index=24,posterior=0.473123]:0.165402[&brlen_95%_HPD={9.6e-05,0.436383}])[&index=25,posterior=0.322079]:0.115505[&brlen_95%_HPD={0.000407,0.344385}])[&index=26,posterior=1.000000]:0.000000;
+End;

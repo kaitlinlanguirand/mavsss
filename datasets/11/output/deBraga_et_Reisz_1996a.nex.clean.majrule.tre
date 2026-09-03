@@ -1,0 +1,19 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=8;
+	Taxlabels
+		Acleistorhinus
+		Eureptilia
+		Lanthanosuchidae
+		Macroleter
+		Mesosauridae
+		Millerettidae
+		Procolophonia
+		Synapsida
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acleistorhinus[&index=8]:0.059056[&brlen_95%_HPD={0.000198,0.171373}],Lanthanosuchidae[&index=7]:0.080010[&brlen_95%_HPD={2.6e-05,0.194173}],((Millerettidae[&index=6]:0.028018[&brlen_95%_HPD={4.1e-05,0.109204}],(Eureptilia[&index=5]:0.032697[&brlen_95%_HPD={0.000169,0.095112}],(Synapsida[&index=4]:0.070473[&brlen_95%_HPD={0.008409,0.155196}],Mesosauridae[&index=3]:0.076430[&brlen_95%_HPD={0.018404,0.178997}])[&index=9,posterior=0.705908]:0.037299[&brlen_95%_HPD={0.000231,0.11133}])[&index=10,posterior=0.982230]:0.115797[&brlen_95%_HPD={0.014187,0.242622}])[&index=11,posterior=1.000000]:0.316969[&brlen_95%_HPD={0.119857,0.602777}],(Macroleter[&index=2]:0.014960[&brlen_95%_HPD={8e-06,0.069344}],Procolophonia[&index=1]:0.068904[&brlen_95%_HPD={0.010424,0.156648}])[&index=12,posterior=0.621057]:0.062929[&brlen_95%_HPD={4e-05,0.234505}])[&index=13,posterior=0.988005]:0.233204[&brlen_95%_HPD={0.067515,0.455383}])[&index=14,posterior=1.000000]:0.000000;
+End;

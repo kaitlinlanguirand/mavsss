@@ -1,0 +1,18 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=7;
+	Taxlabels
+		AMNH_5027
+		Artificial_adult
+		CMNH_7541
+		Embryo
+		LACM_23844
+		LACM_23845
+		LACM_28471
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](AMNH_5027[&index=7]:0.009611[&brlen_95%_HPD={0,0.030986}],Artificial_adult[&index=6]:0.016638[&brlen_95%_HPD={3.6e-05,0.041418}],(LACM_23844[&index=5]:0.019311[&brlen_95%_HPD={0.000193,0.051428}],(LACM_23845[&index=4]:0.027151[&brlen_95%_HPD={5e-06,0.126492}],(CMNH_7541[&index=3]:0.015985[&brlen_95%_HPD={1e-06,0.059758}],(Embryo[&index=2]:0.009634[&brlen_95%_HPD={0.000168,0.029128}],LACM_28471[&index=1]:0.006169[&brlen_95%_HPD={1e-06,0.02846}])[&index=8,posterior=0.868947]:0.029076[&brlen_95%_HPD={0.000387,0.069243}])[&index=9,posterior=1.000000]:0.560804[&brlen_95%_HPD={0.241737,0.990715}])[&index=10,posterior=0.955131]:0.107076[&brlen_95%_HPD={0.003107,0.232866}])[&index=11,posterior=0.470013]:0.012821[&brlen_95%_HPD={4e-06,0.044857}])[&index=12,posterior=1.000000]:0.000000;
+End;

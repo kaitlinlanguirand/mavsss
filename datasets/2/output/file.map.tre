@@ -1,0 +1,39 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=28;
+	Taxlabels
+		Anatidae
+		Anhimidae
+		Anhingidae
+		Anseranatidae
+		Argillornis_emuinus
+		Ciconiidae
+		Diomedeidae
+		Fregatidae
+		Galliformes
+		Gaviidae
+		Hydrobatidae
+		Odontopteryx_n_sp_1
+		Odontopteryx_n_sp_2
+		Odontopteryx_toliapica
+		Opisthocomidae
+		Pelagornis
+		Pelecanidae
+		Pelecanoididae
+		Phaethontidae
+		Phalacrocoracidae
+		Phoenicopteridae
+		Podicipedidae
+		Procellariidae
+		Rheidae
+		Scopidae
+		Spheniscidae
+		Sulidae
+		Tinamidae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((((((Pelecanoididae[&index=21]:0.024487[&brlen_95%_HPD={0.003885,0.051625}],Procellariidae[&index=15]:0.006169[&brlen_95%_HPD={1e-06,0.01925}])[&index=29,posterior=0.378498]:0.007049[&brlen_95%_HPD={7e-06,0.020677}],Hydrobatidae[&index=3]:0.006242[&brlen_95%_HPD={7e-06,0.018055}])[&index=30,posterior=0.999556]:0.058294[&brlen_95%_HPD={0.015622,0.101822}],Diomedeidae[&index=26]:0.009885[&brlen_95%_HPD={1.8e-05,0.028227}])[&index=31,posterior=1.000000]:0.097288[&brlen_95%_HPD={0.035211,0.16617}],Phaethontidae[&index=7]:0.018778[&brlen_95%_HPD={1.4e-05,0.049278}])[&index=32,posterior=1.000000]:0.097660[&brlen_95%_HPD={0.030923,0.180629}],(Ciconiidae[&index=23]:0.020738[&brlen_95%_HPD={4.6e-05,0.054909}],Phoenicopteridae[&index=10]:0.033851[&brlen_95%_HPD={0.000405,0.071341}])[&index=33,posterior=0.988450]:0.056204[&brlen_95%_HPD={0.012041,0.10913}])[&index=34,posterior=0.187472]:0.016577[&brlen_95%_HPD={1e-06,0.048455}],((Gaviidae[&index=6]:0.019740[&brlen_95%_HPD={0.000398,0.043628}],Podicipedidae[&index=14]:0.015860[&brlen_95%_HPD={0,0.039153}])[&index=35,posterior=0.999112]:0.085951[&brlen_95%_HPD={0.025372,0.158383}],Spheniscidae[&index=12]:0.041552[&brlen_95%_HPD={2.8e-05,0.091754}])[&index=36,posterior=0.997335]:0.074889[&brlen_95%_HPD={0.019443,0.148038}])[&index=37,posterior=0.157263]:0.014297[&brlen_95%_HPD={3.8e-05,0.044208}],(((((Anhingidae[&index=5]:0.019990[&brlen_95%_HPD={0.001437,0.04577}],Phalacrocoracidae[&index=20]:0.011890[&brlen_95%_HPD={4e-06,0.032028}])[&index=38,posterior=0.999556]:0.070101[&brlen_95%_HPD={0.021157,0.126002}],Sulidae[&index=24]:0.026237[&brlen_95%_HPD={8e-06,0.063417}])[&index=39,posterior=0.998223]:0.076640[&brlen_95%_HPD={0.01814,0.145691}],Pelecanidae[&index=28]:0.043735[&brlen_95%_HPD={0.002776,0.097149}])[&index=40,posterior=0.980453]:0.071690[&brlen_95%_HPD={0.00694,0.147927}],Fregatidae[&index=2]:0.059591[&brlen_95%_HPD={0.008415,0.120575}])[&index=41,posterior=0.979120]:0.057598[&brlen_95%_HPD={0.010496,0.1177}],Scopidae[&index=16]:0.014007[&brlen_95%_HPD={1.1e-05,0.042294}])[&index=42,posterior=0.872945]:0.032168[&brlen_95%_HPD={0.001072,0.072521}])[&index=43,posterior=0.993336]:0.097519[&brlen_95%_HPD={0.029663,0.18058}],Opisthocomidae[&index=4]:0.021008[&brlen_95%_HPD={1.2e-05,0.057454}])[&index=44,posterior=0.886717]:0.066226[&brlen_95%_HPD={1.1e-05,0.148911}],((Rheidae[&index=1]:0.020627[&brlen_95%_HPD={4e-05,0.050627}],Tinamidae[&index=22]:0.014693[&brlen_95%_HPD={1.3e-05,0.039706}])[&index=45,posterior=1.000000]:0.151743[&brlen_95%_HPD={0.060647,0.268378}],Galliformes[&index=25]:0.023325[&brlen_95%_HPD={3e-06,0.063399}])[&index=46,posterior=0.984896]:0.113717[&brlen_95%_HPD={0.024715,0.227511}])[&index=47,posterior=1.000000]:0.239705[&brlen_95%_HPD={0.089791,0.430085}],Anhimidae[&index=19]:0.017478[&brlen_95%_HPD={9e-06,0.053125}])[&index=48,posterior=0.672590]:0.051213[&brlen_95%_HPD={0.000202,0.108834}],((((Argillornis_emuinus[&index=17]:0.030324[&brlen_95%_HPD={1e-06,0.095534}],Odontopteryx_n_sp_1[&index=18]:0.007291[&brlen_95%_HPD={0,0.021858}])[&index=49,posterior=0.156819]:0.008571[&brlen_95%_HPD={0.000105,0.025626}],Odontopteryx_n_sp_2[&index=11]:0.012230[&brlen_95%_HPD={8e-06,0.038344}])[&index=50,posterior=0.207019]:0.015864[&brlen_95%_HPD={1.8e-05,0.044942}],Odontopteryx_toliapica[&index=8]:0.014833[&brlen_95%_HPD={4e-06,0.043237}])[&index=51,posterior=0.550422]:0.037988[&brlen_95%_HPD={1.1e-05,0.083748}],Pelagornis[&index=9]:0.044278[&brlen_95%_HPD={0.000226,0.09916}])[&index=52,posterior=1.000000]:0.324992[&brlen_95%_HPD={0.159006,0.51209}])[&index=53,posterior=0.844958]:0.057400[&brlen_95%_HPD={0.000383,0.114615}],Anatidae[&index=13]:0.019185[&brlen_95%_HPD={8e-06,0.044122}],Anseranatidae[&index=27]:0.015475[&brlen_95%_HPD={2.8e-05,0.037554}])[&index=54,posterior=1.000000]:0.000000;
+End;

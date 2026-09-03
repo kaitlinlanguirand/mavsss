@@ -1,0 +1,25 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=14;
+	Taxlabels
+		Agilisaurus
+		Archaeoceratops_oshimai
+		Ceratopsidae
+		Chaoyangsaurus_youngi
+		Heterodontosauridae
+		Hypsilophodon_foxii
+		Iguanodontia
+		Jeholosaurus_lujiatunensis
+		Lesothosaurus_diagnosticus
+		Liaoceratops_yanzigouensis
+		Pachycephalosauria
+		Psittacosaurus_mongoliensis
+		Thyreophora
+		Yinlong_downsi
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Agilisaurus[&index=14]:0.023657[&brlen_95%_HPD={2.1e-05,0.089919}],Heterodontosauridae[&index=13]:0.119048[&brlen_95%_HPD={1e-06,0.246644}],((Pachycephalosauria[&index=12]:0.051450[&brlen_95%_HPD={2e-06,0.317599}],(Yinlong_downsi[&index=11]:0.023888[&brlen_95%_HPD={2.7e-05,0.111}],(Chaoyangsaurus_youngi[&index=10]:0.019933[&brlen_95%_HPD={8e-06,0.093671}],(Psittacosaurus_mongoliensis[&index=9]:0.195699[&brlen_95%_HPD={0.065645,0.378346}],(Liaoceratops_yanzigouensis[&index=8]:0.011140[&brlen_95%_HPD={5e-06,0.047722}],(Archaeoceratops_oshimai[&index=7]:0.006771[&brlen_95%_HPD={1.1e-05,0.02866}],Ceratopsidae[&index=6]:0.132501[&brlen_95%_HPD={0.066104,0.224481}])[&index=15,posterior=0.996002]:0.059466[&brlen_95%_HPD={0.01629,0.116924}])[&index=16,posterior=0.987561]:0.137492[&brlen_95%_HPD={0.026308,0.295213}])[&index=17,posterior=0.974234]:0.133756[&brlen_95%_HPD={0.01869,0.288384}])[&index=18,posterior=0.999556]:0.226515[&brlen_95%_HPD={0.075688,0.417919}])[&index=19,posterior=0.994669]:0.357959[&brlen_95%_HPD={0.062157,0.645846}])[&index=20,posterior=0.972012]:0.352851[&brlen_95%_HPD={0.159206,0.608984}],((Jeholosaurus_lujiatunensis[&index=5]:0.043278[&brlen_95%_HPD={8.2e-05,0.10879}],(Hypsilophodon_foxii[&index=4]:0.012389[&brlen_95%_HPD={2e-06,0.04715}],Iguanodontia[&index=3]:0.116930[&brlen_95%_HPD={0.045992,0.20767}])[&index=21,posterior=0.940027]:0.058345[&brlen_95%_HPD={0.002406,0.132306}])[&index=22,posterior=0.840071]:0.059873[&brlen_95%_HPD={0.005153,0.136946}],(Lesothosaurus_diagnosticus[&index=2]:0.009997[&brlen_95%_HPD={6e-06,0.041911}],Thyreophora[&index=1]:0.027678[&brlen_95%_HPD={0.000139,0.07019}])[&index=23,posterior=0.730786]:0.042621[&brlen_95%_HPD={1.1e-05,0.128937}])[&index=24,posterior=0.469569]:0.082429[&brlen_95%_HPD={0.000129,0.180244}])[&index=25,posterior=0.585518]:0.089883[&brlen_95%_HPD={0.012546,0.194434}])[&index=26,posterior=1.000000]:0.000000;
+End;

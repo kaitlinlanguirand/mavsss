@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Acerosodontosaurus
+		Clevosaurs
+		Gephyrosaurus
+		Homoeosaurs
+		Kuehneosaurs
+		Palaeagama
+		Paliguana
+		Sapheosaurs
+		Saurosternon
+		Sphenodonts
+		Squamates
+		Tangasaurs
+		Youngina
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Acerosodontosaurus[&index=13]:0.005047[&brlen_95%_HPD={0.000131,0.045853}],(Tangasaurs[&index=12]:0.010092[&brlen_95%_HPD={0.000176,0.016551}],Youngina[&index=11]:0.010122[&brlen_95%_HPD={8.3e-05,0.016988}])[&index=14,posterior=0.956908]:0.023571[&brlen_95%_HPD={0.001242,0.072594}],(Palaeagama[&index=10]:0.039537[&brlen_95%_HPD={2.6e-05,0.076243}],(Saurosternon[&index=9]:0.044451[&brlen_95%_HPD={5.5e-05,0.090838}],(Paliguana[&index=8]:0.032273[&brlen_95%_HPD={0.001966,0.175851}],(Kuehneosaurs[&index=7]:0.094342[&brlen_95%_HPD={0.000856,0.125327}],(Squamates[&index=6]:0.063410[&brlen_95%_HPD={0.000148,0.212264}],(Gephyrosaurus[&index=5]:0.021394[&brlen_95%_HPD={1e-06,0.056931}],(Clevosaurs[&index=4]:0.017176[&brlen_95%_HPD={0.003105,0.081431}],(Sphenodonts[&index=3]:0.026225[&brlen_95%_HPD={0.002617,0.05224}],(Homoeosaurs[&index=2]:0.009739[&brlen_95%_HPD={0.000457,0.024985}],Sapheosaurs[&index=1]:0.014835[&brlen_95%_HPD={0.000657,0.023507}])[&index=15,posterior=0.892048]:0.024327[&brlen_95%_HPD={0.005964,0.05675}])[&index=16,posterior=0.997779]:0.075439[&brlen_95%_HPD={0.034198,0.163943}])[&index=17,posterior=0.985340]:0.087348[&brlen_95%_HPD={0.021954,0.119502}])[&index=18,posterior=0.968014]:0.096957[&brlen_95%_HPD={0.028991,0.29998}])[&index=19,posterior=0.993336]:0.209595[&brlen_95%_HPD={0.110794,0.509211}])[&index=20,posterior=0.979565]:0.135187[&brlen_95%_HPD={0.021614,0.360845}])[&index=21,posterior=0.649933]:0.135380[&brlen_95%_HPD={0.000378,0.274681}])[&index=22,posterior=0.758774]:0.045096[&brlen_95%_HPD={8.5e-05,0.126067}])[&index=23,posterior=0.746779]:0.096727[&brlen_95%_HPD={0.009264,0.242659}])[&index=24,posterior=1.000000]:0.000000;
+End;

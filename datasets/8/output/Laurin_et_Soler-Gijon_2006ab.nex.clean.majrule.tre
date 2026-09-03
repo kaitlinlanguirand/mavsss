@@ -1,0 +1,29 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=18;
+	Taxlabels
+		Balanerpeton
+		Capetus
+		Chenoprosopus
+		Dendrerpeton
+		Dutuitosaurus
+		Ecolsonia
+		Edops
+		Eoscopus
+		Eryops
+		Greererpeton
+		Iberospondylus
+		Parioxys
+		Proterogyrinus
+		Saurerpeton
+		Sclerocephalus
+		Tersomius
+		Trimerorhachis
+		Zatrachys
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Balanerpeton[&index=18]:0.080478[&brlen_95%_HPD={0.000682,0.225578}],Dendrerpeton[&index=17]:0.065076[&brlen_95%_HPD={0.000108,0.19113}],((Greererpeton[&index=16]:0.223399[&brlen_95%_HPD={0.000361,0.517641}],Proterogyrinus[&index=15]:0.119343[&brlen_95%_HPD={9e-05,0.337745}])[&index=19,posterior=0.837850]:0.190740[&brlen_95%_HPD={0.030027,0.493174}],(Capetus[&index=14]:0.018534[&brlen_95%_HPD={2.8e-05,0.092113}],((Chenoprosopus[&index=13]:0.079282[&brlen_95%_HPD={0.005398,0.211694}],Edops[&index=12]:0.015824[&brlen_95%_HPD={4.6e-05,0.08375}])[&index=20,posterior=0.902710]:0.101258[&brlen_95%_HPD={0.000534,0.267891}],(Iberospondylus[&index=11]:0.059687[&brlen_95%_HPD={5.3e-05,0.188235}],(Sclerocephalus[&index=10]:0.079215[&brlen_95%_HPD={0.000235,0.229701}],(Parioxys[&index=9]:0.061720[&brlen_95%_HPD={0.000103,0.195385}],(((Ecolsonia[&index=8]:0.067326[&brlen_95%_HPD={0.00014,0.226272}],(Eoscopus[&index=7]:0.036394[&brlen_95%_HPD={5.2e-05,0.14683}],Tersomius[&index=6]:0.104609[&brlen_95%_HPD={0.000424,0.253607}])[&index=21,posterior=0.642381]:0.092560[&brlen_95%_HPD={0.000127,0.259024}])[&index=22,posterior=0.855620]:0.234528[&brlen_95%_HPD={0.033683,0.53273}],(Dutuitosaurus[&index=5]:0.143316[&brlen_95%_HPD={3.9e-05,0.447735}],(Saurerpeton[&index=4]:0.149926[&brlen_95%_HPD={0.000186,0.391036}],Trimerorhachis[&index=3]:0.075983[&brlen_95%_HPD={2.3e-05,0.28467}])[&index=23,posterior=0.797423]:0.251269[&brlen_95%_HPD={0.014899,0.562453}])[&index=24,posterior=0.692137]:0.332685[&brlen_95%_HPD={0.021707,0.694294}])[&index=25,posterior=0.359396]:0.210118[&brlen_95%_HPD={0.011548,0.486648}],(Eryops[&index=2]:0.045484[&brlen_95%_HPD={9e-05,0.160856}],Zatrachys[&index=1]:0.201527[&brlen_95%_HPD={0.006291,0.454502}])[&index=26,posterior=0.191915]:0.045655[&brlen_95%_HPD={0.000137,0.155545}])[&index=27,posterior=0.103065]:0.050465[&brlen_95%_HPD={6.3e-05,0.172125}])[&index=28,posterior=0.162150]:0.068742[&brlen_95%_HPD={0.002543,0.216422}])[&index=29,posterior=0.289649]:0.070486[&brlen_95%_HPD={0.000172,0.213077}])[&index=30,posterior=0.420258]:0.080230[&brlen_95%_HPD={0.00035,0.213818}])[&index=31,posterior=0.304753]:0.058516[&brlen_95%_HPD={9.5e-05,0.212512}])[&index=32,posterior=0.315415]:0.059916[&brlen_95%_HPD={0.000369,0.204451}])[&index=33,posterior=0.298978]:0.040645[&brlen_95%_HPD={7.6e-05,0.174644}])[&index=34,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,38 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=27;
+	Taxlabels
+		Achillobator_giganticus
+		Adasaurus_mongoliensis
+		Archaeopteryx
+		Atrociraptor_marshalli
+		Austroraptor_cabazai
+		Bambiraptor_feinbergi
+		Buitreraptor_gonzalezorum
+		Byronosaurus_jaffei
+		Deinonychus_antirrhopus
+		Dromaeosaurus_albertensis
+		Graciliraptor_lujiatensis
+		Hesperonychus_elizabethae
+		Itemirus_medullaris
+		Mahakala_omnogovae
+		Microraptor
+		Neuquenraptor_argentinus
+		Rahonavis_ostromi
+		Saurornitholestes_langstoni
+		Shanag_ashile
+		Sinornithosaurus_millennii
+		Sinovenator_changii
+		Troodon
+		Tsaagan_mangas
+		Unenlagia_comahuensis
+		Unenlagia_paynemili
+		Utahraptor_ostrommaysi
+		Velociraptor_mongoliensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Achillobator_giganticus[&index=27]:0.033202[&brlen_95%_HPD={3.7e-05,0.098975}],Dromaeosaurus_albertensis[&index=26]:0.052399[&brlen_95%_HPD={3.8e-05,0.168097}],(Utahraptor_ostrommaysi[&index=25]:0.019767[&brlen_95%_HPD={4.1e-05,0.083453}],((Velociraptor_mongoliensis[&index=24]:0.023518[&brlen_95%_HPD={4e-05,0.070597}],(Adasaurus_mongoliensis[&index=23]:0.024574[&brlen_95%_HPD={4e-06,0.100323}],Tsaagan_mangas[&index=22]:0.087293[&brlen_95%_HPD={0.000999,0.218761}])[&index=28,posterior=0.797868]:0.074019[&brlen_95%_HPD={0.003152,0.171446}])[&index=29,posterior=0.500222]:0.054838[&brlen_95%_HPD={0.000156,0.141449}],(Itemirus_medullaris[&index=21]:0.051767[&brlen_95%_HPD={0.00011,0.235431}],(Deinonychus_antirrhopus[&index=20]:0.011468[&brlen_95%_HPD={3e-06,0.047432}],(Atrociraptor_marshalli[&index=19]:0.036451[&brlen_95%_HPD={2.6e-05,0.117044}],(Saurornitholestes_langstoni[&index=18]:0.015965[&brlen_95%_HPD={2e-05,0.05884}],(Bambiraptor_feinbergi[&index=17]:0.052321[&brlen_95%_HPD={6e-06,0.139679}],(((Rahonavis_ostromi[&index=16]:0.054457[&brlen_95%_HPD={3e-05,0.227166}],(Neuquenraptor_argentinus[&index=15]:0.049426[&brlen_95%_HPD={6e-06,0.236311}],(Buitreraptor_gonzalezorum[&index=14]:0.064796[&brlen_95%_HPD={1.5e-05,0.227276}],(Unenlagia_paynemili[&index=13]:0.058803[&brlen_95%_HPD={1e-05,0.232456}],(Austroraptor_cabazai[&index=12]:0.035426[&brlen_95%_HPD={1.3e-05,0.152823}],Unenlagia_comahuensis[&index=11]:0.044831[&brlen_95%_HPD={3.9e-05,0.186438}])[&index=30,posterior=0.439360]:0.070118[&brlen_95%_HPD={7.6e-05,0.230168}])[&index=31,posterior=0.578410]:0.124373[&brlen_95%_HPD={0.000124,0.293614}])[&index=32,posterior=0.450022]:0.167970[&brlen_95%_HPD={0.000442,0.462379}])[&index=33,posterior=0.743225]:0.219094[&brlen_95%_HPD={0.005429,0.479601}])[&index=34,posterior=0.698356]:0.225285[&brlen_95%_HPD={0.005082,0.532096}],(Mahakala_omnogovae[&index=10]:0.092745[&brlen_95%_HPD={1e-05,0.331779}],(Archaeopteryx[&index=9]:0.045652[&brlen_95%_HPD={2.2e-05,0.186862}],(Sinovenator_changii[&index=8]:0.037174[&brlen_95%_HPD={9e-06,0.143279}],(Byronosaurus_jaffei[&index=7]:0.058691[&brlen_95%_HPD={1.4e-05,0.210548}],Troodon[&index=6]:0.227306[&brlen_95%_HPD={0.059581,0.469903}])[&index=35,posterior=0.914260]:0.151672[&brlen_95%_HPD={0.014457,0.347296}])[&index=36,posterior=0.950689]:0.223148[&brlen_95%_HPD={0.03074,0.428035}])[&index=37,posterior=0.832963]:0.175633[&brlen_95%_HPD={0.000805,0.435011}])[&index=38,posterior=0.578854]:0.187660[&brlen_95%_HPD={0.00109,0.50938}])[&index=39,posterior=0.672146]:0.279051[&brlen_95%_HPD={6e-06,0.590883}],((Microraptor[&index=5]:0.023763[&brlen_95%_HPD={7e-06,0.076366}],Shanag_ashile[&index=4]:0.052135[&brlen_95%_HPD={6.6e-05,0.171514}])[&index=40,posterior=0.203021]:0.022319[&brlen_95%_HPD={1.1e-05,0.073667}],(Hesperonychus_elizabethae[&index=3]:0.042060[&brlen_95%_HPD={2e-06,0.191562}],(Graciliraptor_lujiatensis[&index=2]:0.024024[&brlen_95%_HPD={3e-06,0.122064}],Sinornithosaurus_millennii[&index=1]:0.011940[&brlen_95%_HPD={1e-05,0.054132}])[&index=41,posterior=0.465127]:0.028519[&brlen_95%_HPD={5.3e-05,0.087811}])[&index=42,posterior=0.118614]:0.023785[&brlen_95%_HPD={0.000478,0.090276}])[&index=43,posterior=0.266104]:0.115339[&brlen_95%_HPD={0.000355,0.332361}])[&index=44,posterior=0.752999]:0.387969[&brlen_95%_HPD={0.11418,0.726813}])[&index=45,posterior=0.441582]:0.066015[&brlen_95%_HPD={0.000224,0.148569}])[&index=46,posterior=0.353621]:0.049888[&brlen_95%_HPD={2.3e-05,0.156717}])[&index=47,posterior=0.634385]:0.118686[&brlen_95%_HPD={0.008265,0.224378}])[&index=48,posterior=0.526433]:0.072224[&brlen_95%_HPD={0.000653,0.154877}])[&index=49,posterior=0.484229]:0.073774[&brlen_95%_HPD={0.003158,0.164276}])[&index=50,posterior=0.981342]:0.134324[&brlen_95%_HPD={0.033225,0.269289}])[&index=51,posterior=0.545535]:0.037593[&brlen_95%_HPD={7.4e-05,0.113071}])[&index=52,posterior=1.000000]:0.000000;
+End;

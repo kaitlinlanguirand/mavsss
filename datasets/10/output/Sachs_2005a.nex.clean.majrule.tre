@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Aristonectes
+		Brancasaurus
+		Callawaysaurus
+		Hydralmosaurus
+		Hydrotherosaurus
+		Libonectes
+		Muraenosaurus
+		Occitanosaurus
+		Styxosaurus
+		Terminonatator
+		Thalassomedon
+		Tuarangisaurus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Aristonectes[&index=12]:0.179471[&brlen_95%_HPD={0.000207,0.450085}],Terminonatator[&index=11]:0.077530[&brlen_95%_HPD={0.000226,0.247061}],((Tuarangisaurus[&index=10]:0.037418[&brlen_95%_HPD={9.6e-05,0.146677}],Callawaysaurus[&index=9]:0.023058[&brlen_95%_HPD={1e-06,0.10849}])[&index=13,posterior=0.195469]:0.031876[&brlen_95%_HPD={0.000216,0.137132}],((Hydralmosaurus[&index=8]:0.033268[&brlen_95%_HPD={4.3e-05,0.128269}],Styxosaurus[&index=7]:0.022475[&brlen_95%_HPD={9e-06,0.100546}])[&index=14,posterior=0.858285]:0.087227[&brlen_95%_HPD={0.000301,0.244089}],((Hydrotherosaurus[&index=6]:0.062899[&brlen_95%_HPD={2.1e-05,0.241614}],(Occitanosaurus[&index=5]:0.095036[&brlen_95%_HPD={7.6e-05,0.305552}],(Muraenosaurus[&index=4]:0.036604[&brlen_95%_HPD={1.5e-05,0.175811}],Brancasaurus[&index=3]:0.126785[&brlen_95%_HPD={0.000725,0.339017}])[&index=15,posterior=0.621946]:0.110421[&brlen_95%_HPD={0.000214,0.331239}])[&index=16,posterior=0.854731]:0.257638[&brlen_95%_HPD={0.001395,0.599351}])[&index=17,posterior=0.405598]:0.148185[&brlen_95%_HPD={0.00105,0.398445}],(Thalassomedon[&index=2]:0.143645[&brlen_95%_HPD={0.000173,0.354728}],Libonectes[&index=1]:0.051989[&brlen_95%_HPD={2.3e-05,0.20132}])[&index=18,posterior=0.311417]:0.074566[&brlen_95%_HPD={3e-06,0.242526}])[&index=19,posterior=0.430920]:0.120942[&brlen_95%_HPD={0.001033,0.342691}])[&index=20,posterior=0.184363]:0.065516[&brlen_95%_HPD={0.000105,0.219004}])[&index=21,posterior=0.326522]:0.093945[&brlen_95%_HPD={0.001647,0.307431}])[&index=22,posterior=1.000000]:0.000000;
+End;
