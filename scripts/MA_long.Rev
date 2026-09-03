@@ -1,0 +1,127 @@
+
+morpho <- readDiscreteCharacterData("file.nex")
+species <- morpho.taxa()
+n_taxa <- morpho.ntaxa()
+moves = VectorMoves()
+monitors = VectorMonitors()
+
+###############################
+# Topology and branch lengths #
+###############################
+
+# 2n - 3 branches for an unrooted tree of n taxa
+n_branches := 2 * n_taxa - 3
+
+# Exploit the fact that in all of our Nexus files, the (most distant) outgroup is listed first
+outgroups = clade(species[1])
+
+# Draw a topology from a uniform distribution
+topology ~ dnUniformTopology(species, outgroup=outgroups)
+moves.append( mvNNI(topology, weight=n_branches/2.0) )
+moves.append( mvSPR(topology, weight=n_branches/10.0) )
+#Default MrBayes prior on branch lengths
+for (i in 1:n_branches) {
+    brlens[i] ~ dnExp(10.0)
+    moves.append( mvScale(brlens[i], weight=1) )
+ }
+# Assemble a phylogram by combining the tree topology with branch lengths
+psi := fnTreeAssembly(topology, brlens)
+# Tree length monitor
+tree_length := psi.treeLength()
+
+#############################################
+# Across-character rate heterogeneity model #
+#############################################
+
+# Default MrBayes prior on the shape of the gamma distribution
+alpha_morpho ~ dnExp(1.0)
+char_rates := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+moves.append( mvScale(alpha_morpho, lambda=1, weight=2.0) )
+
+#######################
+# Substitution models #
+#######################
+unord <- morpho
+  
+# --------------------------------------------------------------- #
+# Averaging over different values of the Dirichlet hyperparameter #
+# --------------------------------------------------------------- #
+
+alpha_vals[1] <- 0.05
+alpha_vals[2] <- 0.2
+alpha_vals[3] <- 1
+alpha_vals[4] <- 2
+alpha_vals[5] <- 10
+alpha_vals[6] <- 1000
+alpha_dir ~ dnMixture( values=alpha_vals, probabilities=simplex( rep(1, alpha_vals.size()) ) )
+alpha_dir.setValue(10)
+model_indicator := alpha_dir.getAllocationIndex()
+moves.append( mvGibbsMixtureAllocation(alpha_dir, weight=2.0) )
+
+# How many distinct matrices we want in the mixture: MrBayes default
+n_cats = 5
+n_max_states = 7
+idx = 1
+for (i in 2:n_max_states) {
+  # Make a temporary copy of the data
+      unordered[i - 1] <- unord
+      # Only keep those characters who state space size equals i
+     unordered[i - 1].setNumStatesPartition(i)
+     # Get the number of characters with i states
+      nc = unordered[i - 1].nchar()
+    # If this number is greater than zero, create the appropriate Q matrix
+    if (nc > 0) {
+       print("There are "+nc+" unordered characters with "+i+" states in the matrix.")
+
+       for (j in 1:n_cats) {
+            # Dirichlet prior on equilibrium state frequencies
+           pi[idx][j] ~ dnDirichlet( rep(alpha_dir, i) )
+             moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )
+
+            # Create an i-by-i rate matrix
+            Qu[idx][j] := fnF81( pi[idx][j] )
+        }
+
+        # Specify equal prior probability of a character going into any of the 5 categories
+
+        matrix_probs[idx] ~ dnDirichlet( rep(1.0, n_cats) )
+         moves.append( mvBetaSimplex(matrix_probs[idx], weight=3.0) )
+          moves.append( mvDirichletSimplex(matrix_probs[idx], weight=1.5) )
+                    
+          # Combine everything into a CTMC
+          unord_ctmc[idx] ~ dnPhyloCTMC(tree=psi, Q=Qu[idx], siteRates=char_rates,
+                                     siteMatrices=matrix_probs[idx], type="Standard",
+                                      coding="variable")
+        # Clamp to the data
+       unord_ctmc[idx].clamp( unordered[i - 1] )
+                  
+        # Increment counter
+        idx = idx + 1
+   }
+}
+  
+############
+# Analysis #
+############
+
+# Initialize the model object
+mymodel = model(psi)
+
+# Add monitors
+monitors.append( mnModel(filename="output/file.log", printgen=1000) )
+monitors.append( mnFile(filename="output/file.trees", printgen=1000, psi) )
+monitors.append( mnScreen(printgen=100) )
+
+# Initialize the MCMC object and run the analysis
+mymcmc = mcmc(mymodel, monitors, moves)
+mymcmc.run(generations=3000000, checkpointInterval=500, checkpointFile = "output/file.state")
+
+# Read in the tree trace
+trace = readTreeTrace("output/file.trees", treetype="non-clock")
+trace.setBurnin(0.25)
+
+# Summarize the tree trace
+mapTree(trace, file="output/file.map.tre")
+# Using a cutoff of 0 to imitate the "allcompat" option in MrBayes
+consensusTree(trace, file="output/file.majrule.tre", cutoff=0)
+q()

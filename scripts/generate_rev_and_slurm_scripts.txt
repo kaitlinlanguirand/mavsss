@@ -1,0 +1,316 @@
+separate.char.strings <- function(string) {
+  # Split by character *except* when in parentheses, brackets, or braces:
+  first_split <- strsplit(string,
+                          '\\([^)]*\\)(*SKIP)(*F)|{[^}]*}(*SKIP)(*F)|\\[[^]]*\\](*SKIP)(*F)|',
+                          perl = T)
+  # The previous step failed to split adjacent matches such as "(0 1)(0 1)"; we need to fix this:
+  # Credit: Arun, https://stackoverflow.com/a/17623231
+  second_split <- strsplit(first_split[[1]], "(?<=.)(?={)|(?<=.)(?=\\()|(?<=.)(?=\\[)", perl = T)
+  # Flatten the list to a vector and return:
+  return(unlist(second_split))
+}
+
+read.nexus.custom <- function(path) {
+  linevect <- readLines(path)
+  start <- which(linevect == "MATRIX") + 2
+  end <- which(linevect == ";") - 1
+  # Sanitize inputs to prevent character strings from being converted to type numeric
+  dataset <- read.table(text = linevect[start:end], colClasses = "character")
+  
+  if (ncol(dataset) != 2) {
+    stop("Make sure that the character strings do not contain spaces.")
+  }
+  
+  # Break up column 2 (containing character strings of length n) into n columns so that each
+  # column corresponds to one character
+  charvects <- Map(separate.char.strings, dataset[, 2])
+  # Check that the character strings are of the same length for all taxa:
+  lengths <- sapply(charvects, length)
+  chars <- do.call(rbind, charvects)
+  rownames(chars) <- dataset[, 1]
+  out <- list()
+  
+  if (all(lengths == lengths[1])) {
+    out[[1]] <- chars
+  } else {
+    stop("The dataset contains character strings of unequal length.")
+  }
+  
+  tem0 <- linevect[grepl("FORMAT", linevect)]
+  tem1 <- strsplit(strsplit(tem0, '"')[[1]][2], " ")[[1]]
+  tem2 <- tem1[which(tem1 != "")]
+  out[[2]] <- length(tem2)
+  
+  if (any(grepl("ord:", linevect))) {
+    tmp0 <- linevect[grepl("ord:", linevect)]
+    tmp1 <- strsplit(tmp0, ", ord: ")[[1]][2]
+    tmp2 <- gsub(";", "", tmp1)
+    tmp3 <- gsub("-", ":", tmp2)
+    tmp4 <- paste0("c(", paste(strsplit(tmp3, " ")[[1]], collapse = ", "), ")")
+    out[[3]] <- eval(parse(text = tmp4))
+  }
+  
+  return(out)
+}
+
+# ptnf = path to Nexus file
+get.rev.file <- function(ptnf) {
+  dirpath <- dirname(ptnf)
+  filename <- basename(ptnf)
+  subdirname <- strsplit(filename, "\\.")[[1]][1]
+  
+  mat <- read.nexus.custom(ptnf)
+  
+  block0 <- vector()
+  block0[1] <- 'dataFolder = "/home/davidcerny/SHDM_model_averaging/"'
+  block0[2] <- paste('n_max_states =', mat[[2]])
+  
+  block1 <- vector()
+  block1[1] <- ''
+  block1[2] <- '# Load the matrix'
+  block1[3] <- 'morpho <- readDiscreteCharacterData(dataFolder+subFolder+"/"+subFolder+".nex.final")'
+  block1[4] <- ''
+  block1[5] <- 'species <- morpho.taxa()'
+  block1[6] <- 'n_taxa <- morpho.ntaxa()'
+  block1[7] <- ''
+  block1[8] <- 'moves = VectorMoves()'
+  block1[9] <- 'monitors = VectorMonitors()'
+  block1[10] <- ''
+  block1[11] <- '###############################'
+  block1[12] <- '# Topology and branch lengths #'
+  block1[13] <- '###############################'
+  block1[14] <- ''
+  block1[15] <- '# 2n - 3 branches for an unrooted tree of n taxa'
+  block1[16] <- 'n_branches := 2 * n_taxa - 3'
+  block1[17] <- ''
+  block1[18] <- '# Exploit the fact that in all of our Nexus files, the (most distant) outgroup is listed first'
+  block1[19] <- 'outgroups = clade(species[1])'
+  block1[20] <- ''
+  block1[21] <- '# Draw a topology from a uniform distribution'
+  block1[22] <- 'topology ~ dnUniformTopology(species, outgroup=outgroups)'
+  block1[23] <- 'moves.append( mvNNI(topology, weight=n_branches/2.0) )'
+  block1[24] <- 'moves.append( mvSPR(topology, weight=n_branches/10.0) )'
+  block1[25] <- ''
+  block1[26] <- '# Default MrBayes prior on branch lengths'
+  block1[27] <- 'for (i in 1:n_branches) {'
+  block1[28] <- '    brlens[i] ~ dnExp(10.0)'
+  block1[29] <- '    moves.append( mvScale(brlens[i], weight=1) )'
+  block1[30] <- '}'
+  block1[31] <- ''
+  block1[32] <- '# Assemble a phylogram by combining the tree topology with branch lengths'
+  block1[33] <- 'psi := fnTreeAssembly(topology, brlens)'
+  block1[34] <- ''
+  block1[35] <- '# Tree length monitor'
+  block1[36] <- 'tree_length := psi.treeLength()'
+  block1[37] <- ''
+  block1[38] <- '#############################################'
+  block1[39] <- '# Across-character rate heterogeneity model #'
+  block1[40] <- '#############################################'
+  block1[41] <- ''
+  block1[42] <- '# Default MrBayes prior on the shape of the gamma distribution'
+  block1[43] <- 'alpha_morpho ~ dnExp(1.0)'
+  block1[44] <- 'char_rates := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )'
+  block1[45] <- 'moves.append( mvScale(alpha_morpho, lambda=1, weight=2.0) )'
+  block1[46] <- ''
+  block1[47] <- '#######################'
+  block1[48] <- '# Substitution models #'
+  block1[49] <- '#######################'
+  block1[50] <- ''
+  block1[51] <- 'unord <- morpho'
+  
+  block2 <- vector()
+  block2[1] <- ''
+  block2[2] <- '# --------------------------------------------------------------- #'
+  block2[3] <- '# Averaging over different values of the Dirichlet hyperparameter #'
+  block2[4] <- '# --------------------------------------------------------------- #'
+  block2[5] <- ''
+  block2[6] <- 'alpha_vals[1] <- 0.05'
+  block2[7] <- 'alpha_vals[2] <- 0.2'
+  block2[8] <- 'alpha_vals[3] <- 1'
+  block2[9] <- 'alpha_vals[4] <- 2'
+  block2[10] <- 'alpha_vals[5] <- 10'
+  block2[11] <- 'alpha_vals[6] <- 1000'
+  block2[12] <- ''
+  block2[13] <- 'alpha_dir ~ dnMixture( values=alpha_vals, probabilities=simplex( rep(1, alpha_vals.size()) ) )'
+  block2[14] <- 'model_indicator := alpha_dir.getAllocationIndex()'
+  block2[15] <- ''
+  block2[16] <- 'moves.append( mvGibbsMixtureAllocation(alpha_dir, weight=2.0) )'
+  block2[17] <- ''
+  block2[18] <- '# How many distinct matrices we want in the mixture: MrBayes default'
+  block2[19] <- 'n_cats = 5'
+  block2[20] <- ''
+  block2[21] <- 'idx = 1'
+  block2[22] <- ''
+  block2[23] <- 'for (i in 2:n_max_states) {'
+  block2[24] <- '    # Make a temporary copy of the data'
+  block2[25] <- '    unordered[i - 1] <- unord'
+  block2[26] <- '    # Only keep those characters who state space size equals i'
+  block2[27] <- '    unordered[i - 1].setNumStatesPartition(i)'
+  block2[28] <- '    # Get the number of characters with i states'
+  block2[29] <- '    nc = unordered[i - 1].nchar()'
+  block2[30] <- '    # If this number is greater than zero, create the appropriate Q matrix'
+  block2[31] <- '    if (nc > 0) {'
+  block2[32] <- '        print("There are "+nc+" unordered characters with "+i+" states in the matrix.")'
+  block2[33] <- ''               
+  block2[34] <- '        for (j in 1:n_cats) {'
+  block2[35] <- '            # Dirichlet prior on equilibrium state frequencies'
+  block2[36] <- '            pi[idx][j] ~ dnDirichlet( rep(alpha_dir, i) )'
+  block2[37] <- '            moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )'
+  block2[38] <- ''                    
+  block2[39] <- '            # Create an i-by-i rate matrix'
+  block2[40] <- '            Qu[idx][j] := fnF81( pi[idx][j] )'
+  block2[41] <- '        }'
+  block2[42] <- ''                  
+  block2[43] <- '        # Specify equal prior probability of a character going into any of the 5 categories'
+  block2[44] <- ''                  
+  block2[45] <- '        matrix_probs[idx] ~ dnDirichlet( rep(1.0, n_cats) )'
+  block2[46] <- '        moves.append( mvBetaSimplex(matrix_probs[idx], weight=3.0) )'
+  block2[47] <- '        moves.append( mvDirichletSimplex(matrix_probs[idx], weight=1.5) )'
+  block2[48] <- ''                  
+  block2[49] <- '        # Combine everything into a CTMC'
+  block2[50] <- '        unord_ctmc[idx] ~ dnPhyloCTMC(tree=psi, Q=Qu[idx], siteRates=char_rates,'
+  block2[51] <- '                                      siteMatrices=matrix_probs[idx], type="Standard",'
+  block2[52] <- '                                      coding="variable")'
+  block2[53] <- '        # Clamp to the data'
+  block2[54] <- '        unord_ctmc[idx].clamp( unordered[i - 1] )'
+  block2[55] <- ''                  
+  block2[56] <- '        # Increment counter'
+  block2[57] <- '        idx = idx + 1'
+  block2[58] <- '    }'
+  block2[59] <- '}'
+  
+  block3 <- vector()
+  block3[1] <- ''
+  block3[2] <- '############'
+  block3[3] <- '# Analysis #'
+  block3[4] <- '############'
+  block3[5] <- ''
+  block3[6] <- '# Initialize the model object'
+  block3[7] <- 'mymodel = model(psi)'
+  block3[8] <- ''
+  block3[9] <- '# Add monitors'
+  block3[10] <- 'monitors.append( mnModel(filename=dataFolder+subFolder+"/"+subFolder+".log", printgen=100) )'
+  block3[11] <- 'monitors.append( mnFile(filename=dataFolder+subFolder+"/"+subFolder+".trees", printgen=100, psi) )'
+  block3[12] <- 'monitors.append( mnScreen(printgen=100) )'
+  block3[13] <- ''
+  block3[14] <- '# Initialize the MCMC object and run the analysis'
+  block3[15] <- 'mymcmc = mcmc(mymodel, monitors, moves)'
+  block3[16] <- ''
+  block3[17] <- 'if (restart == TRUE) {'
+  block3[18] <- '    mymcmc.initializeFromCheckpoint(dataFolder+subFolder+"/"+subFolder+".state")'
+  block3[19] <- '}'
+  block3[20] <- ''
+  block3[21] <- 'mymcmc.run(generations=250000, checkpointInterval=500,'
+  block3[22] <- '           checkpointFile=dataFolder+subFolder+"/"+subFolder+".state")'
+  block3[23] <- ''
+  block3[24] <- '# Read in the tree trace'
+  block3[25] <- 'trace = readTreeTrace(dataFolder+subFolder+"/"+subFolder+".trees", treetype="non-clock")'
+  block3[26] <- 'trace.setBurnin(0.25)'
+  block3[27] <- ''
+  block3[28] <- '# Summarize the tree trace'
+  block3[29] <- 'mapTree(trace, file=dataFolder+subFolder+"/"+subFolder+".map.tre")'
+  block3[30] <- '# Using a cutoff of 0 to imitate the "allcompat" option in MrBayes'
+  block3[31] <- 'consensusTree(trace, file=dataFolder+subFolder+"/"+subFolder+".majrule.tre", cutoff=0)'
+  block3[32] <- ''
+  block3[33] <- 'q()'
+  
+  if (length(mat) == 3) {
+    ord_block0 <- vector()
+    ord_block0[1] <- ''
+    ord_block0[2] <- paste0('ordered_vect <- [', paste(mat[[3]], collapse = ", "), ']')
+    
+    ord_block1 <- vector()
+    ord_block1[1] <- 'unord.excludeCharacter(ordered_vect)'
+    ord_block1[2] <- ''
+    ord_block1[3] <- 'order <- morpho'
+    ord_block1[4] <- 'order.excludeCharacter(1:morpho.nchar())'
+    ord_block1[5] <- 'order.includeCharacter(ordered_vect)'
+    
+    ord_block2 <- vector()
+    ord_block2[1] <- ''
+    ord_block2[2] <- '# Ordered characters are treated differently. Be prepared for the possibility that some'
+    ord_block2[3] <- '# of the characters that were originally specified as ordered are actually binary, in which'
+    ord_block2[4] <- '# case ordering them is meaningless, but we do not want to exclude them completely.'
+    ord_block2[5] <- ''
+    ord_block2[6] <- 'ix = 1'
+    ord_block2[7] <- ''
+    ord_block2[8] <- 'for (i in 2:n_max_states) {'
+    ord_block2[9] <- '    ordered[i - 1] <- order'
+    ord_block2[10] <- '    ordered[i - 1].setNumStatesPartition(i)'
+    ord_block2[11] <- '    nco = ordered[i - 1].nchar()'
+    ord_block2[12] <- '    if (nco > 0) {'
+    ord_block2[13] <- '        print("There are "+nco+" ordered characters with "+i+" states in the matrix.")'
+    ord_block2[14] <- '        Qo[ix] := fnOrderedRateMatrix(i, lambda=1, mu=1)'
+    ord_block2[15] <- '        order_ctmc[ix] ~ dnPhyloCTMC(tree=psi, Q=Qo[ix], siteRates=char_rates,'
+    ord_block2[16] <- '                                     type="Standard", coding="variable")'
+    ord_block2[17] <- '        order_ctmc[ix].clamp( ordered[i - 1] )'
+    ord_block2[18] <- '        ix = ix + 1'
+    ord_block2[19] <- '    }'
+    ord_block2[20] <- '}'
+    
+    rev_scr <- c(block0, ord_block0, block1, ord_block1, block2, ord_block2, block3)
+  } else {
+    rev_scr <- c(block0, block1, block2, block3)
+  }
+  
+  rev_file <- file(paste0(dirpath, "/", subdirname, ".Rev"), "w")
+  writeLines(paste(rev_scr, sep = "\n"), rev_file)
+  close(rev_file)
+}
+
+# The idea is to get a function that splits, say, 1:250 into 1:100, 101:200, 201:250
+range.getter <- function(range_len, vect) {
+  starts <- seq(1, length(vect), by = range_len)
+  ends <- c(starts[-1] - 1, length(vect))
+  out <- Map(\(x, y) x:y, x = starts, y = ends)
+  return(out)
+}
+
+# Write a Slurm file
+get.slurm.file <- function(range, restart) {
+  dir <- "~/Grive/Slater_Lab/SHDM_model_averaging/"
+  subdirs <- list.dirs(dir, full.names = F, recursive = F)
+  subdirs <- subdirs[range]
+  restart <- rep(restart, length(range))
+  
+  slurm <- vector()
+  slurm[1] <- '#!/bin/bash'
+  slurm[2] <- ''
+  slurm[3] <- paste0('#SBATCH --job-name=datasets_', min(range), '_thru_', max(range))
+  slurm[4] <- paste0('#SBATCH --output=datasets_', min(range), '_thru_', max(range), '_%A_%a.out')
+  slurm[5] <- paste0('#SBATCH --error=datasets_', min(range), '_thru_', max(range), '_%A_%a.err')
+  slurm[6] <- paste0('#SBATCH --array=0-', length(range) - 1)
+  slurm[7] <- '#SBATCH --time=36:00:00'
+  slurm[8] <- '#SBATCH --partition=caslake'
+  slurm[9] <- '#SBATCH --account=pi-gslater'
+  slurm[10] <- '#SBATCH --ntasks=1'
+  slurm[11] <- '#SBATCH --mem=2G'
+  slurm[12] <- ''
+  slurm[13] <- 'module load boost'
+  slurm[14] <- 'cd /home/davidcerny/SHDM_model_averaging/'
+  slurm[15] <- ''
+  slurm[16] <- paste0('subdirarray=("', paste(subdirs, collapse = '" "'), '")')
+  slurm[17] <- paste0('restartarray=(', paste(restart, collapse = ' '), ')')
+  slurm[18] <- ''
+  slurm[19] <- './run_rev_script.sh ${subdirarray[$SLURM_ARRAY_TASK_ID]} ${restartarray[$SLURM_ARRAY_TASK_ID]}'
+  
+  slurm_file <- file(paste0(dir, "datasets_", min(range), "_thru_", max(range), ".sbatch"), "w")
+  writeLines(paste(slurm, sep = "\n"), slurm_file)
+  close(slurm_file)
+}
+
+all_dsets <- list.files("~/Grive/Slater_Lab/SHDM_model_averaging", pattern = "*.final", 
+                        recursive = T, full.names = T)
+
+############################
+# GENERATE THE REV SCRIPTS #
+############################
+
+Map(\(x) get.rev.file(x), x = all_dsets)
+
+##############################
+# GENERATE THE SLURM SCRIPTS #
+##############################
+
+Map(\(x) get.slurm.file(range = x, restart = FALSE), x = range.getter(100, all_dsets))
+
