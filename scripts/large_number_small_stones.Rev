@@ -1,5 +1,6 @@
+dataset = args[1]
 
-morpho <- readDiscreteCharacterData("file")
+morpho <- readDiscreteCharacterData(dataset + ".nex.clean")
 species <- morpho.taxa()
 n_taxa <- morpho.ntaxa()
 moves = VectorMoves()
@@ -19,13 +20,16 @@ outgroups = clade(species[1])
 topology ~ dnUniformTopology(species, outgroup=outgroups)
 moves.append( mvNNI(topology, weight=n_branches/2.0) )
 moves.append( mvSPR(topology, weight=n_branches/10.0) )
-#Default MrBayes prior on branch lengths
+
+# Default MrBayes prior on branch lengths
 for (i in 1:n_branches) {
     brlens[i] ~ dnExp(10.0)
     moves.append( mvScale(brlens[i], weight=1) )
- }
+}
+
 # Assemble a phylogram by combining the tree topology with branch lengths
 psi := fnTreeAssembly(topology, brlens)
+
 # Tree length monitor
 tree_length := psi.treeLength()
 
@@ -56,23 +60,25 @@ alpha_vals[6] <- 1000
 
 # How many distinct matrices we want in the mixture: MrBayes default
 n_cats = 5
-n_max_states = 7
+
+n_max_states = morpho.maxStates()
 idx = 1
+
 for (i in 2:n_max_states) {
-  # Make a temporary copy of the data
-      unordered[i - 1] <- unord
-      # Only keep those characters who state space size equals i
-     unordered[i - 1].setNumStatesPartition(i)
-     # Get the number of characters with i states
-      nc = unordered[i - 1].nchar()
+    # Make a temporary copy of the data
+    unordered[i - 1] <- unord
+    # Only keep those characters who state space size equals i
+    unordered[i - 1].setNumStatesPartition(i)
+    # Get the number of characters with i states
+    nc = unordered[i - 1].nchar()
     # If this number is greater than zero, create the appropriate Q matrix
     if (nc > 0) {
-       print("There are "+nc+" unordered characters with "+i+" states in the matrix.")
+        print("There are "+nc+" unordered characters with "+i+" states in the matrix.")
 
-       for (j in 1:n_cats) {
+        for (j in 1:n_cats) {
             # Dirichlet prior on equilibrium state frequencies
-           pi[idx][j] ~ dnDirichlet( rep(alpha_vals[5], i) )
-             moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )
+            pi[idx][j] ~ dnDirichlet( rep(alpha_vals[5], i) )
+            moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )
 
             # Create an i-by-i rate matrix
             Qu[idx][j] := fnF81( pi[idx][j] )
@@ -81,19 +87,19 @@ for (i in 2:n_max_states) {
         # Specify equal prior probability of a character going into any of the 5 categories
 
         matrix_probs[idx] ~ dnDirichlet( rep(1.0, n_cats) )
-         moves.append( mvBetaSimplex(matrix_probs[idx], weight=3.0) )
-          moves.append( mvDirichletSimplex(matrix_probs[idx], weight=1.5) )
+        moves.append( mvBetaSimplex(matrix_probs[idx], weight=3.0) )
+        moves.append( mvDirichletSimplex(matrix_probs[idx], weight=1.5) )
                     
-          # Combine everything into a CTMC
-          unord_ctmc[idx] ~ dnPhyloCTMC(tree=psi, Q=Qu[idx], siteRates=char_rates,
-                                     siteMatrices=matrix_probs[idx], type="Standard",
+        # Combine everything into a CTMC
+        unord_ctmc[idx] ~ dnPhyloCTMC(tree=psi, Q=Qu[idx], siteRates=char_rates,
+                                      siteMatrices=matrix_probs[idx], type="Standard",
                                       coding="variable")
         # Clamp to the data
-       unord_ctmc[idx].clamp( unordered[i - 1] )
+        unord_ctmc[idx].clamp( unordered[i - 1] )
                   
         # Increment counter
         idx = idx + 1
-   }
+    }
 }
   
 ############
@@ -104,13 +110,15 @@ for (i in 2:n_max_states) {
 mymodel = model(psi)
 
 
-# Initialize the MCMC object and run the analysis
-mymcmc = mcmc(mymodel, monitors, moves)
-ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100, filename = "ss10000/file100")
+# Initialize and run the power posterior sampler: 100 stones of 10,000 generations each
+ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100,
+                             filename = "ss100/" + dataset + "_10000.out")
 ss_analysis.burnin(generations = 5000, tuningInterval = 500)
-ss_analysis.run(generations =10000)
-ss = steppingStoneSampler(file="ss100/file10000", powerColumnName="power", likelihoodColumnName="likelihood")
-write(ss.marginal(), file = "ss100/file.ss")
-#-1462.43 with 10,000 gen
-#-1457.559 with 100,000
+ss_analysis.run(generations = 10000)
+
+# Compute the marginal likelihoods and their associated standard errors
+ss = steppingStoneSampler(file="ss100/" + dataset + "_10000.out", powerColumnName="power",
+                          likelihoodColumnName="likelihood")
+write(ss.marginal(), file = "ss100/" + dataset + ".ss")
+write(ss.stdError(), file = "ss100/" + dataset + ".ss", append = TRUE)
 q()
