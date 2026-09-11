@@ -1,6 +1,7 @@
-dataset = args[1]
+subdir = args[1]
+dataset = args[2]
 
-morpho <- readDiscreteCharacterData(dataset + ".nex.clean")
+morpho <- readDiscreteCharacterData("datasets/" + subdir + "/" + dataset + ".nex.clean")
 species <- morpho.taxa()
 n_taxa <- morpho.ntaxa()
 moves = VectorMoves()
@@ -109,16 +110,15 @@ for (i in 2:n_max_states) {
 # Initialize the model object
 mymodel = model(psi)
 
-
 # Initialize and run the power posterior sampler: 100 stones of 10,000 generations each
 ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100,
-                             filename = "ss100/" + dataset + "_10000.out")
+                             filename = "output/ss100_v1.4.1/" + subdir + "/" + dataset + "_10000.out")
 ss_analysis.burnin(generations = 5000, tuningInterval = 500)
 ss_analysis.run(generations = 10000)
 
 # Compute the marginal likelihoods and their associated standard errors
-ss = steppingStoneSampler(file="ss100/" + dataset + "_10000.out", powerColumnName="power",
-                          likelihoodColumnName="likelihood")
-write(ss.marginal(), file = "ss100/" + dataset + ".ss")
-write(ss.stdError(), file = "ss100/" + dataset + ".ss", append = TRUE)
+ss = steppingStoneSampler(file="output/ss100_v1.4.1/" + subdir + "/" + dataset + "_10000.out",
+                          powerColumnName="power", likelihoodColumnName="likelihood")
+write(ss.marginal(), file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss")
+write(ss.stdError(), file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss", append = TRUE)
 q()
