@@ -119,6 +119,6 @@ ss_analysis.run(generations = 10000)
 # Compute the marginal likelihoods and their associated standard errors
 ss = steppingStoneSampler(file="output/ss100_v1.4.1/" + subdir + "/" + dataset + "_10000.out",
                           powerColumnName="power", likelihoodColumnName="likelihood")
-write(ss.marginal(), file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss")
+write(ss.marginal() + "\n", file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss")
 write(ss.stdError(), file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss", append = TRUE)
 q()
