@@ -1,9 +1,23 @@
 subdir = args[1]
 dataset = args[2]
+alpha_dir = args[3]
+
+# The tag is just the value of alpha_dir, converted to a string and stripped of the decimal dot
+str = alpha_dir + ""     # we do this because we do not have an asString() function in RevBayes
+
+dot_pos = str.find(".")
+if (dot_pos != 0) {
+    tag = str.substr(1, dot_pos - 1) + str.substr(dot_pos + 1, x.size())
+} else {
+    tag = str
+}
+
+out_path = "output/ss100_v1.4.1/" + subdir + "/" + dataset + "_alpha" + alpha_dir + "_gen10000"
 
 morpho <- readDiscreteCharacterData("datasets/" + subdir + "/" + dataset + ".nex.clean")
 species <- morpho.taxa()
 n_taxa <- morpho.ntaxa()
+
 moves = VectorMoves()
 monitors = VectorMonitors()
 
@@ -47,17 +61,6 @@ moves.append( mvScale(alpha_morpho, lambda=1, weight=2.0) )
 # Substitution models #
 #######################
 unord <- morpho
-  
-# --------------------------------------------------------------- #
-# Averaging over different values of the Dirichlet hyperparameter #
-# --------------------------------------------------------------- #
-
-alpha_vals[1] <- 0.05
-alpha_vals[2] <- 0.2
-alpha_vals[3] <- 1
-alpha_vals[4] <- 2
-alpha_vals[5] <- 10
-alpha_vals[6] <- 1000
 
 # How many distinct matrices we want in the mixture: MrBayes default
 n_cats = 5
@@ -78,7 +81,7 @@ for (i in 2:n_max_states) {
 
         for (j in 1:n_cats) {
             # Dirichlet prior on equilibrium state frequencies
-            pi[idx][j] ~ dnDirichlet( rep(alpha_vals[5], i) )
+            pi[idx][j] ~ dnDirichlet( rep(alpha_dir, i) )
             moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )
 
             # Create an i-by-i rate matrix
@@ -111,14 +114,13 @@ for (i in 2:n_max_states) {
 mymodel = model(psi)
 
 # Initialize and run the power posterior sampler: 100 stones of 10,000 generations each
-ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100,
-                             filename = "output/ss100_v1.4.1/" + subdir + "/" + dataset + "_10000.out")
+ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100, filename = out_path + ".out")
 ss_analysis.burnin(generations = 5000, tuningInterval = 500)
 ss_analysis.run(generations = 10000)
 
 # Compute the marginal likelihoods and their associated standard errors
-ss = steppingStoneSampler(file="output/ss100_v1.4.1/" + subdir + "/" + dataset + "_10000.out",
-                          powerColumnName="power", likelihoodColumnName="likelihood")
-write(ss.marginal() + "\n", file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss")
-write(ss.stdError(), file = "output/ss100_v1.4.1/" + subdir + "/" + dataset + ".ss", append = TRUE)
+ss = steppingStoneSampler(file = out_path + ".out",
+                          powerColumnName = "power", likelihoodColumnName = "likelihood")
+write(ss.marginal() + "\n", file = out_path + ".ss")
+write(ss.stdError(), file = out_path + ".ss", append = TRUE)
 q()
