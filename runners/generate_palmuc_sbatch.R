@@ -44,8 +44,8 @@ sbatch_vect[16] <- ""
 
 sbatch_vect[17] <- "cd /home/dcerny/mavsss"
 
-# Using RevBayes v1.4.2-preview, development branch, up-to-date as of 2026-09-11
-sbatch_vect[18] <- paste0('mpirun -np 50 ../revbayes-edb80c1/projects/cmake/build-mpi/rb-mpi ',
+# Using RevBayes v1.4.2-preview, up-to-date as of 2026-09-18
+sbatch_vect[18] <- paste0('mpirun -np 50 ../revbayes-4166bad/projects/cmake/build-mpi/rb-mpi ',
                           './scripts/large_number_small_stones.Rev "', opt$subdir, '" "',
                           dataset, '" ', opt$alpha)
 
