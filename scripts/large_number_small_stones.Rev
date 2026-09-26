@@ -12,7 +12,7 @@ if (dot_pos != 0) {
     tag = str
 }
 
-out_path = "output/ss100_v1.4.1/" + subdir + "/" + dataset + "_alpha" + alpha_dir + "_gen10000"
+out_path = "output/ss100_v1.4.1/" + subdir + "/" + dataset + "_alpha" + tag + "_gen10000"
 
 morpho <- readDiscreteCharacterData("datasets/" + subdir + "/" + dataset + ".nex.clean")
 species <- morpho.taxa()
