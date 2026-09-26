@@ -7,7 +7,7 @@ str = alpha_dir + ""     # we do this because we do not have an asString() funct
 
 dot_pos = str.find(".")
 if (dot_pos != 0) {
-    tag = str.substr(1, dot_pos - 1) + str.substr(dot_pos + 1, x.size())
+    tag = str.substr(1, dot_pos - 1) + str.substr(dot_pos + 1, str.size())
 } else {
     tag = str
 }
