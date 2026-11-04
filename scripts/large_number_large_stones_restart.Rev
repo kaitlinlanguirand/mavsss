@@ -1,0 +1,135 @@
+subdir = args[1]
+dataset = args[2]
+alpha_dir = args[3]
+stone_idx = args[4]
+gen_completed = args[5]
+
+# The tag is just the value of alpha_dir, converted to a string and stripped of the decimal dot
+str = alpha_dir + ""     # we do this because we do not have an asString() function in RevBayes
+
+dot_pos = str.find(".")
+if (dot_pos != 0) {
+    tag = str.substr(1, dot_pos - 1) + str.substr(dot_pos + 1, str.size())
+} else {
+    tag = str
+}
+
+out_path = "output/LNLS/" + subdir + "/" + dataset + "_alpha" + tag
+
+morpho <- readDiscreteCharacterData("datasets/" + subdir + "/" + dataset + ".nex.clean")
+species <- morpho.taxa()
+n_taxa <- morpho.ntaxa()
+
+moves = VectorMoves()
+monitors = VectorMonitors()
+
+###############################
+# Topology and branch lengths #
+###############################
+
+# 2n - 3 branches for an unrooted tree of n taxa
+n_branches := 2 * n_taxa - 3
+
+# Exploit the fact that in all of our Nexus files, the (most distant) outgroup is listed first
+outgroups = clade(species[1])
+
+# Draw a topology from a uniform distribution
+topology ~ dnUniformTopology(species, outgroup=outgroups)
+moves.append( mvNNI(topology, weight=n_branches/2.0) )
+moves.append( mvSPR(topology, weight=n_branches/10.0) )
+
+# Default MrBayes prior on branch lengths
+for (i in 1:n_branches) {
+    brlens[i] ~ dnExp(10.0)
+    moves.append( mvScale(brlens[i], weight=1) )
+ }
+
+# Assemble a phylogram by combining the tree topology with branch lengths
+psi := fnTreeAssembly(topology, brlens)
+
+# Tree length monitor
+tree_length := psi.treeLength()
+
+#############################################
+# Across-character rate heterogeneity model #
+#############################################
+
+# Default MrBayes prior on the shape of the gamma distribution
+alpha_morpho ~ dnExp(1.0)
+char_rates := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+moves.append( mvScale(alpha_morpho, lambda=1, weight=2.0) )
+
+#######################
+# Substitution models #
+#######################
+unord <- morpho
+
+# How many distinct matrices we want in the mixture: MrBayes default
+n_cats = 5
+
+n_max_states = morpho.maxStates()
+idx = 1
+
+for (i in 2:n_max_states) {
+    # Make a temporary copy of the data
+    unordered[i - 1] <- unord
+    # Only keep those characters who state space size equals i
+    unordered[i - 1].setNumStatesPartition(i)
+    # Get the number of characters with i states
+    nc = unordered[i - 1].nchar()
+    # If this number is greater than zero, create the appropriate Q matrix
+    if (nc > 0) {
+        print("There are "+nc+" unordered characters with "+i+" states in the matrix.")
+
+        for (j in 1:n_cats) {
+            # Dirichlet prior on equilibrium state frequencies
+            pi[idx][j] ~ dnDirichlet( rep(alpha_dir, i) )
+            moves.append( mvSimplexElementScale(pi[idx][j], alpha=10, weight=1.0) )
+
+            # Create an i-by-i rate matrix
+            Qu[idx][j] := fnF81( pi[idx][j] )
+        }
+
+        # Specify equal prior probability of a character going into any of the 5 categories
+
+        matrix_probs[idx] ~ dnDirichlet( rep(1.0, n_cats) )
+        moves.append( mvBetaSimplex(matrix_probs[idx], weight=3.0) )
+        moves.append( mvDirichletSimplex(matrix_probs[idx], weight=1.5) )
+                    
+        # Combine everything into a CTMC
+        unord_ctmc[idx] ~ dnPhyloCTMC(tree=psi, Q=Qu[idx], siteRates=char_rates,
+                                      siteMatrices=matrix_probs[idx], type="Standard",
+                                      coding="variable")
+        # Clamp to the data
+        unord_ctmc[idx].clamp( unordered[i - 1] )
+                  
+        # Increment counter
+        idx = idx + 1
+    }
+}
+  
+############
+# Analysis #
+############
+
+# Initialize the model object
+mymodel = model(psi)
+
+# Initialize the power posterior sampler with 100 stones
+ss_analysis = powerPosterior(mymodel, moves, monitors, cats = 100, filename = out_path + ".out")
+
+# Restart the power posterior sampler from a checkpoint file for this particular stone
+if ( fileExists(out_path + "_stone_" + stone_idx + ".ckp") ) {
+    ss_analysis.initializeFromCheckpoint(out_path + ".ckp", stone_idx)
+} else {
+    stop("No checkpoint file found for the specified stone.")
+}
+
+# Run the power posterior sampler for however many generations remain
+ss_analysis.runOneStone(index = stone_idx, generations = 100000 - gen_completed,
+                        checkpointFile = out_path + ".ckp", checkpointInterval = 500)
+
+# Marginal likelihood has to be computed in a separate and final step, so there is nothing else
+# for us to do.
+
+q()
